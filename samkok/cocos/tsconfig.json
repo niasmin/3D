@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "target": "ES2020", "module": "ES2020", "strict": true, "experimentalDecorators": true, "allowImportingTsExtensions": true, "noEmit": true },
+  "include": ["assets/scripts/**/*.ts"]
+}

@@ -3,3 +3,5 @@
 __pycache__/
 previews/motion/
 *.log
+node_modules/
+test-results/

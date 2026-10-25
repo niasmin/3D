@@ -1,0 +1,10 @@
+{
+  "name": "kunphon-samkok",
+  "private": true,
+  "type": "module",
+  "description": "Cocos Creator 3.8 port of the Kunphon Samkok prototype",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/core.test.ts"
+  },
+  "engines": { "node": ">=22.6" }
+}

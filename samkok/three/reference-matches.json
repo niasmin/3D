@@ -1,0 +1,506 @@
+{
+  "caiwenji": {
+    "reference": 42,
+    "matches": 145,
+    "runner_up": [
+      5,
+      47
+    ]
+  },
+  "caocao": {
+    "reference": 56,
+    "matches": 5,
+    "runner_up": [
+      4,
+      64
+    ]
+  },
+  "caopi": {
+    "reference": 37,
+    "matches": 276,
+    "runner_up": [
+      7,
+      51
+    ]
+  },
+  "caoren": {
+    "reference": 19,
+    "matches": 338,
+    "runner_up": [
+      5,
+      20
+    ]
+  },
+  "caozhi": {
+    "reference": 17,
+    "matches": 175,
+    "runner_up": [
+      5,
+      3
+    ]
+  },
+  "daqiao": {
+    "reference": 13,
+    "matches": 175,
+    "runner_up": [
+      4,
+      68
+    ]
+  },
+  "dengai": {
+    "reference": 43,
+    "matches": 278,
+    "runner_up": [
+      6,
+      55
+    ]
+  },
+  "dianwei": {
+    "reference": 23,
+    "matches": 339,
+    "runner_up": [
+      5,
+      10
+    ]
+  },
+  "diaochan": {
+    "reference": 62,
+    "matches": 254,
+    "runner_up": [
+      8,
+      39
+    ]
+  },
+  "dingfeng": {
+    "reference": 8,
+    "matches": 301,
+    "runner_up": [
+      5,
+      15
+    ]
+  },
+  "dongzhuo": {
+    "reference": 6,
+    "matches": 341,
+    "runner_up": [
+      25,
+      30
+    ]
+  },
+  "fazheng": {
+    "reference": 45,
+    "matches": 308,
+    "runner_up": [
+      6,
+      59
+    ]
+  },
+  "ganning": {
+    "reference": 14,
+    "matches": 219,
+    "runner_up": [
+      4,
+      54
+    ]
+  },
+  "gongsunzan": {
+    "reference": 1,
+    "matches": 183,
+    "runner_up": [
+      5,
+      15
+    ]
+  },
+  "guanxing": {
+    "reference": 31,
+    "matches": 321,
+    "runner_up": [
+      5,
+      5
+    ]
+  },
+  "guanyinping": {
+    "reference": 63,
+    "matches": 182,
+    "runner_up": [
+      24,
+      66
+    ]
+  },
+  "guanyu": {
+    "reference": 13,
+    "matches": 5,
+    "runner_up": [
+      4,
+      66
+    ]
+  },
+  "guanyu_y": {
+    "reference": 66,
+    "matches": 147,
+    "runner_up": [
+      23,
+      63
+    ]
+  },
+  "guojia": {
+    "reference": 57,
+    "matches": 202,
+    "runner_up": [
+      5,
+      37
+    ]
+  },
+  "huanggai": {
+    "reference": 11,
+    "matches": 210,
+    "runner_up": [
+      4,
+      55
+    ]
+  },
+  "huangzhong": {
+    "reference": 41,
+    "matches": 120,
+    "runner_up": [
+      4,
+      2
+    ]
+  },
+  "huatuo": {
+    "reference": 4,
+    "matches": 157,
+    "runner_up": [
+      5,
+      11
+    ]
+  },
+  "huaxiong": {
+    "reference": 61,
+    "matches": 366,
+    "runner_up": [
+      4,
+      64
+    ]
+  },
+  "jiangwei": {
+    "reference": 48,
+    "matches": 146,
+    "runner_up": [
+      5,
+      32
+    ]
+  },
+  "lingtong": {
+    "reference": 7,
+    "matches": 237,
+    "runner_up": [
+      31,
+      33
+    ]
+  },
+  "liubei": {
+    "reference": 51,
+    "matches": 307,
+    "runner_up": [
+      11,
+      33
+    ]
+  },
+  "liubei_y": {
+    "reference": 47,
+    "matches": 207,
+    "runner_up": [
+      6,
+      27
+    ]
+  },
+  "lubu": {
+    "reference": 38,
+    "matches": 3,
+    "runner_up": [
+      3,
+      34
+    ]
+  },
+  "lumeng": {
+    "reference": 16,
+    "matches": 208,
+    "runner_up": [
+      3,
+      60
+    ]
+  },
+  "lusu": {
+    "reference": 9,
+    "matches": 207,
+    "runner_up": [
+      4,
+      20
+    ]
+  },
+  "luxun": {
+    "reference": 22,
+    "matches": 267,
+    "runner_up": [
+      5,
+      37
+    ]
+  },
+  "machao": {
+    "reference": 50,
+    "matches": 268,
+    "runner_up": [
+      5,
+      55
+    ]
+  },
+  "mayunlu": {
+    "reference": 27,
+    "matches": 151,
+    "runner_up": [
+      6,
+      42
+    ]
+  },
+  "menghuo": {
+    "reference": 46,
+    "matches": 249,
+    "runner_up": [
+      3,
+      52
+    ]
+  },
+  "pangtong": {
+    "reference": 59,
+    "matches": 296,
+    "runner_up": [
+      9,
+      49
+    ]
+  },
+  "sunce": {
+    "reference": 41,
+    "matches": 5,
+    "runner_up": [
+      4,
+      43
+    ]
+  },
+  "sunjian": {
+    "reference": 55,
+    "matches": 330,
+    "runner_up": [
+      5,
+      51
+    ]
+  },
+  "sunquan": {
+    "reference": 26,
+    "matches": 340,
+    "runner_up": [
+      5,
+      49
+    ]
+  },
+  "sunshangxiang": {
+    "reference": 24,
+    "matches": 198,
+    "runner_up": [
+      6,
+      27
+    ]
+  },
+  "taishici": {
+    "reference": 12,
+    "matches": 229,
+    "runner_up": [
+      4,
+      31
+    ]
+  },
+  "weiyan": {
+    "reference": 34,
+    "matches": 290,
+    "runner_up": [
+      7,
+      55
+    ]
+  },
+  "xiahoudun": {
+    "reference": 20,
+    "matches": 352,
+    "runner_up": [
+      6,
+      19
+    ]
+  },
+  "xiahouyuan": {
+    "reference": 28,
+    "matches": 216,
+    "runner_up": [
+      4,
+      40
+    ]
+  },
+  "xuchu": {
+    "reference": 40,
+    "matches": 353,
+    "runner_up": [
+      62,
+      54
+    ]
+  },
+  "xuhuang": {
+    "reference": 25,
+    "matches": 275,
+    "runner_up": [
+      5,
+      67
+    ]
+  },
+  "xunyu": {
+    "reference": 21,
+    "matches": 288,
+    "runner_up": [
+      4,
+      66
+    ]
+  },
+  "yuanshao": {
+    "reference": 5,
+    "matches": 180,
+    "runner_up": [
+      6,
+      19
+    ]
+  },
+  "yuanshu": {
+    "reference": 3,
+    "matches": 225,
+    "runner_up": [
+      46,
+      36
+    ]
+  },
+  "yuejin": {
+    "reference": 15,
+    "matches": 248,
+    "runner_up": [
+      4,
+      55
+    ]
+  },
+  "yueying": {
+    "reference": 39,
+    "matches": 157,
+    "runner_up": [
+      6,
+      42
+    ]
+  },
+  "zhangbao": {
+    "reference": 29,
+    "matches": 222,
+    "runner_up": [
+      8,
+      20
+    ]
+  },
+  "zhangfei": {
+    "reference": 44,
+    "matches": 201,
+    "runner_up": [
+      6,
+      9
+    ]
+  },
+  "zhangfei_y": {
+    "reference": 65,
+    "matches": 190,
+    "runner_up": [
+      37,
+      68
+    ]
+  },
+  "zhangjiao": {
+    "reference": 53,
+    "matches": 220,
+    "runner_up": [
+      5,
+      44
+    ]
+  },
+  "zhangliao": {
+    "reference": 32,
+    "matches": 233,
+    "runner_up": [
+      4,
+      60
+    ]
+  },
+  "zhaoyun": {
+    "reference": 49,
+    "matches": 348,
+    "runner_up": [
+      7,
+      12
+    ]
+  },
+  "zhenji": {
+    "reference": 35,
+    "matches": 303,
+    "runner_up": [
+      5,
+      33
+    ]
+  },
+  "zhonghui": {
+    "reference": 18,
+    "matches": 249,
+    "runner_up": [
+      4,
+      47
+    ]
+  },
+  "zhoutai": {
+    "reference": 38,
+    "matches": 332,
+    "runner_up": [
+      54,
+      10
+    ]
+  },
+  "zhouyu": {
+    "reference": 56,
+    "matches": 281,
+    "runner_up": [
+      6,
+      15
+    ]
+  },
+  "zhuge": {
+    "reference": 60,
+    "matches": 233,
+    "runner_up": [
+      4,
+      51
+    ]
+  },
+  "zhurong": {
+    "reference": 2,
+    "matches": 298,
+    "runner_up": [
+      5,
+      66
+    ]
+  },
+  "zuoci": {
+    "reference": 52,
+    "matches": 219,
+    "runner_up": [
+      5,
+      25
+    ]
+  }
+}

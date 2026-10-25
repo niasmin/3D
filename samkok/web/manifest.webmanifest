@@ -1,0 +1,26 @@
+{
+  "name": "ขุนพลสามก๊ก 3D",
+  "short_name": "สามก๊ก 3D",
+  "description": "จัดทัพขุนพลสามก๊ก ต่อสู้ในสนามรบสามมิติ พร้อมวิวัฒน์ 3 ระดับ",
+  "lang": "th",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#2a0b08",
+  "theme_color": "#4b150f",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

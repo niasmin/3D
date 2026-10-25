@@ -1,0 +1,29 @@
+name: Test game logic
+# Pages is served from the main branch (Settings → Pages → Deploy from a branch).
+# Pushes made by the Claude GitHub App don't start a Pages build on their own,
+# so after the tests pass this workflow asks GitHub to rebuild the site.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+        working-directory: cocos
+  rebuild-pages:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+    steps:
+      - run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
+        env:
+          GH_TOKEN: ${{ github.token }}

@@ -1,0 +1,54 @@
+{
+  "city": {
+    "kind": "city",
+    "actors": 0,
+    "cache": 0,
+    "renderer": {
+      "frame": 14,
+      "calls": 35,
+      "triangles": 5822,
+      "points": 0,
+      "lines": 0
+    },
+    "viewer": false
+  },
+  "battle": {
+    "kind": "battle",
+    "actors": 3,
+    "cache": 4,
+    "renderer": {
+      "frame": 12,
+      "calls": 79,
+      "triangles": 57250,
+      "points": 0,
+      "lines": 0
+    },
+    "viewer": false
+  },
+  "fullFormation": {
+    "kind": "preview",
+    "actors": 11,
+    "cache": 10,
+    "renderer": {
+      "frame": 9,
+      "calls": 167,
+      "triangles": 198366,
+      "points": 0,
+      "lines": 0
+    },
+    "viewer": false
+  },
+  "status": "PASS",
+  "backendRequests": 0,
+  "pageErrors": [],
+  "progression": {
+    "before": {
+      "stage": 1,
+      "gold": 20000
+    },
+    "after": {
+      "stage": 2,
+      "gold": 20550
+    }
+  }
+}

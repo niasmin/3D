@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/niasmin/samkok",
+  "commit": "b61a1fc66d6169e7aecf6de4ebf5870fbd8fa511",
+  "integration": "ordinary tracked files, not a git submodule",
+  "changes": "3D presentation; separate local save namespace; offline NPC mode by default"
+}
