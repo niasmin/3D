@@ -1,5 +1,7 @@
 # ขุนพลสามก๊ก 3D
 
+## [▶ เล่นเกมบนเว็บ](https://niasmin.github.io/3D/)
+
 นำเกมจาก [niasmin/samkok](https://github.com/niasmin/samkok) มาไว้ใน `samkok/` และปรับส่วนแสดงผลเป็น 3D จริงด้วย Three.js โดยใช้โมเดลและกระดูกที่สร้างใน Blender
 
 - เมืองหลัก 3D พร้อมอาคารที่เปิดเมนูได้
