@@ -1,17 +1,18 @@
 {
   "url": "https://niasmin.github.io/3D/",
-  "source_commit": "cc99c1515a82e16f9b4b47fca518e7f8d8192135",
-  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40219112582",
+  "source_commit": "7cec313046357591d7b21603e39097a9c3ecfed9",
+  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40221729205",
   "deployment": "success",
   "live_http_status": 200,
   "live_checks": [
     "city WebGL renderer initialized",
     "city building opens summon menu",
-    "Guan Yu GLB loaded",
+    "new beast boss GLB v2 loaded from public site",
     "Walk animation selected",
     "no page errors"
   ],
-  "local_checks": "14 Node tests and desktop/mobile browser smoke tests passed",
+  "local_checks": "15 Node tests, 69 numbered native files plus the boss, desktop/mobile browser tests and visual garment/scholar/boss checks passed",
   "online_services_enabled": false,
-  "art_status": "stylized first-pass models; likeness unapproved"
+  "art_status": "stylized first-pass models; likeness unapproved",
+  "graphics_revision": 2
 }
