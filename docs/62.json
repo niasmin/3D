@@ -1,0 +1,46 @@
+{
+  "reference": 62,
+  "name": "Violet Princess",
+  "blend": "assets/62.blend",
+  "preview": "previews/62.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "62_T1_Violet Princess_Rig",
+      "mesh": "62_T1_Violet Princess_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "62_T1_Violet Princess_Rig__Idle",
+        "62_T1_Violet Princess_Rig__Walk",
+        "62_T1_Violet Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "62_T2_Violet Princess_Rig",
+      "mesh": "62_T2_Violet Princess_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "62_T2_Violet Princess_Rig__Idle",
+        "62_T2_Violet Princess_Rig__Walk",
+        "62_T2_Violet Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "62_T3_Violet Princess_Rig",
+      "mesh": "62_T3_Violet Princess_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "62_T3_Violet Princess_Rig__Idle",
+        "62_T3_Violet Princess_Rig__Walk",
+        "62_T3_Violet Princess_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

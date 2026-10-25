@@ -1,0 +1,46 @@
+{
+  "reference": 8,
+  "name": "Ivory Veteran",
+  "blend": "assets/08.blend",
+  "preview": "previews/08.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "08_T1_Ivory Veteran_Rig",
+      "mesh": "08_T1_Ivory Veteran_Mesh",
+      "vertices": 9404,
+      "bones": 22,
+      "actions": [
+        "08_T1_Ivory Veteran_Rig__Idle",
+        "08_T1_Ivory Veteran_Rig__Walk",
+        "08_T1_Ivory Veteran_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "08_T2_Ivory Veteran_Rig",
+      "mesh": "08_T2_Ivory Veteran_Mesh",
+      "vertices": 11108,
+      "bones": 22,
+      "actions": [
+        "08_T2_Ivory Veteran_Rig__Idle",
+        "08_T2_Ivory Veteran_Rig__Walk",
+        "08_T2_Ivory Veteran_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "08_T3_Ivory Veteran_Rig",
+      "mesh": "08_T3_Ivory Veteran_Mesh",
+      "vertices": 11676,
+      "bones": 22,
+      "actions": [
+        "08_T3_Ivory Veteran_Rig__Idle",
+        "08_T3_Ivory Veteran_Rig__Walk",
+        "08_T3_Ivory Veteran_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

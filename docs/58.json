@@ -1,0 +1,46 @@
+{
+  "reference": 58,
+  "name": "Midnight Minister",
+  "blend": "assets/58.blend",
+  "preview": "previews/58.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "58_T1_Midnight Minister_Rig",
+      "mesh": "58_T1_Midnight Minister_Mesh",
+      "vertices": 9462,
+      "bones": 22,
+      "actions": [
+        "58_T1_Midnight Minister_Rig__Idle",
+        "58_T1_Midnight Minister_Rig__Walk",
+        "58_T1_Midnight Minister_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "58_T2_Midnight Minister_Rig",
+      "mesh": "58_T2_Midnight Minister_Mesh",
+      "vertices": 10354,
+      "bones": 22,
+      "actions": [
+        "58_T2_Midnight Minister_Rig__Idle",
+        "58_T2_Midnight Minister_Rig__Walk",
+        "58_T2_Midnight Minister_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "58_T3_Midnight Minister_Rig",
+      "mesh": "58_T3_Midnight Minister_Mesh",
+      "vertices": 10814,
+      "bones": 22,
+      "actions": [
+        "58_T3_Midnight Minister_Rig__Idle",
+        "58_T3_Midnight Minister_Rig__Walk",
+        "58_T3_Midnight Minister_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

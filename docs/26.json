@@ -1,0 +1,46 @@
+{
+  "reference": 26,
+  "name": "Phoenix Duelist",
+  "blend": "assets/26.blend",
+  "preview": "previews/26.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "26_T1_Phoenix Duelist_Rig",
+      "mesh": "26_T1_Phoenix Duelist_Mesh",
+      "vertices": 9026,
+      "bones": 22,
+      "actions": [
+        "26_T1_Phoenix Duelist_Rig__Idle",
+        "26_T1_Phoenix Duelist_Rig__Walk",
+        "26_T1_Phoenix Duelist_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "26_T2_Phoenix Duelist_Rig",
+      "mesh": "26_T2_Phoenix Duelist_Mesh",
+      "vertices": 10730,
+      "bones": 22,
+      "actions": [
+        "26_T2_Phoenix Duelist_Rig__Idle",
+        "26_T2_Phoenix Duelist_Rig__Walk",
+        "26_T2_Phoenix Duelist_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "26_T3_Phoenix Duelist_Rig",
+      "mesh": "26_T3_Phoenix Duelist_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "26_T3_Phoenix Duelist_Rig__Idle",
+        "26_T3_Phoenix Duelist_Rig__Walk",
+        "26_T3_Phoenix Duelist_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

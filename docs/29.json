@@ -1,0 +1,46 @@
+{
+  "reference": 29,
+  "name": "Jade Ranger",
+  "blend": "assets/29.blend",
+  "preview": "previews/29.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "29_T1_Jade Ranger_Rig",
+      "mesh": "29_T1_Jade Ranger_Mesh",
+      "vertices": 8068,
+      "bones": 22,
+      "actions": [
+        "29_T1_Jade Ranger_Rig__Idle",
+        "29_T1_Jade Ranger_Rig__Walk",
+        "29_T1_Jade Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "29_T2_Jade Ranger_Rig",
+      "mesh": "29_T2_Jade Ranger_Mesh",
+      "vertices": 9718,
+      "bones": 22,
+      "actions": [
+        "29_T2_Jade Ranger_Rig__Idle",
+        "29_T2_Jade Ranger_Rig__Walk",
+        "29_T2_Jade Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "29_T3_Jade Ranger_Rig",
+      "mesh": "29_T3_Jade Ranger_Mesh",
+      "vertices": 10232,
+      "bones": 22,
+      "actions": [
+        "29_T3_Jade Ranger_Rig__Idle",
+        "29_T3_Jade Ranger_Rig__Walk",
+        "29_T3_Jade Ranger_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

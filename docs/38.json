@@ -1,0 +1,46 @@
+{
+  "reference": 38,
+  "name": "Red Commander",
+  "blend": "assets/38.blend",
+  "preview": "previews/38.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "38_T1_Red Commander_Rig",
+      "mesh": "38_T1_Red Commander_Mesh",
+      "vertices": 9404,
+      "bones": 22,
+      "actions": [
+        "38_T1_Red Commander_Rig__Idle",
+        "38_T1_Red Commander_Rig__Walk",
+        "38_T1_Red Commander_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "38_T2_Red Commander_Rig",
+      "mesh": "38_T2_Red Commander_Mesh",
+      "vertices": 11108,
+      "bones": 22,
+      "actions": [
+        "38_T2_Red Commander_Rig__Idle",
+        "38_T2_Red Commander_Rig__Walk",
+        "38_T2_Red Commander_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "38_T3_Red Commander_Rig",
+      "mesh": "38_T3_Red Commander_Mesh",
+      "vertices": 11676,
+      "bones": 22,
+      "actions": [
+        "38_T3_Red Commander_Rig__Idle",
+        "38_T3_Red Commander_Rig__Walk",
+        "38_T3_Red Commander_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

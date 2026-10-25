@@ -1,0 +1,6292 @@
+[
+  {
+    "file": "assets/01.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "01_T1_Silver Phoenix_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "01_T2_Silver Phoenix_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "01_T3_Silver Phoenix_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "01_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "01_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "01_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/02.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "02_T1_Crimson Vanguard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "02_T2_Crimson Vanguard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "02_T3_Crimson Vanguard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "02_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "02_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "02_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/03.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "03_T1_Jade Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "03_T2_Jade Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "03_T3_Jade Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "03_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "03_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "03_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/04.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "04_T1_Verdant Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "04_T2_Verdant Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "04_T3_Verdant Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "04_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "04_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "04_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/05.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "05_T1_Violet Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "05_T2_Violet Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "05_T3_Violet Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "05_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "05_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "05_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/06.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "06_T1_Crimson Warlord_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "06_T2_Crimson Warlord_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "06_T3_Crimson Warlord_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "06_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "06_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "06_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/07.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "07_T1_Scarlet Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "07_T2_Scarlet Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "07_T3_Scarlet Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "07_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "07_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "07_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/08.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "08_T1_Ivory Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "08_T2_Ivory Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "08_T3_Ivory Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "08_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "08_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "08_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/09.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "09_T1_Golden Envoy_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "09_T2_Golden Envoy_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "09_T3_Golden Envoy_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "09_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "09_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "09_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/10.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "10_T1_Flame Sentinel_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "10_T2_Flame Sentinel_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "10_T3_Flame Sentinel_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "10_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "10_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "10_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/11.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "11_T1_Amber Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "11_T2_Amber Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "11_T3_Amber Veteran_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "11_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "11_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "11_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/12.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "12_T1_Blood Spear_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "12_T2_Blood Spear_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "12_T3_Blood Spear_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "12_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "12_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "12_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/13.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "13_T1_Peony Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "13_T2_Peony Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "13_T3_Peony Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "13_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "13_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "13_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/14.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "14_T1_Ember Lion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "14_T2_Ember Lion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "14_T3_Ember Lion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "14_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "14_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "14_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/15.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "15_T1_Azure Lancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "15_T2_Azure Lancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "15_T3_Azure Lancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "15_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "15_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "15_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/16.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "16_T1_Flame Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "16_T2_Flame Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "16_T3_Flame Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "16_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "16_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "16_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/17.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "17_T1_River Strategist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "17_T2_River Strategist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "17_T3_River Strategist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "17_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "17_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "17_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/18.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "18_T1_Moon Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "18_T2_Moon Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "18_T3_Moon Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "18_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "18_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "18_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/19.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "19_T1_Azure Guard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "19_T2_Azure Guard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "19_T3_Azure Guard_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "19_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "19_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "19_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/20.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "20_T1_Golden Shield_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "20_T2_Golden Shield_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "20_T3_Golden Shield_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "20_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "20_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "20_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/21.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "21_T1_Tide Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "21_T2_Tide Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "21_T3_Tide Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "21_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "21_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "21_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/22.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "22_T1_Crimson Lady_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "22_T2_Crimson Lady_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "22_T3_Crimson Lady_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "22_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "22_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "22_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/23.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "23_T1_Lion Admiral_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "23_T2_Lion Admiral_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "23_T3_Lion Admiral_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "23_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "23_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "23_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/24.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "24_T1_Inferno Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "24_T2_Inferno Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "24_T3_Inferno Dancer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "24_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "24_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "24_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/25.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "25_T1_Mountain Guardian_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.45934
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.66242
+          }
+        }
+      },
+      {
+        "rig": "25_T2_Mountain Guardian_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.45934
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.66242
+          }
+        }
+      },
+      {
+        "rig": "25_T3_Mountain Guardian_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.45934
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.66242
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "25_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "25_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "25_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/26.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "26_T1_Phoenix Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "26_T2_Phoenix Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "26_T3_Phoenix Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "26_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "26_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "26_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/27.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "27_T1_Bamboo Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "27_T2_Bamboo Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "27_T3_Bamboo Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "27_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "27_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "27_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/28.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "28_T1_Storm Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "28_T2_Storm Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "28_T3_Storm Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "28_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "28_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "28_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/29.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "29_T1_Jade Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "29_T2_Jade Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "29_T3_Jade Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "29_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "29_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "29_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/30.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "30_T1_Dark Regent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "30_T2_Dark Regent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "30_T3_Dark Regent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "30_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "30_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "30_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/31.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "31_T1_Forest Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "31_T2_Forest Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "31_T3_Forest Ranger_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "31_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "31_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "31_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/32.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "32_T1_Sky Halberd_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "32_T2_Sky Halberd_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "32_T3_Sky Halberd_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "32_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "32_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "32_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/33.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "33_T1_Ruby Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "33_T2_Ruby Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "33_T3_Ruby Blades_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "33_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "33_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "33_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/34.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "34_T1_Jade Serpent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "34_T2_Jade Serpent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "34_T3_Jade Serpent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "34_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "34_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "34_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/35.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "35_T1_Cloud Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "35_T2_Cloud Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "35_T3_Cloud Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "35_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "35_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "35_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/36.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "36_T1_Violet Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "36_T2_Violet Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "36_T3_Violet Chancellor_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "36_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "36_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "36_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/37.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "37_T1_Night Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "37_T2_Night Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "37_T3_Night Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "37_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "37_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "37_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/38.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "38_T1_Red Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "38_T2_Red Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "38_T3_Red Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "38_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "38_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "38_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/39.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "39_T1_Spring Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "39_T2_Spring Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "39_T3_Spring Maiden_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "39_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "39_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "39_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/40.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "40_T1_Ocean Champion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "40_T2_Ocean Champion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "40_T3_Ocean Champion_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "40_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "40_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "40_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/41.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "41_T1_Elder Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "41_T2_Elder Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "41_T3_Elder Archer_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "41_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "41_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "41_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/42.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "42_T1_Lilac Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "42_T2_Lilac Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "42_T3_Lilac Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "42_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "42_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "42_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/43.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "43_T1_Azure Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "43_T2_Azure Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "43_T3_Azure Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "43_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "43_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "43_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/44.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "44_T1_Emerald Elder_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "44_T2_Emerald Elder_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "44_T3_Emerald Elder_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "44_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "44_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "44_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/45.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "45_T1_Forest Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "45_T2_Forest Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "45_T3_Forest Scholar_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "45_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "45_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "45_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/46.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "46_T1_Amethyst Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "46_T2_Amethyst Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "46_T3_Amethyst Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "46_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "46_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "46_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/47.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "47_T1_Jade Huntress_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.05416
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "47_T2_Jade Huntress_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      },
+      {
+        "rig": "47_T3_Jade Huntress_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4886
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.74626
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "47_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "47_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "47_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/48.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "48_T1_Jade Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "48_T2_Jade Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "48_T3_Jade Dragon_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "48_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "48_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "48_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/49.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "49_T1_Emerald Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "49_T2_Emerald Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "49_T3_Emerald Cavalier_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "49_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "49_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "49_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/50.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "50_T1_Ivory Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "50_T2_Ivory Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "50_T3_Ivory Commander_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "50_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "50_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "50_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/51.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "51_T1_Jade Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "51_T2_Jade Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "51_T3_Jade Duelist_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "51_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "51_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "51_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/52.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "52_T1_Lilac Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "52_T2_Lilac Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "52_T3_Lilac Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "52_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "52_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "52_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/53.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "53_T1_Sun Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "53_T2_Sun Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "53_T3_Sun Immortal_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "53_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "53_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "53_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/54.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "54_T1_Royal Tide_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "54_T2_Royal Tide_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "54_T3_Royal Tide_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "54_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "54_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "54_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/55.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "55_T1_Fire Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "55_T2_Fire Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "55_T3_Fire Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "55_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "55_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "55_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/56.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "56_T1_Scarlet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "56_T2_Scarlet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "56_T3_Scarlet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "56_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "56_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "56_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/57.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "57_T1_Frost Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "57_T2_Frost Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "57_T3_Frost Monarch_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "57_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "57_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "57_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/58.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "58_T1_Midnight Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "58_T2_Midnight Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "58_T3_Midnight Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "58_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "58_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "58_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/59.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "59_T1_Jade Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "59_T2_Jade Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "59_T3_Jade Minister_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "59_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "59_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "59_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/60.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "60_T1_Garden Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "60_T2_Garden Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "60_T3_Garden Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "60_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "60_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "60_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/61.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "61_T1_Bronze Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.08326
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "61_T2_Bronze Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      },
+      {
+        "rig": "61_T3_Bronze Bulwark_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.35823
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "61_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "61_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "61_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/62.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "62_T1_Violet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "62_T2_Violet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      },
+      {
+        "rig": "62_T3_Violet Princess_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.24787
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "62_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "62_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "62_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/63.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "63_T1_Sage of Jade_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "63_T2_Sage of Jade_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      },
+      {
+        "rig": "63_T3_Sage of Jade_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.42337
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.29008
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "63_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "63_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "63_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/64.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "64_T1_Emerald Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "64_T2_Emerald Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "64_T3_Emerald Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "64_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "64_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "64_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/65.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "65_T1_Inferno Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "65_T2_Inferno Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "65_T3_Inferno Crescent_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "65_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "65_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "65_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/66.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "66_T1_Ivory Sage_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.15946
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "66_T2_Ivory Sage_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "66_T3_Ivory Sage_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "66_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "66_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "66_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/67.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "67_T1_Jade War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "67_T2_Jade War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "67_T3_Jade War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "67_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "67_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "67_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/68.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [
+      {
+        "rig": "68_T1_Crimson War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.09702
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "68_T2_Crimson War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.16758
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      },
+      {
+        "rig": "68_T3_Crimson War God_Rig",
+        "weighted_vertices": "PASS",
+        "bones": 22,
+        "animations": {
+          "Idle": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.17583
+          },
+          "Walk": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.68167
+          },
+          "Attack": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.34054
+          }
+        }
+      }
+    ],
+    "spell_checks": [
+      {
+        "mesh": "68_T1_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "68_T2_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "68_T3_Spell_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "file": "assets/69.blend",
+    "checks": {
+      "opens": "PASS",
+      "reference_packed": "PASS",
+      "expected_characters": "PASS",
+      "rigging_and_motion": "PASS",
+      "spell_axis_and_motion": "PASS",
+      "artistic_likeness": "NOT_CHECKED",
+      "game_runtime": "NOT_CHECKED",
+      "back_view_accuracy": "UNKNOWN"
+    },
+    "characters": [],
+    "spell_checks": [
+      {
+        "mesh": "69_T1_EmeraldVortex_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.520279648554288,
+        "status": "PASS"
+      },
+      {
+        "mesh": "69_T2_EmeraldVortex_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.5202796485542893,
+        "status": "PASS"
+      },
+      {
+        "mesh": "69_T3_EmeraldVortex_Geometry",
+        "max_height_change_m": 0.0,
+        "max_motion_m": 1.622556408017684,
+        "status": "PASS"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "reference": 66,
+  "name": "Ivory Sage",
+  "blend": "assets/66.blend",
+  "preview": "previews/66.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "66_T1_Ivory Sage_Rig",
+      "mesh": "66_T1_Ivory Sage_Mesh",
+      "vertices": 10140,
+      "bones": 22,
+      "actions": [
+        "66_T1_Ivory Sage_Rig__Idle",
+        "66_T1_Ivory Sage_Rig__Walk",
+        "66_T1_Ivory Sage_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "66_T2_Ivory Sage_Rig",
+      "mesh": "66_T2_Ivory Sage_Mesh",
+      "vertices": 11032,
+      "bones": 22,
+      "actions": [
+        "66_T2_Ivory Sage_Rig__Idle",
+        "66_T2_Ivory Sage_Rig__Walk",
+        "66_T2_Ivory Sage_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "66_T3_Ivory Sage_Rig",
+      "mesh": "66_T3_Ivory Sage_Mesh",
+      "vertices": 11492,
+      "bones": 22,
+      "actions": [
+        "66_T3_Ivory Sage_Rig__Idle",
+        "66_T3_Ivory Sage_Rig__Walk",
+        "66_T3_Ivory Sage_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

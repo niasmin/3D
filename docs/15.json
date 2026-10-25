@@ -1,0 +1,46 @@
+{
+  "reference": 15,
+  "name": "Azure Lancer",
+  "blend": "assets/15.blend",
+  "preview": "previews/15.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "15_T1_Azure Lancer_Rig",
+      "mesh": "15_T1_Azure Lancer_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "15_T1_Azure Lancer_Rig__Idle",
+        "15_T1_Azure Lancer_Rig__Walk",
+        "15_T1_Azure Lancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "15_T2_Azure Lancer_Rig",
+      "mesh": "15_T2_Azure Lancer_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "15_T2_Azure Lancer_Rig__Idle",
+        "15_T2_Azure Lancer_Rig__Walk",
+        "15_T2_Azure Lancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "15_T3_Azure Lancer_Rig",
+      "mesh": "15_T3_Azure Lancer_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "15_T3_Azure Lancer_Rig__Idle",
+        "15_T3_Azure Lancer_Rig__Walk",
+        "15_T3_Azure Lancer_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

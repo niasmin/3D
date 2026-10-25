@@ -1,0 +1,46 @@
+{
+  "reference": 7,
+  "name": "Scarlet Cavalier",
+  "blend": "assets/07.blend",
+  "preview": "previews/07.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "07_T1_Scarlet Cavalier_Rig",
+      "mesh": "07_T1_Scarlet Cavalier_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "07_T1_Scarlet Cavalier_Rig__Idle",
+        "07_T1_Scarlet Cavalier_Rig__Walk",
+        "07_T1_Scarlet Cavalier_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "07_T2_Scarlet Cavalier_Rig",
+      "mesh": "07_T2_Scarlet Cavalier_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "07_T2_Scarlet Cavalier_Rig__Idle",
+        "07_T2_Scarlet Cavalier_Rig__Walk",
+        "07_T2_Scarlet Cavalier_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "07_T3_Scarlet Cavalier_Rig",
+      "mesh": "07_T3_Scarlet Cavalier_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "07_T3_Scarlet Cavalier_Rig__Idle",
+        "07_T3_Scarlet Cavalier_Rig__Walk",
+        "07_T3_Scarlet Cavalier_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

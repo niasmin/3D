@@ -1,0 +1,46 @@
+{
+  "reference": 11,
+  "name": "Amber Veteran",
+  "blend": "assets/11.blend",
+  "preview": "previews/11.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "11_T1_Amber Veteran_Rig",
+      "mesh": "11_T1_Amber Veteran_Mesh",
+      "vertices": 9404,
+      "bones": 22,
+      "actions": [
+        "11_T1_Amber Veteran_Rig__Idle",
+        "11_T1_Amber Veteran_Rig__Walk",
+        "11_T1_Amber Veteran_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "11_T2_Amber Veteran_Rig",
+      "mesh": "11_T2_Amber Veteran_Mesh",
+      "vertices": 11108,
+      "bones": 22,
+      "actions": [
+        "11_T2_Amber Veteran_Rig__Idle",
+        "11_T2_Amber Veteran_Rig__Walk",
+        "11_T2_Amber Veteran_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "11_T3_Amber Veteran_Rig",
+      "mesh": "11_T3_Amber Veteran_Mesh",
+      "vertices": 11676,
+      "bones": 22,
+      "actions": [
+        "11_T3_Amber Veteran_Rig__Idle",
+        "11_T3_Amber Veteran_Rig__Walk",
+        "11_T3_Amber Veteran_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

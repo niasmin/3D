@@ -1,0 +1,46 @@
+{
+  "reference": 30,
+  "name": "Dark Regent",
+  "blend": "assets/30.blend",
+  "preview": "previews/30.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "30_T1_Dark Regent_Rig",
+      "mesh": "30_T1_Dark Regent_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "30_T1_Dark Regent_Rig__Idle",
+        "30_T1_Dark Regent_Rig__Walk",
+        "30_T1_Dark Regent_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "30_T2_Dark Regent_Rig",
+      "mesh": "30_T2_Dark Regent_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "30_T2_Dark Regent_Rig__Idle",
+        "30_T2_Dark Regent_Rig__Walk",
+        "30_T2_Dark Regent_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "30_T3_Dark Regent_Rig",
+      "mesh": "30_T3_Dark Regent_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "30_T3_Dark Regent_Rig__Idle",
+        "30_T3_Dark Regent_Rig__Walk",
+        "30_T3_Dark Regent_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

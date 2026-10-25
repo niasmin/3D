@@ -1,0 +1,46 @@
+{
+  "reference": 23,
+  "name": "Lion Admiral",
+  "blend": "assets/23.blend",
+  "preview": "previews/23.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "23_T1_Lion Admiral_Rig",
+      "mesh": "23_T1_Lion Admiral_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "23_T1_Lion Admiral_Rig__Idle",
+        "23_T1_Lion Admiral_Rig__Walk",
+        "23_T1_Lion Admiral_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "23_T2_Lion Admiral_Rig",
+      "mesh": "23_T2_Lion Admiral_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "23_T2_Lion Admiral_Rig__Idle",
+        "23_T2_Lion Admiral_Rig__Walk",
+        "23_T2_Lion Admiral_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "23_T3_Lion Admiral_Rig",
+      "mesh": "23_T3_Lion Admiral_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "23_T3_Lion Admiral_Rig__Idle",
+        "23_T3_Lion Admiral_Rig__Walk",
+        "23_T3_Lion Admiral_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

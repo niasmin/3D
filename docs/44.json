@@ -1,0 +1,46 @@
+{
+  "reference": 44,
+  "name": "Emerald Elder",
+  "blend": "assets/44.blend",
+  "preview": "previews/44.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "44_T1_Emerald Elder_Rig",
+      "mesh": "44_T1_Emerald Elder_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "44_T1_Emerald Elder_Rig__Idle",
+        "44_T1_Emerald Elder_Rig__Walk",
+        "44_T1_Emerald Elder_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "44_T2_Emerald Elder_Rig",
+      "mesh": "44_T2_Emerald Elder_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "44_T2_Emerald Elder_Rig__Idle",
+        "44_T2_Emerald Elder_Rig__Walk",
+        "44_T2_Emerald Elder_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "44_T3_Emerald Elder_Rig",
+      "mesh": "44_T3_Emerald Elder_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "44_T3_Emerald Elder_Rig__Idle",
+        "44_T3_Emerald Elder_Rig__Walk",
+        "44_T3_Emerald Elder_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

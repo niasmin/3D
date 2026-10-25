@@ -1,0 +1,46 @@
+{
+  "reference": 25,
+  "name": "Mountain Guardian",
+  "blend": "assets/25.blend",
+  "preview": "previews/25.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "25_T1_Mountain Guardian_Rig",
+      "mesh": "25_T1_Mountain Guardian_Mesh",
+      "vertices": 9438,
+      "bones": 22,
+      "actions": [
+        "25_T1_Mountain Guardian_Rig__Idle",
+        "25_T1_Mountain Guardian_Rig__Walk",
+        "25_T1_Mountain Guardian_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "25_T2_Mountain Guardian_Rig",
+      "mesh": "25_T2_Mountain Guardian_Mesh",
+      "vertices": 11142,
+      "bones": 22,
+      "actions": [
+        "25_T2_Mountain Guardian_Rig__Idle",
+        "25_T2_Mountain Guardian_Rig__Walk",
+        "25_T2_Mountain Guardian_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "25_T3_Mountain Guardian_Rig",
+      "mesh": "25_T3_Mountain Guardian_Mesh",
+      "vertices": 11710,
+      "bones": 22,
+      "actions": [
+        "25_T3_Mountain Guardian_Rig__Idle",
+        "25_T3_Mountain Guardian_Rig__Walk",
+        "25_T3_Mountain Guardian_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

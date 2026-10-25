@@ -1,0 +1,46 @@
+{
+  "reference": 17,
+  "name": "River Strategist",
+  "blend": "assets/17.blend",
+  "preview": "previews/17.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "17_T1_River Strategist_Rig",
+      "mesh": "17_T1_River Strategist_Mesh",
+      "vertices": 9084,
+      "bones": 22,
+      "actions": [
+        "17_T1_River Strategist_Rig__Idle",
+        "17_T1_River Strategist_Rig__Walk",
+        "17_T1_River Strategist_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "17_T2_River Strategist_Rig",
+      "mesh": "17_T2_River Strategist_Mesh",
+      "vertices": 9976,
+      "bones": 22,
+      "actions": [
+        "17_T2_River Strategist_Rig__Idle",
+        "17_T2_River Strategist_Rig__Walk",
+        "17_T2_River Strategist_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "17_T3_River Strategist_Rig",
+      "mesh": "17_T3_River Strategist_Mesh",
+      "vertices": 10436,
+      "bones": 22,
+      "actions": [
+        "17_T3_River Strategist_Rig__Idle",
+        "17_T3_River Strategist_Rig__Walk",
+        "17_T3_River Strategist_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

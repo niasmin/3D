@@ -1,0 +1,46 @@
+{
+  "reference": 61,
+  "name": "Bronze Bulwark",
+  "blend": "assets/61.blend",
+  "preview": "previews/61.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "61_T1_Bronze Bulwark_Rig",
+      "mesh": "61_T1_Bronze Bulwark_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "61_T1_Bronze Bulwark_Rig__Idle",
+        "61_T1_Bronze Bulwark_Rig__Walk",
+        "61_T1_Bronze Bulwark_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "61_T2_Bronze Bulwark_Rig",
+      "mesh": "61_T2_Bronze Bulwark_Mesh",
+      "vertices": 11542,
+      "bones": 22,
+      "actions": [
+        "61_T2_Bronze Bulwark_Rig__Idle",
+        "61_T2_Bronze Bulwark_Rig__Walk",
+        "61_T2_Bronze Bulwark_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "61_T3_Bronze Bulwark_Rig",
+      "mesh": "61_T3_Bronze Bulwark_Mesh",
+      "vertices": 12110,
+      "bones": 22,
+      "actions": [
+        "61_T3_Bronze Bulwark_Rig__Idle",
+        "61_T3_Bronze Bulwark_Rig__Walk",
+        "61_T3_Bronze Bulwark_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

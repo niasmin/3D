@@ -1,0 +1,46 @@
+{
+  "reference": 14,
+  "name": "Ember Lion",
+  "blend": "assets/14.blend",
+  "preview": "previews/14.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "14_T1_Ember Lion_Rig",
+      "mesh": "14_T1_Ember Lion_Mesh",
+      "vertices": 9404,
+      "bones": 22,
+      "actions": [
+        "14_T1_Ember Lion_Rig__Idle",
+        "14_T1_Ember Lion_Rig__Walk",
+        "14_T1_Ember Lion_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "14_T2_Ember Lion_Rig",
+      "mesh": "14_T2_Ember Lion_Mesh",
+      "vertices": 11108,
+      "bones": 22,
+      "actions": [
+        "14_T2_Ember Lion_Rig__Idle",
+        "14_T2_Ember Lion_Rig__Walk",
+        "14_T2_Ember Lion_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "14_T3_Ember Lion_Rig",
+      "mesh": "14_T3_Ember Lion_Mesh",
+      "vertices": 11676,
+      "bones": 22,
+      "actions": [
+        "14_T3_Ember Lion_Rig__Idle",
+        "14_T3_Ember Lion_Rig__Walk",
+        "14_T3_Ember Lion_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

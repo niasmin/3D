@@ -1,0 +1,46 @@
+{
+  "reference": 27,
+  "name": "Bamboo Maiden",
+  "blend": "assets/27.blend",
+  "preview": "previews/27.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "27_T1_Bamboo Maiden_Rig",
+      "mesh": "27_T1_Bamboo Maiden_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "27_T1_Bamboo Maiden_Rig__Idle",
+        "27_T1_Bamboo Maiden_Rig__Walk",
+        "27_T1_Bamboo Maiden_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "27_T2_Bamboo Maiden_Rig",
+      "mesh": "27_T2_Bamboo Maiden_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "27_T2_Bamboo Maiden_Rig__Idle",
+        "27_T2_Bamboo Maiden_Rig__Walk",
+        "27_T2_Bamboo Maiden_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "27_T3_Bamboo Maiden_Rig",
+      "mesh": "27_T3_Bamboo Maiden_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "27_T3_Bamboo Maiden_Rig__Idle",
+        "27_T3_Bamboo Maiden_Rig__Walk",
+        "27_T3_Bamboo Maiden_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

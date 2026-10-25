@@ -1,0 +1,46 @@
+{
+  "reference": 19,
+  "name": "Azure Guard",
+  "blend": "assets/19.blend",
+  "preview": "previews/19.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "19_T1_Azure Guard_Rig",
+      "mesh": "19_T1_Azure Guard_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "19_T1_Azure Guard_Rig__Idle",
+        "19_T1_Azure Guard_Rig__Walk",
+        "19_T1_Azure Guard_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "19_T2_Azure Guard_Rig",
+      "mesh": "19_T2_Azure Guard_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "19_T2_Azure Guard_Rig__Idle",
+        "19_T2_Azure Guard_Rig__Walk",
+        "19_T2_Azure Guard_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "19_T3_Azure Guard_Rig",
+      "mesh": "19_T3_Azure Guard_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "19_T3_Azure Guard_Rig__Idle",
+        "19_T3_Azure Guard_Rig__Walk",
+        "19_T3_Azure Guard_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

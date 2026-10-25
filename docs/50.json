@@ -1,0 +1,46 @@
+{
+  "reference": 50,
+  "name": "Ivory Commander",
+  "blend": "assets/50.blend",
+  "preview": "previews/50.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "50_T1_Ivory Commander_Rig",
+      "mesh": "50_T1_Ivory Commander_Mesh",
+      "vertices": 9404,
+      "bones": 22,
+      "actions": [
+        "50_T1_Ivory Commander_Rig__Idle",
+        "50_T1_Ivory Commander_Rig__Walk",
+        "50_T1_Ivory Commander_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "50_T2_Ivory Commander_Rig",
+      "mesh": "50_T2_Ivory Commander_Mesh",
+      "vertices": 11108,
+      "bones": 22,
+      "actions": [
+        "50_T2_Ivory Commander_Rig__Idle",
+        "50_T2_Ivory Commander_Rig__Walk",
+        "50_T2_Ivory Commander_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "50_T3_Ivory Commander_Rig",
+      "mesh": "50_T3_Ivory Commander_Mesh",
+      "vertices": 11676,
+      "bones": 22,
+      "actions": [
+        "50_T3_Ivory Commander_Rig__Idle",
+        "50_T3_Ivory Commander_Rig__Walk",
+        "50_T3_Ivory Commander_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

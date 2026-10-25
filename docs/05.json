@@ -1,0 +1,46 @@
+{
+  "reference": 5,
+  "name": "Violet Archer",
+  "blend": "assets/05.blend",
+  "preview": "previews/05.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "05_T1_Violet Archer_Rig",
+      "mesh": "05_T1_Violet Archer_Mesh",
+      "vertices": 8068,
+      "bones": 22,
+      "actions": [
+        "05_T1_Violet Archer_Rig__Idle",
+        "05_T1_Violet Archer_Rig__Walk",
+        "05_T1_Violet Archer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "05_T2_Violet Archer_Rig",
+      "mesh": "05_T2_Violet Archer_Mesh",
+      "vertices": 9718,
+      "bones": 22,
+      "actions": [
+        "05_T2_Violet Archer_Rig__Idle",
+        "05_T2_Violet Archer_Rig__Walk",
+        "05_T2_Violet Archer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "05_T3_Violet Archer_Rig",
+      "mesh": "05_T3_Violet Archer_Mesh",
+      "vertices": 10232,
+      "bones": 22,
+      "actions": [
+        "05_T3_Violet Archer_Rig__Idle",
+        "05_T3_Violet Archer_Rig__Walk",
+        "05_T3_Violet Archer_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

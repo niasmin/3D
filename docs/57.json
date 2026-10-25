@@ -1,0 +1,46 @@
+{
+  "reference": 57,
+  "name": "Frost Monarch",
+  "blend": "assets/57.blend",
+  "preview": "previews/57.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "57_T1_Frost Monarch_Rig",
+      "mesh": "57_T1_Frost Monarch_Mesh",
+      "vertices": 10140,
+      "bones": 22,
+      "actions": [
+        "57_T1_Frost Monarch_Rig__Idle",
+        "57_T1_Frost Monarch_Rig__Walk",
+        "57_T1_Frost Monarch_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "57_T2_Frost Monarch_Rig",
+      "mesh": "57_T2_Frost Monarch_Mesh",
+      "vertices": 11032,
+      "bones": 22,
+      "actions": [
+        "57_T2_Frost Monarch_Rig__Idle",
+        "57_T2_Frost Monarch_Rig__Walk",
+        "57_T2_Frost Monarch_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "57_T3_Frost Monarch_Rig",
+      "mesh": "57_T3_Frost Monarch_Mesh",
+      "vertices": 11492,
+      "bones": 22,
+      "actions": [
+        "57_T3_Frost Monarch_Rig__Idle",
+        "57_T3_Frost Monarch_Rig__Walk",
+        "57_T3_Frost Monarch_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

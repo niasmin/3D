@@ -1,0 +1,46 @@
+{
+  "reference": 24,
+  "name": "Inferno Dancer",
+  "blend": "assets/24.blend",
+  "preview": "previews/24.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "24_T1_Inferno Dancer_Rig",
+      "mesh": "24_T1_Inferno Dancer_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "24_T1_Inferno Dancer_Rig__Idle",
+        "24_T1_Inferno Dancer_Rig__Walk",
+        "24_T1_Inferno Dancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "24_T2_Inferno Dancer_Rig",
+      "mesh": "24_T2_Inferno Dancer_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "24_T2_Inferno Dancer_Rig__Idle",
+        "24_T2_Inferno Dancer_Rig__Walk",
+        "24_T2_Inferno Dancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "24_T3_Inferno Dancer_Rig",
+      "mesh": "24_T3_Inferno Dancer_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "24_T3_Inferno Dancer_Rig__Idle",
+        "24_T3_Inferno Dancer_Rig__Walk",
+        "24_T3_Inferno Dancer_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

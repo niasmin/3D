@@ -1,0 +1,46 @@
+{
+  "reference": 13,
+  "name": "Peony Dancer",
+  "blend": "assets/13.blend",
+  "preview": "previews/13.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "13_T1_Peony Dancer_Rig",
+      "mesh": "13_T1_Peony Dancer_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "13_T1_Peony Dancer_Rig__Idle",
+        "13_T1_Peony Dancer_Rig__Walk",
+        "13_T1_Peony Dancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "13_T2_Peony Dancer_Rig",
+      "mesh": "13_T2_Peony Dancer_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "13_T2_Peony Dancer_Rig__Idle",
+        "13_T2_Peony Dancer_Rig__Walk",
+        "13_T2_Peony Dancer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "13_T3_Peony Dancer_Rig",
+      "mesh": "13_T3_Peony Dancer_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "13_T3_Peony Dancer_Rig__Idle",
+        "13_T3_Peony Dancer_Rig__Walk",
+        "13_T3_Peony Dancer_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

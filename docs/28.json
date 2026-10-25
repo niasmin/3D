@@ -1,0 +1,46 @@
+{
+  "reference": 28,
+  "name": "Storm Ranger",
+  "blend": "assets/28.blend",
+  "preview": "previews/28.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "28_T1_Storm Ranger_Rig",
+      "mesh": "28_T1_Storm Ranger_Mesh",
+      "vertices": 8068,
+      "bones": 22,
+      "actions": [
+        "28_T1_Storm Ranger_Rig__Idle",
+        "28_T1_Storm Ranger_Rig__Walk",
+        "28_T1_Storm Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "28_T2_Storm Ranger_Rig",
+      "mesh": "28_T2_Storm Ranger_Mesh",
+      "vertices": 9718,
+      "bones": 22,
+      "actions": [
+        "28_T2_Storm Ranger_Rig__Idle",
+        "28_T2_Storm Ranger_Rig__Walk",
+        "28_T2_Storm Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "28_T3_Storm Ranger_Rig",
+      "mesh": "28_T3_Storm Ranger_Mesh",
+      "vertices": 10232,
+      "bones": 22,
+      "actions": [
+        "28_T3_Storm Ranger_Rig__Idle",
+        "28_T3_Storm Ranger_Rig__Walk",
+        "28_T3_Storm Ranger_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

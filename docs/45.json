@@ -1,0 +1,46 @@
+{
+  "reference": 45,
+  "name": "Forest Scholar",
+  "blend": "assets/45.blend",
+  "preview": "previews/45.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "45_T1_Forest Scholar_Rig",
+      "mesh": "45_T1_Forest Scholar_Mesh",
+      "vertices": 9462,
+      "bones": 22,
+      "actions": [
+        "45_T1_Forest Scholar_Rig__Idle",
+        "45_T1_Forest Scholar_Rig__Walk",
+        "45_T1_Forest Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "45_T2_Forest Scholar_Rig",
+      "mesh": "45_T2_Forest Scholar_Mesh",
+      "vertices": 10354,
+      "bones": 22,
+      "actions": [
+        "45_T2_Forest Scholar_Rig__Idle",
+        "45_T2_Forest Scholar_Rig__Walk",
+        "45_T2_Forest Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "45_T3_Forest Scholar_Rig",
+      "mesh": "45_T3_Forest Scholar_Mesh",
+      "vertices": 10814,
+      "bones": 22,
+      "actions": [
+        "45_T3_Forest Scholar_Rig__Idle",
+        "45_T3_Forest Scholar_Rig__Walk",
+        "45_T3_Forest Scholar_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

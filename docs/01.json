@@ -1,0 +1,46 @@
+{
+  "reference": 1,
+  "name": "Silver Phoenix",
+  "blend": "assets/01.blend",
+  "preview": "previews/01.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "01_T1_Silver Phoenix_Rig",
+      "mesh": "01_T1_Silver Phoenix_Mesh",
+      "vertices": 10554,
+      "bones": 22,
+      "actions": [
+        "01_T1_Silver Phoenix_Rig__Idle",
+        "01_T1_Silver Phoenix_Rig__Walk",
+        "01_T1_Silver Phoenix_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "01_T2_Silver Phoenix_Rig",
+      "mesh": "01_T2_Silver Phoenix_Mesh",
+      "vertices": 12258,
+      "bones": 22,
+      "actions": [
+        "01_T2_Silver Phoenix_Rig__Idle",
+        "01_T2_Silver Phoenix_Rig__Walk",
+        "01_T2_Silver Phoenix_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "01_T3_Silver Phoenix_Rig",
+      "mesh": "01_T3_Silver Phoenix_Mesh",
+      "vertices": 12826,
+      "bones": 22,
+      "actions": [
+        "01_T3_Silver Phoenix_Rig__Idle",
+        "01_T3_Silver Phoenix_Rig__Walk",
+        "01_T3_Silver Phoenix_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

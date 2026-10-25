@@ -1,0 +1,46 @@
+{
+  "reference": 34,
+  "name": "Jade Serpent",
+  "blend": "assets/34.blend",
+  "preview": "previews/34.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "34_T1_Jade Serpent_Rig",
+      "mesh": "34_T1_Jade Serpent_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "34_T1_Jade Serpent_Rig__Idle",
+        "34_T1_Jade Serpent_Rig__Walk",
+        "34_T1_Jade Serpent_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "34_T2_Jade Serpent_Rig",
+      "mesh": "34_T2_Jade Serpent_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "34_T2_Jade Serpent_Rig__Idle",
+        "34_T2_Jade Serpent_Rig__Walk",
+        "34_T2_Jade Serpent_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "34_T3_Jade Serpent_Rig",
+      "mesh": "34_T3_Jade Serpent_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "34_T3_Jade Serpent_Rig__Idle",
+        "34_T3_Jade Serpent_Rig__Walk",
+        "34_T3_Jade Serpent_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

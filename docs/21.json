@@ -1,0 +1,46 @@
+{
+  "reference": 21,
+  "name": "Tide Chancellor",
+  "blend": "assets/21.blend",
+  "preview": "previews/21.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "21_T1_Tide Chancellor_Rig",
+      "mesh": "21_T1_Tide Chancellor_Mesh",
+      "vertices": 10140,
+      "bones": 22,
+      "actions": [
+        "21_T1_Tide Chancellor_Rig__Idle",
+        "21_T1_Tide Chancellor_Rig__Walk",
+        "21_T1_Tide Chancellor_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "21_T2_Tide Chancellor_Rig",
+      "mesh": "21_T2_Tide Chancellor_Mesh",
+      "vertices": 11032,
+      "bones": 22,
+      "actions": [
+        "21_T2_Tide Chancellor_Rig__Idle",
+        "21_T2_Tide Chancellor_Rig__Walk",
+        "21_T2_Tide Chancellor_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "21_T3_Tide Chancellor_Rig",
+      "mesh": "21_T3_Tide Chancellor_Mesh",
+      "vertices": 11492,
+      "bones": 22,
+      "actions": [
+        "21_T3_Tide Chancellor_Rig__Idle",
+        "21_T3_Tide Chancellor_Rig__Walk",
+        "21_T3_Tide Chancellor_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

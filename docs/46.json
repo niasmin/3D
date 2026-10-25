@@ -1,0 +1,46 @@
+{
+  "reference": 46,
+  "name": "Amethyst Bulwark",
+  "blend": "assets/46.blend",
+  "preview": "previews/46.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "46_T1_Amethyst Bulwark_Rig",
+      "mesh": "46_T1_Amethyst Bulwark_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "46_T1_Amethyst Bulwark_Rig__Idle",
+        "46_T1_Amethyst Bulwark_Rig__Walk",
+        "46_T1_Amethyst Bulwark_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "46_T2_Amethyst Bulwark_Rig",
+      "mesh": "46_T2_Amethyst Bulwark_Mesh",
+      "vertices": 11542,
+      "bones": 22,
+      "actions": [
+        "46_T2_Amethyst Bulwark_Rig__Idle",
+        "46_T2_Amethyst Bulwark_Rig__Walk",
+        "46_T2_Amethyst Bulwark_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "46_T3_Amethyst Bulwark_Rig",
+      "mesh": "46_T3_Amethyst Bulwark_Mesh",
+      "vertices": 12110,
+      "bones": 22,
+      "actions": [
+        "46_T3_Amethyst Bulwark_Rig__Idle",
+        "46_T3_Amethyst Bulwark_Rig__Walk",
+        "46_T3_Amethyst Bulwark_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

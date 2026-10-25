@@ -1,0 +1,46 @@
+{
+  "reference": 33,
+  "name": "Ruby Blades",
+  "blend": "assets/33.blend",
+  "preview": "previews/33.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "33_T1_Ruby Blades_Rig",
+      "mesh": "33_T1_Ruby Blades_Mesh",
+      "vertices": 9026,
+      "bones": 22,
+      "actions": [
+        "33_T1_Ruby Blades_Rig__Idle",
+        "33_T1_Ruby Blades_Rig__Walk",
+        "33_T1_Ruby Blades_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "33_T2_Ruby Blades_Rig",
+      "mesh": "33_T2_Ruby Blades_Mesh",
+      "vertices": 10730,
+      "bones": 22,
+      "actions": [
+        "33_T2_Ruby Blades_Rig__Idle",
+        "33_T2_Ruby Blades_Rig__Walk",
+        "33_T2_Ruby Blades_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "33_T3_Ruby Blades_Rig",
+      "mesh": "33_T3_Ruby Blades_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "33_T3_Ruby Blades_Rig__Idle",
+        "33_T3_Ruby Blades_Rig__Walk",
+        "33_T3_Ruby Blades_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

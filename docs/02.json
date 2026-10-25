@@ -1,0 +1,46 @@
+{
+  "reference": 2,
+  "name": "Crimson Vanguard",
+  "blend": "assets/02.blend",
+  "preview": "previews/02.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "02_T1_Crimson Vanguard_Rig",
+      "mesh": "02_T1_Crimson Vanguard_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "02_T1_Crimson Vanguard_Rig__Idle",
+        "02_T1_Crimson Vanguard_Rig__Walk",
+        "02_T1_Crimson Vanguard_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "02_T2_Crimson Vanguard_Rig",
+      "mesh": "02_T2_Crimson Vanguard_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "02_T2_Crimson Vanguard_Rig__Idle",
+        "02_T2_Crimson Vanguard_Rig__Walk",
+        "02_T2_Crimson Vanguard_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "02_T3_Crimson Vanguard_Rig",
+      "mesh": "02_T3_Crimson Vanguard_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "02_T3_Crimson Vanguard_Rig__Idle",
+        "02_T3_Crimson Vanguard_Rig__Walk",
+        "02_T3_Crimson Vanguard_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

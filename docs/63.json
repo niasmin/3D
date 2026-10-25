@@ -1,0 +1,46 @@
+{
+  "reference": 63,
+  "name": "Sage of Jade",
+  "blend": "assets/63.blend",
+  "preview": "previews/63.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "63_T1_Sage of Jade_Rig",
+      "mesh": "63_T1_Sage of Jade_Mesh",
+      "vertices": 9050,
+      "bones": 22,
+      "actions": [
+        "63_T1_Sage of Jade_Rig__Idle",
+        "63_T1_Sage of Jade_Rig__Walk",
+        "63_T1_Sage of Jade_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "63_T2_Sage of Jade_Rig",
+      "mesh": "63_T2_Sage of Jade_Mesh",
+      "vertices": 9942,
+      "bones": 22,
+      "actions": [
+        "63_T2_Sage of Jade_Rig__Idle",
+        "63_T2_Sage of Jade_Rig__Walk",
+        "63_T2_Sage of Jade_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "63_T3_Sage of Jade_Rig",
+      "mesh": "63_T3_Sage of Jade_Mesh",
+      "vertices": 10402,
+      "bones": 22,
+      "actions": [
+        "63_T3_Sage of Jade_Rig__Idle",
+        "63_T3_Sage of Jade_Rig__Walk",
+        "63_T3_Sage of Jade_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

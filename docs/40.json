@@ -1,0 +1,46 @@
+{
+  "reference": 40,
+  "name": "Ocean Champion",
+  "blend": "assets/40.blend",
+  "preview": "previews/40.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "40_T1_Ocean Champion_Rig",
+      "mesh": "40_T1_Ocean Champion_Mesh",
+      "vertices": 9026,
+      "bones": 22,
+      "actions": [
+        "40_T1_Ocean Champion_Rig__Idle",
+        "40_T1_Ocean Champion_Rig__Walk",
+        "40_T1_Ocean Champion_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "40_T2_Ocean Champion_Rig",
+      "mesh": "40_T2_Ocean Champion_Mesh",
+      "vertices": 10730,
+      "bones": 22,
+      "actions": [
+        "40_T2_Ocean Champion_Rig__Idle",
+        "40_T2_Ocean Champion_Rig__Walk",
+        "40_T2_Ocean Champion_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "40_T3_Ocean Champion_Rig",
+      "mesh": "40_T3_Ocean Champion_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "40_T3_Ocean Champion_Rig__Idle",
+        "40_T3_Ocean Champion_Rig__Walk",
+        "40_T3_Ocean Champion_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

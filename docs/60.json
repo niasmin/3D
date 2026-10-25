@@ -1,0 +1,46 @@
+{
+  "reference": 60,
+  "name": "Garden Princess",
+  "blend": "assets/60.blend",
+  "preview": "previews/60.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "60_T1_Garden Princess_Rig",
+      "mesh": "60_T1_Garden Princess_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "60_T1_Garden Princess_Rig__Idle",
+        "60_T1_Garden Princess_Rig__Walk",
+        "60_T1_Garden Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "60_T2_Garden Princess_Rig",
+      "mesh": "60_T2_Garden Princess_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "60_T2_Garden Princess_Rig__Idle",
+        "60_T2_Garden Princess_Rig__Walk",
+        "60_T2_Garden Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "60_T3_Garden Princess_Rig",
+      "mesh": "60_T3_Garden Princess_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "60_T3_Garden Princess_Rig__Idle",
+        "60_T3_Garden Princess_Rig__Walk",
+        "60_T3_Garden Princess_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

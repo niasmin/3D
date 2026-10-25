@@ -1,0 +1,46 @@
+{
+  "reference": 48,
+  "name": "Jade Dragon",
+  "blend": "assets/48.blend",
+  "preview": "previews/48.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "48_T1_Jade Dragon_Rig",
+      "mesh": "48_T1_Jade Dragon_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "48_T1_Jade Dragon_Rig__Idle",
+        "48_T1_Jade Dragon_Rig__Walk",
+        "48_T1_Jade Dragon_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "48_T2_Jade Dragon_Rig",
+      "mesh": "48_T2_Jade Dragon_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "48_T2_Jade Dragon_Rig__Idle",
+        "48_T2_Jade Dragon_Rig__Walk",
+        "48_T2_Jade Dragon_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "48_T3_Jade Dragon_Rig",
+      "mesh": "48_T3_Jade Dragon_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "48_T3_Jade Dragon_Rig__Idle",
+        "48_T3_Jade Dragon_Rig__Walk",
+        "48_T3_Jade Dragon_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

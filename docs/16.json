@@ -1,0 +1,46 @@
+{
+  "reference": 16,
+  "name": "Flame Blades",
+  "blend": "assets/16.blend",
+  "preview": "previews/16.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "16_T1_Flame Blades_Rig",
+      "mesh": "16_T1_Flame Blades_Mesh",
+      "vertices": 9026,
+      "bones": 22,
+      "actions": [
+        "16_T1_Flame Blades_Rig__Idle",
+        "16_T1_Flame Blades_Rig__Walk",
+        "16_T1_Flame Blades_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "16_T2_Flame Blades_Rig",
+      "mesh": "16_T2_Flame Blades_Mesh",
+      "vertices": 10730,
+      "bones": 22,
+      "actions": [
+        "16_T2_Flame Blades_Rig__Idle",
+        "16_T2_Flame Blades_Rig__Walk",
+        "16_T2_Flame Blades_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "16_T3_Flame Blades_Rig",
+      "mesh": "16_T3_Flame Blades_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "16_T3_Flame Blades_Rig__Idle",
+        "16_T3_Flame Blades_Rig__Walk",
+        "16_T3_Flame Blades_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

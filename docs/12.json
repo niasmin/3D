@@ -1,0 +1,46 @@
+{
+  "reference": 12,
+  "name": "Blood Spear",
+  "blend": "assets/12.blend",
+  "preview": "previews/12.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "12_T1_Blood Spear_Rig",
+      "mesh": "12_T1_Blood Spear_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "12_T1_Blood Spear_Rig__Idle",
+        "12_T1_Blood Spear_Rig__Walk",
+        "12_T1_Blood Spear_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "12_T2_Blood Spear_Rig",
+      "mesh": "12_T2_Blood Spear_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "12_T2_Blood Spear_Rig__Idle",
+        "12_T2_Blood Spear_Rig__Walk",
+        "12_T2_Blood Spear_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "12_T3_Blood Spear_Rig",
+      "mesh": "12_T3_Blood Spear_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "12_T3_Blood Spear_Rig__Idle",
+        "12_T3_Blood Spear_Rig__Walk",
+        "12_T3_Blood Spear_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

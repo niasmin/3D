@@ -1,0 +1,46 @@
+{
+  "reference": 55,
+  "name": "Fire Monarch",
+  "blend": "assets/55.blend",
+  "preview": "previews/55.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "55_T1_Fire Monarch_Rig",
+      "mesh": "55_T1_Fire Monarch_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "55_T1_Fire Monarch_Rig__Idle",
+        "55_T1_Fire Monarch_Rig__Walk",
+        "55_T1_Fire Monarch_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "55_T2_Fire Monarch_Rig",
+      "mesh": "55_T2_Fire Monarch_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "55_T2_Fire Monarch_Rig__Idle",
+        "55_T2_Fire Monarch_Rig__Walk",
+        "55_T2_Fire Monarch_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "55_T3_Fire Monarch_Rig",
+      "mesh": "55_T3_Fire Monarch_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "55_T3_Fire Monarch_Rig__Idle",
+        "55_T3_Fire Monarch_Rig__Walk",
+        "55_T3_Fire Monarch_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

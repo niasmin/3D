@@ -1,0 +1,46 @@
+{
+  "reference": 22,
+  "name": "Crimson Lady",
+  "blend": "assets/22.blend",
+  "preview": "previews/22.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "22_T1_Crimson Lady_Rig",
+      "mesh": "22_T1_Crimson Lady_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "22_T1_Crimson Lady_Rig__Idle",
+        "22_T1_Crimson Lady_Rig__Walk",
+        "22_T1_Crimson Lady_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "22_T2_Crimson Lady_Rig",
+      "mesh": "22_T2_Crimson Lady_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "22_T2_Crimson Lady_Rig__Idle",
+        "22_T2_Crimson Lady_Rig__Walk",
+        "22_T2_Crimson Lady_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "22_T3_Crimson Lady_Rig",
+      "mesh": "22_T3_Crimson Lady_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "22_T3_Crimson Lady_Rig__Idle",
+        "22_T3_Crimson Lady_Rig__Walk",
+        "22_T3_Crimson Lady_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

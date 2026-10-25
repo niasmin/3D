@@ -1,0 +1,46 @@
+{
+  "reference": 9,
+  "name": "Golden Envoy",
+  "blend": "assets/09.blend",
+  "preview": "previews/09.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "09_T1_Golden Envoy_Rig",
+      "mesh": "09_T1_Golden Envoy_Mesh",
+      "vertices": 9762,
+      "bones": 22,
+      "actions": [
+        "09_T1_Golden Envoy_Rig__Idle",
+        "09_T1_Golden Envoy_Rig__Walk",
+        "09_T1_Golden Envoy_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "09_T2_Golden Envoy_Rig",
+      "mesh": "09_T2_Golden Envoy_Mesh",
+      "vertices": 10654,
+      "bones": 22,
+      "actions": [
+        "09_T2_Golden Envoy_Rig__Idle",
+        "09_T2_Golden Envoy_Rig__Walk",
+        "09_T2_Golden Envoy_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "09_T3_Golden Envoy_Rig",
+      "mesh": "09_T3_Golden Envoy_Mesh",
+      "vertices": 11114,
+      "bones": 22,
+      "actions": [
+        "09_T3_Golden Envoy_Rig__Idle",
+        "09_T3_Golden Envoy_Rig__Walk",
+        "09_T3_Golden Envoy_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

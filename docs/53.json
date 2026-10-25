@@ -1,0 +1,46 @@
+{
+  "reference": 53,
+  "name": "Sun Immortal",
+  "blend": "assets/53.blend",
+  "preview": "previews/53.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "53_T1_Sun Immortal_Rig",
+      "mesh": "53_T1_Sun Immortal_Mesh",
+      "vertices": 10140,
+      "bones": 22,
+      "actions": [
+        "53_T1_Sun Immortal_Rig__Idle",
+        "53_T1_Sun Immortal_Rig__Walk",
+        "53_T1_Sun Immortal_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "53_T2_Sun Immortal_Rig",
+      "mesh": "53_T2_Sun Immortal_Mesh",
+      "vertices": 11032,
+      "bones": 22,
+      "actions": [
+        "53_T2_Sun Immortal_Rig__Idle",
+        "53_T2_Sun Immortal_Rig__Walk",
+        "53_T2_Sun Immortal_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "53_T3_Sun Immortal_Rig",
+      "mesh": "53_T3_Sun Immortal_Mesh",
+      "vertices": 11492,
+      "bones": 22,
+      "actions": [
+        "53_T3_Sun Immortal_Rig__Idle",
+        "53_T3_Sun Immortal_Rig__Walk",
+        "53_T3_Sun Immortal_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

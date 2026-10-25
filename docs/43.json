@@ -1,0 +1,46 @@
+{
+  "reference": 43,
+  "name": "Azure Dragon",
+  "blend": "assets/43.blend",
+  "preview": "previews/43.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "43_T1_Azure Dragon_Rig",
+      "mesh": "43_T1_Azure Dragon_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "43_T1_Azure Dragon_Rig__Idle",
+        "43_T1_Azure Dragon_Rig__Walk",
+        "43_T1_Azure Dragon_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "43_T2_Azure Dragon_Rig",
+      "mesh": "43_T2_Azure Dragon_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "43_T2_Azure Dragon_Rig__Idle",
+        "43_T2_Azure Dragon_Rig__Walk",
+        "43_T2_Azure Dragon_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "43_T3_Azure Dragon_Rig",
+      "mesh": "43_T3_Azure Dragon_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "43_T3_Azure Dragon_Rig__Idle",
+        "43_T3_Azure Dragon_Rig__Walk",
+        "43_T3_Azure Dragon_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

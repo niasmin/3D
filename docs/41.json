@@ -1,0 +1,46 @@
+{
+  "reference": 41,
+  "name": "Elder Archer",
+  "blend": "assets/41.blend",
+  "preview": "previews/41.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "41_T1_Elder Archer_Rig",
+      "mesh": "41_T1_Elder Archer_Mesh",
+      "vertices": 8446,
+      "bones": 22,
+      "actions": [
+        "41_T1_Elder Archer_Rig__Idle",
+        "41_T1_Elder Archer_Rig__Walk",
+        "41_T1_Elder Archer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "41_T2_Elder Archer_Rig",
+      "mesh": "41_T2_Elder Archer_Mesh",
+      "vertices": 10096,
+      "bones": 22,
+      "actions": [
+        "41_T2_Elder Archer_Rig__Idle",
+        "41_T2_Elder Archer_Rig__Walk",
+        "41_T2_Elder Archer_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "41_T3_Elder Archer_Rig",
+      "mesh": "41_T3_Elder Archer_Mesh",
+      "vertices": 10610,
+      "bones": 22,
+      "actions": [
+        "41_T3_Elder Archer_Rig__Idle",
+        "41_T3_Elder Archer_Rig__Walk",
+        "41_T3_Elder Archer_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

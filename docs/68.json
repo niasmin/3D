@@ -1,0 +1,46 @@
+{
+  "reference": 68,
+  "name": "Crimson War God",
+  "blend": "assets/68.blend",
+  "preview": "previews/68.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "68_T1_Crimson War God_Rig",
+      "mesh": "68_T1_Crimson War God_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "68_T1_Crimson War God_Rig__Idle",
+        "68_T1_Crimson War God_Rig__Walk",
+        "68_T1_Crimson War God_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "68_T2_Crimson War God_Rig",
+      "mesh": "68_T2_Crimson War God_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "68_T2_Crimson War God_Rig__Idle",
+        "68_T2_Crimson War God_Rig__Walk",
+        "68_T2_Crimson War God_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "68_T3_Crimson War God_Rig",
+      "mesh": "68_T3_Crimson War God_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "68_T3_Crimson War God_Rig__Idle",
+        "68_T3_Crimson War God_Rig__Walk",
+        "68_T3_Crimson War God_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

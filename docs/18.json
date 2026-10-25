@@ -1,0 +1,46 @@
+{
+  "reference": 18,
+  "name": "Moon Scholar",
+  "blend": "assets/18.blend",
+  "preview": "previews/18.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "18_T1_Moon Scholar_Rig",
+      "mesh": "18_T1_Moon Scholar_Mesh",
+      "vertices": 8672,
+      "bones": 22,
+      "actions": [
+        "18_T1_Moon Scholar_Rig__Idle",
+        "18_T1_Moon Scholar_Rig__Walk",
+        "18_T1_Moon Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "18_T2_Moon Scholar_Rig",
+      "mesh": "18_T2_Moon Scholar_Mesh",
+      "vertices": 9564,
+      "bones": 22,
+      "actions": [
+        "18_T2_Moon Scholar_Rig__Idle",
+        "18_T2_Moon Scholar_Rig__Walk",
+        "18_T2_Moon Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "18_T3_Moon Scholar_Rig",
+      "mesh": "18_T3_Moon Scholar_Mesh",
+      "vertices": 10024,
+      "bones": 22,
+      "actions": [
+        "18_T3_Moon Scholar_Rig__Idle",
+        "18_T3_Moon Scholar_Rig__Walk",
+        "18_T3_Moon Scholar_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

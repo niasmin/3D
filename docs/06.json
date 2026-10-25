@@ -1,0 +1,46 @@
+{
+  "reference": 6,
+  "name": "Crimson Warlord",
+  "blend": "assets/06.blend",
+  "preview": "previews/06.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "06_T1_Crimson Warlord_Rig",
+      "mesh": "06_T1_Crimson Warlord_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "06_T1_Crimson Warlord_Rig__Idle",
+        "06_T1_Crimson Warlord_Rig__Walk",
+        "06_T1_Crimson Warlord_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "06_T2_Crimson Warlord_Rig",
+      "mesh": "06_T2_Crimson Warlord_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "06_T2_Crimson Warlord_Rig__Idle",
+        "06_T2_Crimson Warlord_Rig__Walk",
+        "06_T2_Crimson Warlord_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "06_T3_Crimson Warlord_Rig",
+      "mesh": "06_T3_Crimson Warlord_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "06_T3_Crimson Warlord_Rig__Idle",
+        "06_T3_Crimson Warlord_Rig__Walk",
+        "06_T3_Crimson Warlord_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

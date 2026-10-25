@@ -1,0 +1,46 @@
+{
+  "reference": 31,
+  "name": "Forest Ranger",
+  "blend": "assets/31.blend",
+  "preview": "previews/31.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "31_T1_Forest Ranger_Rig",
+      "mesh": "31_T1_Forest Ranger_Mesh",
+      "vertices": 8068,
+      "bones": 22,
+      "actions": [
+        "31_T1_Forest Ranger_Rig__Idle",
+        "31_T1_Forest Ranger_Rig__Walk",
+        "31_T1_Forest Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "31_T2_Forest Ranger_Rig",
+      "mesh": "31_T2_Forest Ranger_Mesh",
+      "vertices": 9718,
+      "bones": 22,
+      "actions": [
+        "31_T2_Forest Ranger_Rig__Idle",
+        "31_T2_Forest Ranger_Rig__Walk",
+        "31_T2_Forest Ranger_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "31_T3_Forest Ranger_Rig",
+      "mesh": "31_T3_Forest Ranger_Mesh",
+      "vertices": 10232,
+      "bones": 22,
+      "actions": [
+        "31_T3_Forest Ranger_Rig__Idle",
+        "31_T3_Forest Ranger_Rig__Walk",
+        "31_T3_Forest Ranger_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

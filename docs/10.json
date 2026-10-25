@@ -1,0 +1,46 @@
+{
+  "reference": 10,
+  "name": "Flame Sentinel",
+  "blend": "assets/10.blend",
+  "preview": "previews/10.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "10_T1_Flame Sentinel_Rig",
+      "mesh": "10_T1_Flame Sentinel_Mesh",
+      "vertices": 10176,
+      "bones": 22,
+      "actions": [
+        "10_T1_Flame Sentinel_Rig__Idle",
+        "10_T1_Flame Sentinel_Rig__Walk",
+        "10_T1_Flame Sentinel_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "10_T2_Flame Sentinel_Rig",
+      "mesh": "10_T2_Flame Sentinel_Mesh",
+      "vertices": 11880,
+      "bones": 22,
+      "actions": [
+        "10_T2_Flame Sentinel_Rig__Idle",
+        "10_T2_Flame Sentinel_Rig__Walk",
+        "10_T2_Flame Sentinel_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "10_T3_Flame Sentinel_Rig",
+      "mesh": "10_T3_Flame Sentinel_Mesh",
+      "vertices": 12448,
+      "bones": 22,
+      "actions": [
+        "10_T3_Flame Sentinel_Rig__Idle",
+        "10_T3_Flame Sentinel_Rig__Walk",
+        "10_T3_Flame Sentinel_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

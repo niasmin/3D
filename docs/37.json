@@ -1,0 +1,46 @@
+{
+  "reference": 37,
+  "name": "Night Scholar",
+  "blend": "assets/37.blend",
+  "preview": "previews/37.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "37_T1_Night Scholar_Rig",
+      "mesh": "37_T1_Night Scholar_Mesh",
+      "vertices": 8672,
+      "bones": 22,
+      "actions": [
+        "37_T1_Night Scholar_Rig__Idle",
+        "37_T1_Night Scholar_Rig__Walk",
+        "37_T1_Night Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "37_T2_Night Scholar_Rig",
+      "mesh": "37_T2_Night Scholar_Mesh",
+      "vertices": 9564,
+      "bones": 22,
+      "actions": [
+        "37_T2_Night Scholar_Rig__Idle",
+        "37_T2_Night Scholar_Rig__Walk",
+        "37_T2_Night Scholar_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "37_T3_Night Scholar_Rig",
+      "mesh": "37_T3_Night Scholar_Mesh",
+      "vertices": 10024,
+      "bones": 22,
+      "actions": [
+        "37_T3_Night Scholar_Rig__Idle",
+        "37_T3_Night Scholar_Rig__Walk",
+        "37_T3_Night Scholar_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

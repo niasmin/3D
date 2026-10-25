@@ -1,0 +1,46 @@
+{
+  "reference": 56,
+  "name": "Scarlet Princess",
+  "blend": "assets/56.blend",
+  "preview": "previews/56.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "56_T1_Scarlet Princess_Rig",
+      "mesh": "56_T1_Scarlet Princess_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "56_T1_Scarlet Princess_Rig__Idle",
+        "56_T1_Scarlet Princess_Rig__Walk",
+        "56_T1_Scarlet Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "56_T2_Scarlet Princess_Rig",
+      "mesh": "56_T2_Scarlet Princess_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "56_T2_Scarlet Princess_Rig__Idle",
+        "56_T2_Scarlet Princess_Rig__Walk",
+        "56_T2_Scarlet Princess_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "56_T3_Scarlet Princess_Rig",
+      "mesh": "56_T3_Scarlet Princess_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "56_T3_Scarlet Princess_Rig__Idle",
+        "56_T3_Scarlet Princess_Rig__Walk",
+        "56_T3_Scarlet Princess_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

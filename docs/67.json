@@ -1,0 +1,46 @@
+{
+  "reference": 67,
+  "name": "Jade War God",
+  "blend": "assets/67.blend",
+  "preview": "previews/67.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "67_T1_Jade War God_Rig",
+      "mesh": "67_T1_Jade War God_Mesh",
+      "vertices": 10608,
+      "bones": 22,
+      "actions": [
+        "67_T1_Jade War God_Rig__Idle",
+        "67_T1_Jade War God_Rig__Walk",
+        "67_T1_Jade War God_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "67_T2_Jade War God_Rig",
+      "mesh": "67_T2_Jade War God_Mesh",
+      "vertices": 12312,
+      "bones": 22,
+      "actions": [
+        "67_T2_Jade War God_Rig__Idle",
+        "67_T2_Jade War God_Rig__Walk",
+        "67_T2_Jade War God_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "67_T3_Jade War God_Rig",
+      "mesh": "67_T3_Jade War God_Mesh",
+      "vertices": 12880,
+      "bones": 22,
+      "actions": [
+        "67_T3_Jade War God_Rig__Idle",
+        "67_T3_Jade War God_Rig__Walk",
+        "67_T3_Jade War God_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}

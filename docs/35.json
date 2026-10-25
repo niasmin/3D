@@ -1,0 +1,46 @@
+{
+  "reference": 35,
+  "name": "Cloud Maiden",
+  "blend": "assets/35.blend",
+  "preview": "previews/35.png",
+  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "characters": [
+    {
+      "tier": 1,
+      "rig": "35_T1_Cloud Maiden_Rig",
+      "mesh": "35_T1_Cloud Maiden_Mesh",
+      "vertices": 9838,
+      "bones": 22,
+      "actions": [
+        "35_T1_Cloud Maiden_Rig__Idle",
+        "35_T1_Cloud Maiden_Rig__Walk",
+        "35_T1_Cloud Maiden_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 2,
+      "rig": "35_T2_Cloud Maiden_Rig",
+      "mesh": "35_T2_Cloud Maiden_Mesh",
+      "vertices": 10784,
+      "bones": 22,
+      "actions": [
+        "35_T2_Cloud Maiden_Rig__Idle",
+        "35_T2_Cloud Maiden_Rig__Walk",
+        "35_T2_Cloud Maiden_Rig__Attack"
+      ]
+    },
+    {
+      "tier": 3,
+      "rig": "35_T3_Cloud Maiden_Rig",
+      "mesh": "35_T3_Cloud Maiden_Mesh",
+      "vertices": 11298,
+      "bones": 22,
+      "actions": [
+        "35_T3_Cloud Maiden_Rig__Idle",
+        "35_T3_Cloud Maiden_Rig__Walk",
+        "35_T3_Cloud Maiden_Rig__Attack"
+      ]
+    }
+  ],
+  "effects": 3
+}
