@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "28_T1_Storm Ranger_Rig",
       "mesh": "28_T1_Storm Ranger_Mesh",
-      "vertices": 8068,
+      "vertices": 7892,
       "bones": 22,
       "actions": [
         "28_T1_Storm Ranger_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "28_T2_Storm Ranger_Rig",
       "mesh": "28_T2_Storm Ranger_Mesh",
-      "vertices": 9718,
+      "vertices": 9190,
       "bones": 22,
       "actions": [
         "28_T2_Storm Ranger_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "28_T3_Storm Ranger_Rig",
       "mesh": "28_T3_Storm Ranger_Mesh",
-      "vertices": 10232,
+      "vertices": 9352,
       "bones": 22,
       "actions": [
         "28_T3_Storm Ranger_Rig__Idle",

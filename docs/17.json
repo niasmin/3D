@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "17_T1_River Strategist_Rig",
       "mesh": "17_T1_River Strategist_Mesh",
-      "vertices": 9084,
+      "vertices": 9494,
       "bones": 22,
       "actions": [
         "17_T1_River Strategist_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "17_T2_River Strategist_Rig",
       "mesh": "17_T2_River Strategist_Mesh",
-      "vertices": 9976,
+      "vertices": 10034,
       "bones": 22,
       "actions": [
         "17_T2_River Strategist_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "17_T3_River Strategist_Rig",
       "mesh": "17_T3_River Strategist_Mesh",
-      "vertices": 10436,
+      "vertices": 10142,
       "bones": 22,
       "actions": [
         "17_T3_River Strategist_Rig__Idle",

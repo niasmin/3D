@@ -3,7 +3,7 @@ import bpy, json, math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 report=[]
-for path in sorted((ROOT/'assets').glob('*.blend')):
+for path in sorted((ROOT/'assets').glob('[0-9][0-9].blend')):
  bpy.ops.wm.open_mainfile(filepath=str(path),load_ui=False)
  sc=bpy.context.scene
  chars=[o for o in sc.objects if o.type=='ARMATURE' and o.name.endswith('_Rig')]

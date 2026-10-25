@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "45_T1_Forest Scholar_Rig",
       "mesh": "45_T1_Forest Scholar_Mesh",
-      "vertices": 9462,
+      "vertices": 9194,
       "bones": 22,
       "actions": [
         "45_T1_Forest Scholar_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "45_T2_Forest Scholar_Rig",
       "mesh": "45_T2_Forest Scholar_Mesh",
-      "vertices": 10354,
+      "vertices": 9734,
       "bones": 22,
       "actions": [
         "45_T2_Forest Scholar_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "45_T3_Forest Scholar_Rig",
       "mesh": "45_T3_Forest Scholar_Mesh",
-      "vertices": 10814,
+      "vertices": 9842,
       "bones": 22,
       "actions": [
         "45_T3_Forest Scholar_Rig__Idle",

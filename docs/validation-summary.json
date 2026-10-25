@@ -1,9 +1,11 @@
 {
-  "native_files": 69,
+  "graphics_revision": 2,
+  "native_reference_files": 69,
+  "native_boss_files": 1,
   "characters": 204,
-  "action_tests": 612,
+  "character_action_tests": 612,
+  "boss_actions": 3,
   "spell_tests": 207,
   "technical_result": "PASS",
-  "likeness": "NOT_CHECKED",
-  "runtime": "NOT_CHECKED"
+  "likeness": "NOT_CHECKED"
 }

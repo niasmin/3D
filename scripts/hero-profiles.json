@@ -1,0 +1,810 @@
+{
+  "1": {
+    "id": "gongsunzan",
+    "th": "กองซุนจ้าน",
+    "en": "Gongsun Zan",
+    "ch": "瓒",
+    "fac": "qun",
+    "rar": "A",
+    "role": "cav",
+    "sk": "ทหารม้าขาว",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "2": {
+    "id": "zhurong",
+    "th": "นางจูหยง",
+    "en": "Zhurong",
+    "ch": "融",
+    "fac": "qun",
+    "rar": "A",
+    "role": "arch",
+    "sk": "มีดบินเทพไฟ",
+    "look": {
+      "f": 1,
+      "hair": "#8a2a1a",
+      "skin": "#d9a07a"
+    }
+  },
+  "3": {
+    "id": "yuanshu",
+    "th": "อ้วนสุด",
+    "en": "Yuan Shu",
+    "ch": "术",
+    "fac": "qun",
+    "rar": "A",
+    "role": "strat",
+    "sk": "ตราหยกแผ่นดิน",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "4": {
+    "id": "huatuo",
+    "th": "ฮัวโต๋",
+    "en": "Hua Tuo",
+    "ch": "佗",
+    "fac": "qun",
+    "rar": "A",
+    "role": "heal",
+    "sk": "ตำรายาชิงหนัง",
+    "look": {
+      "beard": "long",
+      "old": 1
+    }
+  },
+  "5": {
+    "id": "yuanshao",
+    "th": "อ้วนเสี้ยว",
+    "en": "Yuan Shao",
+    "ch": "绍",
+    "fac": "qun",
+    "rar": "A",
+    "role": "arch",
+    "sk": "ห่าศรแห่งกิจิ๋ว",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "6": {
+    "id": "dongzhuo",
+    "th": "ตั๋งโต๊ะ",
+    "en": "Dong Zhuo",
+    "ch": "卓",
+    "fac": "qun",
+    "rar": "A",
+    "role": "war",
+    "sk": "ทรราชลั่นกลอง",
+    "look": {
+      "beard": "wild"
+    }
+  },
+  "7": {
+    "id": "sunce",
+    "th": "ซุนเซ็ก",
+    "en": "Sun Ce",
+    "ch": "策",
+    "fac": "wu",
+    "rar": "SP",
+    "role": "cav",
+    "sk": "เจ้าน้อยแห่งกังตั๋ง",
+    "look": {}
+  },
+  "8": {
+    "id": "dingfeng",
+    "th": "เตงฮอง",
+    "en": "Ding Feng",
+    "ch": "奉",
+    "fac": "wu",
+    "rar": "A",
+    "role": "arch",
+    "sk": "บุกหิมะตงเหิง",
+    "look": {
+      "beard": "short",
+      "old": 1
+    }
+  },
+  "9": {
+    "id": "lusu",
+    "th": "โลซก",
+    "en": "Lu Su",
+    "ch": "肃",
+    "fac": "wu",
+    "rar": "A",
+    "role": "heal",
+    "sk": "ไมตรีสองแคว้น",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "11": {
+    "id": "huanggai",
+    "th": "อุยกาย",
+    "en": "Huang Gai",
+    "ch": "盖",
+    "fac": "wu",
+    "rar": "A",
+    "role": "war",
+    "sk": "กลยอมเจ็บ",
+    "look": {
+      "beard": "wild",
+      "old": 1
+    }
+  },
+  "12": {
+    "id": "taishici",
+    "th": "ไทสูจู้",
+    "en": "Taishi Ci",
+    "ch": "慈",
+    "fac": "wu",
+    "rar": "A",
+    "role": "arch",
+    "sk": "ศรคู่ทวนเดี่ยว",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "13": {
+    "id": "daqiao",
+    "th": "ไต้เกี้ยว",
+    "en": "Da Qiao",
+    "ch": "乔",
+    "fac": "wu",
+    "rar": "A",
+    "role": "heal",
+    "sk": "บทเพลงสายน้ำ",
+    "look": {
+      "f": 1,
+      "hair": "#3a2a4a"
+    }
+  },
+  "14": {
+    "id": "ganning",
+    "th": "กำเหลง",
+    "en": "Gan Ning",
+    "ch": "宁",
+    "fac": "wu",
+    "rar": "A",
+    "role": "arch",
+    "sk": "ปล้นค่ายร้อยม้า",
+    "look": {
+      "hair": "#7a2e14"
+    }
+  },
+  "15": {
+    "id": "yuejin",
+    "th": "งักจิ้น",
+    "en": "Yue Jin",
+    "ch": "进",
+    "fac": "wei",
+    "rar": "A",
+    "role": "war",
+    "sk": "บุกขึ้นกำแพงก่อนใคร",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "16": {
+    "id": "lumeng",
+    "th": "ลิบอง",
+    "en": "Lü Meng",
+    "ch": "蒙",
+    "fac": "wu",
+    "rar": "A",
+    "role": "cav",
+    "sk": "ทัพเสื้อขาวข้ามน้ำ",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "17": {
+    "id": "caozhi",
+    "th": "โจสิด",
+    "en": "Cao Zhi",
+    "ch": "植",
+    "fac": "wei",
+    "rar": "A",
+    "role": "heal",
+    "sk": "กลอนเจ็ดก้าว",
+    "look": {}
+  },
+  "18": {
+    "id": "zhonghui",
+    "th": "จงโฮ่ย",
+    "en": "Zhong Hui",
+    "ch": "会",
+    "fac": "wei",
+    "rar": "A",
+    "role": "strat",
+    "sk": "แผนแยกเสฉวน",
+    "look": {}
+  },
+  "19": {
+    "id": "caoren",
+    "th": "โจหยิน",
+    "en": "Cao Ren",
+    "ch": "仁",
+    "fac": "wei",
+    "rar": "A",
+    "role": "war",
+    "sk": "ป้อมปราการเหล็ก",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "20": {
+    "id": "xiahoudun",
+    "th": "แฮหัวตุ้น",
+    "en": "Xiahou Dun",
+    "ch": "惇",
+    "fac": "wei",
+    "rar": "S",
+    "role": "war",
+    "sk": "ตาเดียวไม่ถอย",
+    "look": {
+      "beard": "short",
+      "patch": 1
+    }
+  },
+  "21": {
+    "id": "xunyu",
+    "th": "ซุนฮก",
+    "en": "Xun Yu",
+    "ch": "彧",
+    "fac": "wei",
+    "rar": "A",
+    "role": "heal",
+    "sk": "แผนบำรุงทัพ",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "22": {
+    "id": "luxun",
+    "th": "ลกซุน",
+    "en": "Lu Xun",
+    "ch": "逊",
+    "fac": "wu",
+    "rar": "S",
+    "role": "strat",
+    "sk": "เพลิงเผาค่ายอิเหลง",
+    "look": {}
+  },
+  "23": {
+    "id": "dianwei",
+    "th": "เตียนอุย",
+    "en": "Dian Wei",
+    "ch": "韦",
+    "fac": "wei",
+    "rar": "A",
+    "role": "war",
+    "sk": "คู่ง้าวพิทักษ์นาย",
+    "look": {
+      "beard": "wild"
+    }
+  },
+  "24": {
+    "id": "sunshangxiang",
+    "th": "ซุนซ่างเซียง",
+    "en": "Sun Shangxiang",
+    "ch": "香",
+    "fac": "wu",
+    "rar": "S",
+    "role": "arch",
+    "sk": "ศรวิหคชาด",
+    "look": {
+      "f": 1,
+      "hair": "#6a2a1a"
+    }
+  },
+  "25": {
+    "id": "xuhuang",
+    "th": "ซิหลง",
+    "en": "Xu Huang",
+    "ch": "晃",
+    "fac": "wei",
+    "rar": "A",
+    "role": "war",
+    "sk": "ขวานทลายวงล้อม",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "26": {
+    "id": "sunquan",
+    "th": "ซุนกวน",
+    "en": "Sun Quan",
+    "ch": "权",
+    "fac": "wu",
+    "rar": "S",
+    "role": "war",
+    "sk": "ประมุขกังตั๋ง",
+    "look": {
+      "beard": "short",
+      "beardColor": "#5a3a7a"
+    }
+  },
+  "27": {
+    "id": "mayunlu",
+    "th": "ม้าหวินลก",
+    "en": "Ma Yunlu",
+    "ch": "禄",
+    "fac": "shu",
+    "rar": "A",
+    "role": "cav",
+    "sk": "ทวนเงินแดนตะวันตก",
+    "look": {
+      "f": 1,
+      "hair": "#3a1a10"
+    }
+  },
+  "28": {
+    "id": "xiahouyuan",
+    "th": "แฮหัวเอี๋ยน",
+    "en": "Xiahou Yuan",
+    "ch": "渊",
+    "fac": "wei",
+    "rar": "S",
+    "role": "arch",
+    "sk": "ทัพม้าเร็วสามวันพันลี้",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "29": {
+    "id": "zhangbao",
+    "th": "เตียวเปา",
+    "en": "Zhang Bao",
+    "ch": "苞",
+    "fac": "shu",
+    "rar": "A",
+    "role": "cav",
+    "sk": "ทวนงูสืบทอดบิดา",
+    "look": {}
+  },
+  "31": {
+    "id": "guanxing",
+    "th": "กวนหิน",
+    "en": "Guan Xing",
+    "ch": "兴",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ง้าวสืบทอดบิดา",
+    "look": {}
+  },
+  "32": {
+    "id": "zhangliao",
+    "th": "เตียวเลี้ยว",
+    "en": "Zhang Liao",
+    "ch": "辽",
+    "fac": "wei",
+    "rar": "S",
+    "role": "cav",
+    "sk": "แปดร้อยทลายหับป๋า",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "34": {
+    "id": "weiyan",
+    "th": "อุยเอี๋ยน",
+    "en": "Wei Yan",
+    "ch": "延",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ทางลัดหุบจื่ออู่",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "35": {
+    "id": "zhenji",
+    "th": "เอียนสี",
+    "en": "Zhen Ji",
+    "ch": "洛",
+    "fac": "wei",
+    "rar": "S",
+    "role": "strat",
+    "sk": "เทพธิดาแม่น้ำลั่ว",
+    "look": {
+      "f": 1
+    }
+  },
+  "36": {
+    "id": "simayi",
+    "th": "สุมาอี้",
+    "en": "Sima Yi",
+    "ch": "懿",
+    "fac": "wei",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "หมาป่าซ่อนเขี้ยว",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "37": {
+    "id": "caopi",
+    "th": "โจผี",
+    "en": "Cao Pi",
+    "ch": "丕",
+    "fac": "wei",
+    "rar": "S",
+    "role": "war",
+    "sk": "จักรพรรดิแห่งวุย",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "38": {
+    "id": "zhoutai",
+    "th": "จิวท่าย",
+    "en": "Zhou Tai",
+    "ch": "泰",
+    "fac": "wu",
+    "rar": "A",
+    "role": "war",
+    "sk": "แผลสิบสองแห่งเพื่อนาย",
+    "look": {
+      "beard": "wild"
+    }
+  },
+  "39": {
+    "id": "yueying",
+    "th": "อุยซี",
+    "en": "Huang Yueying",
+    "ch": "月",
+    "fac": "shu",
+    "rar": "A",
+    "role": "heal",
+    "sk": "ม้าไม้วัวยนต์",
+    "look": {
+      "f": 1,
+      "hair": "#4a3a1a"
+    }
+  },
+  "40": {
+    "id": "xuchu",
+    "th": "เคาทู",
+    "en": "Xu Chu",
+    "ch": "褚",
+    "fac": "wei",
+    "rar": "A",
+    "role": "war",
+    "sk": "พยัคฆ์คลั่ง",
+    "look": {}
+  },
+  "41": {
+    "id": "huangzhong",
+    "th": "ฮองตง",
+    "en": "Huang Zhong",
+    "ch": "忠",
+    "fac": "shu",
+    "rar": "A",
+    "role": "arch",
+    "sk": "ศรเขาเตงกุนสัน",
+    "look": {
+      "beard": "long",
+      "old": 1
+    }
+  },
+  "42": {
+    "id": "caiwenji",
+    "th": "ชัวเหวินกี",
+    "en": "Cai Wenji",
+    "ch": "琰",
+    "fac": "qun",
+    "rar": "S",
+    "role": "heal",
+    "sk": "ลำนำสิบแปดบท",
+    "look": {
+      "f": 1,
+      "hair": "#2a1a1a"
+    }
+  },
+  "43": {
+    "id": "dengai",
+    "th": "เตงงาย",
+    "en": "Deng Ai",
+    "ch": "艾",
+    "fac": "wei",
+    "rar": "S",
+    "role": "cav",
+    "sk": "ข้ามเขาอิมเป๋ง",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "44": {
+    "id": "zhangfei",
+    "th": "เตียวหุย",
+    "en": "Zhang Fei",
+    "ch": "飞",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "คำรามสะท้านสะพาน",
+    "look": {
+      "beard": "wild"
+    }
+  },
+  "45": {
+    "id": "fazheng",
+    "th": "หวดเจ้ง",
+    "en": "Fa Zheng",
+    "ch": "正",
+    "fac": "shu",
+    "rar": "S",
+    "role": "strat",
+    "sk": "แผนยึดเตงกุนสัน",
+    "look": {
+      "beard": "goatee"
+    }
+  },
+  "46": {
+    "id": "menghuo",
+    "th": "เบ้งเฮ็ก",
+    "en": "Meng Huo",
+    "ch": "获",
+    "fac": "qun",
+    "rar": "S",
+    "role": "war",
+    "sk": "เจ็ดจับเจ็ดปล่อย",
+    "look": {
+      "beard": "wild",
+      "hair": "#5a2a10",
+      "skin": "#c98d62"
+    }
+  },
+  "47": {
+    "id": "liubei_y",
+    "th": "เล่าปี่วัยหนุ่ม",
+    "en": "Young Liu Bei",
+    "ch": "玄",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ปณิธานใต้ต้นท้อ",
+    "look": {}
+  },
+  "48": {
+    "id": "jiangwei",
+    "th": "เกียงอุย",
+    "en": "Jiang Wei",
+    "ch": "维",
+    "fac": "shu",
+    "rar": "S",
+    "role": "cav",
+    "sk": "สืบทอดเจตนาขงเบ้ง",
+    "look": {}
+  },
+  "49": {
+    "id": "zhaoyun",
+    "th": "จูล่ง",
+    "en": "Zhao Yun",
+    "ch": "云",
+    "fac": "shu",
+    "rar": "S",
+    "role": "cav",
+    "sk": "ฝ่าทัพทุ่งเตียงปัน",
+    "look": {}
+  },
+  "50": {
+    "id": "machao",
+    "th": "ม้าเฉียว",
+    "en": "Ma Chao",
+    "ch": "超",
+    "fac": "shu",
+    "rar": "S",
+    "role": "cav",
+    "sk": "ทวนม้าเหล็กแดนตะวันตก",
+    "look": {}
+  },
+  "51": {
+    "id": "liubei",
+    "th": "เล่าปี่",
+    "en": "Liu Bei",
+    "ch": "备",
+    "fac": "shu",
+    "rar": "S",
+    "role": "war",
+    "sk": "คุณธรรมรวมใจ",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "52": {
+    "id": "zuoci",
+    "th": "จอจู้",
+    "en": "Zuo Ci",
+    "ch": "左",
+    "fac": "qun",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "เวทมายาแปรร่าง",
+    "look": {
+      "beard": "long",
+      "old": 1
+    }
+  },
+  "53": {
+    "id": "zhangjiao",
+    "th": "เตียวก๊ก",
+    "en": "Zhang Jiao",
+    "ch": "角",
+    "fac": "qun",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "ฟ้าเหลืองจะผงาด",
+    "look": {
+      "beard": "long",
+      "old": 1
+    }
+  },
+  "55": {
+    "id": "sunjian",
+    "th": "ซุนเกียน",
+    "en": "Sun Jian",
+    "ch": "坚",
+    "fac": "wu",
+    "rar": "SP",
+    "role": "war",
+    "sk": "พยัคฆ์แห่งกังตั๋ง",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "56": {
+    "id": "zhouyu",
+    "th": "จิวยี่",
+    "en": "Zhou Yu",
+    "ch": "瑜",
+    "fac": "wu",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "เพลิงผาแดง",
+    "look": {}
+  },
+  "57": {
+    "id": "guojia",
+    "th": "กุยแก",
+    "en": "Guo Jia",
+    "ch": "嘉",
+    "fac": "wei",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "อุบายสิบชนะ",
+    "look": {}
+  },
+  "58": {
+    "id": "caocao",
+    "th": "โจโฉ",
+    "en": "Cao Cao",
+    "ch": "操",
+    "fac": "wei",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "วีรบุรุษกลียุค",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "59": {
+    "id": "pangtong",
+    "th": "บังทอง",
+    "en": "Pang Tong",
+    "ch": "统",
+    "fac": "shu",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "กลห่วงโซ่เรือ",
+    "look": {
+      "beard": "goatee",
+      "hair": "#3a2a1a"
+    }
+  },
+  "60": {
+    "id": "zhuge",
+    "th": "ขงเบ้ง",
+    "en": "Zhuge Liang",
+    "ch": "亮",
+    "fac": "shu",
+    "rar": "SP",
+    "role": "strat",
+    "sk": "ลมบูรพาเผาทัพ",
+    "look": {}
+  },
+  "61": {
+    "id": "huaxiong",
+    "th": "ฮัวหยง",
+    "en": "Hua Xiong",
+    "ch": "雄",
+    "fac": "qun",
+    "rar": "A",
+    "role": "war",
+    "sk": "ด่านซื่อซุยไม่มีวันแตก",
+    "look": {
+      "beard": "wild"
+    }
+  },
+  "62": {
+    "id": "diaochan",
+    "th": "เตียวเสี้ยน",
+    "en": "Diaochan",
+    "ch": "蝉",
+    "fac": "qun",
+    "rar": "S",
+    "role": "strat",
+    "sk": "ระบำจันทร์ลวงใจ",
+    "look": {
+      "f": 1,
+      "hair": "#2a1a3a"
+    }
+  },
+  "63": {
+    "id": "guanyinping",
+    "th": "กวนอิ๋นผิง",
+    "en": "Guan Yinping",
+    "ch": "屏",
+    "fac": "shu",
+    "rar": "S",
+    "role": "war",
+    "sk": "ทวนพยัคฆ์สาว",
+    "look": {
+      "f": 1
+    }
+  },
+  "65": {
+    "id": "zhangfei_y",
+    "th": "เตียวหุยวัยหนุ่ม",
+    "en": "Young Zhang Fei",
+    "ch": "益",
+    "fac": "shu",
+    "rar": "A",
+    "role": "cav",
+    "sk": "คำรามแห่งตุ้นก้วน",
+    "look": {}
+  },
+  "66": {
+    "id": "guanyu_y",
+    "th": "กวนอูวัยหนุ่ม",
+    "en": "Young Guan Yu",
+    "ch": "长",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ง้าวพเนจร",
+    "look": {
+      "beard": "short"
+    }
+  },
+  "67": {
+    "id": "guanyu",
+    "th": "กวนอู",
+    "en": "Guan Yu",
+    "ch": "羽",
+    "fac": "shu",
+    "rar": "SP",
+    "role": "war",
+    "sk": "ง้าวมังกรเขียว",
+    "look": {
+      "beard": "long"
+    }
+  },
+  "68": {
+    "id": "lubu",
+    "th": "ลิโป้",
+    "en": "Lü Bu",
+    "ch": "布",
+    "fac": "qun",
+    "rar": "SP",
+    "role": "cav",
+    "sk": "เทพสงครามบนหลังเซ็กเธาว์",
+    "look": {
+      "pheasant": 1
+    }
+  }
+}

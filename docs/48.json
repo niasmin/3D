@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "48_T1_Jade Dragon_Rig",
       "mesh": "48_T1_Jade Dragon_Mesh",
-      "vertices": 10176,
+      "vertices": 9854,
       "bones": 22,
       "actions": [
         "48_T1_Jade Dragon_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "48_T2_Jade Dragon_Rig",
       "mesh": "48_T2_Jade Dragon_Mesh",
-      "vertices": 11880,
+      "vertices": 11224,
       "bones": 22,
       "actions": [
         "48_T2_Jade Dragon_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "48_T3_Jade Dragon_Rig",
       "mesh": "48_T3_Jade Dragon_Mesh",
-      "vertices": 12448,
+      "vertices": 11458,
       "bones": 22,
       "actions": [
         "48_T3_Jade Dragon_Rig__Idle",

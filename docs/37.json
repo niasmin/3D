@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "37_T1_Night Scholar_Rig",
       "mesh": "37_T1_Night Scholar_Mesh",
-      "vertices": 8672,
+      "vertices": 9082,
       "bones": 22,
       "actions": [
         "37_T1_Night Scholar_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "37_T2_Night Scholar_Rig",
       "mesh": "37_T2_Night Scholar_Mesh",
-      "vertices": 9564,
+      "vertices": 10452,
       "bones": 22,
       "actions": [
         "37_T2_Night Scholar_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "37_T3_Night Scholar_Rig",
       "mesh": "37_T3_Night Scholar_Mesh",
-      "vertices": 10024,
+      "vertices": 10686,
       "bones": 22,
       "actions": [
         "37_T3_Night Scholar_Rig__Idle",

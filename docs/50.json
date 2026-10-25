@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "50_T1_Ivory Commander_Rig",
       "mesh": "50_T1_Ivory Commander_Mesh",
-      "vertices": 9404,
+      "vertices": 9854,
       "bones": 22,
       "actions": [
         "50_T1_Ivory Commander_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "50_T2_Ivory Commander_Rig",
       "mesh": "50_T2_Ivory Commander_Mesh",
-      "vertices": 11108,
+      "vertices": 11224,
       "bones": 22,
       "actions": [
         "50_T2_Ivory Commander_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "50_T3_Ivory Commander_Rig",
       "mesh": "50_T3_Ivory Commander_Mesh",
-      "vertices": 11676,
+      "vertices": 11458,
       "bones": 22,
       "actions": [
         "50_T3_Ivory Commander_Rig__Idle",

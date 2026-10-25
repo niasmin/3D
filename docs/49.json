@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "49_T1_Emerald Cavalier_Rig",
       "mesh": "49_T1_Emerald Cavalier_Mesh",
-      "vertices": 9026,
+      "vertices": 9854,
       "bones": 22,
       "actions": [
         "49_T1_Emerald Cavalier_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "49_T2_Emerald Cavalier_Rig",
       "mesh": "49_T2_Emerald Cavalier_Mesh",
-      "vertices": 10730,
+      "vertices": 11224,
       "bones": 22,
       "actions": [
         "49_T2_Emerald Cavalier_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "49_T3_Emerald Cavalier_Rig",
       "mesh": "49_T3_Emerald Cavalier_Mesh",
-      "vertices": 11298,
+      "vertices": 11458,
       "bones": 22,
       "actions": [
         "49_T3_Emerald Cavalier_Rig__Idle",

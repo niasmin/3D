@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "43_T1_Azure Dragon_Rig",
       "mesh": "43_T1_Azure Dragon_Mesh",
-      "vertices": 10176,
+      "vertices": 10232,
       "bones": 22,
       "actions": [
         "43_T1_Azure Dragon_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "43_T2_Azure Dragon_Rig",
       "mesh": "43_T2_Azure Dragon_Mesh",
-      "vertices": 11880,
+      "vertices": 11602,
       "bones": 22,
       "actions": [
         "43_T2_Azure Dragon_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "43_T3_Azure Dragon_Rig",
       "mesh": "43_T3_Azure Dragon_Mesh",
-      "vertices": 12448,
+      "vertices": 11836,
       "bones": 22,
       "actions": [
         "43_T3_Azure Dragon_Rig__Idle",

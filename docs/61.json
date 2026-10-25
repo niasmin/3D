@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "61_T1_Bronze Bulwark_Rig",
       "mesh": "61_T1_Bronze Bulwark_Mesh",
-      "vertices": 9838,
+      "vertices": 9082,
       "bones": 22,
       "actions": [
         "61_T1_Bronze Bulwark_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "61_T2_Bronze Bulwark_Rig",
       "mesh": "61_T2_Bronze Bulwark_Mesh",
-      "vertices": 11542,
+      "vertices": 10452,
       "bones": 22,
       "actions": [
         "61_T2_Bronze Bulwark_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "61_T3_Bronze Bulwark_Rig",
       "mesh": "61_T3_Bronze Bulwark_Mesh",
-      "vertices": 12110,
+      "vertices": 10686,
       "bones": 22,
       "actions": [
         "61_T3_Bronze Bulwark_Rig__Idle",

@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "29_T1_Jade Ranger_Rig",
       "mesh": "29_T1_Jade Ranger_Mesh",
-      "vertices": 8068,
+      "vertices": 9854,
       "bones": 22,
       "actions": [
         "29_T1_Jade Ranger_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "29_T2_Jade Ranger_Rig",
       "mesh": "29_T2_Jade Ranger_Mesh",
-      "vertices": 9718,
+      "vertices": 11224,
       "bones": 22,
       "actions": [
         "29_T2_Jade Ranger_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "29_T3_Jade Ranger_Rig",
       "mesh": "29_T3_Jade Ranger_Mesh",
-      "vertices": 10232,
+      "vertices": 11458,
       "bones": 22,
       "actions": [
         "29_T3_Jade Ranger_Rig__Idle",

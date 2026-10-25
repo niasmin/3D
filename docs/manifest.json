@@ -1,8 +1,13 @@
 {
-  "status": "STYLIZED_FIRST_PASS",
+  "graphics_revision": 2,
   "references": 69,
   "characters": 204,
   "effects": 207,
+  "boss": {
+    "blend": "assets/boss.blend",
+    "model": "samkok/web/models/boss.glb",
+    "preview": "previews/boss.png"
+  },
   "assets": [
     {
       "reference": 1,
@@ -15,7 +20,7 @@
           "tier": 1,
           "rig": "01_T1_Silver Phoenix_Rig",
           "mesh": "01_T1_Silver Phoenix_Mesh",
-          "vertices": 10554,
+          "vertices": 10232,
           "bones": 22,
           "actions": [
             "01_T1_Silver Phoenix_Rig__Idle",
@@ -27,7 +32,7 @@
           "tier": 2,
           "rig": "01_T2_Silver Phoenix_Rig",
           "mesh": "01_T2_Silver Phoenix_Mesh",
-          "vertices": 12258,
+          "vertices": 11602,
           "bones": 22,
           "actions": [
             "01_T2_Silver Phoenix_Rig__Idle",
@@ -39,7 +44,7 @@
           "tier": 3,
           "rig": "01_T3_Silver Phoenix_Rig",
           "mesh": "01_T3_Silver Phoenix_Mesh",
-          "vertices": 12826,
+          "vertices": 11836,
           "bones": 22,
           "actions": [
             "01_T3_Silver Phoenix_Rig__Idle",
@@ -61,7 +66,7 @@
           "tier": 1,
           "rig": "02_T1_Crimson Vanguard_Rig",
           "mesh": "02_T1_Crimson Vanguard_Mesh",
-          "vertices": 10176,
+          "vertices": 9354,
           "bones": 22,
           "actions": [
             "02_T1_Crimson Vanguard_Rig__Idle",
@@ -73,7 +78,7 @@
           "tier": 2,
           "rig": "02_T2_Crimson Vanguard_Rig",
           "mesh": "02_T2_Crimson Vanguard_Mesh",
-          "vertices": 11880,
+          "vertices": 9948,
           "bones": 22,
           "actions": [
             "02_T2_Crimson Vanguard_Rig__Idle",
@@ -85,7 +90,7 @@
           "tier": 3,
           "rig": "02_T3_Crimson Vanguard_Rig",
           "mesh": "02_T3_Crimson Vanguard_Mesh",
-          "vertices": 12448,
+          "vertices": 10110,
           "bones": 22,
           "actions": [
             "02_T3_Crimson Vanguard_Rig__Idle",
@@ -107,7 +112,7 @@
           "tier": 1,
           "rig": "03_T1_Jade Chancellor_Rig",
           "mesh": "03_T1_Jade Chancellor_Mesh",
-          "vertices": 9462,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "03_T1_Jade Chancellor_Rig__Idle",
@@ -119,7 +124,7 @@
           "tier": 2,
           "rig": "03_T2_Jade Chancellor_Rig",
           "mesh": "03_T2_Jade Chancellor_Mesh",
-          "vertices": 10354,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "03_T2_Jade Chancellor_Rig__Idle",
@@ -131,7 +136,7 @@
           "tier": 3,
           "rig": "03_T3_Jade Chancellor_Rig",
           "mesh": "03_T3_Jade Chancellor_Mesh",
-          "vertices": 10814,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "03_T3_Jade Chancellor_Rig__Idle",
@@ -153,7 +158,7 @@
           "tier": 1,
           "rig": "04_T1_Verdant Immortal_Rig",
           "mesh": "04_T1_Verdant Immortal_Mesh",
-          "vertices": 10140,
+          "vertices": 9872,
           "bones": 22,
           "actions": [
             "04_T1_Verdant Immortal_Rig__Idle",
@@ -165,7 +170,7 @@
           "tier": 2,
           "rig": "04_T2_Verdant Immortal_Rig",
           "mesh": "04_T2_Verdant Immortal_Mesh",
-          "vertices": 11032,
+          "vertices": 10412,
           "bones": 22,
           "actions": [
             "04_T2_Verdant Immortal_Rig__Idle",
@@ -177,7 +182,7 @@
           "tier": 3,
           "rig": "04_T3_Verdant Immortal_Rig",
           "mesh": "04_T3_Verdant Immortal_Mesh",
-          "vertices": 11492,
+          "vertices": 10520,
           "bones": 22,
           "actions": [
             "04_T3_Verdant Immortal_Rig__Idle",
@@ -199,7 +204,7 @@
           "tier": 1,
           "rig": "05_T1_Violet Archer_Rig",
           "mesh": "05_T1_Violet Archer_Mesh",
-          "vertices": 8068,
+          "vertices": 7892,
           "bones": 22,
           "actions": [
             "05_T1_Violet Archer_Rig__Idle",
@@ -211,7 +216,7 @@
           "tier": 2,
           "rig": "05_T2_Violet Archer_Rig",
           "mesh": "05_T2_Violet Archer_Mesh",
-          "vertices": 9718,
+          "vertices": 9190,
           "bones": 22,
           "actions": [
             "05_T2_Violet Archer_Rig__Idle",
@@ -223,7 +228,7 @@
           "tier": 3,
           "rig": "05_T3_Violet Archer_Rig",
           "mesh": "05_T3_Violet Archer_Mesh",
-          "vertices": 10232,
+          "vertices": 9352,
           "bones": 22,
           "actions": [
             "05_T3_Violet Archer_Rig__Idle",
@@ -245,7 +250,7 @@
           "tier": 1,
           "rig": "06_T1_Crimson Warlord_Rig",
           "mesh": "06_T1_Crimson Warlord_Mesh",
-          "vertices": 10608,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "06_T1_Crimson Warlord_Rig__Idle",
@@ -257,7 +262,7 @@
           "tier": 2,
           "rig": "06_T2_Crimson Warlord_Rig",
           "mesh": "06_T2_Crimson Warlord_Mesh",
-          "vertices": 12312,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "06_T2_Crimson Warlord_Rig__Idle",
@@ -269,7 +274,7 @@
           "tier": 3,
           "rig": "06_T3_Crimson Warlord_Rig",
           "mesh": "06_T3_Crimson Warlord_Mesh",
-          "vertices": 12880,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "06_T3_Crimson Warlord_Rig__Idle",
@@ -291,7 +296,7 @@
           "tier": 1,
           "rig": "07_T1_Scarlet Cavalier_Rig",
           "mesh": "07_T1_Scarlet Cavalier_Mesh",
-          "vertices": 10176,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "07_T1_Scarlet Cavalier_Rig__Idle",
@@ -303,7 +308,7 @@
           "tier": 2,
           "rig": "07_T2_Scarlet Cavalier_Rig",
           "mesh": "07_T2_Scarlet Cavalier_Mesh",
-          "vertices": 11880,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "07_T2_Scarlet Cavalier_Rig__Idle",
@@ -315,7 +320,7 @@
           "tier": 3,
           "rig": "07_T3_Scarlet Cavalier_Rig",
           "mesh": "07_T3_Scarlet Cavalier_Mesh",
-          "vertices": 12448,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "07_T3_Scarlet Cavalier_Rig__Idle",
@@ -337,7 +342,7 @@
           "tier": 1,
           "rig": "08_T1_Ivory Veteran_Rig",
           "mesh": "08_T1_Ivory Veteran_Mesh",
-          "vertices": 9404,
+          "vertices": 7892,
           "bones": 22,
           "actions": [
             "08_T1_Ivory Veteran_Rig__Idle",
@@ -349,7 +354,7 @@
           "tier": 2,
           "rig": "08_T2_Ivory Veteran_Rig",
           "mesh": "08_T2_Ivory Veteran_Mesh",
-          "vertices": 11108,
+          "vertices": 9190,
           "bones": 22,
           "actions": [
             "08_T2_Ivory Veteran_Rig__Idle",
@@ -361,7 +366,7 @@
           "tier": 3,
           "rig": "08_T3_Ivory Veteran_Rig",
           "mesh": "08_T3_Ivory Veteran_Mesh",
-          "vertices": 11676,
+          "vertices": 9352,
           "bones": 22,
           "actions": [
             "08_T3_Ivory Veteran_Rig__Idle",
@@ -383,7 +388,7 @@
           "tier": 1,
           "rig": "09_T1_Golden Envoy_Rig",
           "mesh": "09_T1_Golden Envoy_Mesh",
-          "vertices": 9762,
+          "vertices": 9872,
           "bones": 22,
           "actions": [
             "09_T1_Golden Envoy_Rig__Idle",
@@ -395,7 +400,7 @@
           "tier": 2,
           "rig": "09_T2_Golden Envoy_Rig",
           "mesh": "09_T2_Golden Envoy_Mesh",
-          "vertices": 10654,
+          "vertices": 10412,
           "bones": 22,
           "actions": [
             "09_T2_Golden Envoy_Rig__Idle",
@@ -407,7 +412,7 @@
           "tier": 3,
           "rig": "09_T3_Golden Envoy_Rig",
           "mesh": "09_T3_Golden Envoy_Mesh",
-          "vertices": 11114,
+          "vertices": 10520,
           "bones": 22,
           "actions": [
             "09_T3_Golden Envoy_Rig__Idle",
@@ -429,7 +434,7 @@
           "tier": 1,
           "rig": "10_T1_Flame Sentinel_Rig",
           "mesh": "10_T1_Flame Sentinel_Mesh",
-          "vertices": 10176,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "10_T1_Flame Sentinel_Rig__Idle",
@@ -441,7 +446,7 @@
           "tier": 2,
           "rig": "10_T2_Flame Sentinel_Rig",
           "mesh": "10_T2_Flame Sentinel_Mesh",
-          "vertices": 11880,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "10_T2_Flame Sentinel_Rig__Idle",
@@ -453,7 +458,7 @@
           "tier": 3,
           "rig": "10_T3_Flame Sentinel_Rig",
           "mesh": "10_T3_Flame Sentinel_Mesh",
-          "vertices": 12448,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "10_T3_Flame Sentinel_Rig__Idle",
@@ -475,7 +480,7 @@
           "tier": 1,
           "rig": "11_T1_Amber Veteran_Rig",
           "mesh": "11_T1_Amber Veteran_Mesh",
-          "vertices": 9404,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "11_T1_Amber Veteran_Rig__Idle",
@@ -487,7 +492,7 @@
           "tier": 2,
           "rig": "11_T2_Amber Veteran_Rig",
           "mesh": "11_T2_Amber Veteran_Mesh",
-          "vertices": 11108,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "11_T2_Amber Veteran_Rig__Idle",
@@ -499,7 +504,7 @@
           "tier": 3,
           "rig": "11_T3_Amber Veteran_Rig",
           "mesh": "11_T3_Amber Veteran_Mesh",
-          "vertices": 11676,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "11_T3_Amber Veteran_Rig__Idle",
@@ -521,7 +526,7 @@
           "tier": 1,
           "rig": "12_T1_Blood Spear_Rig",
           "mesh": "12_T1_Blood Spear_Mesh",
-          "vertices": 10176,
+          "vertices": 7892,
           "bones": 22,
           "actions": [
             "12_T1_Blood Spear_Rig__Idle",
@@ -533,7 +538,7 @@
           "tier": 2,
           "rig": "12_T2_Blood Spear_Rig",
           "mesh": "12_T2_Blood Spear_Mesh",
-          "vertices": 11880,
+          "vertices": 9190,
           "bones": 22,
           "actions": [
             "12_T2_Blood Spear_Rig__Idle",
@@ -545,7 +550,7 @@
           "tier": 3,
           "rig": "12_T3_Blood Spear_Rig",
           "mesh": "12_T3_Blood Spear_Mesh",
-          "vertices": 12448,
+          "vertices": 9352,
           "bones": 22,
           "actions": [
             "12_T3_Blood Spear_Rig__Idle",
@@ -567,7 +572,7 @@
           "tier": 1,
           "rig": "13_T1_Peony Dancer_Rig",
           "mesh": "13_T1_Peony Dancer_Mesh",
-          "vertices": 9838,
+          "vertices": 10248,
           "bones": 22,
           "actions": [
             "13_T1_Peony Dancer_Rig__Idle",
@@ -579,7 +584,7 @@
           "tier": 2,
           "rig": "13_T2_Peony Dancer_Rig",
           "mesh": "13_T2_Peony Dancer_Mesh",
-          "vertices": 10784,
+          "vertices": 10842,
           "bones": 22,
           "actions": [
             "13_T2_Peony Dancer_Rig__Idle",
@@ -591,7 +596,7 @@
           "tier": 3,
           "rig": "13_T3_Peony Dancer_Rig",
           "mesh": "13_T3_Peony Dancer_Mesh",
-          "vertices": 11298,
+          "vertices": 11004,
           "bones": 22,
           "actions": [
             "13_T3_Peony Dancer_Rig__Idle",
@@ -613,7 +618,7 @@
           "tier": 1,
           "rig": "14_T1_Ember Lion_Rig",
           "mesh": "14_T1_Ember Lion_Mesh",
-          "vertices": 9404,
+          "vertices": 7514,
           "bones": 22,
           "actions": [
             "14_T1_Ember Lion_Rig__Idle",
@@ -625,7 +630,7 @@
           "tier": 2,
           "rig": "14_T2_Ember Lion_Rig",
           "mesh": "14_T2_Ember Lion_Mesh",
-          "vertices": 11108,
+          "vertices": 8812,
           "bones": 22,
           "actions": [
             "14_T2_Ember Lion_Rig__Idle",
@@ -637,7 +642,7 @@
           "tier": 3,
           "rig": "14_T3_Ember Lion_Rig",
           "mesh": "14_T3_Ember Lion_Mesh",
-          "vertices": 11676,
+          "vertices": 8974,
           "bones": 22,
           "actions": [
             "14_T3_Ember Lion_Rig__Idle",
@@ -659,7 +664,7 @@
           "tier": 1,
           "rig": "15_T1_Azure Lancer_Rig",
           "mesh": "15_T1_Azure Lancer_Mesh",
-          "vertices": 10176,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "15_T1_Azure Lancer_Rig__Idle",
@@ -671,7 +676,7 @@
           "tier": 2,
           "rig": "15_T2_Azure Lancer_Rig",
           "mesh": "15_T2_Azure Lancer_Mesh",
-          "vertices": 11880,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "15_T2_Azure Lancer_Rig__Idle",
@@ -683,7 +688,7 @@
           "tier": 3,
           "rig": "15_T3_Azure Lancer_Rig",
           "mesh": "15_T3_Azure Lancer_Mesh",
-          "vertices": 12448,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "15_T3_Azure Lancer_Rig__Idle",
@@ -705,7 +710,7 @@
           "tier": 1,
           "rig": "16_T1_Flame Blades_Rig",
           "mesh": "16_T1_Flame Blades_Mesh",
-          "vertices": 9026,
+          "vertices": 10232,
           "bones": 22,
           "actions": [
             "16_T1_Flame Blades_Rig__Idle",
@@ -717,7 +722,7 @@
           "tier": 2,
           "rig": "16_T2_Flame Blades_Rig",
           "mesh": "16_T2_Flame Blades_Mesh",
-          "vertices": 10730,
+          "vertices": 11602,
           "bones": 22,
           "actions": [
             "16_T2_Flame Blades_Rig__Idle",
@@ -729,7 +734,7 @@
           "tier": 3,
           "rig": "16_T3_Flame Blades_Rig",
           "mesh": "16_T3_Flame Blades_Mesh",
-          "vertices": 11298,
+          "vertices": 11836,
           "bones": 22,
           "actions": [
             "16_T3_Flame Blades_Rig__Idle",
@@ -751,7 +756,7 @@
           "tier": 1,
           "rig": "17_T1_River Strategist_Rig",
           "mesh": "17_T1_River Strategist_Mesh",
-          "vertices": 9084,
+          "vertices": 9494,
           "bones": 22,
           "actions": [
             "17_T1_River Strategist_Rig__Idle",
@@ -763,7 +768,7 @@
           "tier": 2,
           "rig": "17_T2_River Strategist_Rig",
           "mesh": "17_T2_River Strategist_Mesh",
-          "vertices": 9976,
+          "vertices": 10034,
           "bones": 22,
           "actions": [
             "17_T2_River Strategist_Rig__Idle",
@@ -775,7 +780,7 @@
           "tier": 3,
           "rig": "17_T3_River Strategist_Rig",
           "mesh": "17_T3_River Strategist_Mesh",
-          "vertices": 10436,
+          "vertices": 10142,
           "bones": 22,
           "actions": [
             "17_T3_River Strategist_Rig__Idle",
@@ -797,7 +802,7 @@
           "tier": 1,
           "rig": "18_T1_Moon Scholar_Rig",
           "mesh": "18_T1_Moon Scholar_Mesh",
-          "vertices": 8672,
+          "vertices": 8816,
           "bones": 22,
           "actions": [
             "18_T1_Moon Scholar_Rig__Idle",
@@ -809,7 +814,7 @@
           "tier": 2,
           "rig": "18_T2_Moon Scholar_Rig",
           "mesh": "18_T2_Moon Scholar_Mesh",
-          "vertices": 9564,
+          "vertices": 9356,
           "bones": 22,
           "actions": [
             "18_T2_Moon Scholar_Rig__Idle",
@@ -821,7 +826,7 @@
           "tier": 3,
           "rig": "18_T3_Moon Scholar_Rig",
           "mesh": "18_T3_Moon Scholar_Mesh",
-          "vertices": 10024,
+          "vertices": 9464,
           "bones": 22,
           "actions": [
             "18_T3_Moon Scholar_Rig__Idle",
@@ -843,7 +848,7 @@
           "tier": 1,
           "rig": "19_T1_Azure Guard_Rig",
           "mesh": "19_T1_Azure Guard_Mesh",
-          "vertices": 10176,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "19_T1_Azure Guard_Rig__Idle",
@@ -855,7 +860,7 @@
           "tier": 2,
           "rig": "19_T2_Azure Guard_Rig",
           "mesh": "19_T2_Azure Guard_Mesh",
-          "vertices": 11880,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "19_T2_Azure Guard_Rig__Idle",
@@ -867,7 +872,7 @@
           "tier": 3,
           "rig": "19_T3_Azure Guard_Rig",
           "mesh": "19_T3_Azure Guard_Mesh",
-          "vertices": 12448,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "19_T3_Azure Guard_Rig__Idle",
@@ -889,7 +894,7 @@
           "tier": 1,
           "rig": "20_T1_Golden Shield_Rig",
           "mesh": "20_T1_Golden Shield_Mesh",
-          "vertices": 9460,
+          "vertices": 9722,
           "bones": 22,
           "actions": [
             "20_T1_Golden Shield_Rig__Idle",
@@ -901,7 +906,7 @@
           "tier": 2,
           "rig": "20_T2_Golden Shield_Rig",
           "mesh": "20_T2_Golden Shield_Mesh",
-          "vertices": 11164,
+          "vertices": 11092,
           "bones": 22,
           "actions": [
             "20_T2_Golden Shield_Rig__Idle",
@@ -913,7 +918,7 @@
           "tier": 3,
           "rig": "20_T3_Golden Shield_Rig",
           "mesh": "20_T3_Golden Shield_Mesh",
-          "vertices": 11732,
+          "vertices": 11326,
           "bones": 22,
           "actions": [
             "20_T3_Golden Shield_Rig__Idle",
@@ -935,7 +940,7 @@
           "tier": 1,
           "rig": "21_T1_Tide Chancellor_Rig",
           "mesh": "21_T1_Tide Chancellor_Mesh",
-          "vertices": 10140,
+          "vertices": 9872,
           "bones": 22,
           "actions": [
             "21_T1_Tide Chancellor_Rig__Idle",
@@ -947,7 +952,7 @@
           "tier": 2,
           "rig": "21_T2_Tide Chancellor_Rig",
           "mesh": "21_T2_Tide Chancellor_Mesh",
-          "vertices": 11032,
+          "vertices": 10412,
           "bones": 22,
           "actions": [
             "21_T2_Tide Chancellor_Rig__Idle",
@@ -959,7 +964,7 @@
           "tier": 3,
           "rig": "21_T3_Tide Chancellor_Rig",
           "mesh": "21_T3_Tide Chancellor_Mesh",
-          "vertices": 11492,
+          "vertices": 10520,
           "bones": 22,
           "actions": [
             "21_T3_Tide Chancellor_Rig__Idle",
@@ -981,7 +986,7 @@
           "tier": 1,
           "rig": "22_T1_Crimson Lady_Rig",
           "mesh": "22_T1_Crimson Lady_Mesh",
-          "vertices": 9838,
+          "vertices": 8816,
           "bones": 22,
           "actions": [
             "22_T1_Crimson Lady_Rig__Idle",
@@ -993,7 +998,7 @@
           "tier": 2,
           "rig": "22_T2_Crimson Lady_Rig",
           "mesh": "22_T2_Crimson Lady_Mesh",
-          "vertices": 10784,
+          "vertices": 9356,
           "bones": 22,
           "actions": [
             "22_T2_Crimson Lady_Rig__Idle",
@@ -1005,7 +1010,7 @@
           "tier": 3,
           "rig": "22_T3_Crimson Lady_Rig",
           "mesh": "22_T3_Crimson Lady_Mesh",
-          "vertices": 11298,
+          "vertices": 9464,
           "bones": 22,
           "actions": [
             "22_T3_Crimson Lady_Rig__Idle",
@@ -1027,7 +1032,7 @@
           "tier": 1,
           "rig": "23_T1_Lion Admiral_Rig",
           "mesh": "23_T1_Lion Admiral_Mesh",
-          "vertices": 10608,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "23_T1_Lion Admiral_Rig__Idle",
@@ -1039,7 +1044,7 @@
           "tier": 2,
           "rig": "23_T2_Lion Admiral_Rig",
           "mesh": "23_T2_Lion Admiral_Mesh",
-          "vertices": 12312,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "23_T2_Lion Admiral_Rig__Idle",
@@ -1051,7 +1056,7 @@
           "tier": 3,
           "rig": "23_T3_Lion Admiral_Rig",
           "mesh": "23_T3_Lion Admiral_Mesh",
-          "vertices": 12880,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "23_T3_Lion Admiral_Rig__Idle",
@@ -1073,7 +1078,7 @@
           "tier": 1,
           "rig": "24_T1_Inferno Dancer_Rig",
           "mesh": "24_T1_Inferno Dancer_Mesh",
-          "vertices": 9838,
+          "vertices": 9354,
           "bones": 22,
           "actions": [
             "24_T1_Inferno Dancer_Rig__Idle",
@@ -1085,7 +1090,7 @@
           "tier": 2,
           "rig": "24_T2_Inferno Dancer_Rig",
           "mesh": "24_T2_Inferno Dancer_Mesh",
-          "vertices": 10784,
+          "vertices": 9948,
           "bones": 22,
           "actions": [
             "24_T2_Inferno Dancer_Rig__Idle",
@@ -1097,7 +1102,7 @@
           "tier": 3,
           "rig": "24_T3_Inferno Dancer_Rig",
           "mesh": "24_T3_Inferno Dancer_Mesh",
-          "vertices": 11298,
+          "vertices": 10110,
           "bones": 22,
           "actions": [
             "24_T3_Inferno Dancer_Rig__Idle",
@@ -1119,7 +1124,7 @@
           "tier": 1,
           "rig": "25_T1_Mountain Guardian_Rig",
           "mesh": "25_T1_Mountain Guardian_Mesh",
-          "vertices": 9438,
+          "vertices": 9116,
           "bones": 22,
           "actions": [
             "25_T1_Mountain Guardian_Rig__Idle",
@@ -1131,7 +1136,7 @@
           "tier": 2,
           "rig": "25_T2_Mountain Guardian_Rig",
           "mesh": "25_T2_Mountain Guardian_Mesh",
-          "vertices": 11142,
+          "vertices": 10486,
           "bones": 22,
           "actions": [
             "25_T2_Mountain Guardian_Rig__Idle",
@@ -1143,7 +1148,7 @@
           "tier": 3,
           "rig": "25_T3_Mountain Guardian_Rig",
           "mesh": "25_T3_Mountain Guardian_Mesh",
-          "vertices": 11710,
+          "vertices": 10720,
           "bones": 22,
           "actions": [
             "25_T3_Mountain Guardian_Rig__Idle",
@@ -1165,7 +1170,7 @@
           "tier": 1,
           "rig": "26_T1_Phoenix Duelist_Rig",
           "mesh": "26_T1_Phoenix Duelist_Mesh",
-          "vertices": 9026,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "26_T1_Phoenix Duelist_Rig__Idle",
@@ -1177,7 +1182,7 @@
           "tier": 2,
           "rig": "26_T2_Phoenix Duelist_Rig",
           "mesh": "26_T2_Phoenix Duelist_Mesh",
-          "vertices": 10730,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "26_T2_Phoenix Duelist_Rig__Idle",
@@ -1189,7 +1194,7 @@
           "tier": 3,
           "rig": "26_T3_Phoenix Duelist_Rig",
           "mesh": "26_T3_Phoenix Duelist_Mesh",
-          "vertices": 11298,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "26_T3_Phoenix Duelist_Rig__Idle",
@@ -1211,7 +1216,7 @@
           "tier": 1,
           "rig": "27_T1_Bamboo Maiden_Rig",
           "mesh": "27_T1_Bamboo Maiden_Mesh",
-          "vertices": 9838,
+          "vertices": 10636,
           "bones": 22,
           "actions": [
             "27_T1_Bamboo Maiden_Rig__Idle",
@@ -1223,7 +1228,7 @@
           "tier": 2,
           "rig": "27_T2_Bamboo Maiden_Rig",
           "mesh": "27_T2_Bamboo Maiden_Mesh",
-          "vertices": 10784,
+          "vertices": 11248,
           "bones": 22,
           "actions": [
             "27_T2_Bamboo Maiden_Rig__Idle",
@@ -1235,7 +1240,7 @@
           "tier": 3,
           "rig": "27_T3_Bamboo Maiden_Rig",
           "mesh": "27_T3_Bamboo Maiden_Mesh",
-          "vertices": 11298,
+          "vertices": 11428,
           "bones": 22,
           "actions": [
             "27_T3_Bamboo Maiden_Rig__Idle",
@@ -1257,7 +1262,7 @@
           "tier": 1,
           "rig": "28_T1_Storm Ranger_Rig",
           "mesh": "28_T1_Storm Ranger_Mesh",
-          "vertices": 8068,
+          "vertices": 7892,
           "bones": 22,
           "actions": [
             "28_T1_Storm Ranger_Rig__Idle",
@@ -1269,7 +1274,7 @@
           "tier": 2,
           "rig": "28_T2_Storm Ranger_Rig",
           "mesh": "28_T2_Storm Ranger_Mesh",
-          "vertices": 9718,
+          "vertices": 9190,
           "bones": 22,
           "actions": [
             "28_T2_Storm Ranger_Rig__Idle",
@@ -1281,7 +1286,7 @@
           "tier": 3,
           "rig": "28_T3_Storm Ranger_Rig",
           "mesh": "28_T3_Storm Ranger_Mesh",
-          "vertices": 10232,
+          "vertices": 9352,
           "bones": 22,
           "actions": [
             "28_T3_Storm Ranger_Rig__Idle",
@@ -1303,7 +1308,7 @@
           "tier": 1,
           "rig": "29_T1_Jade Ranger_Rig",
           "mesh": "29_T1_Jade Ranger_Mesh",
-          "vertices": 8068,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "29_T1_Jade Ranger_Rig__Idle",
@@ -1315,7 +1320,7 @@
           "tier": 2,
           "rig": "29_T2_Jade Ranger_Rig",
           "mesh": "29_T2_Jade Ranger_Mesh",
-          "vertices": 9718,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "29_T2_Jade Ranger_Rig__Idle",
@@ -1327,7 +1332,7 @@
           "tier": 3,
           "rig": "29_T3_Jade Ranger_Rig",
           "mesh": "29_T3_Jade Ranger_Mesh",
-          "vertices": 10232,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "29_T3_Jade Ranger_Rig__Idle",
@@ -1349,7 +1354,7 @@
           "tier": 1,
           "rig": "30_T1_Dark Regent_Rig",
           "mesh": "30_T1_Dark Regent_Mesh",
-          "vertices": 10608,
+          "vertices": 10286,
           "bones": 22,
           "actions": [
             "30_T1_Dark Regent_Rig__Idle",
@@ -1361,7 +1366,7 @@
           "tier": 2,
           "rig": "30_T2_Dark Regent_Rig",
           "mesh": "30_T2_Dark Regent_Mesh",
-          "vertices": 12312,
+          "vertices": 11656,
           "bones": 22,
           "actions": [
             "30_T2_Dark Regent_Rig__Idle",
@@ -1373,7 +1378,7 @@
           "tier": 3,
           "rig": "30_T3_Dark Regent_Rig",
           "mesh": "30_T3_Dark Regent_Mesh",
-          "vertices": 12880,
+          "vertices": 11890,
           "bones": 22,
           "actions": [
             "30_T3_Dark Regent_Rig__Idle",
@@ -1395,7 +1400,7 @@
           "tier": 1,
           "rig": "31_T1_Forest Ranger_Rig",
           "mesh": "31_T1_Forest Ranger_Mesh",
-          "vertices": 8068,
+          "vertices": 8704,
           "bones": 22,
           "actions": [
             "31_T1_Forest Ranger_Rig__Idle",
@@ -1407,7 +1412,7 @@
           "tier": 2,
           "rig": "31_T2_Forest Ranger_Rig",
           "mesh": "31_T2_Forest Ranger_Mesh",
-          "vertices": 9718,
+          "vertices": 10074,
           "bones": 22,
           "actions": [
             "31_T2_Forest Ranger_Rig__Idle",
@@ -1419,7 +1424,7 @@
           "tier": 3,
           "rig": "31_T3_Forest Ranger_Rig",
           "mesh": "31_T3_Forest Ranger_Mesh",
-          "vertices": 10232,
+          "vertices": 10308,
           "bones": 22,
           "actions": [
             "31_T3_Forest Ranger_Rig__Idle",
@@ -1441,7 +1446,7 @@
           "tier": 1,
           "rig": "32_T1_Sky Halberd_Rig",
           "mesh": "32_T1_Sky Halberd_Mesh",
-          "vertices": 10230,
+          "vertices": 10232,
           "bones": 22,
           "actions": [
             "32_T1_Sky Halberd_Rig__Idle",
@@ -1453,7 +1458,7 @@
           "tier": 2,
           "rig": "32_T2_Sky Halberd_Rig",
           "mesh": "32_T2_Sky Halberd_Mesh",
-          "vertices": 11934,
+          "vertices": 11602,
           "bones": 22,
           "actions": [
             "32_T2_Sky Halberd_Rig__Idle",
@@ -1465,7 +1470,7 @@
           "tier": 3,
           "rig": "32_T3_Sky Halberd_Rig",
           "mesh": "32_T3_Sky Halberd_Mesh",
-          "vertices": 12502,
+          "vertices": 11836,
           "bones": 22,
           "actions": [
             "32_T3_Sky Halberd_Rig__Idle",
@@ -1487,7 +1492,7 @@
           "tier": 1,
           "rig": "33_T1_Ruby Blades_Rig",
           "mesh": "33_T1_Ruby Blades_Mesh",
-          "vertices": 9026,
+          "vertices": 8704,
           "bones": 22,
           "actions": [
             "33_T1_Ruby Blades_Rig__Idle",
@@ -1499,7 +1504,7 @@
           "tier": 2,
           "rig": "33_T2_Ruby Blades_Rig",
           "mesh": "33_T2_Ruby Blades_Mesh",
-          "vertices": 10730,
+          "vertices": 10074,
           "bones": 22,
           "actions": [
             "33_T2_Ruby Blades_Rig__Idle",
@@ -1511,7 +1516,7 @@
           "tier": 3,
           "rig": "33_T3_Ruby Blades_Rig",
           "mesh": "33_T3_Ruby Blades_Mesh",
-          "vertices": 11298,
+          "vertices": 10308,
           "bones": 22,
           "actions": [
             "33_T3_Ruby Blades_Rig__Idle",
@@ -1533,7 +1538,7 @@
           "tier": 1,
           "rig": "34_T1_Jade Serpent_Rig",
           "mesh": "34_T1_Jade Serpent_Mesh",
-          "vertices": 10608,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "34_T1_Jade Serpent_Rig__Idle",
@@ -1545,7 +1550,7 @@
           "tier": 2,
           "rig": "34_T2_Jade Serpent_Rig",
           "mesh": "34_T2_Jade Serpent_Mesh",
-          "vertices": 12312,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "34_T2_Jade Serpent_Rig__Idle",
@@ -1557,7 +1562,7 @@
           "tier": 3,
           "rig": "34_T3_Jade Serpent_Rig",
           "mesh": "34_T3_Jade Serpent_Mesh",
-          "vertices": 12880,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "34_T3_Jade Serpent_Rig__Idle",
@@ -1579,7 +1584,7 @@
           "tier": 1,
           "rig": "35_T1_Cloud Maiden_Rig",
           "mesh": "35_T1_Cloud Maiden_Mesh",
-          "vertices": 9838,
+          "vertices": 9570,
           "bones": 22,
           "actions": [
             "35_T1_Cloud Maiden_Rig__Idle",
@@ -1591,7 +1596,7 @@
           "tier": 2,
           "rig": "35_T2_Cloud Maiden_Rig",
           "mesh": "35_T2_Cloud Maiden_Mesh",
-          "vertices": 10784,
+          "vertices": 10164,
           "bones": 22,
           "actions": [
             "35_T2_Cloud Maiden_Rig__Idle",
@@ -1603,7 +1608,7 @@
           "tier": 3,
           "rig": "35_T3_Cloud Maiden_Rig",
           "mesh": "35_T3_Cloud Maiden_Mesh",
-          "vertices": 11298,
+          "vertices": 10326,
           "bones": 22,
           "actions": [
             "35_T3_Cloud Maiden_Rig__Idle",
@@ -1625,7 +1630,7 @@
           "tier": 1,
           "rig": "36_T1_Violet Chancellor_Rig",
           "mesh": "36_T1_Violet Chancellor_Mesh",
-          "vertices": 9462,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "36_T1_Violet Chancellor_Rig__Idle",
@@ -1637,7 +1642,7 @@
           "tier": 2,
           "rig": "36_T2_Violet Chancellor_Rig",
           "mesh": "36_T2_Violet Chancellor_Mesh",
-          "vertices": 10354,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "36_T2_Violet Chancellor_Rig__Idle",
@@ -1649,7 +1654,7 @@
           "tier": 3,
           "rig": "36_T3_Violet Chancellor_Rig",
           "mesh": "36_T3_Violet Chancellor_Mesh",
-          "vertices": 10814,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "36_T3_Violet Chancellor_Rig__Idle",
@@ -1671,7 +1676,7 @@
           "tier": 1,
           "rig": "37_T1_Night Scholar_Rig",
           "mesh": "37_T1_Night Scholar_Mesh",
-          "vertices": 8672,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "37_T1_Night Scholar_Rig__Idle",
@@ -1683,7 +1688,7 @@
           "tier": 2,
           "rig": "37_T2_Night Scholar_Rig",
           "mesh": "37_T2_Night Scholar_Mesh",
-          "vertices": 9564,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "37_T2_Night Scholar_Rig__Idle",
@@ -1695,7 +1700,7 @@
           "tier": 3,
           "rig": "37_T3_Night Scholar_Rig",
           "mesh": "37_T3_Night Scholar_Mesh",
-          "vertices": 10024,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "37_T3_Night Scholar_Rig__Idle",
@@ -1717,7 +1722,7 @@
           "tier": 1,
           "rig": "38_T1_Red Commander_Rig",
           "mesh": "38_T1_Red Commander_Mesh",
-          "vertices": 9404,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "38_T1_Red Commander_Rig__Idle",
@@ -1729,7 +1734,7 @@
           "tier": 2,
           "rig": "38_T2_Red Commander_Rig",
           "mesh": "38_T2_Red Commander_Mesh",
-          "vertices": 11108,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "38_T2_Red Commander_Rig__Idle",
@@ -1741,7 +1746,7 @@
           "tier": 3,
           "rig": "38_T3_Red Commander_Rig",
           "mesh": "38_T3_Red Commander_Mesh",
-          "vertices": 11676,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "38_T3_Red Commander_Rig__Idle",
@@ -1763,7 +1768,7 @@
           "tier": 1,
           "rig": "39_T1_Spring Maiden_Rig",
           "mesh": "39_T1_Spring Maiden_Mesh",
-          "vertices": 9838,
+          "vertices": 10248,
           "bones": 22,
           "actions": [
             "39_T1_Spring Maiden_Rig__Idle",
@@ -1775,7 +1780,7 @@
           "tier": 2,
           "rig": "39_T2_Spring Maiden_Rig",
           "mesh": "39_T2_Spring Maiden_Mesh",
-          "vertices": 10784,
+          "vertices": 10842,
           "bones": 22,
           "actions": [
             "39_T2_Spring Maiden_Rig__Idle",
@@ -1787,7 +1792,7 @@
           "tier": 3,
           "rig": "39_T3_Spring Maiden_Rig",
           "mesh": "39_T3_Spring Maiden_Mesh",
-          "vertices": 11298,
+          "vertices": 11004,
           "bones": 22,
           "actions": [
             "39_T3_Spring Maiden_Rig__Idle",
@@ -1809,7 +1814,7 @@
           "tier": 1,
           "rig": "40_T1_Ocean Champion_Rig",
           "mesh": "40_T1_Ocean Champion_Mesh",
-          "vertices": 9026,
+          "vertices": 8704,
           "bones": 22,
           "actions": [
             "40_T1_Ocean Champion_Rig__Idle",
@@ -1821,7 +1826,7 @@
           "tier": 2,
           "rig": "40_T2_Ocean Champion_Rig",
           "mesh": "40_T2_Ocean Champion_Mesh",
-          "vertices": 10730,
+          "vertices": 10074,
           "bones": 22,
           "actions": [
             "40_T2_Ocean Champion_Rig__Idle",
@@ -1833,7 +1838,7 @@
           "tier": 3,
           "rig": "40_T3_Ocean Champion_Rig",
           "mesh": "40_T3_Ocean Champion_Mesh",
-          "vertices": 11298,
+          "vertices": 10308,
           "bones": 22,
           "actions": [
             "40_T3_Ocean Champion_Rig__Idle",
@@ -1855,7 +1860,7 @@
           "tier": 1,
           "rig": "41_T1_Elder Archer_Rig",
           "mesh": "41_T1_Elder Archer_Mesh",
-          "vertices": 8446,
+          "vertices": 7892,
           "bones": 22,
           "actions": [
             "41_T1_Elder Archer_Rig__Idle",
@@ -1867,7 +1872,7 @@
           "tier": 2,
           "rig": "41_T2_Elder Archer_Rig",
           "mesh": "41_T2_Elder Archer_Mesh",
-          "vertices": 10096,
+          "vertices": 9190,
           "bones": 22,
           "actions": [
             "41_T2_Elder Archer_Rig__Idle",
@@ -1879,7 +1884,7 @@
           "tier": 3,
           "rig": "41_T3_Elder Archer_Rig",
           "mesh": "41_T3_Elder Archer_Mesh",
-          "vertices": 10610,
+          "vertices": 9352,
           "bones": 22,
           "actions": [
             "41_T3_Elder Archer_Rig__Idle",
@@ -1901,7 +1906,7 @@
           "tier": 1,
           "rig": "42_T1_Lilac Princess_Rig",
           "mesh": "42_T1_Lilac Princess_Mesh",
-          "vertices": 9838,
+          "vertices": 10248,
           "bones": 22,
           "actions": [
             "42_T1_Lilac Princess_Rig__Idle",
@@ -1913,7 +1918,7 @@
           "tier": 2,
           "rig": "42_T2_Lilac Princess_Rig",
           "mesh": "42_T2_Lilac Princess_Mesh",
-          "vertices": 10784,
+          "vertices": 10842,
           "bones": 22,
           "actions": [
             "42_T2_Lilac Princess_Rig__Idle",
@@ -1925,7 +1930,7 @@
           "tier": 3,
           "rig": "42_T3_Lilac Princess_Rig",
           "mesh": "42_T3_Lilac Princess_Mesh",
-          "vertices": 11298,
+          "vertices": 11004,
           "bones": 22,
           "actions": [
             "42_T3_Lilac Princess_Rig__Idle",
@@ -1947,7 +1952,7 @@
           "tier": 1,
           "rig": "43_T1_Azure Dragon_Rig",
           "mesh": "43_T1_Azure Dragon_Mesh",
-          "vertices": 10176,
+          "vertices": 10232,
           "bones": 22,
           "actions": [
             "43_T1_Azure Dragon_Rig__Idle",
@@ -1959,7 +1964,7 @@
           "tier": 2,
           "rig": "43_T2_Azure Dragon_Rig",
           "mesh": "43_T2_Azure Dragon_Mesh",
-          "vertices": 11880,
+          "vertices": 11602,
           "bones": 22,
           "actions": [
             "43_T2_Azure Dragon_Rig__Idle",
@@ -1971,7 +1976,7 @@
           "tier": 3,
           "rig": "43_T3_Azure Dragon_Rig",
           "mesh": "43_T3_Azure Dragon_Mesh",
-          "vertices": 12448,
+          "vertices": 11836,
           "bones": 22,
           "actions": [
             "43_T3_Azure Dragon_Rig__Idle",
@@ -1993,7 +1998,7 @@
           "tier": 1,
           "rig": "44_T1_Emerald Elder_Rig",
           "mesh": "44_T1_Emerald Elder_Mesh",
-          "vertices": 10608,
+          "vertices": 10286,
           "bones": 22,
           "actions": [
             "44_T1_Emerald Elder_Rig__Idle",
@@ -2005,7 +2010,7 @@
           "tier": 2,
           "rig": "44_T2_Emerald Elder_Rig",
           "mesh": "44_T2_Emerald Elder_Mesh",
-          "vertices": 12312,
+          "vertices": 11656,
           "bones": 22,
           "actions": [
             "44_T2_Emerald Elder_Rig__Idle",
@@ -2017,7 +2022,7 @@
           "tier": 3,
           "rig": "44_T3_Emerald Elder_Rig",
           "mesh": "44_T3_Emerald Elder_Mesh",
-          "vertices": 12880,
+          "vertices": 11890,
           "bones": 22,
           "actions": [
             "44_T3_Emerald Elder_Rig__Idle",
@@ -2039,7 +2044,7 @@
           "tier": 1,
           "rig": "45_T1_Forest Scholar_Rig",
           "mesh": "45_T1_Forest Scholar_Mesh",
-          "vertices": 9462,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "45_T1_Forest Scholar_Rig__Idle",
@@ -2051,7 +2056,7 @@
           "tier": 2,
           "rig": "45_T2_Forest Scholar_Rig",
           "mesh": "45_T2_Forest Scholar_Mesh",
-          "vertices": 10354,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "45_T2_Forest Scholar_Rig__Idle",
@@ -2063,7 +2068,7 @@
           "tier": 3,
           "rig": "45_T3_Forest Scholar_Rig",
           "mesh": "45_T3_Forest Scholar_Mesh",
-          "vertices": 10814,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "45_T3_Forest Scholar_Rig__Idle",
@@ -2085,7 +2090,7 @@
           "tier": 1,
           "rig": "46_T1_Amethyst Bulwark_Rig",
           "mesh": "46_T1_Amethyst Bulwark_Mesh",
-          "vertices": 9838,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "46_T1_Amethyst Bulwark_Rig__Idle",
@@ -2097,7 +2102,7 @@
           "tier": 2,
           "rig": "46_T2_Amethyst Bulwark_Rig",
           "mesh": "46_T2_Amethyst Bulwark_Mesh",
-          "vertices": 11542,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "46_T2_Amethyst Bulwark_Rig__Idle",
@@ -2109,7 +2114,7 @@
           "tier": 3,
           "rig": "46_T3_Amethyst Bulwark_Rig",
           "mesh": "46_T3_Amethyst Bulwark_Mesh",
-          "vertices": 12110,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "46_T3_Amethyst Bulwark_Rig__Idle",
@@ -2131,7 +2136,7 @@
           "tier": 1,
           "rig": "47_T1_Jade Huntress_Rig",
           "mesh": "47_T1_Jade Huntress_Mesh",
-          "vertices": 8068,
+          "vertices": 8704,
           "bones": 22,
           "actions": [
             "47_T1_Jade Huntress_Rig__Idle",
@@ -2143,7 +2148,7 @@
           "tier": 2,
           "rig": "47_T2_Jade Huntress_Rig",
           "mesh": "47_T2_Jade Huntress_Mesh",
-          "vertices": 9718,
+          "vertices": 10074,
           "bones": 22,
           "actions": [
             "47_T2_Jade Huntress_Rig__Idle",
@@ -2155,7 +2160,7 @@
           "tier": 3,
           "rig": "47_T3_Jade Huntress_Rig",
           "mesh": "47_T3_Jade Huntress_Mesh",
-          "vertices": 10232,
+          "vertices": 10308,
           "bones": 22,
           "actions": [
             "47_T3_Jade Huntress_Rig__Idle",
@@ -2177,7 +2182,7 @@
           "tier": 1,
           "rig": "48_T1_Jade Dragon_Rig",
           "mesh": "48_T1_Jade Dragon_Mesh",
-          "vertices": 10176,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "48_T1_Jade Dragon_Rig__Idle",
@@ -2189,7 +2194,7 @@
           "tier": 2,
           "rig": "48_T2_Jade Dragon_Rig",
           "mesh": "48_T2_Jade Dragon_Mesh",
-          "vertices": 11880,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "48_T2_Jade Dragon_Rig__Idle",
@@ -2201,7 +2206,7 @@
           "tier": 3,
           "rig": "48_T3_Jade Dragon_Rig",
           "mesh": "48_T3_Jade Dragon_Mesh",
-          "vertices": 12448,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "48_T3_Jade Dragon_Rig__Idle",
@@ -2223,7 +2228,7 @@
           "tier": 1,
           "rig": "49_T1_Emerald Cavalier_Rig",
           "mesh": "49_T1_Emerald Cavalier_Mesh",
-          "vertices": 9026,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "49_T1_Emerald Cavalier_Rig__Idle",
@@ -2235,7 +2240,7 @@
           "tier": 2,
           "rig": "49_T2_Emerald Cavalier_Rig",
           "mesh": "49_T2_Emerald Cavalier_Mesh",
-          "vertices": 10730,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "49_T2_Emerald Cavalier_Rig__Idle",
@@ -2247,7 +2252,7 @@
           "tier": 3,
           "rig": "49_T3_Emerald Cavalier_Rig",
           "mesh": "49_T3_Emerald Cavalier_Mesh",
-          "vertices": 11298,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "49_T3_Emerald Cavalier_Rig__Idle",
@@ -2269,7 +2274,7 @@
           "tier": 1,
           "rig": "50_T1_Ivory Commander_Rig",
           "mesh": "50_T1_Ivory Commander_Mesh",
-          "vertices": 9404,
+          "vertices": 9854,
           "bones": 22,
           "actions": [
             "50_T1_Ivory Commander_Rig__Idle",
@@ -2281,7 +2286,7 @@
           "tier": 2,
           "rig": "50_T2_Ivory Commander_Rig",
           "mesh": "50_T2_Ivory Commander_Mesh",
-          "vertices": 11108,
+          "vertices": 11224,
           "bones": 22,
           "actions": [
             "50_T2_Ivory Commander_Rig__Idle",
@@ -2293,7 +2298,7 @@
           "tier": 3,
           "rig": "50_T3_Ivory Commander_Rig",
           "mesh": "50_T3_Ivory Commander_Mesh",
-          "vertices": 11676,
+          "vertices": 11458,
           "bones": 22,
           "actions": [
             "50_T3_Ivory Commander_Rig__Idle",
@@ -2315,7 +2320,7 @@
           "tier": 1,
           "rig": "51_T1_Jade Duelist_Rig",
           "mesh": "51_T1_Jade Duelist_Mesh",
-          "vertices": 9026,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "51_T1_Jade Duelist_Rig__Idle",
@@ -2327,7 +2332,7 @@
           "tier": 2,
           "rig": "51_T2_Jade Duelist_Rig",
           "mesh": "51_T2_Jade Duelist_Mesh",
-          "vertices": 10730,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "51_T2_Jade Duelist_Rig__Idle",
@@ -2339,7 +2344,7 @@
           "tier": 3,
           "rig": "51_T3_Jade Duelist_Rig",
           "mesh": "51_T3_Jade Duelist_Mesh",
-          "vertices": 11298,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "51_T3_Jade Duelist_Rig__Idle",
@@ -2361,7 +2366,7 @@
           "tier": 1,
           "rig": "52_T1_Lilac Immortal_Rig",
           "mesh": "52_T1_Lilac Immortal_Mesh",
-          "vertices": 10140,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "52_T1_Lilac Immortal_Rig__Idle",
@@ -2373,7 +2378,7 @@
           "tier": 2,
           "rig": "52_T2_Lilac Immortal_Rig",
           "mesh": "52_T2_Lilac Immortal_Mesh",
-          "vertices": 11032,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "52_T2_Lilac Immortal_Rig__Idle",
@@ -2385,7 +2390,7 @@
           "tier": 3,
           "rig": "52_T3_Lilac Immortal_Rig",
           "mesh": "52_T3_Lilac Immortal_Mesh",
-          "vertices": 11492,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "52_T3_Lilac Immortal_Rig__Idle",
@@ -2407,7 +2412,7 @@
           "tier": 1,
           "rig": "53_T1_Sun Immortal_Rig",
           "mesh": "53_T1_Sun Immortal_Mesh",
-          "vertices": 10140,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "53_T1_Sun Immortal_Rig__Idle",
@@ -2419,7 +2424,7 @@
           "tier": 2,
           "rig": "53_T2_Sun Immortal_Rig",
           "mesh": "53_T2_Sun Immortal_Mesh",
-          "vertices": 11032,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "53_T2_Sun Immortal_Rig__Idle",
@@ -2431,7 +2436,7 @@
           "tier": 3,
           "rig": "53_T3_Sun Immortal_Rig",
           "mesh": "53_T3_Sun Immortal_Mesh",
-          "vertices": 11492,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "53_T3_Sun Immortal_Rig__Idle",
@@ -2453,7 +2458,7 @@
           "tier": 1,
           "rig": "54_T1_Royal Tide_Rig",
           "mesh": "54_T1_Royal Tide_Mesh",
-          "vertices": 9026,
+          "vertices": 8704,
           "bones": 22,
           "actions": [
             "54_T1_Royal Tide_Rig__Idle",
@@ -2465,7 +2470,7 @@
           "tier": 2,
           "rig": "54_T2_Royal Tide_Rig",
           "mesh": "54_T2_Royal Tide_Mesh",
-          "vertices": 10730,
+          "vertices": 10074,
           "bones": 22,
           "actions": [
             "54_T2_Royal Tide_Rig__Idle",
@@ -2477,7 +2482,7 @@
           "tier": 3,
           "rig": "54_T3_Royal Tide_Rig",
           "mesh": "54_T3_Royal Tide_Mesh",
-          "vertices": 11298,
+          "vertices": 10308,
           "bones": 22,
           "actions": [
             "54_T3_Royal Tide_Rig__Idle",
@@ -2499,7 +2504,7 @@
           "tier": 1,
           "rig": "55_T1_Fire Monarch_Rig",
           "mesh": "55_T1_Fire Monarch_Mesh",
-          "vertices": 10608,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "55_T1_Fire Monarch_Rig__Idle",
@@ -2511,7 +2516,7 @@
           "tier": 2,
           "rig": "55_T2_Fire Monarch_Rig",
           "mesh": "55_T2_Fire Monarch_Mesh",
-          "vertices": 12312,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "55_T2_Fire Monarch_Rig__Idle",
@@ -2523,7 +2528,7 @@
           "tier": 3,
           "rig": "55_T3_Fire Monarch_Rig",
           "mesh": "55_T3_Fire Monarch_Mesh",
-          "vertices": 12880,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "55_T3_Fire Monarch_Rig__Idle",
@@ -2545,7 +2550,7 @@
           "tier": 1,
           "rig": "56_T1_Scarlet Princess_Rig",
           "mesh": "56_T1_Scarlet Princess_Mesh",
-          "vertices": 9838,
+          "vertices": 8816,
           "bones": 22,
           "actions": [
             "56_T1_Scarlet Princess_Rig__Idle",
@@ -2557,7 +2562,7 @@
           "tier": 2,
           "rig": "56_T2_Scarlet Princess_Rig",
           "mesh": "56_T2_Scarlet Princess_Mesh",
-          "vertices": 10784,
+          "vertices": 9356,
           "bones": 22,
           "actions": [
             "56_T2_Scarlet Princess_Rig__Idle",
@@ -2569,7 +2574,7 @@
           "tier": 3,
           "rig": "56_T3_Scarlet Princess_Rig",
           "mesh": "56_T3_Scarlet Princess_Mesh",
-          "vertices": 11298,
+          "vertices": 9464,
           "bones": 22,
           "actions": [
             "56_T3_Scarlet Princess_Rig__Idle",
@@ -2591,7 +2596,7 @@
           "tier": 1,
           "rig": "57_T1_Frost Monarch_Rig",
           "mesh": "57_T1_Frost Monarch_Mesh",
-          "vertices": 10140,
+          "vertices": 8816,
           "bones": 22,
           "actions": [
             "57_T1_Frost Monarch_Rig__Idle",
@@ -2603,7 +2608,7 @@
           "tier": 2,
           "rig": "57_T2_Frost Monarch_Rig",
           "mesh": "57_T2_Frost Monarch_Mesh",
-          "vertices": 11032,
+          "vertices": 9356,
           "bones": 22,
           "actions": [
             "57_T2_Frost Monarch_Rig__Idle",
@@ -2615,7 +2620,7 @@
           "tier": 3,
           "rig": "57_T3_Frost Monarch_Rig",
           "mesh": "57_T3_Frost Monarch_Mesh",
-          "vertices": 11492,
+          "vertices": 9464,
           "bones": 22,
           "actions": [
             "57_T3_Frost Monarch_Rig__Idle",
@@ -2637,7 +2642,7 @@
           "tier": 1,
           "rig": "58_T1_Midnight Minister_Rig",
           "mesh": "58_T1_Midnight Minister_Mesh",
-          "vertices": 9462,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "58_T1_Midnight Minister_Rig__Idle",
@@ -2649,7 +2654,7 @@
           "tier": 2,
           "rig": "58_T2_Midnight Minister_Rig",
           "mesh": "58_T2_Midnight Minister_Mesh",
-          "vertices": 10354,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "58_T2_Midnight Minister_Rig__Idle",
@@ -2661,7 +2666,7 @@
           "tier": 3,
           "rig": "58_T3_Midnight Minister_Rig",
           "mesh": "58_T3_Midnight Minister_Mesh",
-          "vertices": 10814,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "58_T3_Midnight Minister_Rig__Idle",
@@ -2683,7 +2688,7 @@
           "tier": 1,
           "rig": "59_T1_Jade Minister_Rig",
           "mesh": "59_T1_Jade Minister_Mesh",
-          "vertices": 9462,
+          "vertices": 9194,
           "bones": 22,
           "actions": [
             "59_T1_Jade Minister_Rig__Idle",
@@ -2695,7 +2700,7 @@
           "tier": 2,
           "rig": "59_T2_Jade Minister_Rig",
           "mesh": "59_T2_Jade Minister_Mesh",
-          "vertices": 10354,
+          "vertices": 9734,
           "bones": 22,
           "actions": [
             "59_T2_Jade Minister_Rig__Idle",
@@ -2707,7 +2712,7 @@
           "tier": 3,
           "rig": "59_T3_Jade Minister_Rig",
           "mesh": "59_T3_Jade Minister_Mesh",
-          "vertices": 10814,
+          "vertices": 9842,
           "bones": 22,
           "actions": [
             "59_T3_Jade Minister_Rig__Idle",
@@ -2729,7 +2734,7 @@
           "tier": 1,
           "rig": "60_T1_Garden Princess_Rig",
           "mesh": "60_T1_Garden Princess_Mesh",
-          "vertices": 9838,
+          "vertices": 8816,
           "bones": 22,
           "actions": [
             "60_T1_Garden Princess_Rig__Idle",
@@ -2741,7 +2746,7 @@
           "tier": 2,
           "rig": "60_T2_Garden Princess_Rig",
           "mesh": "60_T2_Garden Princess_Mesh",
-          "vertices": 10784,
+          "vertices": 9356,
           "bones": 22,
           "actions": [
             "60_T2_Garden Princess_Rig__Idle",
@@ -2753,7 +2758,7 @@
           "tier": 3,
           "rig": "60_T3_Garden Princess_Rig",
           "mesh": "60_T3_Garden Princess_Mesh",
-          "vertices": 11298,
+          "vertices": 9464,
           "bones": 22,
           "actions": [
             "60_T3_Garden Princess_Rig__Idle",
@@ -2775,7 +2780,7 @@
           "tier": 1,
           "rig": "61_T1_Bronze Bulwark_Rig",
           "mesh": "61_T1_Bronze Bulwark_Mesh",
-          "vertices": 9838,
+          "vertices": 9082,
           "bones": 22,
           "actions": [
             "61_T1_Bronze Bulwark_Rig__Idle",
@@ -2787,7 +2792,7 @@
           "tier": 2,
           "rig": "61_T2_Bronze Bulwark_Rig",
           "mesh": "61_T2_Bronze Bulwark_Mesh",
-          "vertices": 11542,
+          "vertices": 10452,
           "bones": 22,
           "actions": [
             "61_T2_Bronze Bulwark_Rig__Idle",
@@ -2799,7 +2804,7 @@
           "tier": 3,
           "rig": "61_T3_Bronze Bulwark_Rig",
           "mesh": "61_T3_Bronze Bulwark_Mesh",
-          "vertices": 12110,
+          "vertices": 10686,
           "bones": 22,
           "actions": [
             "61_T3_Bronze Bulwark_Rig__Idle",
@@ -2821,7 +2826,7 @@
           "tier": 1,
           "rig": "62_T1_Violet Princess_Rig",
           "mesh": "62_T1_Violet Princess_Mesh",
-          "vertices": 9838,
+          "vertices": 9570,
           "bones": 22,
           "actions": [
             "62_T1_Violet Princess_Rig__Idle",
@@ -2833,7 +2838,7 @@
           "tier": 2,
           "rig": "62_T2_Violet Princess_Rig",
           "mesh": "62_T2_Violet Princess_Mesh",
-          "vertices": 10784,
+          "vertices": 10164,
           "bones": 22,
           "actions": [
             "62_T2_Violet Princess_Rig__Idle",
@@ -2845,7 +2850,7 @@
           "tier": 3,
           "rig": "62_T3_Violet Princess_Rig",
           "mesh": "62_T3_Violet Princess_Mesh",
-          "vertices": 11298,
+          "vertices": 10326,
           "bones": 22,
           "actions": [
             "62_T3_Violet Princess_Rig__Idle",
@@ -2867,7 +2872,7 @@
           "tier": 1,
           "rig": "63_T1_Sage of Jade_Rig",
           "mesh": "63_T1_Sage of Jade_Mesh",
-          "vertices": 9050,
+          "vertices": 9486,
           "bones": 22,
           "actions": [
             "63_T1_Sage of Jade_Rig__Idle",
@@ -2879,7 +2884,7 @@
           "tier": 2,
           "rig": "63_T2_Sage of Jade_Rig",
           "mesh": "63_T2_Sage of Jade_Mesh",
-          "vertices": 9942,
+          "vertices": 10098,
           "bones": 22,
           "actions": [
             "63_T2_Sage of Jade_Rig__Idle",
@@ -2891,7 +2896,7 @@
           "tier": 3,
           "rig": "63_T3_Sage of Jade_Rig",
           "mesh": "63_T3_Sage of Jade_Mesh",
-          "vertices": 10402,
+          "vertices": 10278,
           "bones": 22,
           "actions": [
             "63_T3_Sage of Jade_Rig__Idle",
@@ -2913,7 +2918,7 @@
           "tier": 1,
           "rig": "64_T1_Emerald Crescent_Rig",
           "mesh": "64_T1_Emerald Crescent_Mesh",
-          "vertices": 10608,
+          "vertices": 10286,
           "bones": 22,
           "actions": [
             "64_T1_Emerald Crescent_Rig__Idle",
@@ -2925,7 +2930,7 @@
           "tier": 2,
           "rig": "64_T2_Emerald Crescent_Rig",
           "mesh": "64_T2_Emerald Crescent_Mesh",
-          "vertices": 12312,
+          "vertices": 11656,
           "bones": 22,
           "actions": [
             "64_T2_Emerald Crescent_Rig__Idle",
@@ -2937,7 +2942,7 @@
           "tier": 3,
           "rig": "64_T3_Emerald Crescent_Rig",
           "mesh": "64_T3_Emerald Crescent_Mesh",
-          "vertices": 12880,
+          "vertices": 11890,
           "bones": 22,
           "actions": [
             "64_T3_Emerald Crescent_Rig__Idle",
@@ -2959,7 +2964,7 @@
           "tier": 1,
           "rig": "65_T1_Inferno Crescent_Rig",
           "mesh": "65_T1_Inferno Crescent_Mesh",
-          "vertices": 10608,
+          "vertices": 9908,
           "bones": 22,
           "actions": [
             "65_T1_Inferno Crescent_Rig__Idle",
@@ -2971,7 +2976,7 @@
           "tier": 2,
           "rig": "65_T2_Inferno Crescent_Rig",
           "mesh": "65_T2_Inferno Crescent_Mesh",
-          "vertices": 12312,
+          "vertices": 11278,
           "bones": 22,
           "actions": [
             "65_T2_Inferno Crescent_Rig__Idle",
@@ -2983,7 +2988,7 @@
           "tier": 3,
           "rig": "65_T3_Inferno Crescent_Rig",
           "mesh": "65_T3_Inferno Crescent_Mesh",
-          "vertices": 12880,
+          "vertices": 11512,
           "bones": 22,
           "actions": [
             "65_T3_Inferno Crescent_Rig__Idle",
@@ -3005,7 +3010,7 @@
           "tier": 1,
           "rig": "66_T1_Ivory Sage_Rig",
           "mesh": "66_T1_Ivory Sage_Mesh",
-          "vertices": 10140,
+          "vertices": 10286,
           "bones": 22,
           "actions": [
             "66_T1_Ivory Sage_Rig__Idle",
@@ -3017,7 +3022,7 @@
           "tier": 2,
           "rig": "66_T2_Ivory Sage_Rig",
           "mesh": "66_T2_Ivory Sage_Mesh",
-          "vertices": 11032,
+          "vertices": 11656,
           "bones": 22,
           "actions": [
             "66_T2_Ivory Sage_Rig__Idle",
@@ -3029,7 +3034,7 @@
           "tier": 3,
           "rig": "66_T3_Ivory Sage_Rig",
           "mesh": "66_T3_Ivory Sage_Mesh",
-          "vertices": 11492,
+          "vertices": 11890,
           "bones": 22,
           "actions": [
             "66_T3_Ivory Sage_Rig__Idle",
@@ -3051,7 +3056,7 @@
           "tier": 1,
           "rig": "67_T1_Jade War God_Rig",
           "mesh": "67_T1_Jade War God_Mesh",
-          "vertices": 10608,
+          "vertices": 10286,
           "bones": 22,
           "actions": [
             "67_T1_Jade War God_Rig__Idle",
@@ -3063,7 +3068,7 @@
           "tier": 2,
           "rig": "67_T2_Jade War God_Rig",
           "mesh": "67_T2_Jade War God_Mesh",
-          "vertices": 12312,
+          "vertices": 11656,
           "bones": 22,
           "actions": [
             "67_T2_Jade War God_Rig__Idle",
@@ -3075,7 +3080,7 @@
           "tier": 3,
           "rig": "67_T3_Jade War God_Rig",
           "mesh": "67_T3_Jade War God_Mesh",
-          "vertices": 12880,
+          "vertices": 11890,
           "bones": 22,
           "actions": [
             "67_T3_Jade War God_Rig__Idle",
@@ -3097,7 +3102,7 @@
           "tier": 1,
           "rig": "68_T1_Crimson War God_Rig",
           "mesh": "68_T1_Crimson War God_Mesh",
-          "vertices": 10608,
+          "vertices": 10016,
           "bones": 22,
           "actions": [
             "68_T1_Crimson War God_Rig__Idle",
@@ -3109,7 +3114,7 @@
           "tier": 2,
           "rig": "68_T2_Crimson War God_Rig",
           "mesh": "68_T2_Crimson War God_Mesh",
-          "vertices": 12312,
+          "vertices": 11386,
           "bones": 22,
           "actions": [
             "68_T2_Crimson War God_Rig__Idle",
@@ -3121,7 +3126,7 @@
           "tier": 3,
           "rig": "68_T3_Crimson War God_Rig",
           "mesh": "68_T3_Crimson War God_Mesh",
-          "vertices": 12880,
+          "vertices": 11620,
           "bones": 22,
           "actions": [
             "68_T3_Crimson War God_Rig__Idle",

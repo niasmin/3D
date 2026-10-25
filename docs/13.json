@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "13_T1_Peony Dancer_Rig",
       "mesh": "13_T1_Peony Dancer_Mesh",
-      "vertices": 9838,
+      "vertices": 10248,
       "bones": 22,
       "actions": [
         "13_T1_Peony Dancer_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "13_T2_Peony Dancer_Rig",
       "mesh": "13_T2_Peony Dancer_Mesh",
-      "vertices": 10784,
+      "vertices": 10842,
       "bones": 22,
       "actions": [
         "13_T2_Peony Dancer_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "13_T3_Peony Dancer_Rig",
       "mesh": "13_T3_Peony Dancer_Mesh",
-      "vertices": 11298,
+      "vertices": 11004,
       "bones": 22,
       "actions": [
         "13_T3_Peony Dancer_Rig__Idle",

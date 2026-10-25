@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "41_T1_Elder Archer_Rig",
       "mesh": "41_T1_Elder Archer_Mesh",
-      "vertices": 8446,
+      "vertices": 7892,
       "bones": 22,
       "actions": [
         "41_T1_Elder Archer_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "41_T2_Elder Archer_Rig",
       "mesh": "41_T2_Elder Archer_Mesh",
-      "vertices": 10096,
+      "vertices": 9190,
       "bones": 22,
       "actions": [
         "41_T2_Elder Archer_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "41_T3_Elder Archer_Rig",
       "mesh": "41_T3_Elder Archer_Mesh",
-      "vertices": 10610,
+      "vertices": 9352,
       "bones": 22,
       "actions": [
         "41_T3_Elder Archer_Rig__Idle",

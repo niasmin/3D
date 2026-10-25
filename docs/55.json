@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "55_T1_Fire Monarch_Rig",
       "mesh": "55_T1_Fire Monarch_Mesh",
-      "vertices": 10608,
+      "vertices": 9082,
       "bones": 22,
       "actions": [
         "55_T1_Fire Monarch_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "55_T2_Fire Monarch_Rig",
       "mesh": "55_T2_Fire Monarch_Mesh",
-      "vertices": 12312,
+      "vertices": 10452,
       "bones": 22,
       "actions": [
         "55_T2_Fire Monarch_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "55_T3_Fire Monarch_Rig",
       "mesh": "55_T3_Fire Monarch_Mesh",
-      "vertices": 12880,
+      "vertices": 10686,
       "bones": 22,
       "actions": [
         "55_T3_Fire Monarch_Rig__Idle",

@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "53_T1_Sun Immortal_Rig",
       "mesh": "53_T1_Sun Immortal_Mesh",
-      "vertices": 10140,
+      "vertices": 9194,
       "bones": 22,
       "actions": [
         "53_T1_Sun Immortal_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "53_T2_Sun Immortal_Rig",
       "mesh": "53_T2_Sun Immortal_Mesh",
-      "vertices": 11032,
+      "vertices": 9734,
       "bones": 22,
       "actions": [
         "53_T2_Sun Immortal_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "53_T3_Sun Immortal_Rig",
       "mesh": "53_T3_Sun Immortal_Mesh",
-      "vertices": 11492,
+      "vertices": 9842,
       "bones": 22,
       "actions": [
         "53_T3_Sun Immortal_Rig__Idle",

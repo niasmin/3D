@@ -4,9 +4,9 @@
     "actors": 0,
     "cache": 0,
     "renderer": {
-      "frame": 14,
-      "calls": 35,
-      "triangles": 5822,
+      "frame": 9,
+      "calls": 36,
+      "triangles": 9334,
       "points": 0,
       "lines": 0
     },
@@ -15,11 +15,11 @@
   "battle": {
     "kind": "battle",
     "actors": 3,
-    "cache": 4,
+    "cache": 5,
     "renderer": {
-      "frame": 12,
-      "calls": 79,
-      "triangles": 57250,
+      "frame": 10,
+      "calls": 110,
+      "triangles": 58872,
       "points": 0,
       "lines": 0
     },
@@ -30,9 +30,9 @@
     "actors": 11,
     "cache": 10,
     "renderer": {
-      "frame": 9,
-      "calls": 167,
-      "triangles": 198366,
+      "frame": 11,
+      "calls": 175,
+      "triangles": 199032,
       "points": 0,
       "lines": 0
     },

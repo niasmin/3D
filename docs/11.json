@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "11_T1_Amber Veteran_Rig",
       "mesh": "11_T1_Amber Veteran_Mesh",
-      "vertices": 9404,
+      "vertices": 9082,
       "bones": 22,
       "actions": [
         "11_T1_Amber Veteran_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "11_T2_Amber Veteran_Rig",
       "mesh": "11_T2_Amber Veteran_Mesh",
-      "vertices": 11108,
+      "vertices": 10452,
       "bones": 22,
       "actions": [
         "11_T2_Amber Veteran_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "11_T3_Amber Veteran_Rig",
       "mesh": "11_T3_Amber Veteran_Mesh",
-      "vertices": 11676,
+      "vertices": 10686,
       "bones": 22,
       "actions": [
         "11_T3_Amber Veteran_Rig__Idle",

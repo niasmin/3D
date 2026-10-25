@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "18_T1_Moon Scholar_Rig",
       "mesh": "18_T1_Moon Scholar_Mesh",
-      "vertices": 8672,
+      "vertices": 8816,
       "bones": 22,
       "actions": [
         "18_T1_Moon Scholar_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "18_T2_Moon Scholar_Rig",
       "mesh": "18_T2_Moon Scholar_Mesh",
-      "vertices": 9564,
+      "vertices": 9356,
       "bones": 22,
       "actions": [
         "18_T2_Moon Scholar_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "18_T3_Moon Scholar_Rig",
       "mesh": "18_T3_Moon Scholar_Mesh",
-      "vertices": 10024,
+      "vertices": 9464,
       "bones": 22,
       "actions": [
         "18_T3_Moon Scholar_Rig__Idle",

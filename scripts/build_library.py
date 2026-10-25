@@ -8,6 +8,7 @@ from mathutils import Vector
 from math import sin, cos, pi
 
 ROOT=Path(__file__).resolve().parents[1]
+PROFILES=json.loads((ROOT/'scripts'/'hero-profiles.json').read_text())
 # Per-reference art direction, manually read from all 69 supplied sheets.
 # name, archetype, garment, accent, hair, weapon, beard, element
 ROWS=[
@@ -84,7 +85,7 @@ ROWS=[
 def color(h): return tuple(int(h[i:i+2],16)/255 for i in (0,2,4))+(1,)
 def mat(name,h,metal=0,emit=0):
  m=bpy.data.materials.new(name);m.diffuse_color=color(h);m.use_nodes=True
- p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=color(h);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=.32 if metal else .55
+ p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=color(h);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=.40 if metal else .72
  if emit:p.inputs['Emission Color'].default_value=color(h);p.inputs['Emission Strength'].default_value=emit
  return m
 
@@ -116,6 +117,11 @@ class Sculpt:
   for i in range(9):
    t=i/8;pts.append((1-t)**2*a+2*t*(1-t)*c+t*t*z);rad.append(.007+width*sin(pi*t)**.8)
   self.tube(pts,rad,m,b,n=6)
+ def plate(self,c,w,h,depth,m,b='chest',taper=.8):
+  # Closed trapezoidal lamellar plate with a raised central ridge.
+  x,y,z=c;vs=[(x-w/2,y,z+h/2),(x+w/2,y,z+h/2),(x+w*taper/2,y,z-h/2),(x-w*taper/2,y,z-h/2),(x,y-depth,z),
+    (x-w/2,y+.018,z+h/2),(x+w/2,y+.018,z+h/2),(x+w*taper/2,y+.018,z-h/2),(x-w*taper/2,y+.018,z-h/2)]
+  self.add(vs,[(0,4,1),(1,4,2),(2,4,3),(3,4,0),(5,6,7,8),(0,1,6,5),(1,2,7,6),(2,3,8,7),(3,0,5,8)],m,b)
  def robe(self,top,bottom,rt,rb,m,b='pelvis',phase=0):
   vs=[];n=48
   for j in range(5):
@@ -155,7 +161,7 @@ def armature(name,x):
  bpy.ops.object.mode_set(mode='OBJECT');ob.select_set(False);ob.show_in_front=True
  return ob
 
-def animations(rig,seed):
+def animations(rig,seed,weapon='sword'):
  rig.animation_data_create()
  for name,length in [('Idle',80),('Walk',32),('Attack',48)]:
   act=bpy.data.actions.new(rig.name+'__'+name);rig.animation_data.action=act;act.use_fake_user=True
@@ -180,6 +186,19 @@ def animations(rig,seed):
     rig.pose.bones['upper_arm.R'].rotation_euler.x=-1.2*strike
     rig.pose.bones['forearm.R'].rotation_euler.x=-.65*strike
     rig.pose.bones['upper_arm.L'].rotation_euler.y=.5*strike
+    if weapon=='bow':
+     rig.pose.bones['upper_arm.R'].rotation_euler.x=-.9*strike
+     rig.pose.bones['upper_arm.R'].rotation_euler.z=-.4*strike
+     rig.pose.bones['upper_arm.L'].rotation_euler.x=-1.0*strike
+     rig.pose.bones['forearm.L'].rotation_euler.x=-1.3*strike
+     rig.pose.bones['chest'].rotation_euler.y=.20*strike
+    elif weapon in ('staff','fan'):
+     for side in ['L','R']:rig.pose.bones['upper_arm.'+side].rotation_euler.x=-1.1*strike;rig.pose.bones['forearm.'+side].rotation_euler.x=-.4*strike
+     rig.pose.bones['root'].location.y=.10*strike
+    elif weapon in ('spear','halberd'):
+     rig.pose.bones['upper_arm.R'].rotation_euler.x=-.65*strike
+     rig.pose.bones['forearm.R'].rotation_euler.x=-1.10*strike
+     rig.pose.bones['chest'].rotation_euler.x=.20*strike
    for p in rig.pose.bones:p.keyframe_insert('rotation_euler',frame=frame,group=p.name)
    rig.pose.bones['root'].keyframe_insert('location',frame=frame,group='root')
   for fc in act.fcurves:
@@ -189,21 +208,50 @@ def animations(rig,seed):
 
 def make_character(row,tier,x,idx):
  name,kind,base,accent,hair,weapon,beard,element=row
- mats=[mat('Silk '+base,base),mat('Accent '+accent,accent),mat('Antique gold','d8ac48',.72),mat('Hair '+hair,hair),mat('Warm skin','edb18b'),mat('Ink','201d29'),mat('Ivory','f4e8d4'),mat('Boot leather','3c3033'),mat('Magic '+element,element,.2,2),mat('Steel','bccbd9',.8)]
+ profile=PROFILES.get(str(idx),{});look=profile.get('look',{});role=profile.get('role');female=bool(look.get('f',False)) if profile else kind=='dancer'
+ if role:
+  kind={'war':'general','cav':'knight','arch':'archer','strat':'sage','heal':'sage'}[role]
+  if female and role in ('heal','strat'):kind='dancer'
+  weapon={'war':'blade','cav':'spear','arch':'bow','strat':'fan','heal':'staff'}[role]
+  if profile.get('id') in ('guanyu','guanyu_y','lubu','zhangfei','zhangfei_y'):weapon='halberd'
+  if profile.get('id')=='xuhuang':weapon='axe'
+  if profile.get('id')=='xiahoudun':weapon='shield'
+  beard=bool(look.get('beard'));hair=look.get('hair','#251b22').lstrip('#')
+  if look.get('old'):hair='d8d5cf'
+  # Color-correct cloth using faction accents; keep the reference's primary palette.
+ skin=look.get('skin','#efb992').lstrip('#')
+ if profile.get('id')=='liubei_y':base,accent='38704d','e7d8ae'
+ if profile.get('id')=='guanyu':skin='c48763'
+ mats=[mat('Silk '+base,base),mat('Accent '+accent,accent),mat('Antique gold','c99a3f',.58),mat('Hair '+hair,hair),mat('Warm skin',skin),mat('Ink','201d29'),mat('Ivory','f4e8d4'),mat('Boot leather','3c3033'),mat('Magic '+element,element,.1,1),mat('Steel','9aafbd',.65)]
  rig=armature(f'{idx:02d}_T{tier}_{name}_Rig',x);s=Sculpt(mats)
- robust=kind=='general';female=kind=='dancer';scholar=kind=='sage';r=.38 if robust else .32
+ robust=kind=='general';scholar=kind=='sage';armored=kind in ('general','knight');r=.39 if robust else .29 if female else .32
  # Layered tunic, breastplate, articulated legs, boots, belts.
- s.robe(1.35,.48,.29,.51+.045*tier,0,phase=idx*.3)
- s.robe(1.4,.88,.29,.45,1)
+ s.robe(1.35,.82 if armored else .42,.29,.43+.035*tier if armored else .54+.045*tier,0,phase=idx*.3)
+ # One continuous garment surface avoids two intersecting robes flickering in glTF.
  for a in range(0,360,60):
-  a=math.radians(a);s.tube([( .30*cos(a),.30*sin(a),1.30),(.43*cos(a),.43*sin(a),.87),(.52*cos(a),.52*sin(a),.51)],.012,2,'pelvis',6)
+  a=math.radians(a);s.tube([( .30*cos(a),.30*sin(a),1.30),(.43*cos(a),.43*sin(a),.98),(.47*cos(a),.47*sin(a),.84 if armored else .45)],.012,2,'pelvis',6)
  s.ell((0,0,1.64),(r,.24,.40),0)
- if not (female or scholar):
-  s.ell((0,-.10,1.70),(r*.97,.22,.30),9)
+ if armored:
+  s.ell((0,-.06,1.70),(r*.97,.20,.30),9)
+  for j in range(4):
+   for k in range(5):
+    xx=(k-2)*.116;zz=1.48+j*.105;yy=-.27+.09*(abs(xx)/.3)**2
+    s.plate((xx,yy,zz),.109,.12,.022,2 if j==3 else 9)
+  for sign in [-1,1]:
+   for j in range(3):s.plate((sign*.23,-.34,1.15-j*.13),.19,.16,.035,9,'pelvis')
   for sign in [-1,1]:s.tube([(sign*.25,-.24,1.92),(sign*.17,-.33,1.63),(sign*.08,-.27,1.42)],.024,2)
   s.ell((0,-.335,1.78),(.085,.03,.105),2)
  else:
   s.tube([(-.25,-.19,1.96),(0,-.30,1.64),(.20,-.22,1.43)],.037,1)
+  if kind=='archer':
+   s.tube([(-.25,-.22,1.96),(.04,-.27,1.65),(.24,-.22,1.38)],.045,7)
+   s.tube([(.25,.23,1.4),(.38,.26,2.15)],.11,7)
+   for k in range(5):
+    s.tube([(.29+k*.028,.26,1.7),(.35+k*.028,.26,2.42)],.012,2)
+    s.leaf((.35+k*.028,.26,2.30),(.42+k*.028,.26,2.37),(.35+k*.028,.26,2.43),.035,6)
+  else:
+   for sign in [-1,1]:
+    for j in range(3):s.leaf((sign*.05,-.31,1.85-j*.14),(sign*.18,-.32,1.84-j*.14),(sign*.25,-.23,1.88-j*.14),.014,2)
  s.ell((0,0,1.29),(.35,.27,.075),7,'pelvis');s.ell((0,-.275,1.29),(.105,.045,.09),2,'pelvis');s.ell((0,-.32,1.29),(.038,.02,.045),8,'pelvis')
  for side,sign in [('L',1),('R',-1)]:
   s.tube([(sign*.23,0,1.03),(sign*.29,0,.57)],.12,7,'thigh.'+side)
@@ -212,9 +260,10 @@ def make_character(row,tier,x,idx):
   s.ell((sign*.33,-.15,.10),(.17,.285,.045),2,'foot.'+side)
   s.ell((sign*.29,-.075,.60),(.135,.09,.16),2 if not scholar else 1,'shin.'+side)
   s.tube([(sign*.38,0,1.91),(sign*.68,-.015,1.61)],.14 if robust else .115,0,'upper_arm.'+side)
-  s.ell((sign*.43,0,1.94),(.23 if robust else .19,.27,.15),2 if not female else 1,'upper_arm.'+side)
-  for j in range(tier):s.ell((sign*(.46+.055*j),.03,1.94-.07*j),(.17,.23,.055),9 if not female else 0,'upper_arm.'+side)
-  s.tube([(sign*.68,-.015,1.61),(sign*.79,-.16,1.32)], [.14,.11] if scholar else [.10,.12],0 if scholar else 9,'forearm.'+side)
+  s.ell((sign*.43,0,1.94),(.24 if robust else .16,.24,.15),2 if armored else 0,'upper_arm.'+side)
+  if armored:
+   for j in range(tier+1):s.plate((sign*.47,-.18,1.97-.07*j),.28,.10,.04,2 if j==0 else 9,'upper_arm.'+side)
+  s.tube([(sign*.68,-.015,1.61),(sign*.79,-.16,1.32)], [.19,.16] if scholar else [.10,.12],0 if (scholar or female) else 9,'forearm.'+side)
   s.ell((sign*.79,-.16,1.32),(.13,.12,.055),2,'forearm.'+side)
   s.ell((sign*.8,-.18,1.22),(.105,.10,.125),4 if female else 7,'hand.'+side)
   if tier>=2 or scholar or female:s.panel(sign,tier,0 if sign==1 else 1)
@@ -239,10 +288,11 @@ def make_character(row,tier,x,idx):
    s.ell((sign*.33,.02,2.83),(.14,.13,.13),3,'head');s.ell((sign*.34,-.07,2.84),(.095,.06,.085),1,'head')
  if beard:
   for j in range(5):
-   xx=(j-2)*.052;s.leaf((xx,-.26,2.30),(xx*1.15,-.32,2.15),(xx*.5,-.24,1.98 if scholar else 2.10),.035,3,'head')
+   xx=(j-2)*.052;length={'long':.58,'wild':.29,'goatee':.28,'short':.16}.get(look.get('beard'),.24)
+   s.leaf((xx,-.26,2.30),(xx*1.15,-.35,2.20-length/2),(xx*.5,-.27,2.30-length),.038,3,'head')
   for sign in [-1,1]:s.leaf((sign*.02,-.332,2.355),(sign*.10,-.33,2.36),(sign*.14,-.27,2.31),.022,3,'head')
  # Headgear has different profiles for each family and increases by tier.
- if kind in ('knight','general'):
+ if armored and not female:
   s.ell((0,.055,2.76),(.39,.29,.20),9 if kind=='knight' else 2,'head')
   s.tube([(-.34,-.16,2.64),(0,-.294,2.73),(.34,-.16,2.64)],.035,2,'head')
   for sign in [-1,1]:s.ell((sign*.33,.015,2.50),(.075,.20,.23),9,'head')
@@ -251,7 +301,7 @@ def make_character(row,tier,x,idx):
   pm=len(mats);mats.append(mat('Horsehair crest',plume));s.ell((0,.05,2.97),(.10,.11,.08),2,'head')
   for j in range(7+tier*2):
    s.leaf((0,.08,3.00),(.18+.03*j,.30,3.52+.015*j),(.52+.035*j,.48,3.04-.07*j),.060,pm,'plume')
- elif scholar:
+ elif scholar and not female:
   s.ell((0,.03,2.84),(.28,.23,.15),0,'head')
   for sign in [-1,1]:s.tube([(sign*.22,.03,2.86),(sign*.26,.04,3.12)],.033,2,'head')
   s.tube([(-.25,.04,3.12),(0,.06,3.15),(.25,.04,3.12)],.025,2,'head')
@@ -259,6 +309,11 @@ def make_character(row,tier,x,idx):
  else:
   for j in range(3+tier):
    xx=(j-(2+tier)/2)*.10;s.leaf((xx,-.06,2.85),(xx*1.1,-.08,3.04),(xx*1.1,-.03,3.00+.12*(1-abs(xx))),.035,2,'head')
+ if look.get('patch'):
+  s.ell((-.153,-.305,2.49),(.10,.023,.067),7,'head')
+  s.tube([(-.30,-.14,2.70),(0,-.30,2.54),(.29,-.18,2.38)],.018,7,'head')
+ if look.get('pheasant'):
+  for sign in [-1,1]:s.leaf((sign*.15,.05,2.88),(sign*.65,.24,3.9),(sign*.90,.48,3.55),.048,1,'plume')
  # Higher evolution: individually modeled wing/shoulder ornaments.
  if tier>=2:
   for sign in [-1,1]:
@@ -297,7 +352,8 @@ def make_character(row,tier,x,idx):
   s.ell((wx,wy-.08,1.52),(.34,.13,.47),2,b);s.ell((wx,wy-.19,1.52),(.27,.065,.38),0,b);s.ell((wx,wy-.26,1.52),(.09,.05,.11),2,b)
  ob=s.object(f'{idx:02d}_T{tier}_{name}_Mesh',rig,x)
  rig['reference']=f'references/{idx:02d}.jpg';rig['evolution']=tier;rig['status']='Stylized procedural first pass; likeness not approved';rig['height_m']=3.5
- animations(rig,idx)
+ rig['graphics_revision']=2;rig['weapon']=weapon;rig['archetype']=kind;rig['hero_id']=profile.get('id','unassigned')
+ animations(rig,idx,weapon)
  return rig,ob
 
 def effect(element,tier,x,label):

@@ -27,7 +27,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -46,7 +46,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -65,7 +65,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -111,15 +111,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.15946
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -134,11 +134,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -153,11 +153,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -211,7 +211,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -230,7 +230,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -249,7 +249,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -303,7 +303,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -322,7 +322,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -341,7 +341,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -395,7 +395,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -414,7 +414,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -433,7 +433,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -479,15 +479,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -502,11 +502,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -521,11 +521,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -579,7 +579,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -598,7 +598,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -617,7 +617,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -663,15 +663,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.05416
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -686,11 +686,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -705,11 +705,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -763,7 +763,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -782,7 +782,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -801,7 +801,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -855,7 +855,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -874,7 +874,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -893,7 +893,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -1031,15 +1031,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.05416
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -1054,11 +1054,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -1073,11 +1073,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -1127,11 +1127,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1146,11 +1146,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1165,11 +1165,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -1215,15 +1215,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.05416
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -1238,11 +1238,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -1257,11 +1257,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -1311,11 +1311,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -1330,11 +1330,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -1349,11 +1349,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -1403,11 +1403,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -1422,11 +1422,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -1441,11 +1441,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -1495,11 +1495,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1514,11 +1514,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1533,11 +1533,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -1591,7 +1591,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -1610,7 +1610,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -1629,7 +1629,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -1679,11 +1679,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -1698,11 +1698,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -1717,11 +1717,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -1867,7 +1867,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1886,7 +1886,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -1905,7 +1905,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -1959,7 +1959,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -1978,7 +1978,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -1997,7 +1997,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -2043,15 +2043,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -2066,11 +2066,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -2085,11 +2085,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -2139,11 +2139,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -2158,11 +2158,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -2177,11 +2177,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.4886
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -2415,11 +2415,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2434,11 +2434,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2453,11 +2453,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -2511,7 +2511,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -2530,7 +2530,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -2549,7 +2549,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -2595,15 +2595,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.05416
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2618,11 +2618,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2637,11 +2637,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -2695,7 +2695,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2714,7 +2714,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2733,7 +2733,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -2779,15 +2779,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.05416
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -2802,11 +2802,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -2821,11 +2821,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -2871,7 +2871,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
@@ -2879,7 +2879,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2898,7 +2898,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -2917,7 +2917,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -3055,15 +3055,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -3078,11 +3078,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -3097,11 +3097,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -3155,7 +3155,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -3174,7 +3174,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -3193,7 +3193,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -3247,7 +3247,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -3266,7 +3266,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -3285,7 +3285,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -3331,7 +3331,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.15946
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
@@ -3519,11 +3519,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -3538,11 +3538,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -3557,11 +3557,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -3707,7 +3707,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -3726,7 +3726,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       },
@@ -3745,7 +3745,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.53234
           }
         }
       }
@@ -3795,11 +3795,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -3814,11 +3814,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       },
@@ -3833,11 +3833,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.99242
           }
         }
       }
@@ -3891,7 +3891,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -3910,7 +3910,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -3929,7 +3929,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -3983,7 +3983,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4002,7 +4002,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4021,7 +4021,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -4075,7 +4075,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4094,7 +4094,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4113,7 +4113,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -4167,7 +4167,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -4186,7 +4186,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -4205,7 +4205,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -4251,15 +4251,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.05416
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -4274,11 +4274,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -4293,11 +4293,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.4886
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.74626
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -4351,7 +4351,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4370,7 +4370,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4389,7 +4389,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -4439,11 +4439,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4458,11 +4458,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4477,11 +4477,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -4531,11 +4531,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4550,11 +4550,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -4569,11 +4569,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.42337
+            "max_vertex_motion_m": 0.68167
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.29008
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -4715,11 +4715,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4734,11 +4734,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4753,11 +4753,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -4807,11 +4807,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4826,11 +4826,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -4845,11 +4845,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -4987,15 +4987,15 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -5010,11 +5010,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -5029,11 +5029,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -5087,7 +5087,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5106,7 +5106,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5125,7 +5125,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5175,11 +5175,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5194,11 +5194,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5213,11 +5213,11 @@
           },
           "Walk": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.68167
+            "max_vertex_motion_m": 0.42337
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5271,7 +5271,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5290,7 +5290,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5309,7 +5309,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5363,7 +5363,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5382,7 +5382,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5401,7 +5401,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5455,7 +5455,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5474,7 +5474,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5493,7 +5493,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5547,7 +5547,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -5566,7 +5566,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       },
@@ -5585,7 +5585,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.35823
+            "max_vertex_motion_m": 1.29008
           }
         }
       }
@@ -5639,7 +5639,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5658,7 +5658,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       },
@@ -5677,7 +5677,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 1.24787
+            "max_vertex_motion_m": 1.25946
           }
         }
       }
@@ -5823,7 +5823,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -5842,7 +5842,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -5861,7 +5861,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -5915,7 +5915,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -5934,7 +5934,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -5953,7 +5953,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -5999,7 +5999,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.15946
+            "max_vertex_motion_m": 0.09702
           },
           "Walk": {
             "status": "PASS",
@@ -6007,7 +6007,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6026,7 +6026,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6045,7 +6045,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -6099,7 +6099,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6118,7 +6118,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6137,7 +6137,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }
@@ -6191,7 +6191,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6210,7 +6210,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       },
@@ -6229,7 +6229,7 @@
           },
           "Attack": {
             "status": "PASS",
-            "max_vertex_motion_m": 2.34054
+            "max_vertex_motion_m": 1.92051
           }
         }
       }

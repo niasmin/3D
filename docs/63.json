@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "63_T1_Sage of Jade_Rig",
       "mesh": "63_T1_Sage of Jade_Mesh",
-      "vertices": 9050,
+      "vertices": 9486,
       "bones": 22,
       "actions": [
         "63_T1_Sage of Jade_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "63_T2_Sage of Jade_Rig",
       "mesh": "63_T2_Sage of Jade_Mesh",
-      "vertices": 9942,
+      "vertices": 10098,
       "bones": 22,
       "actions": [
         "63_T2_Sage of Jade_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "63_T3_Sage of Jade_Rig",
       "mesh": "63_T3_Sage of Jade_Mesh",
-      "vertices": 10402,
+      "vertices": 10278,
       "bones": 22,
       "actions": [
         "63_T3_Sage of Jade_Rig__Idle",

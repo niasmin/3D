@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "40_T1_Ocean Champion_Rig",
       "mesh": "40_T1_Ocean Champion_Mesh",
-      "vertices": 9026,
+      "vertices": 8704,
       "bones": 22,
       "actions": [
         "40_T1_Ocean Champion_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "40_T2_Ocean Champion_Rig",
       "mesh": "40_T2_Ocean Champion_Mesh",
-      "vertices": 10730,
+      "vertices": 10074,
       "bones": 22,
       "actions": [
         "40_T2_Ocean Champion_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "40_T3_Ocean Champion_Rig",
       "mesh": "40_T3_Ocean Champion_Mesh",
-      "vertices": 11298,
+      "vertices": 10308,
       "bones": 22,
       "actions": [
         "40_T3_Ocean Champion_Rig__Idle",

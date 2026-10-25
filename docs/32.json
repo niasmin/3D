@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "32_T1_Sky Halberd_Rig",
       "mesh": "32_T1_Sky Halberd_Mesh",
-      "vertices": 10230,
+      "vertices": 10232,
       "bones": 22,
       "actions": [
         "32_T1_Sky Halberd_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "32_T2_Sky Halberd_Rig",
       "mesh": "32_T2_Sky Halberd_Mesh",
-      "vertices": 11934,
+      "vertices": 11602,
       "bones": 22,
       "actions": [
         "32_T2_Sky Halberd_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "32_T3_Sky Halberd_Rig",
       "mesh": "32_T3_Sky Halberd_Mesh",
-      "vertices": 12502,
+      "vertices": 11836,
       "bones": 22,
       "actions": [
         "32_T3_Sky Halberd_Rig__Idle",

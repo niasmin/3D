@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "66_T1_Ivory Sage_Rig",
       "mesh": "66_T1_Ivory Sage_Mesh",
-      "vertices": 10140,
+      "vertices": 10286,
       "bones": 22,
       "actions": [
         "66_T1_Ivory Sage_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "66_T2_Ivory Sage_Rig",
       "mesh": "66_T2_Ivory Sage_Mesh",
-      "vertices": 11032,
+      "vertices": 11656,
       "bones": 22,
       "actions": [
         "66_T2_Ivory Sage_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "66_T3_Ivory Sage_Rig",
       "mesh": "66_T3_Ivory Sage_Mesh",
-      "vertices": 11492,
+      "vertices": 11890,
       "bones": 22,
       "actions": [
         "66_T3_Ivory Sage_Rig__Idle",

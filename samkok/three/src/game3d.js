@@ -12,6 +12,17 @@ const cache = new Map();
 let current = null, viewer = null, mountVersion = 0;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const quality = () => localStorage.getItem('samkok-3d-quality') || 'standard';
+function gradientTexture(shadow=false) {
+  const canvas=document.createElement('canvas');canvas.width=shadow?128:256;canvas.height=shadow?128:256;const c=canvas.getContext('2d');
+  const g=shadow?c.createRadialGradient(64,64,4,64,64,64):c.createLinearGradient(0,0,0,256);
+  if(shadow){g.addColorStop(0,'rgba(12,22,30,.7)');g.addColorStop(.45,'rgba(12,22,30,.35)');g.addColorStop(1,'rgba(12,22,30,0)');}
+  else{g.addColorStop(0,'#163b58');g.addColorStop(.55,'#7599a2');g.addColorStop(1,'#e8c799');}
+  c.fillStyle=g;c.fillRect(0,0,canvas.width,canvas.height);
+  if(!shadow)for(let layer=0;layer<2;layer++){
+    c.beginPath();c.moveTo(0,256);for(let x=0;x<=256;x+=4)c.lineTo(x,180+layer*22+Math.sin(x*.027+layer)*13+Math.sin(x*.063+layer*2)*7);c.lineTo(256,256);c.closePath();c.fillStyle=layer?'#77978c':'#64868a';c.fill();
+  }
+  const t=new T.CanvasTexture(canvas);t.colorSpace=T.SRGBColorSpace;return t;
+}
 const disposeTree = root => {
   const geometries = new Set(), materials = new Set();
   root.traverse(o => { if (o.geometry) geometries.add(o.geometry); if (o.material) for (const m of [].concat(o.material)) materials.add(m); });
@@ -57,7 +68,7 @@ function cylinder(parent, rt, rb, height, pos, mat, n=12) { return mesh(parent,n
 
 class Actor {
   constructor(asset, unit, stage) {
-    this.asset=asset;this.unit=unit;this.stage=stage;this.root=new T.Group();this.root.add(asset.root);this.root.scale.setScalar(.82);
+    this.asset=asset;this.unit=unit;this.stage=stage;this.root=new T.Group();this.root.add(asset.root);this.root.scale.setScalar(unit.id==='boss'?1.12:.90);
     this.mixer=new T.AnimationMixer(asset.root);this.actions={};this.dead=false;this.hitUntil=0;this.attackUntil=0;
     for (const name of ['Idle','Walk','Attack']) { const clip=clipByName(asset.clips,name);if(clip)this.actions[name]=this.mixer.clipAction(clip); }
     this.actions.Idle?.play();this.active=this.actions.Idle;
@@ -88,17 +99,18 @@ class Stage {
   constructor(host, kind='battle', biome='village') {
     this.host=host;this.kind=kind;this.disposed=false;this.actors=new Map();this.labels=[];this.fx=[];this.environment=new T.Group();this.owned=[];
     this.scene=new T.Scene();this.scene.add(this.environment);
-    const sky=biome==='gate'?0xa9adb4:biome==='harbor'?0xbad5d6:0xdfd7bc;
-    this.scene.background=new T.Color(sky);this.scene.fog=new T.Fog(sky,32,85);
+    const sky=biome==='gate'?0x647c87:biome==='harbor'?0x86afb0:0x98b6ab;
+    this.skyTexture=gradientTexture();this.shadowTexture=gradientTexture(true);
+    this.scene.background=this.skyTexture;this.scene.fog=new T.Fog(sky,38,85);
     this.canvas=document.createElement('canvas');this.canvas.className='world3d';this.canvas.setAttribute('aria-label',kind==='city'?'เมืองสามก๊กแบบสามมิติ':'สนามขุนพลสามมิติ');
     this.renderer=new T.WebGLRenderer({canvas:this.canvas,antialias:quality()!=='low',alpha:false,powerPreference:'high-performance'});
     this.renderer.setPixelRatio(Math.min(devicePixelRatio,quality()==='low'?1:1.5));this.renderer.outputColorSpace=T.SRGBColorSpace;
-    this.renderer.toneMapping=T.ACESFilmicToneMapping;this.renderer.toneMappingExposure=1.02;
-    this.renderer.shadowMap.enabled=quality()==='high';this.renderer.shadowMap.type=T.PCFSoftShadowMap;
+    this.renderer.toneMapping=T.ACESFilmicToneMapping;this.renderer.toneMappingExposure=.95;
+    this.renderer.shadowMap.enabled=quality()==='high'||(quality()==='standard'&&!matchMedia('(max-width:600px)').matches);this.renderer.shadowMap.type=T.PCFSoftShadowMap;
     this.camera=new T.PerspectiveCamera(37,1,.1,150);
     this.camera.position.set(kind==='city'?21:12,kind==='city'?24:23,kind==='city'?28:26);this.target=new T.Vector3(0,kind==='city'?2:0.5,0);this.camera.lookAt(this.target);
-    const ambient=new T.HemisphereLight(0xfff0d1,0x4e5b69,2.2);this.scene.add(ambient);
-    const sun=new T.DirectionalLight(0xffe5b3,3);sun.position.set(-12,25,15);sun.castShadow=true;sun.shadow.mapSize.set(1024,1024);Object.assign(sun.shadow.camera,{left:-15,right:15,top:15,bottom:-15,near:1,far:70});this.scene.add(sun);
+    const ambient=new T.HemisphereLight(0xd3e9ff,0x243d38,1.15);this.scene.add(ambient);
+    const sun=new T.DirectionalLight(0xffd8a1,2.6);sun.position.set(-12,25,15);sun.castShadow=true;sun.shadow.mapSize.set(1024,1024);sun.shadow.bias=-.0003;sun.shadow.normalBias=.035;Object.assign(sun.shadow.camera,{left:-15,right:15,top:15,bottom:-15,near:1,far:70});this.scene.add(sun);
     const rim=new T.DirectionalLight(0x9cceff,1.3);rim.position.set(8,6,-12);this.scene.add(rim);
     this.loading=document.createElement('div');this.loading.className='world3d-loading';this.loading.setAttribute('role','status');this.loading.textContent='กำลังเตรียมโลก 3D…';host.prepend(this.canvas);host.append(this.loading);host.classList.add('has3d');
     this.controls=new OrbitControls(this.camera,this.canvas);this.controls.target.copy(this.target);this.controls.enablePan=false;this.controls.enableDamping=true;this.controls.minDistance=kind==='city'?20:18;this.controls.maxDistance=kind==='city'?55:55;this.controls.minPolarAngle=.30;this.controls.maxPolarAngle=1.3;
@@ -118,11 +130,17 @@ class Stage {
   }
   buildWorld(biome) {
     const e=this.environment;
-    const stone=material(0xc6b894),darkStone=material(0x8d8270),grass=material(biome==='gate'?0x858574:0x91a477),wood=material(0x674638),red=material(0x9d3f31),roof=material(0x39777a),gold=material(0xd6af63,.35);
+    const stone=material(0x899995),darkStone=material(0x5e7774),grass=material(biome==='gate'?0x496a5e:0x3c795b),wood=material(0x533729),red=material(0x9b4534),roof=material(0x1f6870),gold=material(0xd9b36a,.35);
     this.palette={stone,darkStone,grass,wood,red,roof,gold};
     cylinder(e,14,12,1.5,[0,-.85,0],darkStone,32);cylinder(e,14.1,14.1,.12,[0,-.06,0],grass,48);
     const paving=box(e,[this.kind==='city'?8:13,.12,17],[0,0,0],stone);
-    for(let z=-8;z<=8;z++)for(let x=-6;x<=6;x+=2){if(this.kind==='city'&&Math.abs(x)>3)continue;box(e,[1.94,.02,.94],[x,.072,z],(z+x)%3===0?darkStone:stone);}
+    for(let z=-8;z<=8;z++)for(let x=-6;x<=6;x+=2){if(this.kind==='city'&&Math.abs(x)>3)continue;box(e,[1.94,.025,.94],[x,.072,z],(z+x)%5===0?darkStone:stone);}
+    for(const x of [-6.7,6.7])box(e,[.05,.04,17],[x,.105,0],gold);
+    for(const z of [-8.5,8.5])box(e,[13.5,.04,.05],[0,.105,z],gold);
+    if(this.kind!=='city'){
+      const seal=mesh(e,new T.RingGeometry(2.05,2.10,64),gold,[0,.12,0]);seal.rotation.x=-Math.PI/2;
+      for(let k=0;k<8;k++){const a=k*Math.PI/4,m=box(e,[.05,.04,.55],[Math.cos(a)*1.7,.12,Math.sin(a)*1.7],gold);m.rotation.y=-a;}
+    }
     if(this.kind==='viewer')return;
     if(this.kind==='city')this.buildCity();
     else {
@@ -137,11 +155,9 @@ class Stage {
       } else {this.pagoda(-7,-10,1.05,2);this.pagoda(7,-10,1.05,2);}
       this.banner(-6,-9,0x416f77);this.banner(6,-9,0xb15243);
     }
-    // Distant low-poly mountain silhouettes.
-    const mountain=material(0x7d9693);
-    for(let i=0;i<13;i++){const a=i/13*2*Math.PI;mesh(e,new T.ConeGeometry(5+i%4,8+i%5,5),mountain,[Math.cos(a)*42,1,Math.sin(a)*42]);}
+    // Distant silhouettes are part of the sky backdrop; scenery stays within the island.
     this.petals=new T.Group();e.add(this.petals);
-    const petalMat=material(0xffdfb7);
+    const petalMat=material(0xffd5b2);
     for(let i=0;i<25;i++) {const p=mesh(this.petals,new T.OctahedronGeometry(.035),petalMat,[(i*7.3)%25-12,(i*1.7)%7+1,(i*5.1)%25-12]);p.userData.phase=i;}
   }
   batchEnvironment() {
@@ -175,17 +191,30 @@ class Stage {
       for(const a of [-1,1])for(const b of [-1,1])cylinder(e,.075*size,.085*size,size*1.6,[x+a*s*1.27,y+size*.8,z+b*s*1.16],wood,8);
       for(const a of [-.7,0,.7])box(e,[s*.32,size*.55,.03],[x+a*s,y+size*.8,z+s*1.26],new T.MeshStandardMaterial({color:0xffd892,emissive:0xd8903c,emissiveIntensity:.35,roughness:.6}));
       this.roof(e,x,y+size*1.5,z,s*1.7,roof);
+      for(const sign of [-1,1]){
+        box(e,[s*3.5,.045,.045],[x,y+size*1.59,z+sign*s*1.7],gold);
+        cylinder(e,.045,.06,.32,[x+sign*s*1.76,y+size*1.9,z+s*1.76],gold,7);
+      }
     }
     cylinder(e,.045,.08,.7,[x,.35+tiers*size*1.7,z],gold,8);
+    box(e,[size*.65,size*1.05,.06],[x,size*.8,z+size*1.28],wood);
+    for(let step=0;step<3;step++)box(e,[size*1.1,.12*(3-step),.3],[x,.06*(3-step),z+size*1.6+step*.26],stone);
+    for(const sign of [-1,1]){
+      const lantern=new T.MeshStandardMaterial({color:0xd94825,emissive:0xff7d2c,emissiveIntensity:.65,roughness:.6});
+      mesh(e,new T.SphereGeometry(size*.14,8,6),lantern,[x+sign*size*1.2,size*1.5,z+size*1.35]);
+      cylinder(e,.08,.08,.045,[x+sign*size*1.2,size*1.65,z+size*1.35],gold,8);
+    }
   }
   tree(x,z,pink=false) {
-    const e=this.environment;const trunk=material(0x76533d),leaves=material(pink?0xc78986:0x6d8e64);
+    const e=this.environment;const trunk=material(0x65483b),leaves=material(pink?0xc27887:0x3e7452);
     cylinder(e,.12,.24,2.1,[x,1,z],trunk,7);
     for(let j=0;j<4;j++)mesh(e,new T.IcosahedronGeometry(.8+(j%2)*.3,0),leaves,[x+Math.sin(j*2)*.55,2.4+(j%2)*.5,z+Math.cos(j*2)*.55]);
   }
   banner(x,z,color) {
     const e=this.environment;const pole=material(0x7d6545),cloth=material(color);
     cylinder(e,.035,.055,4.4,[x,2.2,z],pole,8);box(e,[1.25,1.8,.06],[x+.55,3.1,z],cloth);box(e,[1.4,.06,.08],[x+.6,4,z],pole);
+    for(const sign of [-1,1])box(e,[.035,1.8,.075],[x+.55+sign*.58,3.1,z],this.palette.gold);
+    const badge=mesh(e,new T.CircleGeometry(.28,4),this.palette.gold,[x+.55,3.2,z+.04]);badge.rotation.z=Math.PI/4;
     cylinder(e,.09,.03,.20,[x,4.5,z],this.palette.gold,8);
   }
   buildCity() {
@@ -203,10 +232,11 @@ class Stage {
     const asset=await acquire(unit.id,tier);
     if(this.disposed){asset.release();return null;}
     const actor=new Actor(asset,unit,this);this.actors.set(unit.uid,actor);
-    const p=unitPosition(unit.side,unit.slot);actor.root.position.set(p.x,p.y,p.z);actor.root.rotation.y=unit.side==='p'?Math.PI:0;
-    const el=document.getElementById('u-'+unit.uid);if(this.kind==='battle'&&el)this.labels.push({el,position:new T.Vector3(p.x,3.2,p.z)});
+    const p=unitPosition(unit.side,unit.slot);actor.root.position.set(p.x,p.y+.07,p.z);actor.root.rotation.y=unit.side==='p'?Math.PI:0;
+    const el=document.getElementById('u-'+unit.uid);if(this.kind==='battle'&&el)this.labels.push({el,position:new T.Vector3(p.x,unit.id==='boss'?4.3:3.55,p.z)});
     // Ground contact shadow remains available even on low-end phones without shadow maps.
-    const ring=mesh(this.environment,new T.CircleGeometry(.48,20),new T.MeshBasicMaterial({color:unit.side==='p'?0x254e43:0x763e39,transparent:true,opacity:.34,depthWrite:false}),[p.x,.12,p.z]);ring.rotation.x=-Math.PI/2;
+    const shadow=mesh(this.environment,new T.PlaneGeometry(1.5,1.5),new T.MeshBasicMaterial({map:this.shadowTexture,transparent:true,opacity:.7,depthWrite:false}),[p.x,.12,p.z]);shadow.rotation.x=-Math.PI/2;shadow.castShadow=false;
+    const ring=mesh(this.environment,new T.RingGeometry(.53,.56,32),new T.MeshBasicMaterial({color:unit.side==='p'?0x6ee5bf:0xff9b76,transparent:true,opacity:.65,depthWrite:false}),[p.x,.125,p.z]);ring.rotation.x=-Math.PI/2;ring.castShadow=false;
     return actor;
   }
   async populate(units) {
@@ -219,12 +249,27 @@ class Stage {
   action(a,dt) {
     const actor=this.actors.get(a.src);if(!actor||this.disposed)return;
     actor.play('Attack',Math.max(.15,dt/1000*.9));
+    const role=api.hero(actor.unit.id)?.role||'war';
     for(const hit of a.hits){const target=this.actors.get(hit.tgt);if(!target)continue;
-      const heal=hit.heal!==undefined,color=heal?0x7bffb0:a.skill?0xffd87a:0xb3edff;
+      const heal=hit.heal!==undefined,color=heal?0x7bffb0:hit.crit?0xffa14f:role==='strat'?0xbf9bff:role==='arch'?0xffdc8f:0x97edff;
       const m=new T.MeshBasicMaterial({color,transparent:true,opacity:.9,side:T.DoubleSide,depthWrite:false});
-      const ring=mesh(this.scene,new T.TorusGeometry(heal?1:.7,.045,5,24),m);ring.position.copy(target.root.position);ring.position.y=1.5;ring.rotation.x=heal?Math.PI/2:.7;
-      this.fx.push({mesh:ring,age:0,life:.40,ring:true});
-      if(!heal){const orb=mesh(this.scene,new T.SphereGeometry(a.skill?.15:.08,8,6),new T.MeshBasicMaterial({color}));const from=actor.root.position.clone().add(new T.Vector3(0,1.7,0)),to=target.root.position.clone().add(new T.Vector3(0,1.5,0));orb.position.copy(from);this.fx.push({mesh:orb,age:0,life:Math.max(.08,dt/1000*.25),from,to});}
+      const ring=mesh(this.scene,new T.TorusGeometry(heal?1:a.skill?1.1:.75,.035,5,32,heal?Math.PI*2:Math.PI*1.2),m);ring.position.copy(target.root.position);ring.position.y=heal?.18:1.5;ring.rotation.x=heal?Math.PI/2:.7;
+      this.fx.push({mesh:ring,age:0,life:heal?.75:.45,spin:!heal});
+      const count=reducedMotion?0:quality()==='low'?3:a.skill?8:4;
+      for(let k=0;k<count;k++){
+        const angle=k*2*Math.PI/count,spark=mesh(this.scene,new T.OctahedronGeometry(heal?.07:.045),new T.MeshBasicMaterial({color,transparent:true,opacity:.85,depthWrite:false}));
+        spark.position.copy(target.root.position).add(new T.Vector3(Math.cos(angle)*.55,heal?.3:1.3,Math.sin(angle)*.55));
+        this.fx.push({mesh:spark,age:0,life:heal?.9:.45,rise:heal?1.2:.6});
+      }
+      if(!heal){
+        let geometry;
+        if(role==='arch'){
+          const shaft=new T.CylinderGeometry(.018,.018,.75,5),tip=new T.ConeGeometry(.07,.18,5);tip.translate(0,.46,0);geometry=mergeGeometries([shaft,tip]);shaft.dispose();tip.dispose();
+        }else geometry=new T.SphereGeometry(a.skill?.17:.08,8,6);
+        const orb=mesh(this.scene,geometry,new T.MeshBasicMaterial({color}));const from=actor.root.position.clone().add(new T.Vector3(0,1.7,0)),to=target.root.position.clone().add(new T.Vector3(0,1.5,0));orb.position.copy(from);
+        if(role==='arch')orb.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),to.clone().sub(from).normalize());
+        this.fx.push({mesh:orb,age:0,life:Math.max(.08,dt/1000*.3),from,to});
+      }
     }
   }
   hits(a) {for(const h of a.hits){const actor=this.actors.get(h.tgt);if(actor){actor.hit(h.heal!==undefined);if(h.dead){actor.dead=true;actor.mixer.stopAllAction();}}}}
@@ -233,7 +278,7 @@ class Stage {
     const dt=Math.min(.05,(now-this.last)/1000);this.last=now;
     if(!document.hidden){
       this.controls.update();for(const actor of this.actors.values())actor.update(dt,now);
-      for(let i=this.fx.length-1;i>=0;i--){const f=this.fx[i];f.age+=dt;const t=f.age/f.life;if(t>=1){f.mesh.removeFromParent();f.mesh.geometry.dispose();f.mesh.material.dispose();this.fx.splice(i,1);}else if(f.from)f.mesh.position.lerpVectors(f.from,f.to,t);else{f.mesh.scale.setScalar(1+t);f.mesh.material.opacity=1-t;}}
+      for(let i=this.fx.length-1;i>=0;i--){const f=this.fx[i];f.age+=dt;const t=f.age/f.life;if(t>=1){f.mesh.removeFromParent();f.mesh.geometry.dispose();f.mesh.material.dispose();this.fx.splice(i,1);}else if(f.from)f.mesh.position.lerpVectors(f.from,f.to,t);else{f.mesh.scale.setScalar(1+t);f.mesh.material.opacity=1-t;if(f.spin)f.mesh.rotation.z+=dt*9;if(f.rise)f.mesh.position.y+=dt*f.rise;}}
       if(this.petals&&!reducedMotion)for(const p of this.petals.children){p.position.y-=dt*.25;p.position.x+=dt*.1;if(p.position.y<0)p.position.y=7;}
       this.renderer.render(this.scene,this.camera);
       const projected=this.labels.map(label=>{const p=label.position.clone().project(this.camera);return {...label,x:(p.x*.5+.5)*this.host.clientWidth,y:(-p.y*.5+.5)*this.host.clientHeight,hidden:p.z>1,w:label.el.offsetWidth,h:label.el.offsetHeight};});
@@ -253,7 +298,7 @@ class Stage {
     if(this.disposed)return;this.disposed=true;cancelAnimationFrame(this.raf);this.ro.disconnect();this.controls.dispose();
     for(const a of this.actors.values())a.dispose();for(const f of this.fx){f.mesh.geometry.dispose();f.mesh.material.dispose();}
     for(const {el} of this.labels){el.style.removeProperty('left');el.style.removeProperty('top');el.style.removeProperty('visibility');el.classList.remove('world3d-label');}
-    this.cameraButton?.remove();disposeTree(this.environment);this.renderer.dispose();this.renderer.forceContextLoss();this.canvas.remove();this.loading.remove();this.host.classList.remove('has3d');
+    this.cameraButton?.remove();disposeTree(this.environment);this.skyTexture.dispose();this.shadowTexture.dispose();this.renderer.dispose();this.renderer.forceContextLoss();this.canvas.remove();this.loading.remove();this.host.classList.remove('has3d');
   }
 }
 

@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "35_T1_Cloud Maiden_Rig",
       "mesh": "35_T1_Cloud Maiden_Mesh",
-      "vertices": 9838,
+      "vertices": 9570,
       "bones": 22,
       "actions": [
         "35_T1_Cloud Maiden_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "35_T2_Cloud Maiden_Rig",
       "mesh": "35_T2_Cloud Maiden_Mesh",
-      "vertices": 10784,
+      "vertices": 10164,
       "bones": 22,
       "actions": [
         "35_T2_Cloud Maiden_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "35_T3_Cloud Maiden_Rig",
       "mesh": "35_T3_Cloud Maiden_Mesh",
-      "vertices": 11298,
+      "vertices": 10326,
       "bones": 22,
       "actions": [
         "35_T3_Cloud Maiden_Rig__Idle",

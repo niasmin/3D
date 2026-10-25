@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "09_T1_Golden Envoy_Rig",
       "mesh": "09_T1_Golden Envoy_Mesh",
-      "vertices": 9762,
+      "vertices": 9872,
       "bones": 22,
       "actions": [
         "09_T1_Golden Envoy_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "09_T2_Golden Envoy_Rig",
       "mesh": "09_T2_Golden Envoy_Mesh",
-      "vertices": 10654,
+      "vertices": 10412,
       "bones": 22,
       "actions": [
         "09_T2_Golden Envoy_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "09_T3_Golden Envoy_Rig",
       "mesh": "09_T3_Golden Envoy_Mesh",
-      "vertices": 11114,
+      "vertices": 10520,
       "bones": 22,
       "actions": [
         "09_T3_Golden Envoy_Rig__Idle",

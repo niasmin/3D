@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "20_T1_Golden Shield_Rig",
       "mesh": "20_T1_Golden Shield_Mesh",
-      "vertices": 9460,
+      "vertices": 9722,
       "bones": 22,
       "actions": [
         "20_T1_Golden Shield_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "20_T2_Golden Shield_Rig",
       "mesh": "20_T2_Golden Shield_Mesh",
-      "vertices": 11164,
+      "vertices": 11092,
       "bones": 22,
       "actions": [
         "20_T2_Golden Shield_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "20_T3_Golden Shield_Rig",
       "mesh": "20_T3_Golden Shield_Mesh",
-      "vertices": 11732,
+      "vertices": 11326,
       "bones": 22,
       "actions": [
         "20_T3_Golden Shield_Rig__Idle",

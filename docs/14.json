@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "14_T1_Ember Lion_Rig",
       "mesh": "14_T1_Ember Lion_Mesh",
-      "vertices": 9404,
+      "vertices": 7514,
       "bones": 22,
       "actions": [
         "14_T1_Ember Lion_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "14_T2_Ember Lion_Rig",
       "mesh": "14_T2_Ember Lion_Mesh",
-      "vertices": 11108,
+      "vertices": 8812,
       "bones": 22,
       "actions": [
         "14_T2_Ember Lion_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "14_T3_Ember Lion_Rig",
       "mesh": "14_T3_Ember Lion_Mesh",
-      "vertices": 11676,
+      "vertices": 8974,
       "bones": 22,
       "actions": [
         "14_T3_Ember Lion_Rig__Idle",

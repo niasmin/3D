@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "54_T1_Royal Tide_Rig",
       "mesh": "54_T1_Royal Tide_Mesh",
-      "vertices": 9026,
+      "vertices": 8704,
       "bones": 22,
       "actions": [
         "54_T1_Royal Tide_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "54_T2_Royal Tide_Rig",
       "mesh": "54_T2_Royal Tide_Mesh",
-      "vertices": 10730,
+      "vertices": 10074,
       "bones": 22,
       "actions": [
         "54_T2_Royal Tide_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "54_T3_Royal Tide_Rig",
       "mesh": "54_T3_Royal Tide_Mesh",
-      "vertices": 11298,
+      "vertices": 10308,
       "bones": 22,
       "actions": [
         "54_T3_Royal Tide_Rig__Idle",

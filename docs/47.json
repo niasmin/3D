@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "47_T1_Jade Huntress_Rig",
       "mesh": "47_T1_Jade Huntress_Mesh",
-      "vertices": 8068,
+      "vertices": 8704,
       "bones": 22,
       "actions": [
         "47_T1_Jade Huntress_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "47_T2_Jade Huntress_Rig",
       "mesh": "47_T2_Jade Huntress_Mesh",
-      "vertices": 9718,
+      "vertices": 10074,
       "bones": 22,
       "actions": [
         "47_T2_Jade Huntress_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "47_T3_Jade Huntress_Rig",
       "mesh": "47_T3_Jade Huntress_Mesh",
-      "vertices": 10232,
+      "vertices": 10308,
       "bones": 22,
       "actions": [
         "47_T3_Jade Huntress_Rig__Idle",

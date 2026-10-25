@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "25_T1_Mountain Guardian_Rig",
       "mesh": "25_T1_Mountain Guardian_Mesh",
-      "vertices": 9438,
+      "vertices": 9116,
       "bones": 22,
       "actions": [
         "25_T1_Mountain Guardian_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "25_T2_Mountain Guardian_Rig",
       "mesh": "25_T2_Mountain Guardian_Mesh",
-      "vertices": 11142,
+      "vertices": 10486,
       "bones": 22,
       "actions": [
         "25_T2_Mountain Guardian_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "25_T3_Mountain Guardian_Rig",
       "mesh": "25_T3_Mountain Guardian_Mesh",
-      "vertices": 11710,
+      "vertices": 10720,
       "bones": 22,
       "actions": [
         "25_T3_Mountain Guardian_Rig__Idle",

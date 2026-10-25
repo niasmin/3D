@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "65_T1_Inferno Crescent_Rig",
       "mesh": "65_T1_Inferno Crescent_Mesh",
-      "vertices": 10608,
+      "vertices": 9908,
       "bones": 22,
       "actions": [
         "65_T1_Inferno Crescent_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "65_T2_Inferno Crescent_Rig",
       "mesh": "65_T2_Inferno Crescent_Mesh",
-      "vertices": 12312,
+      "vertices": 11278,
       "bones": 22,
       "actions": [
         "65_T2_Inferno Crescent_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "65_T3_Inferno Crescent_Rig",
       "mesh": "65_T3_Inferno Crescent_Mesh",
-      "vertices": 12880,
+      "vertices": 11512,
       "bones": 22,
       "actions": [
         "65_T3_Inferno Crescent_Rig__Idle",

@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "31_T1_Forest Ranger_Rig",
       "mesh": "31_T1_Forest Ranger_Mesh",
-      "vertices": 8068,
+      "vertices": 8704,
       "bones": 22,
       "actions": [
         "31_T1_Forest Ranger_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "31_T2_Forest Ranger_Rig",
       "mesh": "31_T2_Forest Ranger_Mesh",
-      "vertices": 9718,
+      "vertices": 10074,
       "bones": 22,
       "actions": [
         "31_T2_Forest Ranger_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "31_T3_Forest Ranger_Rig",
       "mesh": "31_T3_Forest Ranger_Mesh",
-      "vertices": 10232,
+      "vertices": 10308,
       "bones": 22,
       "actions": [
         "31_T3_Forest Ranger_Rig__Idle",

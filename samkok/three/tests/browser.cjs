@@ -19,6 +19,8 @@ const path=require('node:path');
  await page.locator('[data-tier="3"]').click();await page.waitForFunction(()=>!document.querySelector('.remake-viewer .world3d-loading'));
  await page.locator('[data-animation="Attack"]').click();assert.equal(await page.locator('[data-animation="Attack"]').getAttribute('aria-pressed'),'true');
  await page.waitForTimeout(300);await page.screenshot({path:path.join(out,'hero-e3.png')});await page.locator('[data-close3d]').click();
+ await page.evaluate(()=>Samkok3D.openViewer('boss'));await page.waitForSelector('.remake-viewer canvas');await page.waitForFunction(()=>!document.querySelector('.remake-viewer .world3d-loading'));
+ await page.locator('[data-animation="Attack"]').click();await page.screenshot({path:path.join(out,'boss-viewer.png')});await page.locator('[data-close3d]').click();
  await page.evaluate(()=>SamkokGame.navigate('formation'));await page.waitForFunction(()=>Samkok3D.diagnostics().actors>0);await page.waitForTimeout(300);await page.screenshot({path:path.join(out,'formation.png')});
  await page.evaluate(()=>SamkokGame.navigate('camp'));await page.waitForFunction(()=>Samkok3D.diagnostics().actors>0);
  const before=await page.evaluate(()=>({stage:SamkokGame.state().stage,gold:SamkokGame.state().gold}));
@@ -35,6 +37,7 @@ const path=require('node:path');
  await page.waitForFunction(()=>Samkok3D.diagnostics().actors===11);
  await page.screenshot({path:path.join(out,'full-formation.png')});
  results.fullFormation=await page.evaluate(()=>Samkok3D.diagnostics());
+ await page.close(); // Release the desktop WebGL context before software mobile rendering.
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});mobile.on('pageerror',e=>errors.push('mobile: '+e.message));
  await mobile.goto(process.env.TEST_URL||'http://127.0.0.1:8000/',{waitUntil:'domcontentloaded'});await mobile.waitForFunction(()=>window.Samkok3D?.diagnostics().kind==='city');await mobile.locator('[data-act="tutskip"]').click();
  await mobile.screenshot({path:path.join(out,'city-mobile.png')});

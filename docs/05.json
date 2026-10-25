@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "05_T1_Violet Archer_Rig",
       "mesh": "05_T1_Violet Archer_Mesh",
-      "vertices": 8068,
+      "vertices": 7892,
       "bones": 22,
       "actions": [
         "05_T1_Violet Archer_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "05_T2_Violet Archer_Rig",
       "mesh": "05_T2_Violet Archer_Mesh",
-      "vertices": 9718,
+      "vertices": 9190,
       "bones": 22,
       "actions": [
         "05_T2_Violet Archer_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "05_T3_Violet Archer_Rig",
       "mesh": "05_T3_Violet Archer_Mesh",
-      "vertices": 10232,
+      "vertices": 9352,
       "bones": 22,
       "actions": [
         "05_T3_Violet Archer_Rig__Idle",

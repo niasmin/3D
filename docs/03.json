@@ -9,7 +9,7 @@
       "tier": 1,
       "rig": "03_T1_Jade Chancellor_Rig",
       "mesh": "03_T1_Jade Chancellor_Mesh",
-      "vertices": 9462,
+      "vertices": 9194,
       "bones": 22,
       "actions": [
         "03_T1_Jade Chancellor_Rig__Idle",
@@ -21,7 +21,7 @@
       "tier": 2,
       "rig": "03_T2_Jade Chancellor_Rig",
       "mesh": "03_T2_Jade Chancellor_Mesh",
-      "vertices": 10354,
+      "vertices": 9734,
       "bones": 22,
       "actions": [
         "03_T2_Jade Chancellor_Rig__Idle",
@@ -33,7 +33,7 @@
       "tier": 3,
       "rig": "03_T3_Jade Chancellor_Rig",
       "mesh": "03_T3_Jade Chancellor_Mesh",
-      "vertices": 10814,
+      "vertices": 9842,
       "bones": 22,
       "actions": [
         "03_T3_Jade Chancellor_Rig__Idle",
