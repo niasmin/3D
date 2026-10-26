@@ -1,18 +1,18 @@
 {
   "url": "https://niasmin.github.io/3D/",
-  "source_commit": "b8bf70dd0eeb94a6f43cea1bbdb2a5557daa8c79",
-  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40289706875",
+  "source_commit": "d12a8c68f4ac23032ace57377167710ab7a70ba7",
+  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40295879353",
   "deployment": "success",
   "live_http_status": 200,
   "live_checks": [
     "public city renderer initializes",
-    "Young Liu Bei resolves to reference 63 rather than the female sheet 47",
-    "public GLB graphics_revision 4 / detail_revision 1 confirmed",
-    "seven nonempty animation clips available",
-    "renderer and models use cache revision 5",
+    "renderer and CSS cache revision 6 loaded",
+    "all 65 skill profiles present in public runtime",
+    "named Guan Yu preview button plays cast/release/impact/complete",
+    "effects clean up after public preview",
     "no page errors"
   ],
-  "local_checks": "17 Node checks; 69 native scenes reopened; 1,428 vertex-deformation action checks and 207 spell checks passed; desktop/mobile progression, six representative model viewers and melee contact/return at x1/x2/x3 passed",
+  "local_checks": "21 Node checks; all 65 effect recipes rendered in isolated WebGL harness with bounded GPU resource cleanup; nine representative actual-game viewers and boss, tier 3, two-target action/hit bridge, mobile reduced motion, desktop/mobile progression and melee x1/x2/x3 passed. Native models and rigs unchanged.",
   "online_services_enabled": true,
   "art_status": "Detailed procedural reference interpretations; artistic likeness NOT_APPROVED",
   "graphics_revision": 4,
@@ -22,7 +22,10 @@
     "Physical phone GPU performance not measured",
     "Guest authentication is browser-bound; transfer copies progress to another guest account"
   ],
-  "renderer_revision": 5,
-  "online_verification": "Backend unchanged; prior isolated online/cloud checks retained from commit 3623894. Public graphics check used explicit offline mode.",
-  "detailed_character_meshes": 204
+  "renderer_revision": 6,
+  "online_verification": "Backend unchanged. Prior online checks retained from commit 3623894. This release used explicit offline mode for graphics QA.",
+  "detailed_character_meshes": 204,
+  "skill_revision": 1,
+  "skill_profiles": 65,
+  "skill_art_status": "Stylized procedural effects interpreted from skill names/reference themes; shared shape generators with 65 distinct recipes"
 }

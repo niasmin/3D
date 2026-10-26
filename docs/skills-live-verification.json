@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "url": "https://niasmin.github.io/3D/",
+  "http": 200,
+  "rendererRevision": 6,
+  "skillProfiles": 65,
+  "button": "ดูสกิล · ง้าวมังกรเขียว",
+  "phases": [
+    "cast",
+    "release",
+    "impact",
+    "complete"
+  ],
+  "activeAfterCompletion": 0,
+  "pageErrors": []
+}
