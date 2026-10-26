@@ -46,3 +46,11 @@ Cloud/API scripts explicitly create temporary guest profiles in the isolated 3D 
 Browser reports and actual screenshots are in `artifacts/`. Browser graphics tests use SwiftShader and verify functionality/layout, not real-phone FPS. Native inspection reopens 69 numbered Blender scenes and evaluates 1,428 character actions; the additional boss has seven clips. The GitHub Pages workflow publishes only `web/`.
 
 Regenerate native sources from the parent checkout with `scripts/build_library.py`, the boss with `scripts/build_boss.py`, and glTF delivery copies with `scripts/export_game_models.py`. Exporting is deliberately separate from source authoring. Model mapping still derives from the supplied reference sheets plus explicit aliases in `src/layout.js`.
+
+Melee presentation: warriors and cavalry approach the first damage target, face it,
+strike at the existing 30% impact beat, turn and walk back before the next action.
+HP labels and contact shadows follow the actor. Archers and strategists keep their
+formation positions and launch projectiles. Area attacks approach one primary target;
+other affected targets retain their skill effects. This changes presentation only,
+not simulation damage, targeting or rewards. Browser verification for both sides and
+x1/x2/x3: `node three/tests/melee.browser.cjs` (uses a controlled browser clock).

@@ -1,7 +1,7 @@
 // Offline cache for the web build. BUILD is stamped by tools/build_web.py so each release gets a fresh cache.
-const BUILD='samkok3d-3';
+const BUILD='samkok3d-4';
 const CACHE='samkok3d-'+BUILD;
-const CORE=['./','three/config.js?v=3','three/backend.js?v=3','three/game3d.js?v=3','three/game3d.css?v=3','index.html','manifest.webmanifest','icon-192.png','ui/city2.webp','ui/avatar.webp','ui/bf-village.webp','ui/bf-gate.webp','ui/bf-harbor.webp',
+const CORE=['./','three/config.js?v=3','three/backend.js?v=3','three/game3d.js?v=4','three/game3d.css?v=3','index.html','manifest.webmanifest','icon-192.png','ui/city2.webp','ui/avatar.webp','ui/bf-village.webp','ui/bf-gate.webp','ui/bf-harbor.webp',
   'ui/n-city.webp','ui/n-heroes.webp','ui/n-team.webp','ui/n-train.webp','ui/n-camp.webp'];
 self.addEventListener('install',e=>{ e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())) });
 self.addEventListener('activate',e=>{ e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('samkok3d-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())) });

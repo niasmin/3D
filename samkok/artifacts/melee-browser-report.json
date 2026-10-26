@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "p0 melee contact and return 700ms",
+    "p0 melee contact and return 350ms",
+    "p0 melee contact and return 233.33333333333334ms",
+    "e0 melee contact and return 700ms",
+    "p3 ranged stationary 700ms"
+  ],
+  "pageErrors": []
+}

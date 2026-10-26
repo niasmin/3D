@@ -2,9 +2,10 @@
   "city": {
     "kind": "city",
     "actors": 0,
+    "combatants": [],
     "cache": 0,
     "renderer": {
-      "frame": 8,
+      "frame": 9,
       "calls": 36,
       "triangles": 9334,
       "points": 0,
@@ -18,11 +19,46 @@
   "battle": {
     "kind": "battle",
     "actors": 3,
+    "combatants": [
+      {
+        "uid": "p0",
+        "id": "liubei_y",
+        "position": [
+          -3.1383492161434923,
+          0.07,
+          1.955712833170052
+        ],
+        "moving": true,
+        "animation": "Walk"
+      },
+      {
+        "uid": "e0",
+        "id": "dianwei",
+        "position": [
+          -3.25,
+          0.07,
+          -2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "e1",
+        "id": "xuhuang",
+        "position": [
+          0,
+          0.07,
+          -2.1
+        ],
+        "moving": true,
+        "animation": "Walk"
+      }
+    ],
     "cache": 5,
     "renderer": {
-      "frame": 9,
-      "calls": 102,
-      "triangles": 56616,
+      "frame": 11,
+      "calls": 88,
+      "triangles": 55112,
       "points": 0,
       "lines": 0
     },
@@ -34,9 +70,132 @@
   "fullFormation": {
     "kind": "preview",
     "actors": 11,
+    "combatants": [
+      {
+        "uid": "preview-p1",
+        "id": "guanyu_y",
+        "position": [
+          0,
+          0.07,
+          2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p0",
+        "id": "liubei_y",
+        "position": [
+          -3.25,
+          0.07,
+          2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e0",
+        "id": "liubei_y",
+        "position": [
+          -3.25,
+          0.07,
+          -2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p2",
+        "id": "zhangfei_y",
+        "position": [
+          3.25,
+          0.07,
+          2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p5",
+        "id": "huatuo",
+        "position": [
+          3.25,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p3",
+        "id": "zhuge",
+        "position": [
+          -3.25,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e2",
+        "id": "huanggai",
+        "position": [
+          3.25,
+          0.07,
+          -2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p4",
+        "id": "zhaoyun",
+        "position": [
+          0,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e1",
+        "id": "caoren",
+        "position": [
+          0,
+          0.07,
+          -2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e4",
+        "id": "xunyu",
+        "position": [
+          0,
+          0.07,
+          -5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e3",
+        "id": "zhangliao",
+        "position": [
+          -3.25,
+          0.07,
+          -5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      }
+    ],
     "cache": 10,
     "renderer": {
-      "frame": 9,
+      "frame": 10,
       "calls": 172,
       "triangles": 193174,
       "points": 0,
