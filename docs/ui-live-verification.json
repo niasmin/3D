@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "url": "https://niasmin.github.io/3D/",
+  "http": 200,
+  "rendererRevision": 7,
+  "viewport": "390x844",
+  "city": {
+    "overflow": false,
+    "main": 768.40625,
+    "nav": 768.40625,
+    "labels": 3
+  },
+  "checks": [
+    "named resource row",
+    "navigation scroll boundary",
+    "zoom in/reset",
+    "expand secondary poses and Victory",
+    "viewer paints after load/resize",
+    "no page errors"
+  ],
+  "pageErrors": []
+}

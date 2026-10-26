@@ -1,18 +1,18 @@
 {
   "url": "https://niasmin.github.io/3D/",
-  "source_commit": "d12a8c68f4ac23032ace57377167710ab7a70ba7",
-  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40295879353",
+  "source_commit": "22cc50ca4707a7e3e11dd5f2356ced8168faaf24",
+  "workflow_run": "https://github.com/niasmin/3D/actions/runs/40332024610",
   "deployment": "success",
   "live_http_status": 200,
   "live_checks": [
-    "public city renderer initializes",
-    "renderer and CSS cache revision 6 loaded",
-    "all 65 skill profiles present in public runtime",
-    "named Guan Yu preview button plays cast/release/impact/complete",
-    "effects clean up after public preview",
+    "named resource row",
+    "navigation scroll boundary",
+    "zoom in/reset",
+    "expand secondary poses and Victory",
+    "viewer paints after load/resize",
     "no page errors"
   ],
-  "local_checks": "21 Node checks; all 65 effect recipes rendered in isolated WebGL harness with bounded GPU resource cleanup; nine representative actual-game viewers and boss, tier 3, two-target action/hit bridge, mobile reduced motion, desktop/mobile progression and melee x1/x2/x3 passed. Native models and rigs unchanged.",
+  "local_checks": "21 Node checks; responsive UI checks at five viewport sizes; full 6-vs-5 framing with non-overlapping nameplates and navigation clearance; keyboard focus, pose disclosure, zoom/reset and landscape rendering; core progression/save/summon/fallback, melee x1/x2/x3 and actual skill integration passed. Native assets and backend unchanged.",
   "online_services_enabled": true,
   "art_status": "Detailed procedural reference interpretations; artistic likeness NOT_APPROVED",
   "graphics_revision": 4,
@@ -22,10 +22,12 @@
     "Physical phone GPU performance not measured",
     "Guest authentication is browser-bound; transfer copies progress to another guest account"
   ],
-  "renderer_revision": 6,
+  "renderer_revision": 7,
   "online_verification": "Backend unchanged. Prior online checks retained from commit 3623894. This release used explicit offline mode for graphics QA.",
   "detailed_character_meshes": 204,
   "skill_revision": 1,
   "skill_profiles": 65,
-  "skill_art_status": "Stylized procedural effects interpreted from skill names/reference themes; shared shape generators with 65 distinct recipes"
+  "skill_art_status": "Stylized procedural effects interpreted from skill names/reference themes; shared shape generators with 65 distinct recipes",
+  "ui_revision": 7,
+  "ui_physical_device_test": "NOT_CHECKED"
 }
