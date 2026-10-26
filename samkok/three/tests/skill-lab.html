@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><style>body{margin:0;background:#142832}canvas{display:block}#name{position:absolute;left:16px;top:14px;color:white;font:20px sans-serif}</style><div id="name"></div>
+<script type="module">
+import {THREE as T,SKILLS,SkillDirector} from './bundle.js';
+const scene=new T.Scene();scene.background=new T.Color('#142832');const camera=new T.PerspectiveCamera(43,640/480,.1,100);camera.position.set(5.5,5.6,8.8);camera.lookAt(0,1,0);
+const renderer=new T.WebGLRenderer({antialias:true});renderer.setSize(640,480);renderer.setPixelRatio(1);renderer.outputColorSpace=T.SRGBColorSpace;document.body.append(renderer.domElement);
+const floor=new T.Mesh(new T.PlaneGeometry(15,15),new T.MeshBasicMaterial({color:'#26424b'}));floor.rotation.x=-Math.PI/2;floor.position.y=-.03;scene.add(floor);
+const grid=new T.GridHelper(14,14,'#53716d','#345558');scene.add(grid);
+const director=new SkillDirector(scene,{quality:'standard'});let seq;
+window.FXLab={ids:Object.keys(SKILLS),play(id,quality='standard',reducedMotion=false){director.clear();director.options={quality,reducedMotion};seq=director.begin({id,tier:3,dt:1000,source:()=>new T.Vector3(-2,0,0),targets:[{position:new T.Vector3(2,0,0),heal:SKILLS[id].role==='heal'}],autoImpact:true});document.querySelector('#name').textContent=SKILLS[id].hero+' · '+SKILLS[id].title;return this.step(0)},step(ms){director.update(seq.start+ms,camera);renderer.render(scene,camera);return {fx:director.diagnostics(),memory:{...renderer.info.memory},calls:renderer.info.render.calls,triangles:renderer.info.render.triangles}},done(){director.dispose();renderer.render(scene,camera);return {...renderer.info.memory}}};
+renderer.render(scene,camera);
+</script>

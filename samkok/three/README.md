@@ -64,3 +64,35 @@ Young Liu Bei → 63; Guan Yinping → 47; Young Guan Yu → 64. Zhao Yun retain
 the green outfit and paired swords visible in sheet 49 and the original game art.
 These are procedural reference interpretations; detailed geometry is not a claim
 of approved likeness. Hidden/back surfaces remain interpretations.
+
+## Per-character skill effects (revision 1)
+
+`src/skill-profiles.json` specifies 65 distinct cast/travel/impact/count recipes for
+64 playable heroes and the raid boss. `src/skills.js` owns geometric effects, staged
+playback, instanced particles and resource lifetimes. `Stage.action` begins casting;
+`Stage.hits` emits impacts from the same callback that updates battle HP. Every hit
+position is retained in world space, including heals and multi-target abilities.
+Skill effects replace the old generic skill rings/projectiles; normal attacks keep
+their simpler effects. Melee approach/return and simulation math are unchanged.
+
+The viewer's named skill button is available for all heroes and the boss. It creates
+a temporary practice target, widens the preview camera and plays a complete sequence.
+Changing evolution or closing the viewer clears its effects. Evolutions increase
+size, particle/element counts. Low quality caps active sequences at one, Standard at
+three. Reduced-motion mode removes traveling effects and particles. Expired effects
+dispose geometry/materials; the director owns and eventually disposes its glow map.
+
+Additional checks, from `samkok/` with the local server running:
+
+```sh
+node three/tests/skills.browser.cjs
+node three/tests/skills-game.browser.cjs
+node three/tests/melee.browser.cjs
+```
+
+The first browser test bundles an isolated effect-only harness and starts a temporary
+HTTP server itself. It renders all 65 profiles and checks GPU geometry/texture cleanup.
+The second uses the actual game, rigs, preview buttons and action/hit bridge; it also
+checks tier 3 and mobile reduced motion. These reports are separate to avoid claiming
+that an isolated effect harness proves in-game integration. Neither measures physical
+phone FPS. See [all skills and captures](../../docs/skills.md).

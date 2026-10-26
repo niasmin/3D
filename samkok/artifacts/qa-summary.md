@@ -29,3 +29,21 @@ screenshots are separate evidence. Artistic likeness is **NOT_APPROVED**; these 
 procedural interpretations with shared construction. Physical-phone GPU/FPS is
 **NOT_CHECKED**. Existing online/API checks are from the prior online release;
 this asset-only update does not change the backend or save schema.
+
+## Per-character skill release (effects revision 1 / renderer cache revision 6)
+
+- All 65 recipes (64 heroes + boss) match the game's skill names and have distinct
+  cast/travel/impact/count combinations. All construct finite geometry and release
+  resources. Node verification: 10 inherited combat tests + 11 presentation/asset tests.
+- All 65 effects rendered in an isolated real-WebGL harness. After each effect only
+  the two harness floor/grid geometries remained; after director disposal no textures
+  remained. Maximum observed effect-only counts: 112 calls and 12,410 triangles.
+  These are bounded scenario counts, not a physical-device FPS benchmark.
+- Separate actual-game test: nine representative viewers including the boss; named
+  button wiring, cast/release/impact, tier 3, multi-target battle action/hit bridge,
+  unchanged save state, mobile reduced-motion playback and no page errors.
+- Core desktop/mobile regression and x1/x2/x3 melee contact/return checks pass. Online
+  code, save schema and native rigs are unchanged; online tests were not repeated.
+- All-skill stills use the effect-only harness. `skills/game-*.png` and the Guan Yu GIF
+  are actual game renders. Effects are stylized procedural interpretations, with
+  shared geometric generators and individual recipes, not exact copies of the art.

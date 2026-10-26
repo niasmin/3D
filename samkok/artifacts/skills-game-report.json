@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "guanyu actual viewer cast/release/impact, cleanup and button wiring",
+    "simayi actual viewer cast/release/impact, cleanup and button wiring",
+    "zhouyu actual viewer cast/release/impact, cleanup and button wiring",
+    "zhangjiao actual viewer cast/release/impact, cleanup and button wiring",
+    "huatuo actual viewer cast/release/impact, cleanup and button wiring",
+    "yueying actual viewer cast/release/impact, cleanup and button wiring",
+    "caiwenji actual viewer cast/release/impact, cleanup and button wiring",
+    "caoren actual viewer cast/release/impact, cleanup and button wiring",
+    "boss actual viewer cast/release/impact, cleanup and button wiring",
+    "battle action/hit bridge emits impact at actual two targets",
+    "mobile skill title/button fit; reduced-motion playback completes"
+  ],
+  "pageErrors": [],
+  "physicalPhoneGpu": "NOT_CHECKED"
+}

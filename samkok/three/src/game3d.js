@@ -3,7 +3,8 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { clone as cloneSkeleton } from 'three/addons/utils/SkeletonUtils.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { MODEL_MAP, modelPath, unitPosition, clipByName,signatureFamily,nextRenderBudget } from './layout.js';
+import {SkillDirector,skillProfile} from './skills.js';
+import { MODEL_MAP, modelPath, unitPosition, clipByName,nextRenderBudget } from './layout.js';
 
 // Gameplay stays in the original engine. This module owns only presentation.
 const api = window.SamkokGame;
@@ -119,7 +120,7 @@ class Actor {
 class Stage {
   constructor(host, kind='battle', biome='village') {
     this.host=host;this.kind=kind;this.disposed=false;this.actors=new Map();this.labels=[];this.fx=[];this.environment=new T.Group();this.owned=[];
-    this.scene=new T.Scene();this.scene.add(this.environment);
+    this.scene=new T.Scene();this.scene.add(this.environment);this.skills=new SkillDirector(this.scene,{quality:quality()==='low'||quality()==='auto'&&adaptiveBudget?'low':'standard',reducedMotion});
     const sky=biome==='gate'?0x647c87:biome==='harbor'?0x86afb0:0x98b6ab;
     this.skyTexture=gradientTexture();this.shadowTexture=gradientTexture(true);
     this.scene.background=this.skyTexture;this.scene.fog=new T.Fog(sky,38,85);
@@ -281,12 +282,14 @@ class Stage {
       if(target){const d=target.root.position.clone().sub(actor.root.position);actor.root.rotation.y=Math.atan2(d.x,d.z);}
       actor.play('Attack',Math.max(.08,dt/1000*.55));
     }
-    actor.pendingImpact={action:a,dt};
-    if(!['war','cav'].includes(role))this.projectiles(actor,a,dt);
+    this.skills.options.quality=quality()==='low'||quality()==='auto'&&adaptiveBudget?'low':'standard';
+    const token=a.skill?this.skills.begin({id:actor.unit.id,tier:api.evolution(actor.unit.id,actor.unit.aw||0),source:()=>actor.root.position,targets:a.hits.map(h=>({position:this.actors.get(h.tgt)?.root.position,heal:h.heal!==undefined})).filter(t=>t.position),dt}):null;
+    actor.pendingImpact={action:a,dt,token};
+    if(!a.skill&&!['war','cav'].includes(role))this.projectiles(actor,a,dt);
   }
-  impact(actor,a,dt){
+  impact(actor,a,dt,token){
     const role=api.hero(actor.unit.id)?.role||'war';
-    if(a.skill)this.signature(actor,a.hits.map(h=>this.actors.get(h.tgt)).filter(Boolean));
+    if(a.skill&&token){this.skills.impact(token,a.hits.map(h=>({position:this.actors.get(h.tgt)?.root.position,heal:h.heal!==undefined})).filter(t=>t.position));return;}
     for(const hit of a.hits){const target=this.actors.get(hit.tgt);if(!target)continue;
       const heal=hit.heal!==undefined,color=heal?0x7bffb0:hit.crit?0xffa14f:role==='strat'?0xbf9bff:role==='arch'?0xffdc8f:0x97edff;
       const m=new T.MeshBasicMaterial({color,transparent:true,opacity:.9,side:T.DoubleSide,depthWrite:false});
@@ -316,40 +319,24 @@ class Stage {
       }
     }
   }
-  signature(actor,targets){
-    const family=signatureFamily(actor.unit.id);if(!family||!targets.length||reducedMotion)return;
-    const target=targets[0].root.position.clone(),source=actor.root.position.clone();
-    const add=(geometry,color,position)=>mesh(this.scene,geometry,new T.MeshBasicMaterial({color,transparent:true,opacity:.85,depthWrite:false,side:T.DoubleSide}),position.toArray());
-    if(family==='ice'){
-      for(let k=0;k<3;k++){const to=target.clone().add(new T.Vector3((k-1)*.55,1,0)),from=to.clone().add(new T.Vector3(0,5+k*.4,0));const m=add(new T.ConeGeometry(.13,2,6),0x99e7ff,from);m.rotation.z=Math.PI;this.fx.push({mesh:m,age:0,life:.45+k*.07,from,to});}
-      return;
+  previewSkill(actor,tier=1){
+    this.skills.clear();
+    if(!this.practiceTarget){
+      const g=new T.Group();this.environment.add(g);this.practiceTarget=g;
+      const wood=material(0x795838),target=material(0xc75a43),gold=material(0xe9cc83,.4);
+      cylinder(g,.06,.09,1.9,[0,.95,0],wood,8);cylinder(g,.48,.55,.12,[0,.10,0],gold,12);
+      const disc=mesh(g,new T.TorusGeometry(.37,.07,6,20),target,[0,1.55,0]);disc.rotation.y=0;
+      box(g,[.65,.65,.06],[0,1.55,0],wood);
     }
-    if(family==='twins'||family==='quake'){
-      for(let k=0;k<(family==='twins'?2:3);k++){
-        const p=target.clone();p.y=family==='quake'?.16:1.6;const m=add(new T.TorusGeometry(family==='quake'?.6+k*.25:1.0,.035,5,40,family==='quake'?Math.PI*2:Math.PI*1.4),family==='quake'?0xf6a467:0xffe391,p);
-        m.rotation.set(family==='quake'?Math.PI/2:.6,0,k%2?-1:1);this.fx.push({mesh:m,age:0,life:.85,expand:family==='quake'?3:1,spin:family==='twins'});
-      }return;
-    }
-    const group=new T.Group();this.scene.add(group);
-    if(family==='wind'){
-      group.position.copy(target);
-      for(let ribbon=0;ribbon<3;ribbon++){
-        const points=[];for(let i=0;i<=40;i++){const t=i/40,a=t*Math.PI*3+ribbon*2*Math.PI/3;points.push(new T.Vector3(Math.cos(a)*(1.1-.45*t),.2+t*2.8,Math.sin(a)*(1.1-.45*t)));}
-        mesh(group,new T.TubeGeometry(new T.CatmullRomCurve3(points),40,.035,4,false),new T.MeshBasicMaterial({color:ribbon?0xb9f2de:0xf0f5cb,transparent:true,opacity:.75,depthWrite:false}));
-      }
-      this.fx.push({mesh:group,age:0,life:1.05,custom:()=>{group.rotation.y+=.10;}});
-    }else{
-      const curve=new T.CatmullRomCurve3([source.clone().add(new T.Vector3(0,1,0)),source.clone().lerp(target,.4).add(new T.Vector3(1.5,2.5,0)),target.clone().add(new T.Vector3(0,1.3,0))]);
-      mesh(group,new T.TubeGeometry(curve,36,.10,5,false),new T.MeshBasicMaterial({color:0x48d99b,transparent:true,opacity:.75,depthWrite:false}));
-      const head=new T.Group();group.add(head);mesh(head,new T.SphereGeometry(.32,8,6),new T.MeshBasicMaterial({color:0x61edab}));
-      mesh(head,new T.SphereGeometry(.20,8,6),new T.MeshBasicMaterial({color:0x42c894}),[0,-.04,.26]);
-      for(const sign of [-1,1]){mesh(head,new T.ConeGeometry(.07,.38,5),new T.MeshBasicMaterial({color:0xffe8a5}),[sign*.18,.32,0]);mesh(head,new T.SphereGeometry(.055,6,5),new T.MeshBasicMaterial({color:0xffe293}),[sign*.24,.08,.22]);}
-      this.fx.push({mesh:group,age:0,life:.9,custom:t=>{const f=Math.min(.99,t);head.position.copy(curve.getPoint(f));head.lookAt(curve.getPoint(Math.min(1,f+.03)));}});
-    }
+    this.practiceTarget.position.set(0,0,3.0);this.practiceTarget.visible=true;
+    const token=this.skills.begin({id:actor.unit.id,tier,source:()=>actor.root.position,targets:[{position:this.practiceTarget.position,heal:api.hero(actor.unit.id)?.role==='heal'}],dt:1400,autoImpact:true});
+    actor.play('Attack',1.15);this.practiceUntil=performance.now()+1750;
+    this.camera.position.set(5.5,4.5,9.8);this.controls.target.set(0,1.4,1.1);this.controls.update();
+    return token;
   }
   hits(a) {
     const source=this.actors.get(a.src);
-    if(source?.pendingImpact){source.advance(performance.now());const p=source.pendingImpact;source.pendingImpact=null;this.impact(source,p.action,p.dt);}
+    if(source?.pendingImpact){source.advance(performance.now());const p=source.pendingImpact;source.pendingImpact=null;this.impact(source,p.action,p.dt,p.token);}
     for(const h of a.hits){const actor=this.actors.get(h.tgt);if(actor){
     if(h.heal!==undefined&&h.hp>0&&actor.dead){actor.dead=false;actor.play('Idle');}
     const role=api.hero(actor.unit.id)?.role,guard=h.dmg===0||(h.dmg>0&&!h.crit&&h.dmg<(actor.unit.max||0)*.08&&['war','cav'].includes(role));
@@ -366,7 +353,7 @@ class Stage {
         if(next!==adaptiveBudget){adaptiveBudget=next;this.renderer.shadowMap.enabled=false;this.renderer.setPixelRatio(Math.min(devicePixelRatio,next===2?.8:1));this.renderer.setSize(this.host.clientWidth,this.host.clientHeight,false);}
         this.budgetStart=now;this.budgetFrames=0;
       }
-      this.controls.update();for(const actor of this.actors.values())actor.update(dt,now);
+      this.controls.update();for(const actor of this.actors.values())actor.update(dt,now);this.skills.update(now,this.camera);if(this.practiceTarget&&now>this.practiceUntil)this.practiceTarget.visible=false;
       for(let i=this.fx.length-1;i>=0;i--){const f=this.fx[i];f.age+=dt;const t=f.age/f.life;if(t>=1){f.mesh.removeFromParent();disposeTree(f.mesh);this.fx.splice(i,1);}else if(f.from)f.mesh.position.lerpVectors(f.from,f.to,t);else{if(f.custom)f.custom(t);else f.mesh.scale.setScalar(1+t*(f.expand||1));f.mesh.traverse(o=>{if(o.material)o.material.opacity=1-t;});if(f.spin)f.mesh.rotation.z+=dt*9;if(f.rise)f.mesh.position.y+=dt*f.rise;}}
       if(this.petals&&!reducedMotion)for(const p of this.petals.children){p.position.y-=dt*.25;p.position.x+=dt*.1;if(p.position.y<0)p.position.y=7;}
       this.renderer.render(this.scene,this.camera);
@@ -385,7 +372,7 @@ class Stage {
   }
   dispose() {
     if(this.disposed)return;this.disposed=true;cancelAnimationFrame(this.raf);this.ro.disconnect();this.controls.dispose();
-    for(const a of this.actors.values())a.dispose();for(const f of this.fx)disposeTree(f.mesh);
+    this.skills.dispose();for(const a of this.actors.values())a.dispose();for(const f of this.fx)disposeTree(f.mesh);
     for(const {el} of this.labels){el.style.removeProperty('left');el.style.removeProperty('top');el.style.removeProperty('visibility');el.classList.remove('world3d-label');}
     this.cameraButton?.remove();disposeTree(this.environment);this.skyTexture.dispose();this.shadowTexture.dispose();this.renderer.dispose();this.renderer.forceContextLoss();this.canvas.remove();this.loading.remove();this.host.classList.remove('has3d');
   }
@@ -429,26 +416,26 @@ async function openViewer(id) {
   const el=document.createElement('div');el.className='v3d remake-viewer';el.setAttribute('role','dialog');el.setAttribute('aria-modal','true');el.setAttribute('aria-label',h.th+' 3D');
   el.innerHTML=`<div class="v3top"><div><small>ขุนพลสามก๊ก · 3D</small><h2></h2></div><button class="sx" data-close3d aria-label="ปิดโมเดล">✕</button></div><div class="v3stage"></div><div class="v3tabs">${[1,2,3].map(t=>`<button data-tier="${t}" aria-pressed="${t===1}">ระดับ ${t}</button>`).join('')}</div><div class="animation3d">${[['Idle','ยืน'],['Walk','เดิน'],['Attack','โจมตี'],['Hit','รับโจมตี'],['Block','ป้องกัน'],['Defeat','ล้ม'],['Victory','ชนะ']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="${k==='Idle'}">${l}</button>`).join('')}</div><p class="v3hint">ลากเพื่อหมุน · เลื่อนเพื่อซูม · โมเดลสไตล์การ์ตูนจาก Blender</p>`;
   el.querySelector('h2').textContent=h.th;document.body.append(el);
-  if(signatureFamily(id)){const btn=document.createElement('button');btn.textContent='ดูสกิลเฉพาะตัว';btn.dataset.signature3d='true';el.querySelector('.animation3d').append(btn);}
+  if(skillProfile(id)){const btn=document.createElement('button');btn.textContent='ดูสกิล · '+skillProfile(id).title;btn.dataset.signature3d='true';el.querySelector('.animation3d').append(btn);}
   const view={el,stage:null,tier:1,version:0,actor:null,returnFocus:document.activeElement};viewer=view;
   el.querySelector('[data-close3d]').focus();
   el.querySelector('[data-close3d]').onclick=()=>{const focus=view.returnFocus;closeViewer();focus?.focus();};
   try {
     const stage=new Stage(el.querySelector('.v3stage'),'viewer');view.stage=stage;stage.camera.position.set(4,3.3,7);stage.controls.target.set(0,1.5,0);stage.controls.minDistance=3;stage.controls.maxDistance=13;stage.controls.update();stage.loading.remove();
     const load=async tier=>{
-      const v=++view.version;view.tier=tier;el.querySelectorAll('[data-tier]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.tier===tier));
+      const v=++view.version;view.tier=tier;stage.skills.clear();if(stage.practiceTarget)stage.practiceTarget.visible=false;el.querySelectorAll('[data-tier]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.tier===tier));
       const notice=document.createElement('div');notice.className='world3d-loading';notice.textContent='กำลังโหลดโมเดล…';stage.host.append(notice);
       try{const asset=await acquire(id,tier);if(viewer!==view||v!==view.version){asset.release();return;}view.actor?.dispose();stage.actors.clear();const actor=new Actor(asset,{id},stage);view.actor=actor;stage.actors.set('hero',actor);actor.root.scale.setScalar(1);stage.camera.position.set(3.8,3.2,7);stage.controls.target.set(0,1.6,0);stage.controls.update();el.querySelectorAll('[data-animation]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.animation==='Idle'));}
       catch(e){if(viewer===view)api.toast('โหลดโมเดลไม่สำเร็จ กรุณาลองอีกครั้ง');console.error(e);}finally{notice.remove();}
     };
     el.querySelectorAll('[data-tier]').forEach(b=>b.onclick=()=>load(+b.dataset.tier));
-    el.querySelectorAll('[data-animation]').forEach(b=>b.onclick=()=>{view.actor?.play(b.dataset.animation);el.querySelectorAll('[data-animation]').forEach(x=>x.setAttribute('aria-pressed',x===b));});
-    el.querySelector('[data-signature3d]')?.addEventListener('click',()=>{if(view.actor){view.actor.play('Attack',.8);stage.signature(view.actor,[{root:{position:new T.Vector3(0,0,2.0)}}]);}});
+    el.querySelectorAll('[data-animation]').forEach(b=>b.onclick=()=>{stage.skills.clear();if(stage.practiceTarget)stage.practiceTarget.visible=false;view.actor?.play(b.dataset.animation);el.querySelectorAll('[data-animation]').forEach(x=>x.setAttribute('aria-pressed',x===b));});
+    el.querySelector('[data-signature3d]')?.addEventListener('click',()=>{if(view.actor){stage.previewSkill(view.actor,view.tier);el.querySelector('.v3hint').textContent='สกิล: '+skillProfile(id).title+' · ระดับ '+view.tier+' · ลากเพื่อหมุน / เลื่อนเพื่อซูม';}});
     await load(Math.max(1,api.evolution(id,api.state().heroes[id]?.aw||0)));
   }catch(e){api.toast('เปิดตัวแสดงผล 3D ไม่สำเร็จ');console.error(e);closeViewer();}
 }
 
-window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),outcome:s=>current?.outcome(s),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,actors:current?.actors.size||0,combatants:current?Array.from(current.actors.values(),a=>({uid:a.unit.uid,id:a.unit.id,position:a.root.position.toArray(),moving:!!a.motion,animation:Object.entries(a.actions).find(([,v])=>v===a.active)?.[0]})):[],cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer,viewerActions:viewer?.actor?Object.keys(viewer.actor.actions):[],adaptiveBudget,pixelRatio:current?.renderer.getPixelRatio()})};
+window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),outcome:s=>current?.outcome(s),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,actors:current?.actors.size||0,combatants:current?Array.from(current.actors.values(),a=>({uid:a.unit.uid,id:a.unit.id,position:a.root.position.toArray(),moving:!!a.motion,animation:Object.entries(a.actions).find(([,v])=>v===a.active)?.[0]})):[],cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer,viewerActions:viewer?.actor?Object.keys(viewer.actor.actions):[],skills:(viewer?.stage||current)?.skills.diagnostics(),adaptiveBudget,pixelRatio:current?.renderer.getPixelRatio()})};
 const brand=document.createElement('div');brand.className='remake-brand';brand.innerHTML='<b>ขุนพลสามก๊ก 3D</b><span class="cloud3d-status" role="status"></span><button data-quality3d>3D · '+quality()+'</button>';document.querySelector('#app')?.prepend(brand);
 function updateCloudBadge(){const c=api.cloud?.();const b=brand.querySelector('.cloud3d-status');b.textContent=c?.conflict?'เซฟชนกัน':c?.error?'เซฟในเครื่อง':c?.online?(c.revision>0?'ออนไลน์ · บันทึกแล้ว':'ออนไลน์ · รอบันทึก'):window.SAMKOK_3D_CONFIG?.online?'กำลังเชื่อมต่อ':'ออฟไลน์';}
 window.addEventListener('samkok:cloud-status',updateCloudBadge);updateCloudBadge();

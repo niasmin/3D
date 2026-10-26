@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "guanyu actual viewer cast/release/impact, cleanup and button wiring",
+    "battle action/hit bridge emits impact at actual two targets",
+    "mobile skill title/button fit; reduced-motion playback completes"
+  ],
+  "pageErrors": [],
+  "physicalPhoneGpu": "NOT_CHECKED"
+}

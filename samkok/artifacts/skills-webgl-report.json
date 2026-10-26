@@ -1,0 +1,467 @@
+{
+  "status": "PASS",
+  "coverage": "effect-only WebGL harness; game integration reported separately",
+  "profiles": 65,
+  "pageErrors": [],
+  "finalMemory": {
+    "geometries": 2,
+    "textures": 0
+  },
+  "results": [
+    {
+      "id": "liubei_y",
+      "variant": "peach-oath",
+      "calls": 24,
+      "triangles": 4738,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "guanyu_y",
+      "variant": "wandering-blade",
+      "calls": 22,
+      "triangles": 4738,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhangfei_y",
+      "variant": "young-roar",
+      "calls": 50,
+      "triangles": 9346,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "guanyu",
+      "variant": "azure-dragon",
+      "calls": 96,
+      "triangles": 10866,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhuge",
+      "variant": "east-wind",
+      "calls": 36,
+      "triangles": 7938,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhaoyun",
+      "variant": "changban-breakthrough",
+      "calls": 20,
+      "triangles": 3834,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "liubei",
+      "variant": "virtue-rally",
+      "calls": 14,
+      "triangles": 3458,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "machao",
+      "variant": "western-cavalry",
+      "calls": 106,
+      "triangles": 8906,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhangfei",
+      "variant": "bridge-roar",
+      "calls": 52,
+      "triangles": 9466,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "huangzhong",
+      "variant": "dingjun-volley",
+      "calls": 42,
+      "triangles": 5706,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "caocao",
+      "variant": "chaos-sovereign",
+      "calls": 14,
+      "triangles": 3138,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "simayi",
+      "variant": "hidden-fangs",
+      "calls": 76,
+      "triangles": 7602,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhangliao",
+      "variant": "eight-hundred",
+      "calls": 100,
+      "triangles": 9850,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "xiahoudun",
+      "variant": "unbroken-eye",
+      "calls": 30,
+      "triangles": 4866,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "xuchu",
+      "variant": "raging-tiger",
+      "calls": 88,
+      "triangles": 8466,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "dianwei",
+      "variant": "twin-guardian",
+      "calls": 24,
+      "triangles": 4178,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "xunyu",
+      "variant": "army-provisions",
+      "calls": 22,
+      "triangles": 3586,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhouyu",
+      "variant": "red-cliffs",
+      "calls": 112,
+      "triangles": 10974,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "sunquan",
+      "variant": "jiangdong-lord",
+      "calls": 80,
+      "triangles": 7314,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "sunshangxiang",
+      "variant": "vermilion-arrows",
+      "calls": 94,
+      "triangles": 7058,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "lumeng",
+      "variant": "white-robes",
+      "calls": 104,
+      "triangles": 10490,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "ganning",
+      "variant": "night-raid",
+      "calls": 16,
+      "triangles": 2786,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "daqiao",
+      "variant": "river-song",
+      "calls": 52,
+      "triangles": 6594,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "lubu",
+      "variant": "red-hare-wargod",
+      "calls": 110,
+      "triangles": 12410,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "diaochan",
+      "variant": "moon-dance",
+      "calls": 22,
+      "triangles": 3746,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "dongzhuo",
+      "variant": "tyrant-drum",
+      "calls": 38,
+      "triangles": 5618,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "yuanshao",
+      "variant": "jizhou-barrage",
+      "calls": 32,
+      "triangles": 3514,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "huatuo",
+      "variant": "herbal-treatise",
+      "calls": 22,
+      "triangles": 3698,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "guojia",
+      "variant": "ten-victories",
+      "calls": 14,
+      "triangles": 2882,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "caopi",
+      "variant": "wei-emperor",
+      "calls": 20,
+      "triangles": 3722,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhenji",
+      "variant": "luo-river",
+      "calls": 30,
+      "triangles": 6018,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "xuhuang",
+      "variant": "break-encirclement",
+      "calls": 28,
+      "triangles": 3218,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "caoren",
+      "variant": "iron-fortress",
+      "calls": 28,
+      "triangles": 3330,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "pangtong",
+      "variant": "chained-ships",
+      "calls": 68,
+      "triangles": 8702,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "jiangwei",
+      "variant": "inherited-plan",
+      "calls": 14,
+      "triangles": 3082,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "guanyinping",
+      "variant": "jade-tigress",
+      "calls": 88,
+      "triangles": 8466,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "yueying",
+      "variant": "wooden-ox",
+      "calls": 48,
+      "triangles": 5666,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "weiyan",
+      "variant": "ziwu-shortcut",
+      "calls": 22,
+      "triangles": 4738,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "sunce",
+      "variant": "young-conqueror",
+      "calls": 96,
+      "triangles": 10514,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "luxun",
+      "variant": "yiling-camps",
+      "calls": 36,
+      "triangles": 7938,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "taishici",
+      "variant": "twin-arrows",
+      "calls": 24,
+      "triangles": 2594,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "huanggai",
+      "variant": "burning-sacrifice",
+      "calls": 44,
+      "triangles": 5822,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "lusu",
+      "variant": "two-kingdoms",
+      "calls": 28,
+      "triangles": 5506,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhangjiao",
+      "variant": "yellow-heaven",
+      "calls": 20,
+      "triangles": 4578,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "menghuo",
+      "variant": "seven-captures",
+      "calls": 56,
+      "triangles": 6818,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhurong",
+      "variant": "fire-goddess",
+      "calls": 30,
+      "triangles": 6506,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "gongsunzan",
+      "variant": "white-horse",
+      "calls": 104,
+      "triangles": 10490,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "yuanshu",
+      "variant": "imperial-seal",
+      "calls": 84,
+      "triangles": 7362,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "sunjian",
+      "variant": "jiangdong-tiger",
+      "calls": 88,
+      "triangles": 8466,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zuoci",
+      "variant": "illusion-transforms",
+      "calls": 22,
+      "triangles": 3490,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "dengai",
+      "variant": "yinping-mountains",
+      "calls": 42,
+      "triangles": 5326,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "xiahouyuan",
+      "variant": "thousand-li",
+      "calls": 20,
+      "triangles": 3870,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "fazheng",
+      "variant": "dingjun-stratagem",
+      "calls": 42,
+      "triangles": 5286,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "caiwenji",
+      "variant": "eighteen-verses",
+      "calls": 92,
+      "triangles": 10434,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhonghui",
+      "variant": "divide-shu",
+      "calls": 20,
+      "triangles": 3666,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "caozhi",
+      "variant": "seven-step-poem",
+      "calls": 36,
+      "triangles": 5238,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "yuejin",
+      "variant": "first-over-wall",
+      "calls": 28,
+      "triangles": 3738,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "guanxing",
+      "variant": "inherited-crescent",
+      "calls": 94,
+      "triangles": 10354,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhangbao",
+      "variant": "inherited-serpent",
+      "calls": 58,
+      "triangles": 8386,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "mayunlu",
+      "variant": "silver-spear",
+      "calls": 108,
+      "triangles": 8922,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "zhoutai",
+      "variant": "twelve-wounds",
+      "calls": 28,
+      "triangles": 4242,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "dingfeng",
+      "variant": "dongxing-snow",
+      "calls": 32,
+      "triangles": 2610,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "lingtong",
+      "variant": "jiangdong-reconcile",
+      "calls": 20,
+      "triangles": 3610,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "huaxiong",
+      "variant": "sishui-gate",
+      "calls": 20,
+      "triangles": 3202,
+      "remainingGeometries": 2
+    },
+    {
+      "id": "boss",
+      "variant": "primeval-flame",
+      "calls": 30,
+      "triangles": 6370,
+      "remainingGeometries": 2
+    }
+  ]
+}

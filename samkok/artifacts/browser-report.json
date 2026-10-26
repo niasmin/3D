@@ -5,7 +5,7 @@
     "combatants": [],
     "cache": 0,
     "renderer": {
-      "frame": 7,
+      "frame": 10,
       "calls": 36,
       "triangles": 9334,
       "points": 0,
@@ -13,8 +13,15 @@
     },
     "viewer": false,
     "viewerActions": [],
-    "adaptiveBudget": 2,
-    "pixelRatio": 0.8
+    "skills": {
+      "active": 0,
+      "last": null,
+      "events": [],
+      "profiles": 65,
+      "renderables": 0
+    },
+    "adaptiveBudget": 0,
+    "pixelRatio": 1
   },
   "battle": {
     "kind": "battle",
@@ -24,12 +31,12 @@
         "uid": "p0",
         "id": "liubei_y",
         "position": [
-          -3.162786897546034,
+          -2.4855211033745945,
           0.07,
-          1.987293836828721
+          1.1120580412840921
         ],
         "moving": true,
-        "animation": "Block"
+        "animation": "Walk"
       },
       {
         "uid": "e0",
@@ -46,24 +53,31 @@
         "uid": "e1",
         "id": "xuhuang",
         "position": [
-          -2.3366094693827555,
+          0,
           0.07,
-          0.9196183912023306
+          -2.1
         ],
         "moving": true,
-        "animation": "Attack"
+        "animation": "Walk"
       }
     ],
     "cache": 5,
     "renderer": {
-      "frame": 9,
-      "calls": 124,
-      "triangles": 173068,
+      "frame": 10,
+      "calls": 100,
+      "triangles": 170380,
       "points": 0,
       "lines": 0
     },
     "viewer": false,
     "viewerActions": [],
+    "skills": {
+      "active": 0,
+      "last": null,
+      "events": [],
+      "profiles": 65,
+      "renderables": 0
+    },
     "adaptiveBudget": 2,
     "pixelRatio": 0.8
   },
@@ -72,10 +86,10 @@
     "actors": 11,
     "combatants": [
       {
-        "uid": "preview-p1",
-        "id": "guanyu_y",
+        "uid": "preview-p0",
+        "id": "liubei_y",
         "position": [
-          0,
+          -3.25,
           0.07,
           2.1
         ],
@@ -83,12 +97,23 @@
         "animation": "Idle"
       },
       {
-        "uid": "preview-p5",
-        "id": "huatuo",
+        "uid": "preview-e0",
+        "id": "liubei_y",
         "position": [
-          3.25,
+          -3.25,
           0.07,
-          5.5
+          -2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p1",
+        "id": "guanyu_y",
+        "position": [
+          0,
+          0.07,
+          2.1
         ],
         "moving": false,
         "animation": "Idle"
@@ -116,6 +141,17 @@
         "animation": "Idle"
       },
       {
+        "uid": "preview-p5",
+        "id": "huatuo",
+        "position": [
+          3.25,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
         "uid": "preview-p4",
         "id": "zhaoyun",
         "position": [
@@ -131,28 +167,6 @@
         "id": "huanggai",
         "position": [
           3.25,
-          0.07,
-          -2.1
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-p0",
-        "id": "liubei_y",
-        "position": [
-          -3.25,
-          0.07,
-          2.1
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-e0",
-        "id": "liubei_y",
-        "position": [
-          -3.25,
           0.07,
           -2.1
         ],
@@ -195,7 +209,7 @@
     ],
     "cache": 10,
     "renderer": {
-      "frame": 11,
+      "frame": 13,
       "calls": 208,
       "triangles": 579450,
       "points": 0,
@@ -203,6 +217,13 @@
     },
     "viewer": false,
     "viewerActions": [],
+    "skills": {
+      "active": 0,
+      "last": null,
+      "events": [],
+      "profiles": 65,
+      "renderables": 0
+    },
     "adaptiveBudget": 2,
     "pixelRatio": 0.8
   },
