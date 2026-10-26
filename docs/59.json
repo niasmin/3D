@@ -14,7 +14,11 @@
       "actions": [
         "59_T1_Jade Minister_Rig__Idle",
         "59_T1_Jade Minister_Rig__Walk",
-        "59_T1_Jade Minister_Rig__Attack"
+        "59_T1_Jade Minister_Rig__Attack",
+        "59_T1_Jade Minister_Rig__Hit",
+        "59_T1_Jade Minister_Rig__Block",
+        "59_T1_Jade Minister_Rig__Defeat",
+        "59_T1_Jade Minister_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "59_T2_Jade Minister_Rig__Idle",
         "59_T2_Jade Minister_Rig__Walk",
-        "59_T2_Jade Minister_Rig__Attack"
+        "59_T2_Jade Minister_Rig__Attack",
+        "59_T2_Jade Minister_Rig__Hit",
+        "59_T2_Jade Minister_Rig__Block",
+        "59_T2_Jade Minister_Rig__Defeat",
+        "59_T2_Jade Minister_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "59_T3_Jade Minister_Rig__Idle",
         "59_T3_Jade Minister_Rig__Walk",
-        "59_T3_Jade Minister_Rig__Attack"
+        "59_T3_Jade Minister_Rig__Attack",
+        "59_T3_Jade Minister_Rig__Hit",
+        "59_T3_Jade Minister_Rig__Block",
+        "59_T3_Jade Minister_Rig__Defeat",
+        "59_T3_Jade Minister_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "21_T1_Tide Chancellor_Rig__Idle",
         "21_T1_Tide Chancellor_Rig__Walk",
-        "21_T1_Tide Chancellor_Rig__Attack"
+        "21_T1_Tide Chancellor_Rig__Attack",
+        "21_T1_Tide Chancellor_Rig__Hit",
+        "21_T1_Tide Chancellor_Rig__Block",
+        "21_T1_Tide Chancellor_Rig__Defeat",
+        "21_T1_Tide Chancellor_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "21_T2_Tide Chancellor_Rig__Idle",
         "21_T2_Tide Chancellor_Rig__Walk",
-        "21_T2_Tide Chancellor_Rig__Attack"
+        "21_T2_Tide Chancellor_Rig__Attack",
+        "21_T2_Tide Chancellor_Rig__Hit",
+        "21_T2_Tide Chancellor_Rig__Block",
+        "21_T2_Tide Chancellor_Rig__Defeat",
+        "21_T2_Tide Chancellor_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "21_T3_Tide Chancellor_Rig__Idle",
         "21_T3_Tide Chancellor_Rig__Walk",
-        "21_T3_Tide Chancellor_Rig__Attack"
+        "21_T3_Tide Chancellor_Rig__Attack",
+        "21_T3_Tide Chancellor_Rig__Hit",
+        "21_T3_Tide Chancellor_Rig__Block",
+        "21_T3_Tide Chancellor_Rig__Defeat",
+        "21_T3_Tide Chancellor_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "09_T1_Golden Envoy_Rig__Idle",
         "09_T1_Golden Envoy_Rig__Walk",
-        "09_T1_Golden Envoy_Rig__Attack"
+        "09_T1_Golden Envoy_Rig__Attack",
+        "09_T1_Golden Envoy_Rig__Hit",
+        "09_T1_Golden Envoy_Rig__Block",
+        "09_T1_Golden Envoy_Rig__Defeat",
+        "09_T1_Golden Envoy_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "09_T2_Golden Envoy_Rig__Idle",
         "09_T2_Golden Envoy_Rig__Walk",
-        "09_T2_Golden Envoy_Rig__Attack"
+        "09_T2_Golden Envoy_Rig__Attack",
+        "09_T2_Golden Envoy_Rig__Hit",
+        "09_T2_Golden Envoy_Rig__Block",
+        "09_T2_Golden Envoy_Rig__Defeat",
+        "09_T2_Golden Envoy_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "09_T3_Golden Envoy_Rig__Idle",
         "09_T3_Golden Envoy_Rig__Walk",
-        "09_T3_Golden Envoy_Rig__Attack"
+        "09_T3_Golden Envoy_Rig__Attack",
+        "09_T3_Golden Envoy_Rig__Hit",
+        "09_T3_Golden Envoy_Rig__Block",
+        "09_T3_Golden Envoy_Rig__Defeat",
+        "09_T3_Golden Envoy_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "58_T1_Midnight Minister_Rig__Idle",
         "58_T1_Midnight Minister_Rig__Walk",
-        "58_T1_Midnight Minister_Rig__Attack"
+        "58_T1_Midnight Minister_Rig__Attack",
+        "58_T1_Midnight Minister_Rig__Hit",
+        "58_T1_Midnight Minister_Rig__Block",
+        "58_T1_Midnight Minister_Rig__Defeat",
+        "58_T1_Midnight Minister_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "58_T2_Midnight Minister_Rig__Idle",
         "58_T2_Midnight Minister_Rig__Walk",
-        "58_T2_Midnight Minister_Rig__Attack"
+        "58_T2_Midnight Minister_Rig__Attack",
+        "58_T2_Midnight Minister_Rig__Hit",
+        "58_T2_Midnight Minister_Rig__Block",
+        "58_T2_Midnight Minister_Rig__Defeat",
+        "58_T2_Midnight Minister_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "58_T3_Midnight Minister_Rig__Idle",
         "58_T3_Midnight Minister_Rig__Walk",
-        "58_T3_Midnight Minister_Rig__Attack"
+        "58_T3_Midnight Minister_Rig__Attack",
+        "58_T3_Midnight Minister_Rig__Hit",
+        "58_T3_Midnight Minister_Rig__Block",
+        "58_T3_Midnight Minister_Rig__Defeat",
+        "58_T3_Midnight Minister_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

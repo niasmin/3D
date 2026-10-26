@@ -14,7 +14,11 @@
       "actions": [
         "35_T1_Cloud Maiden_Rig__Idle",
         "35_T1_Cloud Maiden_Rig__Walk",
-        "35_T1_Cloud Maiden_Rig__Attack"
+        "35_T1_Cloud Maiden_Rig__Attack",
+        "35_T1_Cloud Maiden_Rig__Hit",
+        "35_T1_Cloud Maiden_Rig__Block",
+        "35_T1_Cloud Maiden_Rig__Defeat",
+        "35_T1_Cloud Maiden_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "35_T2_Cloud Maiden_Rig__Idle",
         "35_T2_Cloud Maiden_Rig__Walk",
-        "35_T2_Cloud Maiden_Rig__Attack"
+        "35_T2_Cloud Maiden_Rig__Attack",
+        "35_T2_Cloud Maiden_Rig__Hit",
+        "35_T2_Cloud Maiden_Rig__Block",
+        "35_T2_Cloud Maiden_Rig__Defeat",
+        "35_T2_Cloud Maiden_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "35_T3_Cloud Maiden_Rig__Idle",
         "35_T3_Cloud Maiden_Rig__Walk",
-        "35_T3_Cloud Maiden_Rig__Attack"
+        "35_T3_Cloud Maiden_Rig__Attack",
+        "35_T3_Cloud Maiden_Rig__Hit",
+        "35_T3_Cloud Maiden_Rig__Block",
+        "35_T3_Cloud Maiden_Rig__Defeat",
+        "35_T3_Cloud Maiden_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

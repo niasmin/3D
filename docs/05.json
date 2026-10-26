@@ -14,7 +14,11 @@
       "actions": [
         "05_T1_Violet Archer_Rig__Idle",
         "05_T1_Violet Archer_Rig__Walk",
-        "05_T1_Violet Archer_Rig__Attack"
+        "05_T1_Violet Archer_Rig__Attack",
+        "05_T1_Violet Archer_Rig__Hit",
+        "05_T1_Violet Archer_Rig__Block",
+        "05_T1_Violet Archer_Rig__Defeat",
+        "05_T1_Violet Archer_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "05_T2_Violet Archer_Rig__Idle",
         "05_T2_Violet Archer_Rig__Walk",
-        "05_T2_Violet Archer_Rig__Attack"
+        "05_T2_Violet Archer_Rig__Attack",
+        "05_T2_Violet Archer_Rig__Hit",
+        "05_T2_Violet Archer_Rig__Block",
+        "05_T2_Violet Archer_Rig__Defeat",
+        "05_T2_Violet Archer_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "05_T3_Violet Archer_Rig__Idle",
         "05_T3_Violet Archer_Rig__Walk",
-        "05_T3_Violet Archer_Rig__Attack"
+        "05_T3_Violet Archer_Rig__Attack",
+        "05_T3_Violet Archer_Rig__Hit",
+        "05_T3_Violet Archer_Rig__Block",
+        "05_T3_Violet Archer_Rig__Defeat",
+        "05_T3_Violet Archer_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

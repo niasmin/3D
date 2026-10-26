@@ -1,35 +1,27 @@
-# Samkok 3D presentation layer
+# Samkok 3D edition — revision 3
 
-This fork imports https://github.com/niasmin/samkok at commit `b61a1fc66d6169e7aecf6de4ebf5870fbd8fa511` as ordinary files under `samkok/`. The upstream repository is not modified.
+The original game rules remain authoritative. The web renderer uses Blender-authored rigged GLBs. The native Cocos project is retained for reference; it is not a finished native mobile port.
 
-## What changed
+## Graphics
 
-- A real Three.js city diorama with working building menus, a courtyard, pagodas, trees and camera orbit.
-- Rigged GLB characters in campaign, tower, arena, story, raid, training and trial battles. The existing deterministic `simulate` remains authoritative. Attack playback, projectiles, hit flashes, falling defeated units, health, rage, speed, manual skills, skip and rewards use the original battle events.
-- Formation and idle campaign previews use the same 3D characters. Existing formation buttons remain usable, including empty slots.
-- All 64 playable hero IDs plus the guild boss resolve to a model. The hero viewer supports all three evolutions and Idle / Walk / Attack with orbit and zoom.
-- 204 Blender-derived hero GLB files plus one original beast boss are shipped locally. Three.js is bundled locally, so no runtime CDN is required for the renderer. Models load on demand; cache entries are reference-counted and unused entries are evicted after twelve cached resources. Actors release their materials, skeletons and animation mixers; scene teardown releases the WebGL context.
-- Static scenery is merged by material; Standard quality uses directional shadows on desktop and soft contact shadows on small screens. High enables directional shadows on all screen sizes; Low reduces pixel ratio and antialiasing.
-- Local save key: `kunphon-samkok-3d-v1`. Original JSON saves remain importable through the existing save menu. The fork does not overwrite the original game's local save.
-- Service worker caching uses a separate `samkok3d-` namespace and only handles requests inside its own scope.
+- 204 hero GLBs and one beast boss; all have a 22-bone rig, UV coordinates and seven independent clips: Idle, Walk, Attack, Hit, Block, Defeat, Victory.
+- Woven cloth and engraved-metal color/normal images are packed into native files and glTF. Procedural material sources and UV generation remain in `scripts/build_library.py`.
+- Liu Bei's paired swords/topknot, Guan Yu's headcloth/beard/guandao, Zhang Fei's broad face/serpent spear, Zhao Yun's silver-blue armor/white plume, and Zhuge Liang's dark hat/feather fan give the main cast distinct silhouettes. Other heroes still share family construction; likeness has not been artistically approved.
+- Five signature effects are actual geometry and can be previewed from the hero viewer. Existing damage, healing and reward calculations are unchanged. Guard reactions reflect low-damage defensive hits; they do not introduce a new damage reduction rule.
+- Hero and boss defeat/victory clips are played by battle events. Manual viewer buttons expose all seven clips.
+- Standard quality uses desktop directional shadows and mobile contact shadows. Auto quality reduces pixel ratio/shadows when observed frame time remains high, without changing gameplay. Manual quality choices remain available. Physical-phone GPU performance is not verified by the software-rendered browser tests.
 
-## Deliberate limits
+## Online
 
-These are the stylized procedural first-pass models in the parent repository, not detailed likeness-approved sculpts. Shared base bodies and approximate ornaments remain. Revision 2 adds role-specific weapons, four attack families, segmented armor, archer quivers, larger scholar sleeves and per-hero beard/eyepatch details. Intersecting garment layers were removed. Roster coverage does not mean 64 artist-approved unique sculpts: a few IDs share a reference model. UI cards, the world map and some original menu illustrations remain 2D, as normal interface graphics. The Cocos project is retained from upstream; this is the playable **web** 3D edition, not a completed native Cocos port.
+Guest Auth connects to the existing Supabase project, but all 3D data uses separate `samkok3d_*` tables. The original `players`, `saves` and administrative coupon data are not written by this edition. The frontend SDK is bundled locally.
 
-The guild boss now uses an original horned lion guardian authored in Blender, with a mane, tusks, claws, tail and its own rigged GLB. Effect geometry is newly generated in the renderer; the original illustrated spell animals are not recreated.
+Cloud writes compare revisions atomically. A conflict pauses automatic cloud writes and offers local/remote choices. The replaced side is retained in a dedicated local backup without overwriting the player's three manual save slots. The transfer UI uses an 18-character single-use, hashed capability valid for twenty minutes; replay is rejected. Private save RLS and guild-channel RLS were checked with separate Auth identities.
 
-## Online services
+Guest identity belongs to this browser. Before clearing browser data, export a save or use the transfer mechanism. This is not permanent email/password account recovery or continuous cross-device account linking. Duels against shared player teams are asynchronous, and rankings remain casual client-calculated results. Guilds are open-join groups. The existing local named coupons still work; the upstream administrative coupon RPCs are not enabled.
 
-`web/three/config.js` defaults to `online:false`. Campaign, collection, upgrades, summoning, offline rewards, NPC arena and the original local systems work without connecting to the upstream Supabase production project. Real player chat, cloud save, server coupons and real multiplayer are not enabled in this edition. No remote schema, policies or production player data were modified.
+See [data boundaries and advisor review](../../docs/online-security.md) and the SQL reference files in `tools/sql/samkok3d-*.sql`. For a fresh setup, apply the references in order: online → chat → feedback → save-conflicts. Remote migration names correspond to those additions. The private transfer table intentionally has no client grants/policies; guarded private functions are its only access path.
 
-The original backend adapter is retained for a later deliberate connection. Do not set `online:true` casually: the retained adapter still points to the upstream project. A separate production backend and its policies should be configured before releasing real online play.
-
-## Model mapping
-
-`src/models.json` contains the image-match mapping from supplied sheets to upstream evolution artwork. `reference-matches.json` records image-feature match counts, not a quality certificate. `src/layout.js` explicitly overrides the five unmatched/low-confidence heroes (Cao Cao, Guan Yu, Lü Bu, Sun Ce and Sima Yi) and routes the boss to the new guardian asset. Runtime roster names and stats still come from the original game's hero data.
-
-## Build and run
+## Build / verification
 
 From `samkok/`:
 
@@ -40,18 +32,17 @@ npm run build
 python3 -m http.server 8000 --directory web
 ```
 
-Open `http://localhost:8000/`. Serve over HTTP/HTTPS; opening a `file://` URL does not load module scripts or GLBs reliably.
-
-Export source models again from the parent repository:
+`npm test` is offline: ten inherited rule tests plus seven asset/presentation/integration tests, including all 205 binary assets, surface data, clip coverage, weapon mapping and bounded adaptive quality. Browser scripts require Playwright and Chromium and a running local server:
 
 ```sh
-blender -b -t 4 --python scripts/export_game_models.py -- --start 1 --end 68
+node three/tests/browser.cjs
+node three/tests/graphics.browser.cjs
+node three/tests/cloud.browser.cjs
+NODE_USE_ENV_PROXY=1 node three/tests/online.integration.mjs
 ```
 
-`npm test` runs ten inherited game-rule tests and five asset/integration tests, including all 205 GLBs, skins and animation clips. Browser QA additionally covers hero evolution and animation, campaign victory, rewards, save reload, summoning, the new beast boss viewer, the six-player/five-enemy formation, mobile layout and WebGL startup fallback. The browser test requires Playwright plus Chromium and a running server:
+Cloud/API scripts explicitly create temporary guest profiles in the isolated 3D tables. Do not run them casually against a production project; retain the recorded fixture IDs in the OS temporary directory (`samkok3d-api-fixtures.json` / `samkok3d-browser-fixtures.json`) for scoped cleanup. They never post test chat messages. Guild/feedback SQL checks were performed inside rolled-back transactions. During this implementation the scoped test profiles and saves were removed afterward.
 
-```sh
-CHROMIUM_PATH=/usr/bin/chromium node three/tests/browser.cjs
-```
+Browser reports and actual screenshots are in `artifacts/`. Browser graphics tests use SwiftShader and verify functionality/layout, not real-phone FPS. Native inspection reopens 69 numbered Blender scenes and evaluates 1,428 character actions; the additional boss has seven clips. The GitHub Pages workflow publishes only `web/`.
 
-Browser screenshots and its report are in `samkok/artifacts/`. The GitHub Pages workflow builds and publishes only `samkok/web`, not the Blender source library.
+Regenerate native sources from the parent checkout with `scripts/build_library.py`, the boss with `scripts/build_boss.py`, and glTF delivery copies with `scripts/export_game_models.py`. Exporting is deliberately separate from source authoring. Model mapping still derives from the supplied reference sheets plus explicit aliases in `src/layout.js`.

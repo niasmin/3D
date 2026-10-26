@@ -7,6 +7,7 @@ const path=require('node:path');
  const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage']});
  const out=path.resolve('artifacts');fs.mkdirSync(out,{recursive:true});const errors=[],requests=[],results={};
  const page=await browser.newPage({viewport:{width:1280,height:900}});
+ await page.addInitScript(()=>localStorage.setItem('samkok-3d-offline','1'));
  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.url().includes('supabase.co'))requests.push(r.url())});
  await page.goto(process.env.TEST_URL||'http://127.0.0.1:8000/',{waitUntil:'domcontentloaded'});
  await page.waitForFunction(()=>window.Samkok3D?.diagnostics().kind==='city');
@@ -39,6 +40,7 @@ const path=require('node:path');
  results.fullFormation=await page.evaluate(()=>Samkok3D.diagnostics());
  await page.close(); // Release the desktop WebGL context before software mobile rendering.
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});mobile.on('pageerror',e=>errors.push('mobile: '+e.message));
+ await mobile.addInitScript(()=>localStorage.setItem('samkok-3d-offline','1'));
  await mobile.goto(process.env.TEST_URL||'http://127.0.0.1:8000/',{waitUntil:'domcontentloaded'});await mobile.waitForFunction(()=>window.Samkok3D?.diagnostics().kind==='city');await mobile.locator('[data-act="tutskip"]').click();
  await mobile.screenshot({path:path.join(out,'city-mobile.png')});
  await mobile.evaluate(()=>SamkokGame.navigate('camp'));await mobile.waitForFunction(()=>Samkok3D.diagnostics().actors>0);await mobile.locator('[data-act="fight"]').click();await mobile.waitForFunction(()=>Samkok3D.diagnostics().kind==='battle'&&Samkok3D.diagnostics().actors>=3);await mobile.waitForTimeout(600);await mobile.screenshot({path:path.join(out,'battle-mobile.png')});

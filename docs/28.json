@@ -14,7 +14,11 @@
       "actions": [
         "28_T1_Storm Ranger_Rig__Idle",
         "28_T1_Storm Ranger_Rig__Walk",
-        "28_T1_Storm Ranger_Rig__Attack"
+        "28_T1_Storm Ranger_Rig__Attack",
+        "28_T1_Storm Ranger_Rig__Hit",
+        "28_T1_Storm Ranger_Rig__Block",
+        "28_T1_Storm Ranger_Rig__Defeat",
+        "28_T1_Storm Ranger_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "28_T2_Storm Ranger_Rig__Idle",
         "28_T2_Storm Ranger_Rig__Walk",
-        "28_T2_Storm Ranger_Rig__Attack"
+        "28_T2_Storm Ranger_Rig__Attack",
+        "28_T2_Storm Ranger_Rig__Hit",
+        "28_T2_Storm Ranger_Rig__Block",
+        "28_T2_Storm Ranger_Rig__Defeat",
+        "28_T2_Storm Ranger_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "28_T3_Storm Ranger_Rig__Idle",
         "28_T3_Storm Ranger_Rig__Walk",
-        "28_T3_Storm Ranger_Rig__Attack"
+        "28_T3_Storm Ranger_Rig__Attack",
+        "28_T3_Storm Ranger_Rig__Hit",
+        "28_T3_Storm Ranger_Rig__Block",
+        "28_T3_Storm Ranger_Rig__Defeat",
+        "28_T3_Storm Ranger_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

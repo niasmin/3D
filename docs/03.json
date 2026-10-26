@@ -14,7 +14,11 @@
       "actions": [
         "03_T1_Jade Chancellor_Rig__Idle",
         "03_T1_Jade Chancellor_Rig__Walk",
-        "03_T1_Jade Chancellor_Rig__Attack"
+        "03_T1_Jade Chancellor_Rig__Attack",
+        "03_T1_Jade Chancellor_Rig__Hit",
+        "03_T1_Jade Chancellor_Rig__Block",
+        "03_T1_Jade Chancellor_Rig__Defeat",
+        "03_T1_Jade Chancellor_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "03_T2_Jade Chancellor_Rig__Idle",
         "03_T2_Jade Chancellor_Rig__Walk",
-        "03_T2_Jade Chancellor_Rig__Attack"
+        "03_T2_Jade Chancellor_Rig__Attack",
+        "03_T2_Jade Chancellor_Rig__Hit",
+        "03_T2_Jade Chancellor_Rig__Block",
+        "03_T2_Jade Chancellor_Rig__Defeat",
+        "03_T2_Jade Chancellor_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "03_T3_Jade Chancellor_Rig__Idle",
         "03_T3_Jade Chancellor_Rig__Walk",
-        "03_T3_Jade Chancellor_Rig__Attack"
+        "03_T3_Jade Chancellor_Rig__Attack",
+        "03_T3_Jade Chancellor_Rig__Hit",
+        "03_T3_Jade Chancellor_Rig__Block",
+        "03_T3_Jade Chancellor_Rig__Defeat",
+        "03_T3_Jade Chancellor_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

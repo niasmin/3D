@@ -14,7 +14,11 @@
       "actions": [
         "18_T1_Moon Scholar_Rig__Idle",
         "18_T1_Moon Scholar_Rig__Walk",
-        "18_T1_Moon Scholar_Rig__Attack"
+        "18_T1_Moon Scholar_Rig__Attack",
+        "18_T1_Moon Scholar_Rig__Hit",
+        "18_T1_Moon Scholar_Rig__Block",
+        "18_T1_Moon Scholar_Rig__Defeat",
+        "18_T1_Moon Scholar_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "18_T2_Moon Scholar_Rig__Idle",
         "18_T2_Moon Scholar_Rig__Walk",
-        "18_T2_Moon Scholar_Rig__Attack"
+        "18_T2_Moon Scholar_Rig__Attack",
+        "18_T2_Moon Scholar_Rig__Hit",
+        "18_T2_Moon Scholar_Rig__Block",
+        "18_T2_Moon Scholar_Rig__Defeat",
+        "18_T2_Moon Scholar_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "18_T3_Moon Scholar_Rig__Idle",
         "18_T3_Moon Scholar_Rig__Walk",
-        "18_T3_Moon Scholar_Rig__Attack"
+        "18_T3_Moon Scholar_Rig__Attack",
+        "18_T3_Moon Scholar_Rig__Hit",
+        "18_T3_Moon Scholar_Rig__Block",
+        "18_T3_Moon Scholar_Rig__Defeat",
+        "18_T3_Moon Scholar_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

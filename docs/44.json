@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "44_T1_Emerald Elder_Rig",
       "mesh": "44_T1_Emerald Elder_Mesh",
-      "vertices": 10286,
+      "vertices": 10198,
       "bones": 22,
       "actions": [
         "44_T1_Emerald Elder_Rig__Idle",
         "44_T1_Emerald Elder_Rig__Walk",
-        "44_T1_Emerald Elder_Rig__Attack"
+        "44_T1_Emerald Elder_Rig__Attack",
+        "44_T1_Emerald Elder_Rig__Hit",
+        "44_T1_Emerald Elder_Rig__Block",
+        "44_T1_Emerald Elder_Rig__Defeat",
+        "44_T1_Emerald Elder_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "44_T2_Emerald Elder_Rig",
       "mesh": "44_T2_Emerald Elder_Mesh",
-      "vertices": 11656,
+      "vertices": 11568,
       "bones": 22,
       "actions": [
         "44_T2_Emerald Elder_Rig__Idle",
         "44_T2_Emerald Elder_Rig__Walk",
-        "44_T2_Emerald Elder_Rig__Attack"
+        "44_T2_Emerald Elder_Rig__Attack",
+        "44_T2_Emerald Elder_Rig__Hit",
+        "44_T2_Emerald Elder_Rig__Block",
+        "44_T2_Emerald Elder_Rig__Defeat",
+        "44_T2_Emerald Elder_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "44_T3_Emerald Elder_Rig",
       "mesh": "44_T3_Emerald Elder_Mesh",
-      "vertices": 11890,
+      "vertices": 11802,
       "bones": 22,
       "actions": [
         "44_T3_Emerald Elder_Rig__Idle",
         "44_T3_Emerald Elder_Rig__Walk",
-        "44_T3_Emerald Elder_Rig__Attack"
+        "44_T3_Emerald Elder_Rig__Attack",
+        "44_T3_Emerald Elder_Rig__Hit",
+        "44_T3_Emerald Elder_Rig__Block",
+        "44_T3_Emerald Elder_Rig__Defeat",
+        "44_T3_Emerald Elder_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

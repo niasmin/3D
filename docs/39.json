@@ -14,7 +14,11 @@
       "actions": [
         "39_T1_Spring Maiden_Rig__Idle",
         "39_T1_Spring Maiden_Rig__Walk",
-        "39_T1_Spring Maiden_Rig__Attack"
+        "39_T1_Spring Maiden_Rig__Attack",
+        "39_T1_Spring Maiden_Rig__Hit",
+        "39_T1_Spring Maiden_Rig__Block",
+        "39_T1_Spring Maiden_Rig__Defeat",
+        "39_T1_Spring Maiden_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "39_T2_Spring Maiden_Rig__Idle",
         "39_T2_Spring Maiden_Rig__Walk",
-        "39_T2_Spring Maiden_Rig__Attack"
+        "39_T2_Spring Maiden_Rig__Attack",
+        "39_T2_Spring Maiden_Rig__Hit",
+        "39_T2_Spring Maiden_Rig__Block",
+        "39_T2_Spring Maiden_Rig__Defeat",
+        "39_T2_Spring Maiden_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "39_T3_Spring Maiden_Rig__Idle",
         "39_T3_Spring Maiden_Rig__Walk",
-        "39_T3_Spring Maiden_Rig__Attack"
+        "39_T3_Spring Maiden_Rig__Attack",
+        "39_T3_Spring Maiden_Rig__Hit",
+        "39_T3_Spring Maiden_Rig__Block",
+        "39_T3_Spring Maiden_Rig__Defeat",
+        "39_T3_Spring Maiden_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

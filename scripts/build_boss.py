@@ -35,7 +35,7 @@ for k in range(17):
  s.leaf((.42*math.cos(a),.04,2.55+.42*math.sin(a)),(.67*math.cos(a),.13,2.55+.66*math.sin(a)),(.55*math.cos(a),.27,2.55+.67*math.sin(a)),.13,1,'head')
 s.tube([(0,.35,1.12),(.28,.65,.98),(.62,1.05,1.02),(.80,1.30,1.42)], [.12,.10,.075,.04],0,'cape')
 s.leaf((.80,1.30,1.38),(1.0,1.35,1.65),(.85,1.30,1.9),.15,4,'cape')
-ob=s.object('Flame_Guardian_Mesh',rig,0);rig['graphics_revision']=2;rig['asset_kind']='original horned lion guardian';lib.animations(rig,1,'halberd')
+ob=s.object('Flame_Guardian_Mesh',rig,0);rig['graphics_revision']=3;rig['asset_kind']='original horned lion guardian';lib.animations(rig,1,'halberd')
 sc.frame_set(1);sc.camera.data.ortho_scale=6;sc.camera.location=(4,-9,5);sc.camera.rotation_euler=(lib.Vector((0,0,1.65))-sc.camera.location).to_track_quat('-Z','Y').to_euler()
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'assets/boss.blend'),compress=True)
 sc.render.filepath=str(ROOT/'previews/boss.png');bpy.ops.render.render(write_still=True)

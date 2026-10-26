@@ -14,7 +14,11 @@
       "actions": [
         "43_T1_Azure Dragon_Rig__Idle",
         "43_T1_Azure Dragon_Rig__Walk",
-        "43_T1_Azure Dragon_Rig__Attack"
+        "43_T1_Azure Dragon_Rig__Attack",
+        "43_T1_Azure Dragon_Rig__Hit",
+        "43_T1_Azure Dragon_Rig__Block",
+        "43_T1_Azure Dragon_Rig__Defeat",
+        "43_T1_Azure Dragon_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "43_T2_Azure Dragon_Rig__Idle",
         "43_T2_Azure Dragon_Rig__Walk",
-        "43_T2_Azure Dragon_Rig__Attack"
+        "43_T2_Azure Dragon_Rig__Attack",
+        "43_T2_Azure Dragon_Rig__Hit",
+        "43_T2_Azure Dragon_Rig__Block",
+        "43_T2_Azure Dragon_Rig__Defeat",
+        "43_T2_Azure Dragon_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "43_T3_Azure Dragon_Rig__Idle",
         "43_T3_Azure Dragon_Rig__Walk",
-        "43_T3_Azure Dragon_Rig__Attack"
+        "43_T3_Azure Dragon_Rig__Attack",
+        "43_T3_Azure Dragon_Rig__Hit",
+        "43_T3_Azure Dragon_Rig__Block",
+        "43_T3_Azure Dragon_Rig__Defeat",
+        "43_T3_Azure Dragon_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "liubei_y identity, seven poses and signature effect",
+    "guanyu identity, seven poses and signature effect",
+    "zhangfei identity, seven poses and signature effect",
+    "zhaoyun identity, seven poses and signature effect",
+    "zhuge identity, seven poses and signature effect"
+  ],
+  "pageErrors": [],
+  "renderer": "Chromium software WebGL; physical phone GPU not measured"
+}

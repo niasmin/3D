@@ -14,7 +14,11 @@
       "actions": [
         "11_T1_Amber Veteran_Rig__Idle",
         "11_T1_Amber Veteran_Rig__Walk",
-        "11_T1_Amber Veteran_Rig__Attack"
+        "11_T1_Amber Veteran_Rig__Attack",
+        "11_T1_Amber Veteran_Rig__Hit",
+        "11_T1_Amber Veteran_Rig__Block",
+        "11_T1_Amber Veteran_Rig__Defeat",
+        "11_T1_Amber Veteran_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "11_T2_Amber Veteran_Rig__Idle",
         "11_T2_Amber Veteran_Rig__Walk",
-        "11_T2_Amber Veteran_Rig__Attack"
+        "11_T2_Amber Veteran_Rig__Attack",
+        "11_T2_Amber Veteran_Rig__Hit",
+        "11_T2_Amber Veteran_Rig__Block",
+        "11_T2_Amber Veteran_Rig__Defeat",
+        "11_T2_Amber Veteran_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "11_T3_Amber Veteran_Rig__Idle",
         "11_T3_Amber Veteran_Rig__Walk",
-        "11_T3_Amber Veteran_Rig__Attack"
+        "11_T3_Amber Veteran_Rig__Attack",
+        "11_T3_Amber Veteran_Rig__Hit",
+        "11_T3_Amber Veteran_Rig__Block",
+        "11_T3_Amber Veteran_Rig__Defeat",
+        "11_T3_Amber Veteran_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

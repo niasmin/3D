@@ -14,7 +14,11 @@
       "actions": [
         "06_T1_Crimson Warlord_Rig__Idle",
         "06_T1_Crimson Warlord_Rig__Walk",
-        "06_T1_Crimson Warlord_Rig__Attack"
+        "06_T1_Crimson Warlord_Rig__Attack",
+        "06_T1_Crimson Warlord_Rig__Hit",
+        "06_T1_Crimson Warlord_Rig__Block",
+        "06_T1_Crimson Warlord_Rig__Defeat",
+        "06_T1_Crimson Warlord_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "06_T2_Crimson Warlord_Rig__Idle",
         "06_T2_Crimson Warlord_Rig__Walk",
-        "06_T2_Crimson Warlord_Rig__Attack"
+        "06_T2_Crimson Warlord_Rig__Attack",
+        "06_T2_Crimson Warlord_Rig__Hit",
+        "06_T2_Crimson Warlord_Rig__Block",
+        "06_T2_Crimson Warlord_Rig__Defeat",
+        "06_T2_Crimson Warlord_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "06_T3_Crimson Warlord_Rig__Idle",
         "06_T3_Crimson Warlord_Rig__Walk",
-        "06_T3_Crimson Warlord_Rig__Attack"
+        "06_T3_Crimson Warlord_Rig__Attack",
+        "06_T3_Crimson Warlord_Rig__Hit",
+        "06_T3_Crimson Warlord_Rig__Block",
+        "06_T3_Crimson Warlord_Rig__Defeat",
+        "06_T3_Crimson Warlord_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

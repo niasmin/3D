@@ -14,7 +14,11 @@
       "actions": [
         "07_T1_Scarlet Cavalier_Rig__Idle",
         "07_T1_Scarlet Cavalier_Rig__Walk",
-        "07_T1_Scarlet Cavalier_Rig__Attack"
+        "07_T1_Scarlet Cavalier_Rig__Attack",
+        "07_T1_Scarlet Cavalier_Rig__Hit",
+        "07_T1_Scarlet Cavalier_Rig__Block",
+        "07_T1_Scarlet Cavalier_Rig__Defeat",
+        "07_T1_Scarlet Cavalier_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "07_T2_Scarlet Cavalier_Rig__Idle",
         "07_T2_Scarlet Cavalier_Rig__Walk",
-        "07_T2_Scarlet Cavalier_Rig__Attack"
+        "07_T2_Scarlet Cavalier_Rig__Attack",
+        "07_T2_Scarlet Cavalier_Rig__Hit",
+        "07_T2_Scarlet Cavalier_Rig__Block",
+        "07_T2_Scarlet Cavalier_Rig__Defeat",
+        "07_T2_Scarlet Cavalier_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "07_T3_Scarlet Cavalier_Rig__Idle",
         "07_T3_Scarlet Cavalier_Rig__Walk",
-        "07_T3_Scarlet Cavalier_Rig__Attack"
+        "07_T3_Scarlet Cavalier_Rig__Attack",
+        "07_T3_Scarlet Cavalier_Rig__Hit",
+        "07_T3_Scarlet Cavalier_Rig__Block",
+        "07_T3_Scarlet Cavalier_Rig__Defeat",
+        "07_T3_Scarlet Cavalier_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

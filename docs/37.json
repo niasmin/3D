@@ -14,7 +14,11 @@
       "actions": [
         "37_T1_Night Scholar_Rig__Idle",
         "37_T1_Night Scholar_Rig__Walk",
-        "37_T1_Night Scholar_Rig__Attack"
+        "37_T1_Night Scholar_Rig__Attack",
+        "37_T1_Night Scholar_Rig__Hit",
+        "37_T1_Night Scholar_Rig__Block",
+        "37_T1_Night Scholar_Rig__Defeat",
+        "37_T1_Night Scholar_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "37_T2_Night Scholar_Rig__Idle",
         "37_T2_Night Scholar_Rig__Walk",
-        "37_T2_Night Scholar_Rig__Attack"
+        "37_T2_Night Scholar_Rig__Attack",
+        "37_T2_Night Scholar_Rig__Hit",
+        "37_T2_Night Scholar_Rig__Block",
+        "37_T2_Night Scholar_Rig__Defeat",
+        "37_T2_Night Scholar_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "37_T3_Night Scholar_Rig__Idle",
         "37_T3_Night Scholar_Rig__Walk",
-        "37_T3_Night Scholar_Rig__Attack"
+        "37_T3_Night Scholar_Rig__Attack",
+        "37_T3_Night Scholar_Rig__Hit",
+        "37_T3_Night Scholar_Rig__Block",
+        "37_T3_Night Scholar_Rig__Defeat",
+        "37_T3_Night Scholar_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

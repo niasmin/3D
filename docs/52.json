@@ -14,7 +14,11 @@
       "actions": [
         "52_T1_Lilac Immortal_Rig__Idle",
         "52_T1_Lilac Immortal_Rig__Walk",
-        "52_T1_Lilac Immortal_Rig__Attack"
+        "52_T1_Lilac Immortal_Rig__Attack",
+        "52_T1_Lilac Immortal_Rig__Hit",
+        "52_T1_Lilac Immortal_Rig__Block",
+        "52_T1_Lilac Immortal_Rig__Defeat",
+        "52_T1_Lilac Immortal_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "52_T2_Lilac Immortal_Rig__Idle",
         "52_T2_Lilac Immortal_Rig__Walk",
-        "52_T2_Lilac Immortal_Rig__Attack"
+        "52_T2_Lilac Immortal_Rig__Attack",
+        "52_T2_Lilac Immortal_Rig__Hit",
+        "52_T2_Lilac Immortal_Rig__Block",
+        "52_T2_Lilac Immortal_Rig__Defeat",
+        "52_T2_Lilac Immortal_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "52_T3_Lilac Immortal_Rig__Idle",
         "52_T3_Lilac Immortal_Rig__Walk",
-        "52_T3_Lilac Immortal_Rig__Attack"
+        "52_T3_Lilac Immortal_Rig__Attack",
+        "52_T3_Lilac Immortal_Rig__Hit",
+        "52_T3_Lilac Immortal_Rig__Block",
+        "52_T3_Lilac Immortal_Rig__Defeat",
+        "52_T3_Lilac Immortal_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

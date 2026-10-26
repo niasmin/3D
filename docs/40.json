@@ -14,7 +14,11 @@
       "actions": [
         "40_T1_Ocean Champion_Rig__Idle",
         "40_T1_Ocean Champion_Rig__Walk",
-        "40_T1_Ocean Champion_Rig__Attack"
+        "40_T1_Ocean Champion_Rig__Attack",
+        "40_T1_Ocean Champion_Rig__Hit",
+        "40_T1_Ocean Champion_Rig__Block",
+        "40_T1_Ocean Champion_Rig__Defeat",
+        "40_T1_Ocean Champion_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "40_T2_Ocean Champion_Rig__Idle",
         "40_T2_Ocean Champion_Rig__Walk",
-        "40_T2_Ocean Champion_Rig__Attack"
+        "40_T2_Ocean Champion_Rig__Attack",
+        "40_T2_Ocean Champion_Rig__Hit",
+        "40_T2_Ocean Champion_Rig__Block",
+        "40_T2_Ocean Champion_Rig__Defeat",
+        "40_T2_Ocean Champion_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "40_T3_Ocean Champion_Rig__Idle",
         "40_T3_Ocean Champion_Rig__Walk",
-        "40_T3_Ocean Champion_Rig__Attack"
+        "40_T3_Ocean Champion_Rig__Attack",
+        "40_T3_Ocean Champion_Rig__Hit",
+        "40_T3_Ocean Champion_Rig__Block",
+        "40_T3_Ocean Champion_Rig__Defeat",
+        "40_T3_Ocean Champion_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

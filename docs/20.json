@@ -14,7 +14,11 @@
       "actions": [
         "20_T1_Golden Shield_Rig__Idle",
         "20_T1_Golden Shield_Rig__Walk",
-        "20_T1_Golden Shield_Rig__Attack"
+        "20_T1_Golden Shield_Rig__Attack",
+        "20_T1_Golden Shield_Rig__Hit",
+        "20_T1_Golden Shield_Rig__Block",
+        "20_T1_Golden Shield_Rig__Defeat",
+        "20_T1_Golden Shield_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "20_T2_Golden Shield_Rig__Idle",
         "20_T2_Golden Shield_Rig__Walk",
-        "20_T2_Golden Shield_Rig__Attack"
+        "20_T2_Golden Shield_Rig__Attack",
+        "20_T2_Golden Shield_Rig__Hit",
+        "20_T2_Golden Shield_Rig__Block",
+        "20_T2_Golden Shield_Rig__Defeat",
+        "20_T2_Golden Shield_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "20_T3_Golden Shield_Rig__Idle",
         "20_T3_Golden Shield_Rig__Walk",
-        "20_T3_Golden Shield_Rig__Attack"
+        "20_T3_Golden Shield_Rig__Attack",
+        "20_T3_Golden Shield_Rig__Hit",
+        "20_T3_Golden Shield_Rig__Block",
+        "20_T3_Golden Shield_Rig__Defeat",
+        "20_T3_Golden Shield_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

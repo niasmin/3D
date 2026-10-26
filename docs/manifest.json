@@ -1,12 +1,13 @@
 {
-  "graphics_revision": 2,
+  "graphics_revision": 3,
   "references": 69,
   "characters": 204,
+  "character_actions": 1428,
+  "boss_actions": 7,
   "effects": 207,
   "boss": {
     "blend": "assets/boss.blend",
-    "model": "samkok/web/models/boss.glb",
-    "preview": "previews/boss.png"
+    "model": "samkok/web/models/boss.glb"
   },
   "assets": [
     {
@@ -25,7 +26,11 @@
           "actions": [
             "01_T1_Silver Phoenix_Rig__Idle",
             "01_T1_Silver Phoenix_Rig__Walk",
-            "01_T1_Silver Phoenix_Rig__Attack"
+            "01_T1_Silver Phoenix_Rig__Attack",
+            "01_T1_Silver Phoenix_Rig__Hit",
+            "01_T1_Silver Phoenix_Rig__Block",
+            "01_T1_Silver Phoenix_Rig__Defeat",
+            "01_T1_Silver Phoenix_Rig__Victory"
           ]
         },
         {
@@ -37,7 +42,11 @@
           "actions": [
             "01_T2_Silver Phoenix_Rig__Idle",
             "01_T2_Silver Phoenix_Rig__Walk",
-            "01_T2_Silver Phoenix_Rig__Attack"
+            "01_T2_Silver Phoenix_Rig__Attack",
+            "01_T2_Silver Phoenix_Rig__Hit",
+            "01_T2_Silver Phoenix_Rig__Block",
+            "01_T2_Silver Phoenix_Rig__Defeat",
+            "01_T2_Silver Phoenix_Rig__Victory"
           ]
         },
         {
@@ -49,11 +58,16 @@
           "actions": [
             "01_T3_Silver Phoenix_Rig__Idle",
             "01_T3_Silver Phoenix_Rig__Walk",
-            "01_T3_Silver Phoenix_Rig__Attack"
+            "01_T3_Silver Phoenix_Rig__Attack",
+            "01_T3_Silver Phoenix_Rig__Hit",
+            "01_T3_Silver Phoenix_Rig__Block",
+            "01_T3_Silver Phoenix_Rig__Defeat",
+            "01_T3_Silver Phoenix_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 2,
@@ -71,7 +85,11 @@
           "actions": [
             "02_T1_Crimson Vanguard_Rig__Idle",
             "02_T1_Crimson Vanguard_Rig__Walk",
-            "02_T1_Crimson Vanguard_Rig__Attack"
+            "02_T1_Crimson Vanguard_Rig__Attack",
+            "02_T1_Crimson Vanguard_Rig__Hit",
+            "02_T1_Crimson Vanguard_Rig__Block",
+            "02_T1_Crimson Vanguard_Rig__Defeat",
+            "02_T1_Crimson Vanguard_Rig__Victory"
           ]
         },
         {
@@ -83,7 +101,11 @@
           "actions": [
             "02_T2_Crimson Vanguard_Rig__Idle",
             "02_T2_Crimson Vanguard_Rig__Walk",
-            "02_T2_Crimson Vanguard_Rig__Attack"
+            "02_T2_Crimson Vanguard_Rig__Attack",
+            "02_T2_Crimson Vanguard_Rig__Hit",
+            "02_T2_Crimson Vanguard_Rig__Block",
+            "02_T2_Crimson Vanguard_Rig__Defeat",
+            "02_T2_Crimson Vanguard_Rig__Victory"
           ]
         },
         {
@@ -95,11 +117,16 @@
           "actions": [
             "02_T3_Crimson Vanguard_Rig__Idle",
             "02_T3_Crimson Vanguard_Rig__Walk",
-            "02_T3_Crimson Vanguard_Rig__Attack"
+            "02_T3_Crimson Vanguard_Rig__Attack",
+            "02_T3_Crimson Vanguard_Rig__Hit",
+            "02_T3_Crimson Vanguard_Rig__Block",
+            "02_T3_Crimson Vanguard_Rig__Defeat",
+            "02_T3_Crimson Vanguard_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 3,
@@ -117,7 +144,11 @@
           "actions": [
             "03_T1_Jade Chancellor_Rig__Idle",
             "03_T1_Jade Chancellor_Rig__Walk",
-            "03_T1_Jade Chancellor_Rig__Attack"
+            "03_T1_Jade Chancellor_Rig__Attack",
+            "03_T1_Jade Chancellor_Rig__Hit",
+            "03_T1_Jade Chancellor_Rig__Block",
+            "03_T1_Jade Chancellor_Rig__Defeat",
+            "03_T1_Jade Chancellor_Rig__Victory"
           ]
         },
         {
@@ -129,7 +160,11 @@
           "actions": [
             "03_T2_Jade Chancellor_Rig__Idle",
             "03_T2_Jade Chancellor_Rig__Walk",
-            "03_T2_Jade Chancellor_Rig__Attack"
+            "03_T2_Jade Chancellor_Rig__Attack",
+            "03_T2_Jade Chancellor_Rig__Hit",
+            "03_T2_Jade Chancellor_Rig__Block",
+            "03_T2_Jade Chancellor_Rig__Defeat",
+            "03_T2_Jade Chancellor_Rig__Victory"
           ]
         },
         {
@@ -141,11 +176,16 @@
           "actions": [
             "03_T3_Jade Chancellor_Rig__Idle",
             "03_T3_Jade Chancellor_Rig__Walk",
-            "03_T3_Jade Chancellor_Rig__Attack"
+            "03_T3_Jade Chancellor_Rig__Attack",
+            "03_T3_Jade Chancellor_Rig__Hit",
+            "03_T3_Jade Chancellor_Rig__Block",
+            "03_T3_Jade Chancellor_Rig__Defeat",
+            "03_T3_Jade Chancellor_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 4,
@@ -163,7 +203,11 @@
           "actions": [
             "04_T1_Verdant Immortal_Rig__Idle",
             "04_T1_Verdant Immortal_Rig__Walk",
-            "04_T1_Verdant Immortal_Rig__Attack"
+            "04_T1_Verdant Immortal_Rig__Attack",
+            "04_T1_Verdant Immortal_Rig__Hit",
+            "04_T1_Verdant Immortal_Rig__Block",
+            "04_T1_Verdant Immortal_Rig__Defeat",
+            "04_T1_Verdant Immortal_Rig__Victory"
           ]
         },
         {
@@ -175,7 +219,11 @@
           "actions": [
             "04_T2_Verdant Immortal_Rig__Idle",
             "04_T2_Verdant Immortal_Rig__Walk",
-            "04_T2_Verdant Immortal_Rig__Attack"
+            "04_T2_Verdant Immortal_Rig__Attack",
+            "04_T2_Verdant Immortal_Rig__Hit",
+            "04_T2_Verdant Immortal_Rig__Block",
+            "04_T2_Verdant Immortal_Rig__Defeat",
+            "04_T2_Verdant Immortal_Rig__Victory"
           ]
         },
         {
@@ -187,11 +235,16 @@
           "actions": [
             "04_T3_Verdant Immortal_Rig__Idle",
             "04_T3_Verdant Immortal_Rig__Walk",
-            "04_T3_Verdant Immortal_Rig__Attack"
+            "04_T3_Verdant Immortal_Rig__Attack",
+            "04_T3_Verdant Immortal_Rig__Hit",
+            "04_T3_Verdant Immortal_Rig__Block",
+            "04_T3_Verdant Immortal_Rig__Defeat",
+            "04_T3_Verdant Immortal_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 5,
@@ -209,7 +262,11 @@
           "actions": [
             "05_T1_Violet Archer_Rig__Idle",
             "05_T1_Violet Archer_Rig__Walk",
-            "05_T1_Violet Archer_Rig__Attack"
+            "05_T1_Violet Archer_Rig__Attack",
+            "05_T1_Violet Archer_Rig__Hit",
+            "05_T1_Violet Archer_Rig__Block",
+            "05_T1_Violet Archer_Rig__Defeat",
+            "05_T1_Violet Archer_Rig__Victory"
           ]
         },
         {
@@ -221,7 +278,11 @@
           "actions": [
             "05_T2_Violet Archer_Rig__Idle",
             "05_T2_Violet Archer_Rig__Walk",
-            "05_T2_Violet Archer_Rig__Attack"
+            "05_T2_Violet Archer_Rig__Attack",
+            "05_T2_Violet Archer_Rig__Hit",
+            "05_T2_Violet Archer_Rig__Block",
+            "05_T2_Violet Archer_Rig__Defeat",
+            "05_T2_Violet Archer_Rig__Victory"
           ]
         },
         {
@@ -233,11 +294,16 @@
           "actions": [
             "05_T3_Violet Archer_Rig__Idle",
             "05_T3_Violet Archer_Rig__Walk",
-            "05_T3_Violet Archer_Rig__Attack"
+            "05_T3_Violet Archer_Rig__Attack",
+            "05_T3_Violet Archer_Rig__Hit",
+            "05_T3_Violet Archer_Rig__Block",
+            "05_T3_Violet Archer_Rig__Defeat",
+            "05_T3_Violet Archer_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 6,
@@ -255,7 +321,11 @@
           "actions": [
             "06_T1_Crimson Warlord_Rig__Idle",
             "06_T1_Crimson Warlord_Rig__Walk",
-            "06_T1_Crimson Warlord_Rig__Attack"
+            "06_T1_Crimson Warlord_Rig__Attack",
+            "06_T1_Crimson Warlord_Rig__Hit",
+            "06_T1_Crimson Warlord_Rig__Block",
+            "06_T1_Crimson Warlord_Rig__Defeat",
+            "06_T1_Crimson Warlord_Rig__Victory"
           ]
         },
         {
@@ -267,7 +337,11 @@
           "actions": [
             "06_T2_Crimson Warlord_Rig__Idle",
             "06_T2_Crimson Warlord_Rig__Walk",
-            "06_T2_Crimson Warlord_Rig__Attack"
+            "06_T2_Crimson Warlord_Rig__Attack",
+            "06_T2_Crimson Warlord_Rig__Hit",
+            "06_T2_Crimson Warlord_Rig__Block",
+            "06_T2_Crimson Warlord_Rig__Defeat",
+            "06_T2_Crimson Warlord_Rig__Victory"
           ]
         },
         {
@@ -279,11 +353,16 @@
           "actions": [
             "06_T3_Crimson Warlord_Rig__Idle",
             "06_T3_Crimson Warlord_Rig__Walk",
-            "06_T3_Crimson Warlord_Rig__Attack"
+            "06_T3_Crimson Warlord_Rig__Attack",
+            "06_T3_Crimson Warlord_Rig__Hit",
+            "06_T3_Crimson Warlord_Rig__Block",
+            "06_T3_Crimson Warlord_Rig__Defeat",
+            "06_T3_Crimson Warlord_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 7,
@@ -301,7 +380,11 @@
           "actions": [
             "07_T1_Scarlet Cavalier_Rig__Idle",
             "07_T1_Scarlet Cavalier_Rig__Walk",
-            "07_T1_Scarlet Cavalier_Rig__Attack"
+            "07_T1_Scarlet Cavalier_Rig__Attack",
+            "07_T1_Scarlet Cavalier_Rig__Hit",
+            "07_T1_Scarlet Cavalier_Rig__Block",
+            "07_T1_Scarlet Cavalier_Rig__Defeat",
+            "07_T1_Scarlet Cavalier_Rig__Victory"
           ]
         },
         {
@@ -313,7 +396,11 @@
           "actions": [
             "07_T2_Scarlet Cavalier_Rig__Idle",
             "07_T2_Scarlet Cavalier_Rig__Walk",
-            "07_T2_Scarlet Cavalier_Rig__Attack"
+            "07_T2_Scarlet Cavalier_Rig__Attack",
+            "07_T2_Scarlet Cavalier_Rig__Hit",
+            "07_T2_Scarlet Cavalier_Rig__Block",
+            "07_T2_Scarlet Cavalier_Rig__Defeat",
+            "07_T2_Scarlet Cavalier_Rig__Victory"
           ]
         },
         {
@@ -325,11 +412,16 @@
           "actions": [
             "07_T3_Scarlet Cavalier_Rig__Idle",
             "07_T3_Scarlet Cavalier_Rig__Walk",
-            "07_T3_Scarlet Cavalier_Rig__Attack"
+            "07_T3_Scarlet Cavalier_Rig__Attack",
+            "07_T3_Scarlet Cavalier_Rig__Hit",
+            "07_T3_Scarlet Cavalier_Rig__Block",
+            "07_T3_Scarlet Cavalier_Rig__Defeat",
+            "07_T3_Scarlet Cavalier_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 8,
@@ -347,7 +439,11 @@
           "actions": [
             "08_T1_Ivory Veteran_Rig__Idle",
             "08_T1_Ivory Veteran_Rig__Walk",
-            "08_T1_Ivory Veteran_Rig__Attack"
+            "08_T1_Ivory Veteran_Rig__Attack",
+            "08_T1_Ivory Veteran_Rig__Hit",
+            "08_T1_Ivory Veteran_Rig__Block",
+            "08_T1_Ivory Veteran_Rig__Defeat",
+            "08_T1_Ivory Veteran_Rig__Victory"
           ]
         },
         {
@@ -359,7 +455,11 @@
           "actions": [
             "08_T2_Ivory Veteran_Rig__Idle",
             "08_T2_Ivory Veteran_Rig__Walk",
-            "08_T2_Ivory Veteran_Rig__Attack"
+            "08_T2_Ivory Veteran_Rig__Attack",
+            "08_T2_Ivory Veteran_Rig__Hit",
+            "08_T2_Ivory Veteran_Rig__Block",
+            "08_T2_Ivory Veteran_Rig__Defeat",
+            "08_T2_Ivory Veteran_Rig__Victory"
           ]
         },
         {
@@ -371,11 +471,16 @@
           "actions": [
             "08_T3_Ivory Veteran_Rig__Idle",
             "08_T3_Ivory Veteran_Rig__Walk",
-            "08_T3_Ivory Veteran_Rig__Attack"
+            "08_T3_Ivory Veteran_Rig__Attack",
+            "08_T3_Ivory Veteran_Rig__Hit",
+            "08_T3_Ivory Veteran_Rig__Block",
+            "08_T3_Ivory Veteran_Rig__Defeat",
+            "08_T3_Ivory Veteran_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 9,
@@ -393,7 +498,11 @@
           "actions": [
             "09_T1_Golden Envoy_Rig__Idle",
             "09_T1_Golden Envoy_Rig__Walk",
-            "09_T1_Golden Envoy_Rig__Attack"
+            "09_T1_Golden Envoy_Rig__Attack",
+            "09_T1_Golden Envoy_Rig__Hit",
+            "09_T1_Golden Envoy_Rig__Block",
+            "09_T1_Golden Envoy_Rig__Defeat",
+            "09_T1_Golden Envoy_Rig__Victory"
           ]
         },
         {
@@ -405,7 +514,11 @@
           "actions": [
             "09_T2_Golden Envoy_Rig__Idle",
             "09_T2_Golden Envoy_Rig__Walk",
-            "09_T2_Golden Envoy_Rig__Attack"
+            "09_T2_Golden Envoy_Rig__Attack",
+            "09_T2_Golden Envoy_Rig__Hit",
+            "09_T2_Golden Envoy_Rig__Block",
+            "09_T2_Golden Envoy_Rig__Defeat",
+            "09_T2_Golden Envoy_Rig__Victory"
           ]
         },
         {
@@ -417,11 +530,16 @@
           "actions": [
             "09_T3_Golden Envoy_Rig__Idle",
             "09_T3_Golden Envoy_Rig__Walk",
-            "09_T3_Golden Envoy_Rig__Attack"
+            "09_T3_Golden Envoy_Rig__Attack",
+            "09_T3_Golden Envoy_Rig__Hit",
+            "09_T3_Golden Envoy_Rig__Block",
+            "09_T3_Golden Envoy_Rig__Defeat",
+            "09_T3_Golden Envoy_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 10,
@@ -439,7 +557,11 @@
           "actions": [
             "10_T1_Flame Sentinel_Rig__Idle",
             "10_T1_Flame Sentinel_Rig__Walk",
-            "10_T1_Flame Sentinel_Rig__Attack"
+            "10_T1_Flame Sentinel_Rig__Attack",
+            "10_T1_Flame Sentinel_Rig__Hit",
+            "10_T1_Flame Sentinel_Rig__Block",
+            "10_T1_Flame Sentinel_Rig__Defeat",
+            "10_T1_Flame Sentinel_Rig__Victory"
           ]
         },
         {
@@ -451,7 +573,11 @@
           "actions": [
             "10_T2_Flame Sentinel_Rig__Idle",
             "10_T2_Flame Sentinel_Rig__Walk",
-            "10_T2_Flame Sentinel_Rig__Attack"
+            "10_T2_Flame Sentinel_Rig__Attack",
+            "10_T2_Flame Sentinel_Rig__Hit",
+            "10_T2_Flame Sentinel_Rig__Block",
+            "10_T2_Flame Sentinel_Rig__Defeat",
+            "10_T2_Flame Sentinel_Rig__Victory"
           ]
         },
         {
@@ -463,11 +589,16 @@
           "actions": [
             "10_T3_Flame Sentinel_Rig__Idle",
             "10_T3_Flame Sentinel_Rig__Walk",
-            "10_T3_Flame Sentinel_Rig__Attack"
+            "10_T3_Flame Sentinel_Rig__Attack",
+            "10_T3_Flame Sentinel_Rig__Hit",
+            "10_T3_Flame Sentinel_Rig__Block",
+            "10_T3_Flame Sentinel_Rig__Defeat",
+            "10_T3_Flame Sentinel_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 11,
@@ -485,7 +616,11 @@
           "actions": [
             "11_T1_Amber Veteran_Rig__Idle",
             "11_T1_Amber Veteran_Rig__Walk",
-            "11_T1_Amber Veteran_Rig__Attack"
+            "11_T1_Amber Veteran_Rig__Attack",
+            "11_T1_Amber Veteran_Rig__Hit",
+            "11_T1_Amber Veteran_Rig__Block",
+            "11_T1_Amber Veteran_Rig__Defeat",
+            "11_T1_Amber Veteran_Rig__Victory"
           ]
         },
         {
@@ -497,7 +632,11 @@
           "actions": [
             "11_T2_Amber Veteran_Rig__Idle",
             "11_T2_Amber Veteran_Rig__Walk",
-            "11_T2_Amber Veteran_Rig__Attack"
+            "11_T2_Amber Veteran_Rig__Attack",
+            "11_T2_Amber Veteran_Rig__Hit",
+            "11_T2_Amber Veteran_Rig__Block",
+            "11_T2_Amber Veteran_Rig__Defeat",
+            "11_T2_Amber Veteran_Rig__Victory"
           ]
         },
         {
@@ -509,11 +648,16 @@
           "actions": [
             "11_T3_Amber Veteran_Rig__Idle",
             "11_T3_Amber Veteran_Rig__Walk",
-            "11_T3_Amber Veteran_Rig__Attack"
+            "11_T3_Amber Veteran_Rig__Attack",
+            "11_T3_Amber Veteran_Rig__Hit",
+            "11_T3_Amber Veteran_Rig__Block",
+            "11_T3_Amber Veteran_Rig__Defeat",
+            "11_T3_Amber Veteran_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 12,
@@ -531,7 +675,11 @@
           "actions": [
             "12_T1_Blood Spear_Rig__Idle",
             "12_T1_Blood Spear_Rig__Walk",
-            "12_T1_Blood Spear_Rig__Attack"
+            "12_T1_Blood Spear_Rig__Attack",
+            "12_T1_Blood Spear_Rig__Hit",
+            "12_T1_Blood Spear_Rig__Block",
+            "12_T1_Blood Spear_Rig__Defeat",
+            "12_T1_Blood Spear_Rig__Victory"
           ]
         },
         {
@@ -543,7 +691,11 @@
           "actions": [
             "12_T2_Blood Spear_Rig__Idle",
             "12_T2_Blood Spear_Rig__Walk",
-            "12_T2_Blood Spear_Rig__Attack"
+            "12_T2_Blood Spear_Rig__Attack",
+            "12_T2_Blood Spear_Rig__Hit",
+            "12_T2_Blood Spear_Rig__Block",
+            "12_T2_Blood Spear_Rig__Defeat",
+            "12_T2_Blood Spear_Rig__Victory"
           ]
         },
         {
@@ -555,11 +707,16 @@
           "actions": [
             "12_T3_Blood Spear_Rig__Idle",
             "12_T3_Blood Spear_Rig__Walk",
-            "12_T3_Blood Spear_Rig__Attack"
+            "12_T3_Blood Spear_Rig__Attack",
+            "12_T3_Blood Spear_Rig__Hit",
+            "12_T3_Blood Spear_Rig__Block",
+            "12_T3_Blood Spear_Rig__Defeat",
+            "12_T3_Blood Spear_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 13,
@@ -577,7 +734,11 @@
           "actions": [
             "13_T1_Peony Dancer_Rig__Idle",
             "13_T1_Peony Dancer_Rig__Walk",
-            "13_T1_Peony Dancer_Rig__Attack"
+            "13_T1_Peony Dancer_Rig__Attack",
+            "13_T1_Peony Dancer_Rig__Hit",
+            "13_T1_Peony Dancer_Rig__Block",
+            "13_T1_Peony Dancer_Rig__Defeat",
+            "13_T1_Peony Dancer_Rig__Victory"
           ]
         },
         {
@@ -589,7 +750,11 @@
           "actions": [
             "13_T2_Peony Dancer_Rig__Idle",
             "13_T2_Peony Dancer_Rig__Walk",
-            "13_T2_Peony Dancer_Rig__Attack"
+            "13_T2_Peony Dancer_Rig__Attack",
+            "13_T2_Peony Dancer_Rig__Hit",
+            "13_T2_Peony Dancer_Rig__Block",
+            "13_T2_Peony Dancer_Rig__Defeat",
+            "13_T2_Peony Dancer_Rig__Victory"
           ]
         },
         {
@@ -601,11 +766,16 @@
           "actions": [
             "13_T3_Peony Dancer_Rig__Idle",
             "13_T3_Peony Dancer_Rig__Walk",
-            "13_T3_Peony Dancer_Rig__Attack"
+            "13_T3_Peony Dancer_Rig__Attack",
+            "13_T3_Peony Dancer_Rig__Hit",
+            "13_T3_Peony Dancer_Rig__Block",
+            "13_T3_Peony Dancer_Rig__Defeat",
+            "13_T3_Peony Dancer_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 14,
@@ -623,7 +793,11 @@
           "actions": [
             "14_T1_Ember Lion_Rig__Idle",
             "14_T1_Ember Lion_Rig__Walk",
-            "14_T1_Ember Lion_Rig__Attack"
+            "14_T1_Ember Lion_Rig__Attack",
+            "14_T1_Ember Lion_Rig__Hit",
+            "14_T1_Ember Lion_Rig__Block",
+            "14_T1_Ember Lion_Rig__Defeat",
+            "14_T1_Ember Lion_Rig__Victory"
           ]
         },
         {
@@ -635,7 +809,11 @@
           "actions": [
             "14_T2_Ember Lion_Rig__Idle",
             "14_T2_Ember Lion_Rig__Walk",
-            "14_T2_Ember Lion_Rig__Attack"
+            "14_T2_Ember Lion_Rig__Attack",
+            "14_T2_Ember Lion_Rig__Hit",
+            "14_T2_Ember Lion_Rig__Block",
+            "14_T2_Ember Lion_Rig__Defeat",
+            "14_T2_Ember Lion_Rig__Victory"
           ]
         },
         {
@@ -647,11 +825,16 @@
           "actions": [
             "14_T3_Ember Lion_Rig__Idle",
             "14_T3_Ember Lion_Rig__Walk",
-            "14_T3_Ember Lion_Rig__Attack"
+            "14_T3_Ember Lion_Rig__Attack",
+            "14_T3_Ember Lion_Rig__Hit",
+            "14_T3_Ember Lion_Rig__Block",
+            "14_T3_Ember Lion_Rig__Defeat",
+            "14_T3_Ember Lion_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 15,
@@ -669,7 +852,11 @@
           "actions": [
             "15_T1_Azure Lancer_Rig__Idle",
             "15_T1_Azure Lancer_Rig__Walk",
-            "15_T1_Azure Lancer_Rig__Attack"
+            "15_T1_Azure Lancer_Rig__Attack",
+            "15_T1_Azure Lancer_Rig__Hit",
+            "15_T1_Azure Lancer_Rig__Block",
+            "15_T1_Azure Lancer_Rig__Defeat",
+            "15_T1_Azure Lancer_Rig__Victory"
           ]
         },
         {
@@ -681,7 +868,11 @@
           "actions": [
             "15_T2_Azure Lancer_Rig__Idle",
             "15_T2_Azure Lancer_Rig__Walk",
-            "15_T2_Azure Lancer_Rig__Attack"
+            "15_T2_Azure Lancer_Rig__Attack",
+            "15_T2_Azure Lancer_Rig__Hit",
+            "15_T2_Azure Lancer_Rig__Block",
+            "15_T2_Azure Lancer_Rig__Defeat",
+            "15_T2_Azure Lancer_Rig__Victory"
           ]
         },
         {
@@ -693,11 +884,16 @@
           "actions": [
             "15_T3_Azure Lancer_Rig__Idle",
             "15_T3_Azure Lancer_Rig__Walk",
-            "15_T3_Azure Lancer_Rig__Attack"
+            "15_T3_Azure Lancer_Rig__Attack",
+            "15_T3_Azure Lancer_Rig__Hit",
+            "15_T3_Azure Lancer_Rig__Block",
+            "15_T3_Azure Lancer_Rig__Defeat",
+            "15_T3_Azure Lancer_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 16,
@@ -715,7 +911,11 @@
           "actions": [
             "16_T1_Flame Blades_Rig__Idle",
             "16_T1_Flame Blades_Rig__Walk",
-            "16_T1_Flame Blades_Rig__Attack"
+            "16_T1_Flame Blades_Rig__Attack",
+            "16_T1_Flame Blades_Rig__Hit",
+            "16_T1_Flame Blades_Rig__Block",
+            "16_T1_Flame Blades_Rig__Defeat",
+            "16_T1_Flame Blades_Rig__Victory"
           ]
         },
         {
@@ -727,7 +927,11 @@
           "actions": [
             "16_T2_Flame Blades_Rig__Idle",
             "16_T2_Flame Blades_Rig__Walk",
-            "16_T2_Flame Blades_Rig__Attack"
+            "16_T2_Flame Blades_Rig__Attack",
+            "16_T2_Flame Blades_Rig__Hit",
+            "16_T2_Flame Blades_Rig__Block",
+            "16_T2_Flame Blades_Rig__Defeat",
+            "16_T2_Flame Blades_Rig__Victory"
           ]
         },
         {
@@ -739,11 +943,16 @@
           "actions": [
             "16_T3_Flame Blades_Rig__Idle",
             "16_T3_Flame Blades_Rig__Walk",
-            "16_T3_Flame Blades_Rig__Attack"
+            "16_T3_Flame Blades_Rig__Attack",
+            "16_T3_Flame Blades_Rig__Hit",
+            "16_T3_Flame Blades_Rig__Block",
+            "16_T3_Flame Blades_Rig__Defeat",
+            "16_T3_Flame Blades_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 17,
@@ -761,7 +970,11 @@
           "actions": [
             "17_T1_River Strategist_Rig__Idle",
             "17_T1_River Strategist_Rig__Walk",
-            "17_T1_River Strategist_Rig__Attack"
+            "17_T1_River Strategist_Rig__Attack",
+            "17_T1_River Strategist_Rig__Hit",
+            "17_T1_River Strategist_Rig__Block",
+            "17_T1_River Strategist_Rig__Defeat",
+            "17_T1_River Strategist_Rig__Victory"
           ]
         },
         {
@@ -773,7 +986,11 @@
           "actions": [
             "17_T2_River Strategist_Rig__Idle",
             "17_T2_River Strategist_Rig__Walk",
-            "17_T2_River Strategist_Rig__Attack"
+            "17_T2_River Strategist_Rig__Attack",
+            "17_T2_River Strategist_Rig__Hit",
+            "17_T2_River Strategist_Rig__Block",
+            "17_T2_River Strategist_Rig__Defeat",
+            "17_T2_River Strategist_Rig__Victory"
           ]
         },
         {
@@ -785,11 +1002,16 @@
           "actions": [
             "17_T3_River Strategist_Rig__Idle",
             "17_T3_River Strategist_Rig__Walk",
-            "17_T3_River Strategist_Rig__Attack"
+            "17_T3_River Strategist_Rig__Attack",
+            "17_T3_River Strategist_Rig__Hit",
+            "17_T3_River Strategist_Rig__Block",
+            "17_T3_River Strategist_Rig__Defeat",
+            "17_T3_River Strategist_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 18,
@@ -807,7 +1029,11 @@
           "actions": [
             "18_T1_Moon Scholar_Rig__Idle",
             "18_T1_Moon Scholar_Rig__Walk",
-            "18_T1_Moon Scholar_Rig__Attack"
+            "18_T1_Moon Scholar_Rig__Attack",
+            "18_T1_Moon Scholar_Rig__Hit",
+            "18_T1_Moon Scholar_Rig__Block",
+            "18_T1_Moon Scholar_Rig__Defeat",
+            "18_T1_Moon Scholar_Rig__Victory"
           ]
         },
         {
@@ -819,7 +1045,11 @@
           "actions": [
             "18_T2_Moon Scholar_Rig__Idle",
             "18_T2_Moon Scholar_Rig__Walk",
-            "18_T2_Moon Scholar_Rig__Attack"
+            "18_T2_Moon Scholar_Rig__Attack",
+            "18_T2_Moon Scholar_Rig__Hit",
+            "18_T2_Moon Scholar_Rig__Block",
+            "18_T2_Moon Scholar_Rig__Defeat",
+            "18_T2_Moon Scholar_Rig__Victory"
           ]
         },
         {
@@ -831,11 +1061,16 @@
           "actions": [
             "18_T3_Moon Scholar_Rig__Idle",
             "18_T3_Moon Scholar_Rig__Walk",
-            "18_T3_Moon Scholar_Rig__Attack"
+            "18_T3_Moon Scholar_Rig__Attack",
+            "18_T3_Moon Scholar_Rig__Hit",
+            "18_T3_Moon Scholar_Rig__Block",
+            "18_T3_Moon Scholar_Rig__Defeat",
+            "18_T3_Moon Scholar_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 19,
@@ -853,7 +1088,11 @@
           "actions": [
             "19_T1_Azure Guard_Rig__Idle",
             "19_T1_Azure Guard_Rig__Walk",
-            "19_T1_Azure Guard_Rig__Attack"
+            "19_T1_Azure Guard_Rig__Attack",
+            "19_T1_Azure Guard_Rig__Hit",
+            "19_T1_Azure Guard_Rig__Block",
+            "19_T1_Azure Guard_Rig__Defeat",
+            "19_T1_Azure Guard_Rig__Victory"
           ]
         },
         {
@@ -865,7 +1104,11 @@
           "actions": [
             "19_T2_Azure Guard_Rig__Idle",
             "19_T2_Azure Guard_Rig__Walk",
-            "19_T2_Azure Guard_Rig__Attack"
+            "19_T2_Azure Guard_Rig__Attack",
+            "19_T2_Azure Guard_Rig__Hit",
+            "19_T2_Azure Guard_Rig__Block",
+            "19_T2_Azure Guard_Rig__Defeat",
+            "19_T2_Azure Guard_Rig__Victory"
           ]
         },
         {
@@ -877,11 +1120,16 @@
           "actions": [
             "19_T3_Azure Guard_Rig__Idle",
             "19_T3_Azure Guard_Rig__Walk",
-            "19_T3_Azure Guard_Rig__Attack"
+            "19_T3_Azure Guard_Rig__Attack",
+            "19_T3_Azure Guard_Rig__Hit",
+            "19_T3_Azure Guard_Rig__Block",
+            "19_T3_Azure Guard_Rig__Defeat",
+            "19_T3_Azure Guard_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 20,
@@ -899,7 +1147,11 @@
           "actions": [
             "20_T1_Golden Shield_Rig__Idle",
             "20_T1_Golden Shield_Rig__Walk",
-            "20_T1_Golden Shield_Rig__Attack"
+            "20_T1_Golden Shield_Rig__Attack",
+            "20_T1_Golden Shield_Rig__Hit",
+            "20_T1_Golden Shield_Rig__Block",
+            "20_T1_Golden Shield_Rig__Defeat",
+            "20_T1_Golden Shield_Rig__Victory"
           ]
         },
         {
@@ -911,7 +1163,11 @@
           "actions": [
             "20_T2_Golden Shield_Rig__Idle",
             "20_T2_Golden Shield_Rig__Walk",
-            "20_T2_Golden Shield_Rig__Attack"
+            "20_T2_Golden Shield_Rig__Attack",
+            "20_T2_Golden Shield_Rig__Hit",
+            "20_T2_Golden Shield_Rig__Block",
+            "20_T2_Golden Shield_Rig__Defeat",
+            "20_T2_Golden Shield_Rig__Victory"
           ]
         },
         {
@@ -923,11 +1179,16 @@
           "actions": [
             "20_T3_Golden Shield_Rig__Idle",
             "20_T3_Golden Shield_Rig__Walk",
-            "20_T3_Golden Shield_Rig__Attack"
+            "20_T3_Golden Shield_Rig__Attack",
+            "20_T3_Golden Shield_Rig__Hit",
+            "20_T3_Golden Shield_Rig__Block",
+            "20_T3_Golden Shield_Rig__Defeat",
+            "20_T3_Golden Shield_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 21,
@@ -945,7 +1206,11 @@
           "actions": [
             "21_T1_Tide Chancellor_Rig__Idle",
             "21_T1_Tide Chancellor_Rig__Walk",
-            "21_T1_Tide Chancellor_Rig__Attack"
+            "21_T1_Tide Chancellor_Rig__Attack",
+            "21_T1_Tide Chancellor_Rig__Hit",
+            "21_T1_Tide Chancellor_Rig__Block",
+            "21_T1_Tide Chancellor_Rig__Defeat",
+            "21_T1_Tide Chancellor_Rig__Victory"
           ]
         },
         {
@@ -957,7 +1222,11 @@
           "actions": [
             "21_T2_Tide Chancellor_Rig__Idle",
             "21_T2_Tide Chancellor_Rig__Walk",
-            "21_T2_Tide Chancellor_Rig__Attack"
+            "21_T2_Tide Chancellor_Rig__Attack",
+            "21_T2_Tide Chancellor_Rig__Hit",
+            "21_T2_Tide Chancellor_Rig__Block",
+            "21_T2_Tide Chancellor_Rig__Defeat",
+            "21_T2_Tide Chancellor_Rig__Victory"
           ]
         },
         {
@@ -969,11 +1238,16 @@
           "actions": [
             "21_T3_Tide Chancellor_Rig__Idle",
             "21_T3_Tide Chancellor_Rig__Walk",
-            "21_T3_Tide Chancellor_Rig__Attack"
+            "21_T3_Tide Chancellor_Rig__Attack",
+            "21_T3_Tide Chancellor_Rig__Hit",
+            "21_T3_Tide Chancellor_Rig__Block",
+            "21_T3_Tide Chancellor_Rig__Defeat",
+            "21_T3_Tide Chancellor_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 22,
@@ -991,7 +1265,11 @@
           "actions": [
             "22_T1_Crimson Lady_Rig__Idle",
             "22_T1_Crimson Lady_Rig__Walk",
-            "22_T1_Crimson Lady_Rig__Attack"
+            "22_T1_Crimson Lady_Rig__Attack",
+            "22_T1_Crimson Lady_Rig__Hit",
+            "22_T1_Crimson Lady_Rig__Block",
+            "22_T1_Crimson Lady_Rig__Defeat",
+            "22_T1_Crimson Lady_Rig__Victory"
           ]
         },
         {
@@ -1003,7 +1281,11 @@
           "actions": [
             "22_T2_Crimson Lady_Rig__Idle",
             "22_T2_Crimson Lady_Rig__Walk",
-            "22_T2_Crimson Lady_Rig__Attack"
+            "22_T2_Crimson Lady_Rig__Attack",
+            "22_T2_Crimson Lady_Rig__Hit",
+            "22_T2_Crimson Lady_Rig__Block",
+            "22_T2_Crimson Lady_Rig__Defeat",
+            "22_T2_Crimson Lady_Rig__Victory"
           ]
         },
         {
@@ -1015,11 +1297,16 @@
           "actions": [
             "22_T3_Crimson Lady_Rig__Idle",
             "22_T3_Crimson Lady_Rig__Walk",
-            "22_T3_Crimson Lady_Rig__Attack"
+            "22_T3_Crimson Lady_Rig__Attack",
+            "22_T3_Crimson Lady_Rig__Hit",
+            "22_T3_Crimson Lady_Rig__Block",
+            "22_T3_Crimson Lady_Rig__Defeat",
+            "22_T3_Crimson Lady_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 23,
@@ -1037,7 +1324,11 @@
           "actions": [
             "23_T1_Lion Admiral_Rig__Idle",
             "23_T1_Lion Admiral_Rig__Walk",
-            "23_T1_Lion Admiral_Rig__Attack"
+            "23_T1_Lion Admiral_Rig__Attack",
+            "23_T1_Lion Admiral_Rig__Hit",
+            "23_T1_Lion Admiral_Rig__Block",
+            "23_T1_Lion Admiral_Rig__Defeat",
+            "23_T1_Lion Admiral_Rig__Victory"
           ]
         },
         {
@@ -1049,7 +1340,11 @@
           "actions": [
             "23_T2_Lion Admiral_Rig__Idle",
             "23_T2_Lion Admiral_Rig__Walk",
-            "23_T2_Lion Admiral_Rig__Attack"
+            "23_T2_Lion Admiral_Rig__Attack",
+            "23_T2_Lion Admiral_Rig__Hit",
+            "23_T2_Lion Admiral_Rig__Block",
+            "23_T2_Lion Admiral_Rig__Defeat",
+            "23_T2_Lion Admiral_Rig__Victory"
           ]
         },
         {
@@ -1061,11 +1356,16 @@
           "actions": [
             "23_T3_Lion Admiral_Rig__Idle",
             "23_T3_Lion Admiral_Rig__Walk",
-            "23_T3_Lion Admiral_Rig__Attack"
+            "23_T3_Lion Admiral_Rig__Attack",
+            "23_T3_Lion Admiral_Rig__Hit",
+            "23_T3_Lion Admiral_Rig__Block",
+            "23_T3_Lion Admiral_Rig__Defeat",
+            "23_T3_Lion Admiral_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 24,
@@ -1083,7 +1383,11 @@
           "actions": [
             "24_T1_Inferno Dancer_Rig__Idle",
             "24_T1_Inferno Dancer_Rig__Walk",
-            "24_T1_Inferno Dancer_Rig__Attack"
+            "24_T1_Inferno Dancer_Rig__Attack",
+            "24_T1_Inferno Dancer_Rig__Hit",
+            "24_T1_Inferno Dancer_Rig__Block",
+            "24_T1_Inferno Dancer_Rig__Defeat",
+            "24_T1_Inferno Dancer_Rig__Victory"
           ]
         },
         {
@@ -1095,7 +1399,11 @@
           "actions": [
             "24_T2_Inferno Dancer_Rig__Idle",
             "24_T2_Inferno Dancer_Rig__Walk",
-            "24_T2_Inferno Dancer_Rig__Attack"
+            "24_T2_Inferno Dancer_Rig__Attack",
+            "24_T2_Inferno Dancer_Rig__Hit",
+            "24_T2_Inferno Dancer_Rig__Block",
+            "24_T2_Inferno Dancer_Rig__Defeat",
+            "24_T2_Inferno Dancer_Rig__Victory"
           ]
         },
         {
@@ -1107,11 +1415,16 @@
           "actions": [
             "24_T3_Inferno Dancer_Rig__Idle",
             "24_T3_Inferno Dancer_Rig__Walk",
-            "24_T3_Inferno Dancer_Rig__Attack"
+            "24_T3_Inferno Dancer_Rig__Attack",
+            "24_T3_Inferno Dancer_Rig__Hit",
+            "24_T3_Inferno Dancer_Rig__Block",
+            "24_T3_Inferno Dancer_Rig__Defeat",
+            "24_T3_Inferno Dancer_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 25,
@@ -1129,7 +1442,11 @@
           "actions": [
             "25_T1_Mountain Guardian_Rig__Idle",
             "25_T1_Mountain Guardian_Rig__Walk",
-            "25_T1_Mountain Guardian_Rig__Attack"
+            "25_T1_Mountain Guardian_Rig__Attack",
+            "25_T1_Mountain Guardian_Rig__Hit",
+            "25_T1_Mountain Guardian_Rig__Block",
+            "25_T1_Mountain Guardian_Rig__Defeat",
+            "25_T1_Mountain Guardian_Rig__Victory"
           ]
         },
         {
@@ -1141,7 +1458,11 @@
           "actions": [
             "25_T2_Mountain Guardian_Rig__Idle",
             "25_T2_Mountain Guardian_Rig__Walk",
-            "25_T2_Mountain Guardian_Rig__Attack"
+            "25_T2_Mountain Guardian_Rig__Attack",
+            "25_T2_Mountain Guardian_Rig__Hit",
+            "25_T2_Mountain Guardian_Rig__Block",
+            "25_T2_Mountain Guardian_Rig__Defeat",
+            "25_T2_Mountain Guardian_Rig__Victory"
           ]
         },
         {
@@ -1153,11 +1474,16 @@
           "actions": [
             "25_T3_Mountain Guardian_Rig__Idle",
             "25_T3_Mountain Guardian_Rig__Walk",
-            "25_T3_Mountain Guardian_Rig__Attack"
+            "25_T3_Mountain Guardian_Rig__Attack",
+            "25_T3_Mountain Guardian_Rig__Hit",
+            "25_T3_Mountain Guardian_Rig__Block",
+            "25_T3_Mountain Guardian_Rig__Defeat",
+            "25_T3_Mountain Guardian_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 26,
@@ -1175,7 +1501,11 @@
           "actions": [
             "26_T1_Phoenix Duelist_Rig__Idle",
             "26_T1_Phoenix Duelist_Rig__Walk",
-            "26_T1_Phoenix Duelist_Rig__Attack"
+            "26_T1_Phoenix Duelist_Rig__Attack",
+            "26_T1_Phoenix Duelist_Rig__Hit",
+            "26_T1_Phoenix Duelist_Rig__Block",
+            "26_T1_Phoenix Duelist_Rig__Defeat",
+            "26_T1_Phoenix Duelist_Rig__Victory"
           ]
         },
         {
@@ -1187,7 +1517,11 @@
           "actions": [
             "26_T2_Phoenix Duelist_Rig__Idle",
             "26_T2_Phoenix Duelist_Rig__Walk",
-            "26_T2_Phoenix Duelist_Rig__Attack"
+            "26_T2_Phoenix Duelist_Rig__Attack",
+            "26_T2_Phoenix Duelist_Rig__Hit",
+            "26_T2_Phoenix Duelist_Rig__Block",
+            "26_T2_Phoenix Duelist_Rig__Defeat",
+            "26_T2_Phoenix Duelist_Rig__Victory"
           ]
         },
         {
@@ -1199,11 +1533,16 @@
           "actions": [
             "26_T3_Phoenix Duelist_Rig__Idle",
             "26_T3_Phoenix Duelist_Rig__Walk",
-            "26_T3_Phoenix Duelist_Rig__Attack"
+            "26_T3_Phoenix Duelist_Rig__Attack",
+            "26_T3_Phoenix Duelist_Rig__Hit",
+            "26_T3_Phoenix Duelist_Rig__Block",
+            "26_T3_Phoenix Duelist_Rig__Defeat",
+            "26_T3_Phoenix Duelist_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 27,
@@ -1221,7 +1560,11 @@
           "actions": [
             "27_T1_Bamboo Maiden_Rig__Idle",
             "27_T1_Bamboo Maiden_Rig__Walk",
-            "27_T1_Bamboo Maiden_Rig__Attack"
+            "27_T1_Bamboo Maiden_Rig__Attack",
+            "27_T1_Bamboo Maiden_Rig__Hit",
+            "27_T1_Bamboo Maiden_Rig__Block",
+            "27_T1_Bamboo Maiden_Rig__Defeat",
+            "27_T1_Bamboo Maiden_Rig__Victory"
           ]
         },
         {
@@ -1233,7 +1576,11 @@
           "actions": [
             "27_T2_Bamboo Maiden_Rig__Idle",
             "27_T2_Bamboo Maiden_Rig__Walk",
-            "27_T2_Bamboo Maiden_Rig__Attack"
+            "27_T2_Bamboo Maiden_Rig__Attack",
+            "27_T2_Bamboo Maiden_Rig__Hit",
+            "27_T2_Bamboo Maiden_Rig__Block",
+            "27_T2_Bamboo Maiden_Rig__Defeat",
+            "27_T2_Bamboo Maiden_Rig__Victory"
           ]
         },
         {
@@ -1245,11 +1592,16 @@
           "actions": [
             "27_T3_Bamboo Maiden_Rig__Idle",
             "27_T3_Bamboo Maiden_Rig__Walk",
-            "27_T3_Bamboo Maiden_Rig__Attack"
+            "27_T3_Bamboo Maiden_Rig__Attack",
+            "27_T3_Bamboo Maiden_Rig__Hit",
+            "27_T3_Bamboo Maiden_Rig__Block",
+            "27_T3_Bamboo Maiden_Rig__Defeat",
+            "27_T3_Bamboo Maiden_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 28,
@@ -1267,7 +1619,11 @@
           "actions": [
             "28_T1_Storm Ranger_Rig__Idle",
             "28_T1_Storm Ranger_Rig__Walk",
-            "28_T1_Storm Ranger_Rig__Attack"
+            "28_T1_Storm Ranger_Rig__Attack",
+            "28_T1_Storm Ranger_Rig__Hit",
+            "28_T1_Storm Ranger_Rig__Block",
+            "28_T1_Storm Ranger_Rig__Defeat",
+            "28_T1_Storm Ranger_Rig__Victory"
           ]
         },
         {
@@ -1279,7 +1635,11 @@
           "actions": [
             "28_T2_Storm Ranger_Rig__Idle",
             "28_T2_Storm Ranger_Rig__Walk",
-            "28_T2_Storm Ranger_Rig__Attack"
+            "28_T2_Storm Ranger_Rig__Attack",
+            "28_T2_Storm Ranger_Rig__Hit",
+            "28_T2_Storm Ranger_Rig__Block",
+            "28_T2_Storm Ranger_Rig__Defeat",
+            "28_T2_Storm Ranger_Rig__Victory"
           ]
         },
         {
@@ -1291,11 +1651,16 @@
           "actions": [
             "28_T3_Storm Ranger_Rig__Idle",
             "28_T3_Storm Ranger_Rig__Walk",
-            "28_T3_Storm Ranger_Rig__Attack"
+            "28_T3_Storm Ranger_Rig__Attack",
+            "28_T3_Storm Ranger_Rig__Hit",
+            "28_T3_Storm Ranger_Rig__Block",
+            "28_T3_Storm Ranger_Rig__Defeat",
+            "28_T3_Storm Ranger_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 29,
@@ -1313,7 +1678,11 @@
           "actions": [
             "29_T1_Jade Ranger_Rig__Idle",
             "29_T1_Jade Ranger_Rig__Walk",
-            "29_T1_Jade Ranger_Rig__Attack"
+            "29_T1_Jade Ranger_Rig__Attack",
+            "29_T1_Jade Ranger_Rig__Hit",
+            "29_T1_Jade Ranger_Rig__Block",
+            "29_T1_Jade Ranger_Rig__Defeat",
+            "29_T1_Jade Ranger_Rig__Victory"
           ]
         },
         {
@@ -1325,7 +1694,11 @@
           "actions": [
             "29_T2_Jade Ranger_Rig__Idle",
             "29_T2_Jade Ranger_Rig__Walk",
-            "29_T2_Jade Ranger_Rig__Attack"
+            "29_T2_Jade Ranger_Rig__Attack",
+            "29_T2_Jade Ranger_Rig__Hit",
+            "29_T2_Jade Ranger_Rig__Block",
+            "29_T2_Jade Ranger_Rig__Defeat",
+            "29_T2_Jade Ranger_Rig__Victory"
           ]
         },
         {
@@ -1337,11 +1710,16 @@
           "actions": [
             "29_T3_Jade Ranger_Rig__Idle",
             "29_T3_Jade Ranger_Rig__Walk",
-            "29_T3_Jade Ranger_Rig__Attack"
+            "29_T3_Jade Ranger_Rig__Attack",
+            "29_T3_Jade Ranger_Rig__Hit",
+            "29_T3_Jade Ranger_Rig__Block",
+            "29_T3_Jade Ranger_Rig__Defeat",
+            "29_T3_Jade Ranger_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 30,
@@ -1359,7 +1737,11 @@
           "actions": [
             "30_T1_Dark Regent_Rig__Idle",
             "30_T1_Dark Regent_Rig__Walk",
-            "30_T1_Dark Regent_Rig__Attack"
+            "30_T1_Dark Regent_Rig__Attack",
+            "30_T1_Dark Regent_Rig__Hit",
+            "30_T1_Dark Regent_Rig__Block",
+            "30_T1_Dark Regent_Rig__Defeat",
+            "30_T1_Dark Regent_Rig__Victory"
           ]
         },
         {
@@ -1371,7 +1753,11 @@
           "actions": [
             "30_T2_Dark Regent_Rig__Idle",
             "30_T2_Dark Regent_Rig__Walk",
-            "30_T2_Dark Regent_Rig__Attack"
+            "30_T2_Dark Regent_Rig__Attack",
+            "30_T2_Dark Regent_Rig__Hit",
+            "30_T2_Dark Regent_Rig__Block",
+            "30_T2_Dark Regent_Rig__Defeat",
+            "30_T2_Dark Regent_Rig__Victory"
           ]
         },
         {
@@ -1383,11 +1769,16 @@
           "actions": [
             "30_T3_Dark Regent_Rig__Idle",
             "30_T3_Dark Regent_Rig__Walk",
-            "30_T3_Dark Regent_Rig__Attack"
+            "30_T3_Dark Regent_Rig__Attack",
+            "30_T3_Dark Regent_Rig__Hit",
+            "30_T3_Dark Regent_Rig__Block",
+            "30_T3_Dark Regent_Rig__Defeat",
+            "30_T3_Dark Regent_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 31,
@@ -1405,7 +1796,11 @@
           "actions": [
             "31_T1_Forest Ranger_Rig__Idle",
             "31_T1_Forest Ranger_Rig__Walk",
-            "31_T1_Forest Ranger_Rig__Attack"
+            "31_T1_Forest Ranger_Rig__Attack",
+            "31_T1_Forest Ranger_Rig__Hit",
+            "31_T1_Forest Ranger_Rig__Block",
+            "31_T1_Forest Ranger_Rig__Defeat",
+            "31_T1_Forest Ranger_Rig__Victory"
           ]
         },
         {
@@ -1417,7 +1812,11 @@
           "actions": [
             "31_T2_Forest Ranger_Rig__Idle",
             "31_T2_Forest Ranger_Rig__Walk",
-            "31_T2_Forest Ranger_Rig__Attack"
+            "31_T2_Forest Ranger_Rig__Attack",
+            "31_T2_Forest Ranger_Rig__Hit",
+            "31_T2_Forest Ranger_Rig__Block",
+            "31_T2_Forest Ranger_Rig__Defeat",
+            "31_T2_Forest Ranger_Rig__Victory"
           ]
         },
         {
@@ -1429,11 +1828,16 @@
           "actions": [
             "31_T3_Forest Ranger_Rig__Idle",
             "31_T3_Forest Ranger_Rig__Walk",
-            "31_T3_Forest Ranger_Rig__Attack"
+            "31_T3_Forest Ranger_Rig__Attack",
+            "31_T3_Forest Ranger_Rig__Hit",
+            "31_T3_Forest Ranger_Rig__Block",
+            "31_T3_Forest Ranger_Rig__Defeat",
+            "31_T3_Forest Ranger_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 32,
@@ -1451,7 +1855,11 @@
           "actions": [
             "32_T1_Sky Halberd_Rig__Idle",
             "32_T1_Sky Halberd_Rig__Walk",
-            "32_T1_Sky Halberd_Rig__Attack"
+            "32_T1_Sky Halberd_Rig__Attack",
+            "32_T1_Sky Halberd_Rig__Hit",
+            "32_T1_Sky Halberd_Rig__Block",
+            "32_T1_Sky Halberd_Rig__Defeat",
+            "32_T1_Sky Halberd_Rig__Victory"
           ]
         },
         {
@@ -1463,7 +1871,11 @@
           "actions": [
             "32_T2_Sky Halberd_Rig__Idle",
             "32_T2_Sky Halberd_Rig__Walk",
-            "32_T2_Sky Halberd_Rig__Attack"
+            "32_T2_Sky Halberd_Rig__Attack",
+            "32_T2_Sky Halberd_Rig__Hit",
+            "32_T2_Sky Halberd_Rig__Block",
+            "32_T2_Sky Halberd_Rig__Defeat",
+            "32_T2_Sky Halberd_Rig__Victory"
           ]
         },
         {
@@ -1475,11 +1887,16 @@
           "actions": [
             "32_T3_Sky Halberd_Rig__Idle",
             "32_T3_Sky Halberd_Rig__Walk",
-            "32_T3_Sky Halberd_Rig__Attack"
+            "32_T3_Sky Halberd_Rig__Attack",
+            "32_T3_Sky Halberd_Rig__Hit",
+            "32_T3_Sky Halberd_Rig__Block",
+            "32_T3_Sky Halberd_Rig__Defeat",
+            "32_T3_Sky Halberd_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 33,
@@ -1497,7 +1914,11 @@
           "actions": [
             "33_T1_Ruby Blades_Rig__Idle",
             "33_T1_Ruby Blades_Rig__Walk",
-            "33_T1_Ruby Blades_Rig__Attack"
+            "33_T1_Ruby Blades_Rig__Attack",
+            "33_T1_Ruby Blades_Rig__Hit",
+            "33_T1_Ruby Blades_Rig__Block",
+            "33_T1_Ruby Blades_Rig__Defeat",
+            "33_T1_Ruby Blades_Rig__Victory"
           ]
         },
         {
@@ -1509,7 +1930,11 @@
           "actions": [
             "33_T2_Ruby Blades_Rig__Idle",
             "33_T2_Ruby Blades_Rig__Walk",
-            "33_T2_Ruby Blades_Rig__Attack"
+            "33_T2_Ruby Blades_Rig__Attack",
+            "33_T2_Ruby Blades_Rig__Hit",
+            "33_T2_Ruby Blades_Rig__Block",
+            "33_T2_Ruby Blades_Rig__Defeat",
+            "33_T2_Ruby Blades_Rig__Victory"
           ]
         },
         {
@@ -1521,11 +1946,16 @@
           "actions": [
             "33_T3_Ruby Blades_Rig__Idle",
             "33_T3_Ruby Blades_Rig__Walk",
-            "33_T3_Ruby Blades_Rig__Attack"
+            "33_T3_Ruby Blades_Rig__Attack",
+            "33_T3_Ruby Blades_Rig__Hit",
+            "33_T3_Ruby Blades_Rig__Block",
+            "33_T3_Ruby Blades_Rig__Defeat",
+            "33_T3_Ruby Blades_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 34,
@@ -1543,7 +1973,11 @@
           "actions": [
             "34_T1_Jade Serpent_Rig__Idle",
             "34_T1_Jade Serpent_Rig__Walk",
-            "34_T1_Jade Serpent_Rig__Attack"
+            "34_T1_Jade Serpent_Rig__Attack",
+            "34_T1_Jade Serpent_Rig__Hit",
+            "34_T1_Jade Serpent_Rig__Block",
+            "34_T1_Jade Serpent_Rig__Defeat",
+            "34_T1_Jade Serpent_Rig__Victory"
           ]
         },
         {
@@ -1555,7 +1989,11 @@
           "actions": [
             "34_T2_Jade Serpent_Rig__Idle",
             "34_T2_Jade Serpent_Rig__Walk",
-            "34_T2_Jade Serpent_Rig__Attack"
+            "34_T2_Jade Serpent_Rig__Attack",
+            "34_T2_Jade Serpent_Rig__Hit",
+            "34_T2_Jade Serpent_Rig__Block",
+            "34_T2_Jade Serpent_Rig__Defeat",
+            "34_T2_Jade Serpent_Rig__Victory"
           ]
         },
         {
@@ -1567,11 +2005,16 @@
           "actions": [
             "34_T3_Jade Serpent_Rig__Idle",
             "34_T3_Jade Serpent_Rig__Walk",
-            "34_T3_Jade Serpent_Rig__Attack"
+            "34_T3_Jade Serpent_Rig__Attack",
+            "34_T3_Jade Serpent_Rig__Hit",
+            "34_T3_Jade Serpent_Rig__Block",
+            "34_T3_Jade Serpent_Rig__Defeat",
+            "34_T3_Jade Serpent_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 35,
@@ -1589,7 +2032,11 @@
           "actions": [
             "35_T1_Cloud Maiden_Rig__Idle",
             "35_T1_Cloud Maiden_Rig__Walk",
-            "35_T1_Cloud Maiden_Rig__Attack"
+            "35_T1_Cloud Maiden_Rig__Attack",
+            "35_T1_Cloud Maiden_Rig__Hit",
+            "35_T1_Cloud Maiden_Rig__Block",
+            "35_T1_Cloud Maiden_Rig__Defeat",
+            "35_T1_Cloud Maiden_Rig__Victory"
           ]
         },
         {
@@ -1601,7 +2048,11 @@
           "actions": [
             "35_T2_Cloud Maiden_Rig__Idle",
             "35_T2_Cloud Maiden_Rig__Walk",
-            "35_T2_Cloud Maiden_Rig__Attack"
+            "35_T2_Cloud Maiden_Rig__Attack",
+            "35_T2_Cloud Maiden_Rig__Hit",
+            "35_T2_Cloud Maiden_Rig__Block",
+            "35_T2_Cloud Maiden_Rig__Defeat",
+            "35_T2_Cloud Maiden_Rig__Victory"
           ]
         },
         {
@@ -1613,11 +2064,16 @@
           "actions": [
             "35_T3_Cloud Maiden_Rig__Idle",
             "35_T3_Cloud Maiden_Rig__Walk",
-            "35_T3_Cloud Maiden_Rig__Attack"
+            "35_T3_Cloud Maiden_Rig__Attack",
+            "35_T3_Cloud Maiden_Rig__Hit",
+            "35_T3_Cloud Maiden_Rig__Block",
+            "35_T3_Cloud Maiden_Rig__Defeat",
+            "35_T3_Cloud Maiden_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 36,
@@ -1635,7 +2091,11 @@
           "actions": [
             "36_T1_Violet Chancellor_Rig__Idle",
             "36_T1_Violet Chancellor_Rig__Walk",
-            "36_T1_Violet Chancellor_Rig__Attack"
+            "36_T1_Violet Chancellor_Rig__Attack",
+            "36_T1_Violet Chancellor_Rig__Hit",
+            "36_T1_Violet Chancellor_Rig__Block",
+            "36_T1_Violet Chancellor_Rig__Defeat",
+            "36_T1_Violet Chancellor_Rig__Victory"
           ]
         },
         {
@@ -1647,7 +2107,11 @@
           "actions": [
             "36_T2_Violet Chancellor_Rig__Idle",
             "36_T2_Violet Chancellor_Rig__Walk",
-            "36_T2_Violet Chancellor_Rig__Attack"
+            "36_T2_Violet Chancellor_Rig__Attack",
+            "36_T2_Violet Chancellor_Rig__Hit",
+            "36_T2_Violet Chancellor_Rig__Block",
+            "36_T2_Violet Chancellor_Rig__Defeat",
+            "36_T2_Violet Chancellor_Rig__Victory"
           ]
         },
         {
@@ -1659,11 +2123,16 @@
           "actions": [
             "36_T3_Violet Chancellor_Rig__Idle",
             "36_T3_Violet Chancellor_Rig__Walk",
-            "36_T3_Violet Chancellor_Rig__Attack"
+            "36_T3_Violet Chancellor_Rig__Attack",
+            "36_T3_Violet Chancellor_Rig__Hit",
+            "36_T3_Violet Chancellor_Rig__Block",
+            "36_T3_Violet Chancellor_Rig__Defeat",
+            "36_T3_Violet Chancellor_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 37,
@@ -1681,7 +2150,11 @@
           "actions": [
             "37_T1_Night Scholar_Rig__Idle",
             "37_T1_Night Scholar_Rig__Walk",
-            "37_T1_Night Scholar_Rig__Attack"
+            "37_T1_Night Scholar_Rig__Attack",
+            "37_T1_Night Scholar_Rig__Hit",
+            "37_T1_Night Scholar_Rig__Block",
+            "37_T1_Night Scholar_Rig__Defeat",
+            "37_T1_Night Scholar_Rig__Victory"
           ]
         },
         {
@@ -1693,7 +2166,11 @@
           "actions": [
             "37_T2_Night Scholar_Rig__Idle",
             "37_T2_Night Scholar_Rig__Walk",
-            "37_T2_Night Scholar_Rig__Attack"
+            "37_T2_Night Scholar_Rig__Attack",
+            "37_T2_Night Scholar_Rig__Hit",
+            "37_T2_Night Scholar_Rig__Block",
+            "37_T2_Night Scholar_Rig__Defeat",
+            "37_T2_Night Scholar_Rig__Victory"
           ]
         },
         {
@@ -1705,11 +2182,16 @@
           "actions": [
             "37_T3_Night Scholar_Rig__Idle",
             "37_T3_Night Scholar_Rig__Walk",
-            "37_T3_Night Scholar_Rig__Attack"
+            "37_T3_Night Scholar_Rig__Attack",
+            "37_T3_Night Scholar_Rig__Hit",
+            "37_T3_Night Scholar_Rig__Block",
+            "37_T3_Night Scholar_Rig__Defeat",
+            "37_T3_Night Scholar_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 38,
@@ -1727,7 +2209,11 @@
           "actions": [
             "38_T1_Red Commander_Rig__Idle",
             "38_T1_Red Commander_Rig__Walk",
-            "38_T1_Red Commander_Rig__Attack"
+            "38_T1_Red Commander_Rig__Attack",
+            "38_T1_Red Commander_Rig__Hit",
+            "38_T1_Red Commander_Rig__Block",
+            "38_T1_Red Commander_Rig__Defeat",
+            "38_T1_Red Commander_Rig__Victory"
           ]
         },
         {
@@ -1739,7 +2225,11 @@
           "actions": [
             "38_T2_Red Commander_Rig__Idle",
             "38_T2_Red Commander_Rig__Walk",
-            "38_T2_Red Commander_Rig__Attack"
+            "38_T2_Red Commander_Rig__Attack",
+            "38_T2_Red Commander_Rig__Hit",
+            "38_T2_Red Commander_Rig__Block",
+            "38_T2_Red Commander_Rig__Defeat",
+            "38_T2_Red Commander_Rig__Victory"
           ]
         },
         {
@@ -1751,11 +2241,16 @@
           "actions": [
             "38_T3_Red Commander_Rig__Idle",
             "38_T3_Red Commander_Rig__Walk",
-            "38_T3_Red Commander_Rig__Attack"
+            "38_T3_Red Commander_Rig__Attack",
+            "38_T3_Red Commander_Rig__Hit",
+            "38_T3_Red Commander_Rig__Block",
+            "38_T3_Red Commander_Rig__Defeat",
+            "38_T3_Red Commander_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 39,
@@ -1773,7 +2268,11 @@
           "actions": [
             "39_T1_Spring Maiden_Rig__Idle",
             "39_T1_Spring Maiden_Rig__Walk",
-            "39_T1_Spring Maiden_Rig__Attack"
+            "39_T1_Spring Maiden_Rig__Attack",
+            "39_T1_Spring Maiden_Rig__Hit",
+            "39_T1_Spring Maiden_Rig__Block",
+            "39_T1_Spring Maiden_Rig__Defeat",
+            "39_T1_Spring Maiden_Rig__Victory"
           ]
         },
         {
@@ -1785,7 +2284,11 @@
           "actions": [
             "39_T2_Spring Maiden_Rig__Idle",
             "39_T2_Spring Maiden_Rig__Walk",
-            "39_T2_Spring Maiden_Rig__Attack"
+            "39_T2_Spring Maiden_Rig__Attack",
+            "39_T2_Spring Maiden_Rig__Hit",
+            "39_T2_Spring Maiden_Rig__Block",
+            "39_T2_Spring Maiden_Rig__Defeat",
+            "39_T2_Spring Maiden_Rig__Victory"
           ]
         },
         {
@@ -1797,11 +2300,16 @@
           "actions": [
             "39_T3_Spring Maiden_Rig__Idle",
             "39_T3_Spring Maiden_Rig__Walk",
-            "39_T3_Spring Maiden_Rig__Attack"
+            "39_T3_Spring Maiden_Rig__Attack",
+            "39_T3_Spring Maiden_Rig__Hit",
+            "39_T3_Spring Maiden_Rig__Block",
+            "39_T3_Spring Maiden_Rig__Defeat",
+            "39_T3_Spring Maiden_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 40,
@@ -1819,7 +2327,11 @@
           "actions": [
             "40_T1_Ocean Champion_Rig__Idle",
             "40_T1_Ocean Champion_Rig__Walk",
-            "40_T1_Ocean Champion_Rig__Attack"
+            "40_T1_Ocean Champion_Rig__Attack",
+            "40_T1_Ocean Champion_Rig__Hit",
+            "40_T1_Ocean Champion_Rig__Block",
+            "40_T1_Ocean Champion_Rig__Defeat",
+            "40_T1_Ocean Champion_Rig__Victory"
           ]
         },
         {
@@ -1831,7 +2343,11 @@
           "actions": [
             "40_T2_Ocean Champion_Rig__Idle",
             "40_T2_Ocean Champion_Rig__Walk",
-            "40_T2_Ocean Champion_Rig__Attack"
+            "40_T2_Ocean Champion_Rig__Attack",
+            "40_T2_Ocean Champion_Rig__Hit",
+            "40_T2_Ocean Champion_Rig__Block",
+            "40_T2_Ocean Champion_Rig__Defeat",
+            "40_T2_Ocean Champion_Rig__Victory"
           ]
         },
         {
@@ -1843,11 +2359,16 @@
           "actions": [
             "40_T3_Ocean Champion_Rig__Idle",
             "40_T3_Ocean Champion_Rig__Walk",
-            "40_T3_Ocean Champion_Rig__Attack"
+            "40_T3_Ocean Champion_Rig__Attack",
+            "40_T3_Ocean Champion_Rig__Hit",
+            "40_T3_Ocean Champion_Rig__Block",
+            "40_T3_Ocean Champion_Rig__Defeat",
+            "40_T3_Ocean Champion_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 41,
@@ -1865,7 +2386,11 @@
           "actions": [
             "41_T1_Elder Archer_Rig__Idle",
             "41_T1_Elder Archer_Rig__Walk",
-            "41_T1_Elder Archer_Rig__Attack"
+            "41_T1_Elder Archer_Rig__Attack",
+            "41_T1_Elder Archer_Rig__Hit",
+            "41_T1_Elder Archer_Rig__Block",
+            "41_T1_Elder Archer_Rig__Defeat",
+            "41_T1_Elder Archer_Rig__Victory"
           ]
         },
         {
@@ -1877,7 +2402,11 @@
           "actions": [
             "41_T2_Elder Archer_Rig__Idle",
             "41_T2_Elder Archer_Rig__Walk",
-            "41_T2_Elder Archer_Rig__Attack"
+            "41_T2_Elder Archer_Rig__Attack",
+            "41_T2_Elder Archer_Rig__Hit",
+            "41_T2_Elder Archer_Rig__Block",
+            "41_T2_Elder Archer_Rig__Defeat",
+            "41_T2_Elder Archer_Rig__Victory"
           ]
         },
         {
@@ -1889,11 +2418,16 @@
           "actions": [
             "41_T3_Elder Archer_Rig__Idle",
             "41_T3_Elder Archer_Rig__Walk",
-            "41_T3_Elder Archer_Rig__Attack"
+            "41_T3_Elder Archer_Rig__Attack",
+            "41_T3_Elder Archer_Rig__Hit",
+            "41_T3_Elder Archer_Rig__Block",
+            "41_T3_Elder Archer_Rig__Defeat",
+            "41_T3_Elder Archer_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 42,
@@ -1911,7 +2445,11 @@
           "actions": [
             "42_T1_Lilac Princess_Rig__Idle",
             "42_T1_Lilac Princess_Rig__Walk",
-            "42_T1_Lilac Princess_Rig__Attack"
+            "42_T1_Lilac Princess_Rig__Attack",
+            "42_T1_Lilac Princess_Rig__Hit",
+            "42_T1_Lilac Princess_Rig__Block",
+            "42_T1_Lilac Princess_Rig__Defeat",
+            "42_T1_Lilac Princess_Rig__Victory"
           ]
         },
         {
@@ -1923,7 +2461,11 @@
           "actions": [
             "42_T2_Lilac Princess_Rig__Idle",
             "42_T2_Lilac Princess_Rig__Walk",
-            "42_T2_Lilac Princess_Rig__Attack"
+            "42_T2_Lilac Princess_Rig__Attack",
+            "42_T2_Lilac Princess_Rig__Hit",
+            "42_T2_Lilac Princess_Rig__Block",
+            "42_T2_Lilac Princess_Rig__Defeat",
+            "42_T2_Lilac Princess_Rig__Victory"
           ]
         },
         {
@@ -1935,11 +2477,16 @@
           "actions": [
             "42_T3_Lilac Princess_Rig__Idle",
             "42_T3_Lilac Princess_Rig__Walk",
-            "42_T3_Lilac Princess_Rig__Attack"
+            "42_T3_Lilac Princess_Rig__Attack",
+            "42_T3_Lilac Princess_Rig__Hit",
+            "42_T3_Lilac Princess_Rig__Block",
+            "42_T3_Lilac Princess_Rig__Defeat",
+            "42_T3_Lilac Princess_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 43,
@@ -1957,7 +2504,11 @@
           "actions": [
             "43_T1_Azure Dragon_Rig__Idle",
             "43_T1_Azure Dragon_Rig__Walk",
-            "43_T1_Azure Dragon_Rig__Attack"
+            "43_T1_Azure Dragon_Rig__Attack",
+            "43_T1_Azure Dragon_Rig__Hit",
+            "43_T1_Azure Dragon_Rig__Block",
+            "43_T1_Azure Dragon_Rig__Defeat",
+            "43_T1_Azure Dragon_Rig__Victory"
           ]
         },
         {
@@ -1969,7 +2520,11 @@
           "actions": [
             "43_T2_Azure Dragon_Rig__Idle",
             "43_T2_Azure Dragon_Rig__Walk",
-            "43_T2_Azure Dragon_Rig__Attack"
+            "43_T2_Azure Dragon_Rig__Attack",
+            "43_T2_Azure Dragon_Rig__Hit",
+            "43_T2_Azure Dragon_Rig__Block",
+            "43_T2_Azure Dragon_Rig__Defeat",
+            "43_T2_Azure Dragon_Rig__Victory"
           ]
         },
         {
@@ -1981,11 +2536,16 @@
           "actions": [
             "43_T3_Azure Dragon_Rig__Idle",
             "43_T3_Azure Dragon_Rig__Walk",
-            "43_T3_Azure Dragon_Rig__Attack"
+            "43_T3_Azure Dragon_Rig__Attack",
+            "43_T3_Azure Dragon_Rig__Hit",
+            "43_T3_Azure Dragon_Rig__Block",
+            "43_T3_Azure Dragon_Rig__Defeat",
+            "43_T3_Azure Dragon_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 44,
@@ -1998,40 +2558,53 @@
           "tier": 1,
           "rig": "44_T1_Emerald Elder_Rig",
           "mesh": "44_T1_Emerald Elder_Mesh",
-          "vertices": 10286,
+          "vertices": 10198,
           "bones": 22,
           "actions": [
             "44_T1_Emerald Elder_Rig__Idle",
             "44_T1_Emerald Elder_Rig__Walk",
-            "44_T1_Emerald Elder_Rig__Attack"
+            "44_T1_Emerald Elder_Rig__Attack",
+            "44_T1_Emerald Elder_Rig__Hit",
+            "44_T1_Emerald Elder_Rig__Block",
+            "44_T1_Emerald Elder_Rig__Defeat",
+            "44_T1_Emerald Elder_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "44_T2_Emerald Elder_Rig",
           "mesh": "44_T2_Emerald Elder_Mesh",
-          "vertices": 11656,
+          "vertices": 11568,
           "bones": 22,
           "actions": [
             "44_T2_Emerald Elder_Rig__Idle",
             "44_T2_Emerald Elder_Rig__Walk",
-            "44_T2_Emerald Elder_Rig__Attack"
+            "44_T2_Emerald Elder_Rig__Attack",
+            "44_T2_Emerald Elder_Rig__Hit",
+            "44_T2_Emerald Elder_Rig__Block",
+            "44_T2_Emerald Elder_Rig__Defeat",
+            "44_T2_Emerald Elder_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "44_T3_Emerald Elder_Rig",
           "mesh": "44_T3_Emerald Elder_Mesh",
-          "vertices": 11890,
+          "vertices": 11802,
           "bones": 22,
           "actions": [
             "44_T3_Emerald Elder_Rig__Idle",
             "44_T3_Emerald Elder_Rig__Walk",
-            "44_T3_Emerald Elder_Rig__Attack"
+            "44_T3_Emerald Elder_Rig__Attack",
+            "44_T3_Emerald Elder_Rig__Hit",
+            "44_T3_Emerald Elder_Rig__Block",
+            "44_T3_Emerald Elder_Rig__Defeat",
+            "44_T3_Emerald Elder_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 45,
@@ -2049,7 +2622,11 @@
           "actions": [
             "45_T1_Forest Scholar_Rig__Idle",
             "45_T1_Forest Scholar_Rig__Walk",
-            "45_T1_Forest Scholar_Rig__Attack"
+            "45_T1_Forest Scholar_Rig__Attack",
+            "45_T1_Forest Scholar_Rig__Hit",
+            "45_T1_Forest Scholar_Rig__Block",
+            "45_T1_Forest Scholar_Rig__Defeat",
+            "45_T1_Forest Scholar_Rig__Victory"
           ]
         },
         {
@@ -2061,7 +2638,11 @@
           "actions": [
             "45_T2_Forest Scholar_Rig__Idle",
             "45_T2_Forest Scholar_Rig__Walk",
-            "45_T2_Forest Scholar_Rig__Attack"
+            "45_T2_Forest Scholar_Rig__Attack",
+            "45_T2_Forest Scholar_Rig__Hit",
+            "45_T2_Forest Scholar_Rig__Block",
+            "45_T2_Forest Scholar_Rig__Defeat",
+            "45_T2_Forest Scholar_Rig__Victory"
           ]
         },
         {
@@ -2073,11 +2654,16 @@
           "actions": [
             "45_T3_Forest Scholar_Rig__Idle",
             "45_T3_Forest Scholar_Rig__Walk",
-            "45_T3_Forest Scholar_Rig__Attack"
+            "45_T3_Forest Scholar_Rig__Attack",
+            "45_T3_Forest Scholar_Rig__Hit",
+            "45_T3_Forest Scholar_Rig__Block",
+            "45_T3_Forest Scholar_Rig__Defeat",
+            "45_T3_Forest Scholar_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 46,
@@ -2095,7 +2681,11 @@
           "actions": [
             "46_T1_Amethyst Bulwark_Rig__Idle",
             "46_T1_Amethyst Bulwark_Rig__Walk",
-            "46_T1_Amethyst Bulwark_Rig__Attack"
+            "46_T1_Amethyst Bulwark_Rig__Attack",
+            "46_T1_Amethyst Bulwark_Rig__Hit",
+            "46_T1_Amethyst Bulwark_Rig__Block",
+            "46_T1_Amethyst Bulwark_Rig__Defeat",
+            "46_T1_Amethyst Bulwark_Rig__Victory"
           ]
         },
         {
@@ -2107,7 +2697,11 @@
           "actions": [
             "46_T2_Amethyst Bulwark_Rig__Idle",
             "46_T2_Amethyst Bulwark_Rig__Walk",
-            "46_T2_Amethyst Bulwark_Rig__Attack"
+            "46_T2_Amethyst Bulwark_Rig__Attack",
+            "46_T2_Amethyst Bulwark_Rig__Hit",
+            "46_T2_Amethyst Bulwark_Rig__Block",
+            "46_T2_Amethyst Bulwark_Rig__Defeat",
+            "46_T2_Amethyst Bulwark_Rig__Victory"
           ]
         },
         {
@@ -2119,11 +2713,16 @@
           "actions": [
             "46_T3_Amethyst Bulwark_Rig__Idle",
             "46_T3_Amethyst Bulwark_Rig__Walk",
-            "46_T3_Amethyst Bulwark_Rig__Attack"
+            "46_T3_Amethyst Bulwark_Rig__Attack",
+            "46_T3_Amethyst Bulwark_Rig__Hit",
+            "46_T3_Amethyst Bulwark_Rig__Block",
+            "46_T3_Amethyst Bulwark_Rig__Defeat",
+            "46_T3_Amethyst Bulwark_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 47,
@@ -2136,40 +2735,53 @@
           "tier": 1,
           "rig": "47_T1_Jade Huntress_Rig",
           "mesh": "47_T1_Jade Huntress_Mesh",
-          "vertices": 8704,
+          "vertices": 7906,
           "bones": 22,
           "actions": [
             "47_T1_Jade Huntress_Rig__Idle",
             "47_T1_Jade Huntress_Rig__Walk",
-            "47_T1_Jade Huntress_Rig__Attack"
+            "47_T1_Jade Huntress_Rig__Attack",
+            "47_T1_Jade Huntress_Rig__Hit",
+            "47_T1_Jade Huntress_Rig__Block",
+            "47_T1_Jade Huntress_Rig__Defeat",
+            "47_T1_Jade Huntress_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "47_T2_Jade Huntress_Rig",
           "mesh": "47_T2_Jade Huntress_Mesh",
-          "vertices": 10074,
+          "vertices": 9168,
           "bones": 22,
           "actions": [
             "47_T2_Jade Huntress_Rig__Idle",
             "47_T2_Jade Huntress_Rig__Walk",
-            "47_T2_Jade Huntress_Rig__Attack"
+            "47_T2_Jade Huntress_Rig__Attack",
+            "47_T2_Jade Huntress_Rig__Hit",
+            "47_T2_Jade Huntress_Rig__Block",
+            "47_T2_Jade Huntress_Rig__Defeat",
+            "47_T2_Jade Huntress_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "47_T3_Jade Huntress_Rig",
           "mesh": "47_T3_Jade Huntress_Mesh",
-          "vertices": 10308,
+          "vertices": 9294,
           "bones": 22,
           "actions": [
             "47_T3_Jade Huntress_Rig__Idle",
             "47_T3_Jade Huntress_Rig__Walk",
-            "47_T3_Jade Huntress_Rig__Attack"
+            "47_T3_Jade Huntress_Rig__Attack",
+            "47_T3_Jade Huntress_Rig__Hit",
+            "47_T3_Jade Huntress_Rig__Block",
+            "47_T3_Jade Huntress_Rig__Defeat",
+            "47_T3_Jade Huntress_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 48,
@@ -2187,7 +2799,11 @@
           "actions": [
             "48_T1_Jade Dragon_Rig__Idle",
             "48_T1_Jade Dragon_Rig__Walk",
-            "48_T1_Jade Dragon_Rig__Attack"
+            "48_T1_Jade Dragon_Rig__Attack",
+            "48_T1_Jade Dragon_Rig__Hit",
+            "48_T1_Jade Dragon_Rig__Block",
+            "48_T1_Jade Dragon_Rig__Defeat",
+            "48_T1_Jade Dragon_Rig__Victory"
           ]
         },
         {
@@ -2199,7 +2815,11 @@
           "actions": [
             "48_T2_Jade Dragon_Rig__Idle",
             "48_T2_Jade Dragon_Rig__Walk",
-            "48_T2_Jade Dragon_Rig__Attack"
+            "48_T2_Jade Dragon_Rig__Attack",
+            "48_T2_Jade Dragon_Rig__Hit",
+            "48_T2_Jade Dragon_Rig__Block",
+            "48_T2_Jade Dragon_Rig__Defeat",
+            "48_T2_Jade Dragon_Rig__Victory"
           ]
         },
         {
@@ -2211,11 +2831,16 @@
           "actions": [
             "48_T3_Jade Dragon_Rig__Idle",
             "48_T3_Jade Dragon_Rig__Walk",
-            "48_T3_Jade Dragon_Rig__Attack"
+            "48_T3_Jade Dragon_Rig__Attack",
+            "48_T3_Jade Dragon_Rig__Hit",
+            "48_T3_Jade Dragon_Rig__Block",
+            "48_T3_Jade Dragon_Rig__Defeat",
+            "48_T3_Jade Dragon_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 49,
@@ -2233,7 +2858,11 @@
           "actions": [
             "49_T1_Emerald Cavalier_Rig__Idle",
             "49_T1_Emerald Cavalier_Rig__Walk",
-            "49_T1_Emerald Cavalier_Rig__Attack"
+            "49_T1_Emerald Cavalier_Rig__Attack",
+            "49_T1_Emerald Cavalier_Rig__Hit",
+            "49_T1_Emerald Cavalier_Rig__Block",
+            "49_T1_Emerald Cavalier_Rig__Defeat",
+            "49_T1_Emerald Cavalier_Rig__Victory"
           ]
         },
         {
@@ -2245,7 +2874,11 @@
           "actions": [
             "49_T2_Emerald Cavalier_Rig__Idle",
             "49_T2_Emerald Cavalier_Rig__Walk",
-            "49_T2_Emerald Cavalier_Rig__Attack"
+            "49_T2_Emerald Cavalier_Rig__Attack",
+            "49_T2_Emerald Cavalier_Rig__Hit",
+            "49_T2_Emerald Cavalier_Rig__Block",
+            "49_T2_Emerald Cavalier_Rig__Defeat",
+            "49_T2_Emerald Cavalier_Rig__Victory"
           ]
         },
         {
@@ -2257,11 +2890,16 @@
           "actions": [
             "49_T3_Emerald Cavalier_Rig__Idle",
             "49_T3_Emerald Cavalier_Rig__Walk",
-            "49_T3_Emerald Cavalier_Rig__Attack"
+            "49_T3_Emerald Cavalier_Rig__Attack",
+            "49_T3_Emerald Cavalier_Rig__Hit",
+            "49_T3_Emerald Cavalier_Rig__Block",
+            "49_T3_Emerald Cavalier_Rig__Defeat",
+            "49_T3_Emerald Cavalier_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 50,
@@ -2279,7 +2917,11 @@
           "actions": [
             "50_T1_Ivory Commander_Rig__Idle",
             "50_T1_Ivory Commander_Rig__Walk",
-            "50_T1_Ivory Commander_Rig__Attack"
+            "50_T1_Ivory Commander_Rig__Attack",
+            "50_T1_Ivory Commander_Rig__Hit",
+            "50_T1_Ivory Commander_Rig__Block",
+            "50_T1_Ivory Commander_Rig__Defeat",
+            "50_T1_Ivory Commander_Rig__Victory"
           ]
         },
         {
@@ -2291,7 +2933,11 @@
           "actions": [
             "50_T2_Ivory Commander_Rig__Idle",
             "50_T2_Ivory Commander_Rig__Walk",
-            "50_T2_Ivory Commander_Rig__Attack"
+            "50_T2_Ivory Commander_Rig__Attack",
+            "50_T2_Ivory Commander_Rig__Hit",
+            "50_T2_Ivory Commander_Rig__Block",
+            "50_T2_Ivory Commander_Rig__Defeat",
+            "50_T2_Ivory Commander_Rig__Victory"
           ]
         },
         {
@@ -2303,11 +2949,16 @@
           "actions": [
             "50_T3_Ivory Commander_Rig__Idle",
             "50_T3_Ivory Commander_Rig__Walk",
-            "50_T3_Ivory Commander_Rig__Attack"
+            "50_T3_Ivory Commander_Rig__Attack",
+            "50_T3_Ivory Commander_Rig__Hit",
+            "50_T3_Ivory Commander_Rig__Block",
+            "50_T3_Ivory Commander_Rig__Defeat",
+            "50_T3_Ivory Commander_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 51,
@@ -2320,40 +2971,53 @@
           "tier": 1,
           "rig": "51_T1_Jade Duelist_Rig",
           "mesh": "51_T1_Jade Duelist_Mesh",
-          "vertices": 9082,
+          "vertices": 8284,
           "bones": 22,
           "actions": [
             "51_T1_Jade Duelist_Rig__Idle",
             "51_T1_Jade Duelist_Rig__Walk",
-            "51_T1_Jade Duelist_Rig__Attack"
+            "51_T1_Jade Duelist_Rig__Attack",
+            "51_T1_Jade Duelist_Rig__Hit",
+            "51_T1_Jade Duelist_Rig__Block",
+            "51_T1_Jade Duelist_Rig__Defeat",
+            "51_T1_Jade Duelist_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "51_T2_Jade Duelist_Rig",
           "mesh": "51_T2_Jade Duelist_Mesh",
-          "vertices": 10452,
+          "vertices": 9546,
           "bones": 22,
           "actions": [
             "51_T2_Jade Duelist_Rig__Idle",
             "51_T2_Jade Duelist_Rig__Walk",
-            "51_T2_Jade Duelist_Rig__Attack"
+            "51_T2_Jade Duelist_Rig__Attack",
+            "51_T2_Jade Duelist_Rig__Hit",
+            "51_T2_Jade Duelist_Rig__Block",
+            "51_T2_Jade Duelist_Rig__Defeat",
+            "51_T2_Jade Duelist_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "51_T3_Jade Duelist_Rig",
           "mesh": "51_T3_Jade Duelist_Mesh",
-          "vertices": 10686,
+          "vertices": 9672,
           "bones": 22,
           "actions": [
             "51_T3_Jade Duelist_Rig__Idle",
             "51_T3_Jade Duelist_Rig__Walk",
-            "51_T3_Jade Duelist_Rig__Attack"
+            "51_T3_Jade Duelist_Rig__Attack",
+            "51_T3_Jade Duelist_Rig__Hit",
+            "51_T3_Jade Duelist_Rig__Block",
+            "51_T3_Jade Duelist_Rig__Defeat",
+            "51_T3_Jade Duelist_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 52,
@@ -2371,7 +3035,11 @@
           "actions": [
             "52_T1_Lilac Immortal_Rig__Idle",
             "52_T1_Lilac Immortal_Rig__Walk",
-            "52_T1_Lilac Immortal_Rig__Attack"
+            "52_T1_Lilac Immortal_Rig__Attack",
+            "52_T1_Lilac Immortal_Rig__Hit",
+            "52_T1_Lilac Immortal_Rig__Block",
+            "52_T1_Lilac Immortal_Rig__Defeat",
+            "52_T1_Lilac Immortal_Rig__Victory"
           ]
         },
         {
@@ -2383,7 +3051,11 @@
           "actions": [
             "52_T2_Lilac Immortal_Rig__Idle",
             "52_T2_Lilac Immortal_Rig__Walk",
-            "52_T2_Lilac Immortal_Rig__Attack"
+            "52_T2_Lilac Immortal_Rig__Attack",
+            "52_T2_Lilac Immortal_Rig__Hit",
+            "52_T2_Lilac Immortal_Rig__Block",
+            "52_T2_Lilac Immortal_Rig__Defeat",
+            "52_T2_Lilac Immortal_Rig__Victory"
           ]
         },
         {
@@ -2395,11 +3067,16 @@
           "actions": [
             "52_T3_Lilac Immortal_Rig__Idle",
             "52_T3_Lilac Immortal_Rig__Walk",
-            "52_T3_Lilac Immortal_Rig__Attack"
+            "52_T3_Lilac Immortal_Rig__Attack",
+            "52_T3_Lilac Immortal_Rig__Hit",
+            "52_T3_Lilac Immortal_Rig__Block",
+            "52_T3_Lilac Immortal_Rig__Defeat",
+            "52_T3_Lilac Immortal_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 53,
@@ -2417,7 +3094,11 @@
           "actions": [
             "53_T1_Sun Immortal_Rig__Idle",
             "53_T1_Sun Immortal_Rig__Walk",
-            "53_T1_Sun Immortal_Rig__Attack"
+            "53_T1_Sun Immortal_Rig__Attack",
+            "53_T1_Sun Immortal_Rig__Hit",
+            "53_T1_Sun Immortal_Rig__Block",
+            "53_T1_Sun Immortal_Rig__Defeat",
+            "53_T1_Sun Immortal_Rig__Victory"
           ]
         },
         {
@@ -2429,7 +3110,11 @@
           "actions": [
             "53_T2_Sun Immortal_Rig__Idle",
             "53_T2_Sun Immortal_Rig__Walk",
-            "53_T2_Sun Immortal_Rig__Attack"
+            "53_T2_Sun Immortal_Rig__Attack",
+            "53_T2_Sun Immortal_Rig__Hit",
+            "53_T2_Sun Immortal_Rig__Block",
+            "53_T2_Sun Immortal_Rig__Defeat",
+            "53_T2_Sun Immortal_Rig__Victory"
           ]
         },
         {
@@ -2441,11 +3126,16 @@
           "actions": [
             "53_T3_Sun Immortal_Rig__Idle",
             "53_T3_Sun Immortal_Rig__Walk",
-            "53_T3_Sun Immortal_Rig__Attack"
+            "53_T3_Sun Immortal_Rig__Attack",
+            "53_T3_Sun Immortal_Rig__Hit",
+            "53_T3_Sun Immortal_Rig__Block",
+            "53_T3_Sun Immortal_Rig__Defeat",
+            "53_T3_Sun Immortal_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 54,
@@ -2463,7 +3153,11 @@
           "actions": [
             "54_T1_Royal Tide_Rig__Idle",
             "54_T1_Royal Tide_Rig__Walk",
-            "54_T1_Royal Tide_Rig__Attack"
+            "54_T1_Royal Tide_Rig__Attack",
+            "54_T1_Royal Tide_Rig__Hit",
+            "54_T1_Royal Tide_Rig__Block",
+            "54_T1_Royal Tide_Rig__Defeat",
+            "54_T1_Royal Tide_Rig__Victory"
           ]
         },
         {
@@ -2475,7 +3169,11 @@
           "actions": [
             "54_T2_Royal Tide_Rig__Idle",
             "54_T2_Royal Tide_Rig__Walk",
-            "54_T2_Royal Tide_Rig__Attack"
+            "54_T2_Royal Tide_Rig__Attack",
+            "54_T2_Royal Tide_Rig__Hit",
+            "54_T2_Royal Tide_Rig__Block",
+            "54_T2_Royal Tide_Rig__Defeat",
+            "54_T2_Royal Tide_Rig__Victory"
           ]
         },
         {
@@ -2487,11 +3185,16 @@
           "actions": [
             "54_T3_Royal Tide_Rig__Idle",
             "54_T3_Royal Tide_Rig__Walk",
-            "54_T3_Royal Tide_Rig__Attack"
+            "54_T3_Royal Tide_Rig__Attack",
+            "54_T3_Royal Tide_Rig__Hit",
+            "54_T3_Royal Tide_Rig__Block",
+            "54_T3_Royal Tide_Rig__Defeat",
+            "54_T3_Royal Tide_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 55,
@@ -2509,7 +3212,11 @@
           "actions": [
             "55_T1_Fire Monarch_Rig__Idle",
             "55_T1_Fire Monarch_Rig__Walk",
-            "55_T1_Fire Monarch_Rig__Attack"
+            "55_T1_Fire Monarch_Rig__Attack",
+            "55_T1_Fire Monarch_Rig__Hit",
+            "55_T1_Fire Monarch_Rig__Block",
+            "55_T1_Fire Monarch_Rig__Defeat",
+            "55_T1_Fire Monarch_Rig__Victory"
           ]
         },
         {
@@ -2521,7 +3228,11 @@
           "actions": [
             "55_T2_Fire Monarch_Rig__Idle",
             "55_T2_Fire Monarch_Rig__Walk",
-            "55_T2_Fire Monarch_Rig__Attack"
+            "55_T2_Fire Monarch_Rig__Attack",
+            "55_T2_Fire Monarch_Rig__Hit",
+            "55_T2_Fire Monarch_Rig__Block",
+            "55_T2_Fire Monarch_Rig__Defeat",
+            "55_T2_Fire Monarch_Rig__Victory"
           ]
         },
         {
@@ -2533,11 +3244,16 @@
           "actions": [
             "55_T3_Fire Monarch_Rig__Idle",
             "55_T3_Fire Monarch_Rig__Walk",
-            "55_T3_Fire Monarch_Rig__Attack"
+            "55_T3_Fire Monarch_Rig__Attack",
+            "55_T3_Fire Monarch_Rig__Hit",
+            "55_T3_Fire Monarch_Rig__Block",
+            "55_T3_Fire Monarch_Rig__Defeat",
+            "55_T3_Fire Monarch_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 56,
@@ -2555,7 +3271,11 @@
           "actions": [
             "56_T1_Scarlet Princess_Rig__Idle",
             "56_T1_Scarlet Princess_Rig__Walk",
-            "56_T1_Scarlet Princess_Rig__Attack"
+            "56_T1_Scarlet Princess_Rig__Attack",
+            "56_T1_Scarlet Princess_Rig__Hit",
+            "56_T1_Scarlet Princess_Rig__Block",
+            "56_T1_Scarlet Princess_Rig__Defeat",
+            "56_T1_Scarlet Princess_Rig__Victory"
           ]
         },
         {
@@ -2567,7 +3287,11 @@
           "actions": [
             "56_T2_Scarlet Princess_Rig__Idle",
             "56_T2_Scarlet Princess_Rig__Walk",
-            "56_T2_Scarlet Princess_Rig__Attack"
+            "56_T2_Scarlet Princess_Rig__Attack",
+            "56_T2_Scarlet Princess_Rig__Hit",
+            "56_T2_Scarlet Princess_Rig__Block",
+            "56_T2_Scarlet Princess_Rig__Defeat",
+            "56_T2_Scarlet Princess_Rig__Victory"
           ]
         },
         {
@@ -2579,11 +3303,16 @@
           "actions": [
             "56_T3_Scarlet Princess_Rig__Idle",
             "56_T3_Scarlet Princess_Rig__Walk",
-            "56_T3_Scarlet Princess_Rig__Attack"
+            "56_T3_Scarlet Princess_Rig__Attack",
+            "56_T3_Scarlet Princess_Rig__Hit",
+            "56_T3_Scarlet Princess_Rig__Block",
+            "56_T3_Scarlet Princess_Rig__Defeat",
+            "56_T3_Scarlet Princess_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 57,
@@ -2601,7 +3330,11 @@
           "actions": [
             "57_T1_Frost Monarch_Rig__Idle",
             "57_T1_Frost Monarch_Rig__Walk",
-            "57_T1_Frost Monarch_Rig__Attack"
+            "57_T1_Frost Monarch_Rig__Attack",
+            "57_T1_Frost Monarch_Rig__Hit",
+            "57_T1_Frost Monarch_Rig__Block",
+            "57_T1_Frost Monarch_Rig__Defeat",
+            "57_T1_Frost Monarch_Rig__Victory"
           ]
         },
         {
@@ -2613,7 +3346,11 @@
           "actions": [
             "57_T2_Frost Monarch_Rig__Idle",
             "57_T2_Frost Monarch_Rig__Walk",
-            "57_T2_Frost Monarch_Rig__Attack"
+            "57_T2_Frost Monarch_Rig__Attack",
+            "57_T2_Frost Monarch_Rig__Hit",
+            "57_T2_Frost Monarch_Rig__Block",
+            "57_T2_Frost Monarch_Rig__Defeat",
+            "57_T2_Frost Monarch_Rig__Victory"
           ]
         },
         {
@@ -2625,11 +3362,16 @@
           "actions": [
             "57_T3_Frost Monarch_Rig__Idle",
             "57_T3_Frost Monarch_Rig__Walk",
-            "57_T3_Frost Monarch_Rig__Attack"
+            "57_T3_Frost Monarch_Rig__Attack",
+            "57_T3_Frost Monarch_Rig__Hit",
+            "57_T3_Frost Monarch_Rig__Block",
+            "57_T3_Frost Monarch_Rig__Defeat",
+            "57_T3_Frost Monarch_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 58,
@@ -2647,7 +3389,11 @@
           "actions": [
             "58_T1_Midnight Minister_Rig__Idle",
             "58_T1_Midnight Minister_Rig__Walk",
-            "58_T1_Midnight Minister_Rig__Attack"
+            "58_T1_Midnight Minister_Rig__Attack",
+            "58_T1_Midnight Minister_Rig__Hit",
+            "58_T1_Midnight Minister_Rig__Block",
+            "58_T1_Midnight Minister_Rig__Defeat",
+            "58_T1_Midnight Minister_Rig__Victory"
           ]
         },
         {
@@ -2659,7 +3405,11 @@
           "actions": [
             "58_T2_Midnight Minister_Rig__Idle",
             "58_T2_Midnight Minister_Rig__Walk",
-            "58_T2_Midnight Minister_Rig__Attack"
+            "58_T2_Midnight Minister_Rig__Attack",
+            "58_T2_Midnight Minister_Rig__Hit",
+            "58_T2_Midnight Minister_Rig__Block",
+            "58_T2_Midnight Minister_Rig__Defeat",
+            "58_T2_Midnight Minister_Rig__Victory"
           ]
         },
         {
@@ -2671,11 +3421,16 @@
           "actions": [
             "58_T3_Midnight Minister_Rig__Idle",
             "58_T3_Midnight Minister_Rig__Walk",
-            "58_T3_Midnight Minister_Rig__Attack"
+            "58_T3_Midnight Minister_Rig__Attack",
+            "58_T3_Midnight Minister_Rig__Hit",
+            "58_T3_Midnight Minister_Rig__Block",
+            "58_T3_Midnight Minister_Rig__Defeat",
+            "58_T3_Midnight Minister_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 59,
@@ -2693,7 +3448,11 @@
           "actions": [
             "59_T1_Jade Minister_Rig__Idle",
             "59_T1_Jade Minister_Rig__Walk",
-            "59_T1_Jade Minister_Rig__Attack"
+            "59_T1_Jade Minister_Rig__Attack",
+            "59_T1_Jade Minister_Rig__Hit",
+            "59_T1_Jade Minister_Rig__Block",
+            "59_T1_Jade Minister_Rig__Defeat",
+            "59_T1_Jade Minister_Rig__Victory"
           ]
         },
         {
@@ -2705,7 +3464,11 @@
           "actions": [
             "59_T2_Jade Minister_Rig__Idle",
             "59_T2_Jade Minister_Rig__Walk",
-            "59_T2_Jade Minister_Rig__Attack"
+            "59_T2_Jade Minister_Rig__Attack",
+            "59_T2_Jade Minister_Rig__Hit",
+            "59_T2_Jade Minister_Rig__Block",
+            "59_T2_Jade Minister_Rig__Defeat",
+            "59_T2_Jade Minister_Rig__Victory"
           ]
         },
         {
@@ -2717,11 +3480,16 @@
           "actions": [
             "59_T3_Jade Minister_Rig__Idle",
             "59_T3_Jade Minister_Rig__Walk",
-            "59_T3_Jade Minister_Rig__Attack"
+            "59_T3_Jade Minister_Rig__Attack",
+            "59_T3_Jade Minister_Rig__Hit",
+            "59_T3_Jade Minister_Rig__Block",
+            "59_T3_Jade Minister_Rig__Defeat",
+            "59_T3_Jade Minister_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 60,
@@ -2734,40 +3502,53 @@
           "tier": 1,
           "rig": "60_T1_Garden Princess_Rig",
           "mesh": "60_T1_Garden Princess_Mesh",
-          "vertices": 8816,
+          "vertices": 9210,
           "bones": 22,
           "actions": [
             "60_T1_Garden Princess_Rig__Idle",
             "60_T1_Garden Princess_Rig__Walk",
-            "60_T1_Garden Princess_Rig__Attack"
+            "60_T1_Garden Princess_Rig__Attack",
+            "60_T1_Garden Princess_Rig__Hit",
+            "60_T1_Garden Princess_Rig__Block",
+            "60_T1_Garden Princess_Rig__Defeat",
+            "60_T1_Garden Princess_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "60_T2_Garden Princess_Rig",
           "mesh": "60_T2_Garden Princess_Mesh",
-          "vertices": 9356,
+          "vertices": 9750,
           "bones": 22,
           "actions": [
             "60_T2_Garden Princess_Rig__Idle",
             "60_T2_Garden Princess_Rig__Walk",
-            "60_T2_Garden Princess_Rig__Attack"
+            "60_T2_Garden Princess_Rig__Attack",
+            "60_T2_Garden Princess_Rig__Hit",
+            "60_T2_Garden Princess_Rig__Block",
+            "60_T2_Garden Princess_Rig__Defeat",
+            "60_T2_Garden Princess_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "60_T3_Garden Princess_Rig",
           "mesh": "60_T3_Garden Princess_Mesh",
-          "vertices": 9464,
+          "vertices": 9858,
           "bones": 22,
           "actions": [
             "60_T3_Garden Princess_Rig__Idle",
             "60_T3_Garden Princess_Rig__Walk",
-            "60_T3_Garden Princess_Rig__Attack"
+            "60_T3_Garden Princess_Rig__Attack",
+            "60_T3_Garden Princess_Rig__Hit",
+            "60_T3_Garden Princess_Rig__Block",
+            "60_T3_Garden Princess_Rig__Defeat",
+            "60_T3_Garden Princess_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 61,
@@ -2785,7 +3566,11 @@
           "actions": [
             "61_T1_Bronze Bulwark_Rig__Idle",
             "61_T1_Bronze Bulwark_Rig__Walk",
-            "61_T1_Bronze Bulwark_Rig__Attack"
+            "61_T1_Bronze Bulwark_Rig__Attack",
+            "61_T1_Bronze Bulwark_Rig__Hit",
+            "61_T1_Bronze Bulwark_Rig__Block",
+            "61_T1_Bronze Bulwark_Rig__Defeat",
+            "61_T1_Bronze Bulwark_Rig__Victory"
           ]
         },
         {
@@ -2797,7 +3582,11 @@
           "actions": [
             "61_T2_Bronze Bulwark_Rig__Idle",
             "61_T2_Bronze Bulwark_Rig__Walk",
-            "61_T2_Bronze Bulwark_Rig__Attack"
+            "61_T2_Bronze Bulwark_Rig__Attack",
+            "61_T2_Bronze Bulwark_Rig__Hit",
+            "61_T2_Bronze Bulwark_Rig__Block",
+            "61_T2_Bronze Bulwark_Rig__Defeat",
+            "61_T2_Bronze Bulwark_Rig__Victory"
           ]
         },
         {
@@ -2809,11 +3598,16 @@
           "actions": [
             "61_T3_Bronze Bulwark_Rig__Idle",
             "61_T3_Bronze Bulwark_Rig__Walk",
-            "61_T3_Bronze Bulwark_Rig__Attack"
+            "61_T3_Bronze Bulwark_Rig__Attack",
+            "61_T3_Bronze Bulwark_Rig__Hit",
+            "61_T3_Bronze Bulwark_Rig__Block",
+            "61_T3_Bronze Bulwark_Rig__Defeat",
+            "61_T3_Bronze Bulwark_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 62,
@@ -2831,7 +3625,11 @@
           "actions": [
             "62_T1_Violet Princess_Rig__Idle",
             "62_T1_Violet Princess_Rig__Walk",
-            "62_T1_Violet Princess_Rig__Attack"
+            "62_T1_Violet Princess_Rig__Attack",
+            "62_T1_Violet Princess_Rig__Hit",
+            "62_T1_Violet Princess_Rig__Block",
+            "62_T1_Violet Princess_Rig__Defeat",
+            "62_T1_Violet Princess_Rig__Victory"
           ]
         },
         {
@@ -2843,7 +3641,11 @@
           "actions": [
             "62_T2_Violet Princess_Rig__Idle",
             "62_T2_Violet Princess_Rig__Walk",
-            "62_T2_Violet Princess_Rig__Attack"
+            "62_T2_Violet Princess_Rig__Attack",
+            "62_T2_Violet Princess_Rig__Hit",
+            "62_T2_Violet Princess_Rig__Block",
+            "62_T2_Violet Princess_Rig__Defeat",
+            "62_T2_Violet Princess_Rig__Victory"
           ]
         },
         {
@@ -2855,11 +3657,16 @@
           "actions": [
             "62_T3_Violet Princess_Rig__Idle",
             "62_T3_Violet Princess_Rig__Walk",
-            "62_T3_Violet Princess_Rig__Attack"
+            "62_T3_Violet Princess_Rig__Attack",
+            "62_T3_Violet Princess_Rig__Hit",
+            "62_T3_Violet Princess_Rig__Block",
+            "62_T3_Violet Princess_Rig__Defeat",
+            "62_T3_Violet Princess_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 63,
@@ -2877,7 +3684,11 @@
           "actions": [
             "63_T1_Sage of Jade_Rig__Idle",
             "63_T1_Sage of Jade_Rig__Walk",
-            "63_T1_Sage of Jade_Rig__Attack"
+            "63_T1_Sage of Jade_Rig__Attack",
+            "63_T1_Sage of Jade_Rig__Hit",
+            "63_T1_Sage of Jade_Rig__Block",
+            "63_T1_Sage of Jade_Rig__Defeat",
+            "63_T1_Sage of Jade_Rig__Victory"
           ]
         },
         {
@@ -2889,7 +3700,11 @@
           "actions": [
             "63_T2_Sage of Jade_Rig__Idle",
             "63_T2_Sage of Jade_Rig__Walk",
-            "63_T2_Sage of Jade_Rig__Attack"
+            "63_T2_Sage of Jade_Rig__Attack",
+            "63_T2_Sage of Jade_Rig__Hit",
+            "63_T2_Sage of Jade_Rig__Block",
+            "63_T2_Sage of Jade_Rig__Defeat",
+            "63_T2_Sage of Jade_Rig__Victory"
           ]
         },
         {
@@ -2901,11 +3716,16 @@
           "actions": [
             "63_T3_Sage of Jade_Rig__Idle",
             "63_T3_Sage of Jade_Rig__Walk",
-            "63_T3_Sage of Jade_Rig__Attack"
+            "63_T3_Sage of Jade_Rig__Attack",
+            "63_T3_Sage of Jade_Rig__Hit",
+            "63_T3_Sage of Jade_Rig__Block",
+            "63_T3_Sage of Jade_Rig__Defeat",
+            "63_T3_Sage of Jade_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 64,
@@ -2923,7 +3743,11 @@
           "actions": [
             "64_T1_Emerald Crescent_Rig__Idle",
             "64_T1_Emerald Crescent_Rig__Walk",
-            "64_T1_Emerald Crescent_Rig__Attack"
+            "64_T1_Emerald Crescent_Rig__Attack",
+            "64_T1_Emerald Crescent_Rig__Hit",
+            "64_T1_Emerald Crescent_Rig__Block",
+            "64_T1_Emerald Crescent_Rig__Defeat",
+            "64_T1_Emerald Crescent_Rig__Victory"
           ]
         },
         {
@@ -2935,7 +3759,11 @@
           "actions": [
             "64_T2_Emerald Crescent_Rig__Idle",
             "64_T2_Emerald Crescent_Rig__Walk",
-            "64_T2_Emerald Crescent_Rig__Attack"
+            "64_T2_Emerald Crescent_Rig__Attack",
+            "64_T2_Emerald Crescent_Rig__Hit",
+            "64_T2_Emerald Crescent_Rig__Block",
+            "64_T2_Emerald Crescent_Rig__Defeat",
+            "64_T2_Emerald Crescent_Rig__Victory"
           ]
         },
         {
@@ -2947,11 +3775,16 @@
           "actions": [
             "64_T3_Emerald Crescent_Rig__Idle",
             "64_T3_Emerald Crescent_Rig__Walk",
-            "64_T3_Emerald Crescent_Rig__Attack"
+            "64_T3_Emerald Crescent_Rig__Attack",
+            "64_T3_Emerald Crescent_Rig__Hit",
+            "64_T3_Emerald Crescent_Rig__Block",
+            "64_T3_Emerald Crescent_Rig__Defeat",
+            "64_T3_Emerald Crescent_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 65,
@@ -2964,40 +3797,53 @@
           "tier": 1,
           "rig": "65_T1_Inferno Crescent_Rig",
           "mesh": "65_T1_Inferno Crescent_Mesh",
-          "vertices": 9908,
+          "vertices": 9820,
           "bones": 22,
           "actions": [
             "65_T1_Inferno Crescent_Rig__Idle",
             "65_T1_Inferno Crescent_Rig__Walk",
-            "65_T1_Inferno Crescent_Rig__Attack"
+            "65_T1_Inferno Crescent_Rig__Attack",
+            "65_T1_Inferno Crescent_Rig__Hit",
+            "65_T1_Inferno Crescent_Rig__Block",
+            "65_T1_Inferno Crescent_Rig__Defeat",
+            "65_T1_Inferno Crescent_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "65_T2_Inferno Crescent_Rig",
           "mesh": "65_T2_Inferno Crescent_Mesh",
-          "vertices": 11278,
+          "vertices": 11190,
           "bones": 22,
           "actions": [
             "65_T2_Inferno Crescent_Rig__Idle",
             "65_T2_Inferno Crescent_Rig__Walk",
-            "65_T2_Inferno Crescent_Rig__Attack"
+            "65_T2_Inferno Crescent_Rig__Attack",
+            "65_T2_Inferno Crescent_Rig__Hit",
+            "65_T2_Inferno Crescent_Rig__Block",
+            "65_T2_Inferno Crescent_Rig__Defeat",
+            "65_T2_Inferno Crescent_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "65_T3_Inferno Crescent_Rig",
           "mesh": "65_T3_Inferno Crescent_Mesh",
-          "vertices": 11512,
+          "vertices": 11424,
           "bones": 22,
           "actions": [
             "65_T3_Inferno Crescent_Rig__Idle",
             "65_T3_Inferno Crescent_Rig__Walk",
-            "65_T3_Inferno Crescent_Rig__Attack"
+            "65_T3_Inferno Crescent_Rig__Attack",
+            "65_T3_Inferno Crescent_Rig__Hit",
+            "65_T3_Inferno Crescent_Rig__Block",
+            "65_T3_Inferno Crescent_Rig__Defeat",
+            "65_T3_Inferno Crescent_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 66,
@@ -3010,40 +3856,53 @@
           "tier": 1,
           "rig": "66_T1_Ivory Sage_Rig",
           "mesh": "66_T1_Ivory Sage_Mesh",
-          "vertices": 10286,
+          "vertices": 9221,
           "bones": 22,
           "actions": [
             "66_T1_Ivory Sage_Rig__Idle",
             "66_T1_Ivory Sage_Rig__Walk",
-            "66_T1_Ivory Sage_Rig__Attack"
+            "66_T1_Ivory Sage_Rig__Attack",
+            "66_T1_Ivory Sage_Rig__Hit",
+            "66_T1_Ivory Sage_Rig__Block",
+            "66_T1_Ivory Sage_Rig__Defeat",
+            "66_T1_Ivory Sage_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "66_T2_Ivory Sage_Rig",
           "mesh": "66_T2_Ivory Sage_Mesh",
-          "vertices": 11656,
+          "vertices": 10483,
           "bones": 22,
           "actions": [
             "66_T2_Ivory Sage_Rig__Idle",
             "66_T2_Ivory Sage_Rig__Walk",
-            "66_T2_Ivory Sage_Rig__Attack"
+            "66_T2_Ivory Sage_Rig__Attack",
+            "66_T2_Ivory Sage_Rig__Hit",
+            "66_T2_Ivory Sage_Rig__Block",
+            "66_T2_Ivory Sage_Rig__Defeat",
+            "66_T2_Ivory Sage_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "66_T3_Ivory Sage_Rig",
           "mesh": "66_T3_Ivory Sage_Mesh",
-          "vertices": 11890,
+          "vertices": 10609,
           "bones": 22,
           "actions": [
             "66_T3_Ivory Sage_Rig__Idle",
             "66_T3_Ivory Sage_Rig__Walk",
-            "66_T3_Ivory Sage_Rig__Attack"
+            "66_T3_Ivory Sage_Rig__Attack",
+            "66_T3_Ivory Sage_Rig__Hit",
+            "66_T3_Ivory Sage_Rig__Block",
+            "66_T3_Ivory Sage_Rig__Defeat",
+            "66_T3_Ivory Sage_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 67,
@@ -3056,40 +3915,53 @@
           "tier": 1,
           "rig": "67_T1_Jade War God_Rig",
           "mesh": "67_T1_Jade War God_Mesh",
-          "vertices": 10286,
+          "vertices": 9221,
           "bones": 22,
           "actions": [
             "67_T1_Jade War God_Rig__Idle",
             "67_T1_Jade War God_Rig__Walk",
-            "67_T1_Jade War God_Rig__Attack"
+            "67_T1_Jade War God_Rig__Attack",
+            "67_T1_Jade War God_Rig__Hit",
+            "67_T1_Jade War God_Rig__Block",
+            "67_T1_Jade War God_Rig__Defeat",
+            "67_T1_Jade War God_Rig__Victory"
           ]
         },
         {
           "tier": 2,
           "rig": "67_T2_Jade War God_Rig",
           "mesh": "67_T2_Jade War God_Mesh",
-          "vertices": 11656,
+          "vertices": 10483,
           "bones": 22,
           "actions": [
             "67_T2_Jade War God_Rig__Idle",
             "67_T2_Jade War God_Rig__Walk",
-            "67_T2_Jade War God_Rig__Attack"
+            "67_T2_Jade War God_Rig__Attack",
+            "67_T2_Jade War God_Rig__Hit",
+            "67_T2_Jade War God_Rig__Block",
+            "67_T2_Jade War God_Rig__Defeat",
+            "67_T2_Jade War God_Rig__Victory"
           ]
         },
         {
           "tier": 3,
           "rig": "67_T3_Jade War God_Rig",
           "mesh": "67_T3_Jade War God_Mesh",
-          "vertices": 11890,
+          "vertices": 10609,
           "bones": 22,
           "actions": [
             "67_T3_Jade War God_Rig__Idle",
             "67_T3_Jade War God_Rig__Walk",
-            "67_T3_Jade War God_Rig__Attack"
+            "67_T3_Jade War God_Rig__Attack",
+            "67_T3_Jade War God_Rig__Hit",
+            "67_T3_Jade War God_Rig__Block",
+            "67_T3_Jade War God_Rig__Defeat",
+            "67_T3_Jade War God_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 68,
@@ -3107,7 +3979,11 @@
           "actions": [
             "68_T1_Crimson War God_Rig__Idle",
             "68_T1_Crimson War God_Rig__Walk",
-            "68_T1_Crimson War God_Rig__Attack"
+            "68_T1_Crimson War God_Rig__Attack",
+            "68_T1_Crimson War God_Rig__Hit",
+            "68_T1_Crimson War God_Rig__Block",
+            "68_T1_Crimson War God_Rig__Defeat",
+            "68_T1_Crimson War God_Rig__Victory"
           ]
         },
         {
@@ -3119,7 +3995,11 @@
           "actions": [
             "68_T2_Crimson War God_Rig__Idle",
             "68_T2_Crimson War God_Rig__Walk",
-            "68_T2_Crimson War God_Rig__Attack"
+            "68_T2_Crimson War God_Rig__Attack",
+            "68_T2_Crimson War God_Rig__Hit",
+            "68_T2_Crimson War God_Rig__Block",
+            "68_T2_Crimson War God_Rig__Defeat",
+            "68_T2_Crimson War God_Rig__Victory"
           ]
         },
         {
@@ -3131,11 +4011,16 @@
           "actions": [
             "68_T3_Crimson War God_Rig__Idle",
             "68_T3_Crimson War God_Rig__Walk",
-            "68_T3_Crimson War God_Rig__Attack"
+            "68_T3_Crimson War God_Rig__Attack",
+            "68_T3_Crimson War God_Rig__Hit",
+            "68_T3_Crimson War God_Rig__Block",
+            "68_T3_Crimson War God_Rig__Defeat",
+            "68_T3_Crimson War God_Rig__Victory"
           ]
         }
       ],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     },
     {
       "reference": 69,
@@ -3144,7 +4029,8 @@
       "preview": "previews/69.png",
       "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
       "characters": [],
-      "effects": 3
+      "effects": 3,
+      "graphics_revision": 3
     }
   ]
 }

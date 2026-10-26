@@ -14,7 +14,11 @@
       "actions": [
         "61_T1_Bronze Bulwark_Rig__Idle",
         "61_T1_Bronze Bulwark_Rig__Walk",
-        "61_T1_Bronze Bulwark_Rig__Attack"
+        "61_T1_Bronze Bulwark_Rig__Attack",
+        "61_T1_Bronze Bulwark_Rig__Hit",
+        "61_T1_Bronze Bulwark_Rig__Block",
+        "61_T1_Bronze Bulwark_Rig__Defeat",
+        "61_T1_Bronze Bulwark_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "61_T2_Bronze Bulwark_Rig__Idle",
         "61_T2_Bronze Bulwark_Rig__Walk",
-        "61_T2_Bronze Bulwark_Rig__Attack"
+        "61_T2_Bronze Bulwark_Rig__Attack",
+        "61_T2_Bronze Bulwark_Rig__Hit",
+        "61_T2_Bronze Bulwark_Rig__Block",
+        "61_T2_Bronze Bulwark_Rig__Defeat",
+        "61_T2_Bronze Bulwark_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "61_T3_Bronze Bulwark_Rig__Idle",
         "61_T3_Bronze Bulwark_Rig__Walk",
-        "61_T3_Bronze Bulwark_Rig__Attack"
+        "61_T3_Bronze Bulwark_Rig__Attack",
+        "61_T3_Bronze Bulwark_Rig__Hit",
+        "61_T3_Bronze Bulwark_Rig__Block",
+        "61_T3_Bronze Bulwark_Rig__Defeat",
+        "61_T3_Bronze Bulwark_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

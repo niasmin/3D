@@ -14,7 +14,11 @@
       "actions": [
         "64_T1_Emerald Crescent_Rig__Idle",
         "64_T1_Emerald Crescent_Rig__Walk",
-        "64_T1_Emerald Crescent_Rig__Attack"
+        "64_T1_Emerald Crescent_Rig__Attack",
+        "64_T1_Emerald Crescent_Rig__Hit",
+        "64_T1_Emerald Crescent_Rig__Block",
+        "64_T1_Emerald Crescent_Rig__Defeat",
+        "64_T1_Emerald Crescent_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "64_T2_Emerald Crescent_Rig__Idle",
         "64_T2_Emerald Crescent_Rig__Walk",
-        "64_T2_Emerald Crescent_Rig__Attack"
+        "64_T2_Emerald Crescent_Rig__Attack",
+        "64_T2_Emerald Crescent_Rig__Hit",
+        "64_T2_Emerald Crescent_Rig__Block",
+        "64_T2_Emerald Crescent_Rig__Defeat",
+        "64_T2_Emerald Crescent_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "64_T3_Emerald Crescent_Rig__Idle",
         "64_T3_Emerald Crescent_Rig__Walk",
-        "64_T3_Emerald Crescent_Rig__Attack"
+        "64_T3_Emerald Crescent_Rig__Attack",
+        "64_T3_Emerald Crescent_Rig__Hit",
+        "64_T3_Emerald Crescent_Rig__Block",
+        "64_T3_Emerald Crescent_Rig__Defeat",
+        "64_T3_Emerald Crescent_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

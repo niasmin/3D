@@ -14,7 +14,11 @@
       "actions": [
         "33_T1_Ruby Blades_Rig__Idle",
         "33_T1_Ruby Blades_Rig__Walk",
-        "33_T1_Ruby Blades_Rig__Attack"
+        "33_T1_Ruby Blades_Rig__Attack",
+        "33_T1_Ruby Blades_Rig__Hit",
+        "33_T1_Ruby Blades_Rig__Block",
+        "33_T1_Ruby Blades_Rig__Defeat",
+        "33_T1_Ruby Blades_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "33_T2_Ruby Blades_Rig__Idle",
         "33_T2_Ruby Blades_Rig__Walk",
-        "33_T2_Ruby Blades_Rig__Attack"
+        "33_T2_Ruby Blades_Rig__Attack",
+        "33_T2_Ruby Blades_Rig__Hit",
+        "33_T2_Ruby Blades_Rig__Block",
+        "33_T2_Ruby Blades_Rig__Defeat",
+        "33_T2_Ruby Blades_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "33_T3_Ruby Blades_Rig__Idle",
         "33_T3_Ruby Blades_Rig__Walk",
-        "33_T3_Ruby Blades_Rig__Attack"
+        "33_T3_Ruby Blades_Rig__Attack",
+        "33_T3_Ruby Blades_Rig__Hit",
+        "33_T3_Ruby Blades_Rig__Block",
+        "33_T3_Ruby Blades_Rig__Defeat",
+        "33_T3_Ruby Blades_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

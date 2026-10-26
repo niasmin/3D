@@ -14,7 +14,11 @@
       "actions": [
         "16_T1_Flame Blades_Rig__Idle",
         "16_T1_Flame Blades_Rig__Walk",
-        "16_T1_Flame Blades_Rig__Attack"
+        "16_T1_Flame Blades_Rig__Attack",
+        "16_T1_Flame Blades_Rig__Hit",
+        "16_T1_Flame Blades_Rig__Block",
+        "16_T1_Flame Blades_Rig__Defeat",
+        "16_T1_Flame Blades_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "16_T2_Flame Blades_Rig__Idle",
         "16_T2_Flame Blades_Rig__Walk",
-        "16_T2_Flame Blades_Rig__Attack"
+        "16_T2_Flame Blades_Rig__Attack",
+        "16_T2_Flame Blades_Rig__Hit",
+        "16_T2_Flame Blades_Rig__Block",
+        "16_T2_Flame Blades_Rig__Defeat",
+        "16_T2_Flame Blades_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "16_T3_Flame Blades_Rig__Idle",
         "16_T3_Flame Blades_Rig__Walk",
-        "16_T3_Flame Blades_Rig__Attack"
+        "16_T3_Flame Blades_Rig__Attack",
+        "16_T3_Flame Blades_Rig__Hit",
+        "16_T3_Flame Blades_Rig__Block",
+        "16_T3_Flame Blades_Rig__Defeat",
+        "16_T3_Flame Blades_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

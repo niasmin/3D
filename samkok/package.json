@@ -8,6 +8,7 @@
     "test": "npm test --prefix cocos && node --test three/tests/*.test.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.117.3",
     "three": "0.180.0"
   },
   "devDependencies": {

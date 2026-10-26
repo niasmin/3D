@@ -14,7 +14,11 @@
       "actions": [
         "24_T1_Inferno Dancer_Rig__Idle",
         "24_T1_Inferno Dancer_Rig__Walk",
-        "24_T1_Inferno Dancer_Rig__Attack"
+        "24_T1_Inferno Dancer_Rig__Attack",
+        "24_T1_Inferno Dancer_Rig__Hit",
+        "24_T1_Inferno Dancer_Rig__Block",
+        "24_T1_Inferno Dancer_Rig__Defeat",
+        "24_T1_Inferno Dancer_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "24_T2_Inferno Dancer_Rig__Idle",
         "24_T2_Inferno Dancer_Rig__Walk",
-        "24_T2_Inferno Dancer_Rig__Attack"
+        "24_T2_Inferno Dancer_Rig__Attack",
+        "24_T2_Inferno Dancer_Rig__Hit",
+        "24_T2_Inferno Dancer_Rig__Block",
+        "24_T2_Inferno Dancer_Rig__Defeat",
+        "24_T2_Inferno Dancer_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "24_T3_Inferno Dancer_Rig__Idle",
         "24_T3_Inferno Dancer_Rig__Walk",
-        "24_T3_Inferno Dancer_Rig__Attack"
+        "24_T3_Inferno Dancer_Rig__Attack",
+        "24_T3_Inferno Dancer_Rig__Hit",
+        "24_T3_Inferno Dancer_Rig__Block",
+        "24_T3_Inferno Dancer_Rig__Defeat",
+        "24_T3_Inferno Dancer_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

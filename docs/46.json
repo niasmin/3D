@@ -14,7 +14,11 @@
       "actions": [
         "46_T1_Amethyst Bulwark_Rig__Idle",
         "46_T1_Amethyst Bulwark_Rig__Walk",
-        "46_T1_Amethyst Bulwark_Rig__Attack"
+        "46_T1_Amethyst Bulwark_Rig__Attack",
+        "46_T1_Amethyst Bulwark_Rig__Hit",
+        "46_T1_Amethyst Bulwark_Rig__Block",
+        "46_T1_Amethyst Bulwark_Rig__Defeat",
+        "46_T1_Amethyst Bulwark_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "46_T2_Amethyst Bulwark_Rig__Idle",
         "46_T2_Amethyst Bulwark_Rig__Walk",
-        "46_T2_Amethyst Bulwark_Rig__Attack"
+        "46_T2_Amethyst Bulwark_Rig__Attack",
+        "46_T2_Amethyst Bulwark_Rig__Hit",
+        "46_T2_Amethyst Bulwark_Rig__Block",
+        "46_T2_Amethyst Bulwark_Rig__Defeat",
+        "46_T2_Amethyst Bulwark_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "46_T3_Amethyst Bulwark_Rig__Idle",
         "46_T3_Amethyst Bulwark_Rig__Walk",
-        "46_T3_Amethyst Bulwark_Rig__Attack"
+        "46_T3_Amethyst Bulwark_Rig__Attack",
+        "46_T3_Amethyst Bulwark_Rig__Hit",
+        "46_T3_Amethyst Bulwark_Rig__Block",
+        "46_T3_Amethyst Bulwark_Rig__Defeat",
+        "46_T3_Amethyst Bulwark_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

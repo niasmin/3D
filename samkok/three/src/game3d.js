@@ -3,7 +3,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { clone as cloneSkeleton } from 'three/addons/utils/SkeletonUtils.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { MODEL_MAP, modelPath, unitPosition, clipByName } from './layout.js';
+import { MODEL_MAP, modelPath, unitPosition, clipByName,signatureFamily,nextRenderBudget } from './layout.js';
 
 // Gameplay stays in the original engine. This module owns only presentation.
 const api = window.SamkokGame;
@@ -11,7 +11,8 @@ const loader = new GLTFLoader();
 const cache = new Map();
 let current = null, viewer = null, mountVersion = 0;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const quality = () => localStorage.getItem('samkok-3d-quality') || 'standard';
+let adaptiveBudget=0;
+const quality = () => localStorage.getItem('samkok-3d-quality') || 'auto';
 function gradientTexture(shadow=false) {
   const canvas=document.createElement('canvas');canvas.width=shadow?128:256;canvas.height=shadow?128:256;const c=canvas.getContext('2d');
   const g=shadow?c.createRadialGradient(64,64,4,64,64,64):c.createLinearGradient(0,0,0,256);
@@ -24,10 +25,11 @@ function gradientTexture(shadow=false) {
   const t=new T.CanvasTexture(canvas);t.colorSpace=T.SRGBColorSpace;return t;
 }
 const disposeTree = root => {
-  const geometries = new Set(), materials = new Set();
+  const geometries = new Set(), materials = new Set(), textures=new Set();
   root.traverse(o => { if (o.geometry) geometries.add(o.geometry); if (o.material) for (const m of [].concat(o.material)) materials.add(m); });
   for (const g of geometries) g.dispose();
-  for (const m of materials) m.dispose();
+  for (const m of materials){for(const value of Object.values(m))if(value?.isTexture)textures.add(value);m.dispose();}
+  for(const t of textures)t.dispose();
 };
 function pruneCache() {
   for (const [key, entry] of cache) {
@@ -70,7 +72,7 @@ class Actor {
   constructor(asset, unit, stage) {
     this.asset=asset;this.unit=unit;this.stage=stage;this.root=new T.Group();this.root.add(asset.root);this.root.scale.setScalar(unit.id==='boss'?1.12:.90);
     this.mixer=new T.AnimationMixer(asset.root);this.actions={};this.dead=false;this.hitUntil=0;this.attackUntil=0;
-    for (const name of ['Idle','Walk','Attack']) { const clip=clipByName(asset.clips,name);if(clip)this.actions[name]=this.mixer.clipAction(clip); }
+    for (const name of ['Idle','Walk','Attack','Hit','Block','Defeat','Victory']) { const clip=clipByName(asset.clips,name);if(clip)this.actions[name]=this.mixer.clipAction(clip); }
     this.actions.Idle?.play();this.active=this.actions.Idle;
     this.materials=[];asset.root.traverse(o=>{if(o.isMesh)for(const m of [].concat(o.material))this.materials.push({m,emissive:m.emissive.clone(),intensity:m.emissiveIntensity});});
     stage.scene.add(this.root);
@@ -78,18 +80,19 @@ class Actor {
   play(name, duration=0) {
     const action=this.actions[name];if(!action)return;
     this.active?.fadeOut(.12);action.reset().fadeIn(.12);
-    action.setLoop(duration?T.LoopOnce:T.LoopRepeat,duration?1:Infinity);action.clampWhenFinished=!!duration;
+    const once=duration||name==='Defeat'||name==='Victory';action.setLoop(once?T.LoopOnce:T.LoopRepeat,once?1:Infinity);action.clampWhenFinished=!!once;
     action.timeScale=duration?action.getClip().duration/duration:1;action.play();this.active=action;
     this.attackUntil=duration?performance.now()+duration*1000:0;
   }
-  hit(heal=false) {
+  hit(heal=false,blocked=false) {
     this.hitUntil=performance.now()+170;
     for (const {m} of this.materials) {m.emissive.set(heal?0x36e78f:0xff653f);m.emissiveIntensity=.65;}
+    if(!heal&&!this.dead)this.play(blocked?'Block':'Hit',blocked?.38:.24);
   }
   update(dt, now) {
-    if(this.dead){this.root.rotation.z=T.MathUtils.damp(this.root.rotation.z,Math.PI/2,8,dt);this.root.position.y=T.MathUtils.damp(this.root.position.y,.2,8,dt);}
+    if(this.dead&&!this.actions.Defeat){this.root.rotation.z=T.MathUtils.damp(this.root.rotation.z,Math.PI/2,8,dt);this.root.position.y=T.MathUtils.damp(this.root.position.y,.2,8,dt);}
     else this.mixer.update(dt);
-    if(this.attackUntil&&now>this.attackUntil){this.attackUntil=0;this.play('Idle');}
+    if(this.attackUntil&&now>this.attackUntil){this.attackUntil=0;if(!this.dead)this.play('Idle');}
     if(this.hitUntil&&now>this.hitUntil){this.hitUntil=0;for(const {m,emissive,intensity} of this.materials){m.emissive.copy(emissive);m.emissiveIntensity=intensity;}}
   }
   dispose(){this.mixer.stopAllAction();this.mixer.uncacheRoot(this.asset.root);this.root.removeFromParent();this.asset.release();}
@@ -104,9 +107,9 @@ class Stage {
     this.scene.background=this.skyTexture;this.scene.fog=new T.Fog(sky,38,85);
     this.canvas=document.createElement('canvas');this.canvas.className='world3d';this.canvas.setAttribute('aria-label',kind==='city'?'เมืองสามก๊กแบบสามมิติ':'สนามขุนพลสามมิติ');
     this.renderer=new T.WebGLRenderer({canvas:this.canvas,antialias:quality()!=='low',alpha:false,powerPreference:'high-performance'});
-    this.renderer.setPixelRatio(Math.min(devicePixelRatio,quality()==='low'?1:1.5));this.renderer.outputColorSpace=T.SRGBColorSpace;
+    this.renderer.setPixelRatio(Math.min(devicePixelRatio,quality()==='low'?1:quality()==='auto'&&adaptiveBudget?adaptiveBudget===2?.8:1:1.5));this.renderer.outputColorSpace=T.SRGBColorSpace;
     this.renderer.toneMapping=T.ACESFilmicToneMapping;this.renderer.toneMappingExposure=.95;
-    this.renderer.shadowMap.enabled=quality()==='high'||(quality()==='standard'&&!matchMedia('(max-width:600px)').matches);this.renderer.shadowMap.type=T.PCFSoftShadowMap;
+    this.renderer.shadowMap.enabled=quality()==='high'||((quality()==='standard'||quality()==='auto'&&!adaptiveBudget)&&!matchMedia('(max-width:600px)').matches);this.renderer.shadowMap.type=T.PCFSoftShadowMap;
     this.camera=new T.PerspectiveCamera(37,1,.1,150);
     this.camera.position.set(kind==='city'?21:12,kind==='city'?24:23,kind==='city'?28:26);this.target=new T.Vector3(0,kind==='city'?2:0.5,0);this.camera.lookAt(this.target);
     const ambient=new T.HemisphereLight(0xd3e9ff,0x243d38,1.15);this.scene.add(ambient);
@@ -118,13 +121,13 @@ class Stage {
     this.ro=new ResizeObserver(()=>this.resize());this.ro.observe(host);this.resize();
     this.buildWorld(biome);
     this.batchEnvironment();
-    this.last=performance.now();this.tick=this.tick.bind(this);this.raf=requestAnimationFrame(this.tick);
+    this.last=performance.now();this.started=this.last;this.budgetStart=this.last;this.budgetFrames=0;this.tick=this.tick.bind(this);this.raf=requestAnimationFrame(this.tick);
   }
   resize() {
     const w=this.host.clientWidth,h=this.host.clientHeight;if(!w||!h)return;
     this.renderer.setSize(w,h,false);this.camera.aspect=w/h;this.camera.updateProjectionMatrix();
     if(this.kind!=='viewer') {
-      const factor=Math.max(1,1/this.camera.aspect*.78);
+      const factor=Math.max(1,1/this.camera.aspect*(this.kind==='city'?.78:.62));
       this.camera.position.set(this.kind==='city'?21:12,this.kind==='city'?24:23,this.kind==='city'?28:26).multiplyScalar(factor);this.camera.lookAt(this.target);this.controls.update();
     }
   }
@@ -250,6 +253,7 @@ class Stage {
     const actor=this.actors.get(a.src);if(!actor||this.disposed)return;
     actor.play('Attack',Math.max(.15,dt/1000*.9));
     const role=api.hero(actor.unit.id)?.role||'war';
+    if(a.skill)this.signature(actor,a.hits.map(h=>this.actors.get(h.tgt)).filter(Boolean));
     for(const hit of a.hits){const target=this.actors.get(hit.tgt);if(!target)continue;
       const heal=hit.heal!==undefined,color=heal?0x7bffb0:hit.crit?0xffa14f:role==='strat'?0xbf9bff:role==='arch'?0xffdc8f:0x97edff;
       const m=new T.MeshBasicMaterial({color,transparent:true,opacity:.9,side:T.DoubleSide,depthWrite:false});
@@ -272,13 +276,55 @@ class Stage {
       }
     }
   }
-  hits(a) {for(const h of a.hits){const actor=this.actors.get(h.tgt);if(actor){actor.hit(h.heal!==undefined);if(h.dead){actor.dead=true;actor.mixer.stopAllAction();}}}}
+  signature(actor,targets){
+    const family=signatureFamily(actor.unit.id);if(!family||!targets.length||reducedMotion)return;
+    const target=targets[0].root.position.clone(),source=actor.root.position.clone();
+    const add=(geometry,color,position)=>mesh(this.scene,geometry,new T.MeshBasicMaterial({color,transparent:true,opacity:.85,depthWrite:false,side:T.DoubleSide}),position.toArray());
+    if(family==='ice'){
+      for(let k=0;k<3;k++){const to=target.clone().add(new T.Vector3((k-1)*.55,1,0)),from=to.clone().add(new T.Vector3(0,5+k*.4,0));const m=add(new T.ConeGeometry(.13,2,6),0x99e7ff,from);m.rotation.z=Math.PI;this.fx.push({mesh:m,age:0,life:.45+k*.07,from,to});}
+      return;
+    }
+    if(family==='twins'||family==='quake'){
+      for(let k=0;k<(family==='twins'?2:3);k++){
+        const p=target.clone();p.y=family==='quake'?.16:1.6;const m=add(new T.TorusGeometry(family==='quake'?.6+k*.25:1.0,.035,5,40,family==='quake'?Math.PI*2:Math.PI*1.4),family==='quake'?0xf6a467:0xffe391,p);
+        m.rotation.set(family==='quake'?Math.PI/2:.6,0,k%2?-1:1);this.fx.push({mesh:m,age:0,life:.85,expand:family==='quake'?3:1,spin:family==='twins'});
+      }return;
+    }
+    const group=new T.Group();this.scene.add(group);
+    if(family==='wind'){
+      group.position.copy(target);
+      for(let ribbon=0;ribbon<3;ribbon++){
+        const points=[];for(let i=0;i<=40;i++){const t=i/40,a=t*Math.PI*3+ribbon*2*Math.PI/3;points.push(new T.Vector3(Math.cos(a)*(1.1-.45*t),.2+t*2.8,Math.sin(a)*(1.1-.45*t)));}
+        mesh(group,new T.TubeGeometry(new T.CatmullRomCurve3(points),40,.035,4,false),new T.MeshBasicMaterial({color:ribbon?0xb9f2de:0xf0f5cb,transparent:true,opacity:.75,depthWrite:false}));
+      }
+      this.fx.push({mesh:group,age:0,life:1.05,custom:()=>{group.rotation.y+=.10;}});
+    }else{
+      const curve=new T.CatmullRomCurve3([source.clone().add(new T.Vector3(0,1,0)),source.clone().lerp(target,.4).add(new T.Vector3(1.5,2.5,0)),target.clone().add(new T.Vector3(0,1.3,0))]);
+      mesh(group,new T.TubeGeometry(curve,36,.10,5,false),new T.MeshBasicMaterial({color:0x48d99b,transparent:true,opacity:.75,depthWrite:false}));
+      const head=new T.Group();group.add(head);mesh(head,new T.SphereGeometry(.32,8,6),new T.MeshBasicMaterial({color:0x61edab}));
+      mesh(head,new T.SphereGeometry(.20,8,6),new T.MeshBasicMaterial({color:0x42c894}),[0,-.04,.26]);
+      for(const sign of [-1,1]){mesh(head,new T.ConeGeometry(.07,.38,5),new T.MeshBasicMaterial({color:0xffe8a5}),[sign*.18,.32,0]);mesh(head,new T.SphereGeometry(.055,6,5),new T.MeshBasicMaterial({color:0xffe293}),[sign*.24,.08,.22]);}
+      this.fx.push({mesh:group,age:0,life:.9,custom:t=>{const f=Math.min(.99,t);head.position.copy(curve.getPoint(f));head.lookAt(curve.getPoint(Math.min(1,f+.03)));}});
+    }
+  }
+  hits(a) {for(const h of a.hits){const actor=this.actors.get(h.tgt);if(actor){
+    if(h.heal!==undefined&&h.hp>0&&actor.dead){actor.dead=false;actor.play('Idle');}
+    const role=api.hero(actor.unit.id)?.role,guard=h.dmg===0||(h.dmg>0&&!h.crit&&h.dmg<(actor.unit.max||0)*.08&&['war','cav'].includes(role));
+    actor.hit(h.heal!==undefined,guard);if(h.dead&&!actor.dead){actor.dead=true;actor.play('Defeat',.75);}
+  }}}
+  outcome(side){for(const actor of this.actors.values())if(!actor.dead&&actor.unit.side===side)actor.play('Victory');}
   tick(now) {
     if(this.disposed)return;
     const dt=Math.min(.05,(now-this.last)/1000);this.last=now;
     if(!document.hidden){
+      this.budgetFrames++;
+      if(quality()==='auto'&&now-this.started>3000&&now-this.budgetStart>2000){
+        const next=nextRenderBudget((now-this.budgetStart)/Math.max(1,this.budgetFrames),adaptiveBudget);
+        if(next!==adaptiveBudget){adaptiveBudget=next;this.renderer.shadowMap.enabled=false;this.renderer.setPixelRatio(Math.min(devicePixelRatio,next===2?.8:1));this.renderer.setSize(this.host.clientWidth,this.host.clientHeight,false);}
+        this.budgetStart=now;this.budgetFrames=0;
+      }
       this.controls.update();for(const actor of this.actors.values())actor.update(dt,now);
-      for(let i=this.fx.length-1;i>=0;i--){const f=this.fx[i];f.age+=dt;const t=f.age/f.life;if(t>=1){f.mesh.removeFromParent();f.mesh.geometry.dispose();f.mesh.material.dispose();this.fx.splice(i,1);}else if(f.from)f.mesh.position.lerpVectors(f.from,f.to,t);else{f.mesh.scale.setScalar(1+t);f.mesh.material.opacity=1-t;if(f.spin)f.mesh.rotation.z+=dt*9;if(f.rise)f.mesh.position.y+=dt*f.rise;}}
+      for(let i=this.fx.length-1;i>=0;i--){const f=this.fx[i];f.age+=dt;const t=f.age/f.life;if(t>=1){f.mesh.removeFromParent();disposeTree(f.mesh);this.fx.splice(i,1);}else if(f.from)f.mesh.position.lerpVectors(f.from,f.to,t);else{if(f.custom)f.custom(t);else f.mesh.scale.setScalar(1+t*(f.expand||1));f.mesh.traverse(o=>{if(o.material)o.material.opacity=1-t;});if(f.spin)f.mesh.rotation.z+=dt*9;if(f.rise)f.mesh.position.y+=dt*f.rise;}}
       if(this.petals&&!reducedMotion)for(const p of this.petals.children){p.position.y-=dt*.25;p.position.x+=dt*.1;if(p.position.y<0)p.position.y=7;}
       this.renderer.render(this.scene,this.camera);
       const projected=this.labels.map(label=>{const p=label.position.clone().project(this.camera);return {...label,x:(p.x*.5+.5)*this.host.clientWidth,y:(-p.y*.5+.5)*this.host.clientHeight,hidden:p.z>1,w:label.el.offsetWidth,h:label.el.offsetHeight};});
@@ -296,7 +342,7 @@ class Stage {
   }
   dispose() {
     if(this.disposed)return;this.disposed=true;cancelAnimationFrame(this.raf);this.ro.disconnect();this.controls.dispose();
-    for(const a of this.actors.values())a.dispose();for(const f of this.fx){f.mesh.geometry.dispose();f.mesh.material.dispose();}
+    for(const a of this.actors.values())a.dispose();for(const f of this.fx)disposeTree(f.mesh);
     for(const {el} of this.labels){el.style.removeProperty('left');el.style.removeProperty('top');el.style.removeProperty('visibility');el.classList.remove('world3d-label');}
     this.cameraButton?.remove();disposeTree(this.environment);this.skyTexture.dispose();this.shadowTexture.dispose();this.renderer.dispose();this.renderer.forceContextLoss();this.canvas.remove();this.loading.remove();this.host.classList.remove('has3d');
   }
@@ -338,8 +384,9 @@ function closeViewer() {if(!viewer)return;viewer.version++;viewer.stage?.dispose
 async function openViewer(id) {
   closeViewer();const h=api.hero(id);if(!h)return;
   const el=document.createElement('div');el.className='v3d remake-viewer';el.setAttribute('role','dialog');el.setAttribute('aria-modal','true');el.setAttribute('aria-label',h.th+' 3D');
-  el.innerHTML=`<div class="v3top"><div><small>ขุนพลสามก๊ก · 3D</small><h2></h2></div><button class="sx" data-close3d aria-label="ปิดโมเดล">✕</button></div><div class="v3stage"></div><div class="v3tabs">${[1,2,3].map(t=>`<button data-tier="${t}" aria-pressed="${t===1}">ระดับ ${t}</button>`).join('')}</div><div class="animation3d">${[['Idle','ยืน'],['Walk','เดิน'],['Attack','โจมตี']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="${k==='Idle'}">${l}</button>`).join('')}</div><p class="v3hint">ลากเพื่อหมุน · เลื่อนเพื่อซูม · โมเดลฉบับตั้งต้นจาก Blender</p>`;
+  el.innerHTML=`<div class="v3top"><div><small>ขุนพลสามก๊ก · 3D</small><h2></h2></div><button class="sx" data-close3d aria-label="ปิดโมเดล">✕</button></div><div class="v3stage"></div><div class="v3tabs">${[1,2,3].map(t=>`<button data-tier="${t}" aria-pressed="${t===1}">ระดับ ${t}</button>`).join('')}</div><div class="animation3d">${[['Idle','ยืน'],['Walk','เดิน'],['Attack','โจมตี'],['Hit','รับโจมตี'],['Block','ป้องกัน'],['Defeat','ล้ม'],['Victory','ชนะ']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="${k==='Idle'}">${l}</button>`).join('')}</div><p class="v3hint">ลากเพื่อหมุน · เลื่อนเพื่อซูม · โมเดลสไตล์การ์ตูนจาก Blender</p>`;
   el.querySelector('h2').textContent=h.th;document.body.append(el);
+  if(signatureFamily(id)){const btn=document.createElement('button');btn.textContent='ดูสกิลเฉพาะตัว';btn.dataset.signature3d='true';el.querySelector('.animation3d').append(btn);}
   const view={el,stage:null,tier:1,version:0,actor:null,returnFocus:document.activeElement};viewer=view;
   el.querySelector('[data-close3d]').focus();
   el.querySelector('[data-close3d]').onclick=()=>{const focus=view.returnFocus;closeViewer();focus?.focus();};
@@ -353,12 +400,15 @@ async function openViewer(id) {
     };
     el.querySelectorAll('[data-tier]').forEach(b=>b.onclick=()=>load(+b.dataset.tier));
     el.querySelectorAll('[data-animation]').forEach(b=>b.onclick=()=>{view.actor?.play(b.dataset.animation);el.querySelectorAll('[data-animation]').forEach(x=>x.setAttribute('aria-pressed',x===b));});
+    el.querySelector('[data-signature3d]')?.addEventListener('click',()=>{if(view.actor){view.actor.play('Attack',.8);stage.signature(view.actor,[{root:{position:new T.Vector3(0,0,2.0)}}]);}});
     await load(Math.max(1,api.evolution(id,api.state().heroes[id]?.aw||0)));
   }catch(e){api.toast('เปิดตัวแสดงผล 3D ไม่สำเร็จ');console.error(e);closeViewer();}
 }
 
-window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,actors:current?.actors.size||0,cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer})};
-const brand=document.createElement('div');brand.className='remake-brand';brand.innerHTML='<b>ขุนพลสามก๊ก 3D</b><button data-quality3d>3D · '+quality()+'</button>';document.querySelector('#app')?.prepend(brand);
+window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),outcome:s=>current?.outcome(s),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,actors:current?.actors.size||0,cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer,viewerActions:viewer?.actor?Object.keys(viewer.actor.actions):[],adaptiveBudget,pixelRatio:current?.renderer.getPixelRatio()})};
+const brand=document.createElement('div');brand.className='remake-brand';brand.innerHTML='<b>ขุนพลสามก๊ก 3D</b><span class="cloud3d-status" role="status"></span><button data-quality3d>3D · '+quality()+'</button>';document.querySelector('#app')?.prepend(brand);
+function updateCloudBadge(){const c=api.cloud?.();const b=brand.querySelector('.cloud3d-status');b.textContent=c?.conflict?'เซฟชนกัน':c?.error?'เซฟในเครื่อง':c?.online?(c.revision>0?'ออนไลน์ · บันทึกแล้ว':'ออนไลน์ · รอบันทึก'):window.SAMKOK_3D_CONFIG?.online?'กำลังเชื่อมต่อ':'ออฟไลน์';}
+window.addEventListener('samkok:cloud-status',updateCloudBadge);updateCloudBadge();
 window.addEventListener('samkok:render',()=>mountScreen());
 window.addEventListener('samkok:close',()=>{++mountVersion;stopCurrent();});
 document.addEventListener('keydown',e=>{
@@ -366,5 +416,5 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Tab'&&viewer){const items=[...viewer.el.querySelectorAll('button')];const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}
 });
 // Quality changes recreate only the presentation; the save and battle outcome are unaffected.
-document.addEventListener('click',e=>{const b=e.target.closest('[data-quality3d]');if(!b)return;const values=['low','standard','high'];localStorage.setItem('samkok-3d-quality',values[(values.indexOf(quality())+1)%3]);b.textContent='3D · '+quality();mountScreen();});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-quality3d]');if(!b)return;const values=['auto','low','standard','high'];localStorage.setItem('samkok-3d-quality',values[(values.indexOf(quality())+1)%values.length]);b.textContent='3D · '+quality();mountScreen();});
 mountScreen();

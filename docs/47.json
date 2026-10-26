@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "47_T1_Jade Huntress_Rig",
       "mesh": "47_T1_Jade Huntress_Mesh",
-      "vertices": 8704,
+      "vertices": 7906,
       "bones": 22,
       "actions": [
         "47_T1_Jade Huntress_Rig__Idle",
         "47_T1_Jade Huntress_Rig__Walk",
-        "47_T1_Jade Huntress_Rig__Attack"
+        "47_T1_Jade Huntress_Rig__Attack",
+        "47_T1_Jade Huntress_Rig__Hit",
+        "47_T1_Jade Huntress_Rig__Block",
+        "47_T1_Jade Huntress_Rig__Defeat",
+        "47_T1_Jade Huntress_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "47_T2_Jade Huntress_Rig",
       "mesh": "47_T2_Jade Huntress_Mesh",
-      "vertices": 10074,
+      "vertices": 9168,
       "bones": 22,
       "actions": [
         "47_T2_Jade Huntress_Rig__Idle",
         "47_T2_Jade Huntress_Rig__Walk",
-        "47_T2_Jade Huntress_Rig__Attack"
+        "47_T2_Jade Huntress_Rig__Attack",
+        "47_T2_Jade Huntress_Rig__Hit",
+        "47_T2_Jade Huntress_Rig__Block",
+        "47_T2_Jade Huntress_Rig__Defeat",
+        "47_T2_Jade Huntress_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "47_T3_Jade Huntress_Rig",
       "mesh": "47_T3_Jade Huntress_Mesh",
-      "vertices": 10308,
+      "vertices": 9294,
       "bones": 22,
       "actions": [
         "47_T3_Jade Huntress_Rig__Idle",
         "47_T3_Jade Huntress_Rig__Walk",
-        "47_T3_Jade Huntress_Rig__Attack"
+        "47_T3_Jade Huntress_Rig__Attack",
+        "47_T3_Jade Huntress_Rig__Hit",
+        "47_T3_Jade Huntress_Rig__Block",
+        "47_T3_Jade Huntress_Rig__Defeat",
+        "47_T3_Jade Huntress_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "13_T1_Peony Dancer_Rig__Idle",
         "13_T1_Peony Dancer_Rig__Walk",
-        "13_T1_Peony Dancer_Rig__Attack"
+        "13_T1_Peony Dancer_Rig__Attack",
+        "13_T1_Peony Dancer_Rig__Hit",
+        "13_T1_Peony Dancer_Rig__Block",
+        "13_T1_Peony Dancer_Rig__Defeat",
+        "13_T1_Peony Dancer_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "13_T2_Peony Dancer_Rig__Idle",
         "13_T2_Peony Dancer_Rig__Walk",
-        "13_T2_Peony Dancer_Rig__Attack"
+        "13_T2_Peony Dancer_Rig__Attack",
+        "13_T2_Peony Dancer_Rig__Hit",
+        "13_T2_Peony Dancer_Rig__Block",
+        "13_T2_Peony Dancer_Rig__Defeat",
+        "13_T2_Peony Dancer_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "13_T3_Peony Dancer_Rig__Idle",
         "13_T3_Peony Dancer_Rig__Walk",
-        "13_T3_Peony Dancer_Rig__Attack"
+        "13_T3_Peony Dancer_Rig__Attack",
+        "13_T3_Peony Dancer_Rig__Hit",
+        "13_T3_Peony Dancer_Rig__Block",
+        "13_T3_Peony Dancer_Rig__Defeat",
+        "13_T3_Peony Dancer_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

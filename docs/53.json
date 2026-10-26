@@ -14,7 +14,11 @@
       "actions": [
         "53_T1_Sun Immortal_Rig__Idle",
         "53_T1_Sun Immortal_Rig__Walk",
-        "53_T1_Sun Immortal_Rig__Attack"
+        "53_T1_Sun Immortal_Rig__Attack",
+        "53_T1_Sun Immortal_Rig__Hit",
+        "53_T1_Sun Immortal_Rig__Block",
+        "53_T1_Sun Immortal_Rig__Defeat",
+        "53_T1_Sun Immortal_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "53_T2_Sun Immortal_Rig__Idle",
         "53_T2_Sun Immortal_Rig__Walk",
-        "53_T2_Sun Immortal_Rig__Attack"
+        "53_T2_Sun Immortal_Rig__Attack",
+        "53_T2_Sun Immortal_Rig__Hit",
+        "53_T2_Sun Immortal_Rig__Block",
+        "53_T2_Sun Immortal_Rig__Defeat",
+        "53_T2_Sun Immortal_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "53_T3_Sun Immortal_Rig__Idle",
         "53_T3_Sun Immortal_Rig__Walk",
-        "53_T3_Sun Immortal_Rig__Attack"
+        "53_T3_Sun Immortal_Rig__Attack",
+        "53_T3_Sun Immortal_Rig__Hit",
+        "53_T3_Sun Immortal_Rig__Block",
+        "53_T3_Sun Immortal_Rig__Defeat",
+        "53_T3_Sun Immortal_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

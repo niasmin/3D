@@ -14,7 +14,11 @@
       "actions": [
         "49_T1_Emerald Cavalier_Rig__Idle",
         "49_T1_Emerald Cavalier_Rig__Walk",
-        "49_T1_Emerald Cavalier_Rig__Attack"
+        "49_T1_Emerald Cavalier_Rig__Attack",
+        "49_T1_Emerald Cavalier_Rig__Hit",
+        "49_T1_Emerald Cavalier_Rig__Block",
+        "49_T1_Emerald Cavalier_Rig__Defeat",
+        "49_T1_Emerald Cavalier_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "49_T2_Emerald Cavalier_Rig__Idle",
         "49_T2_Emerald Cavalier_Rig__Walk",
-        "49_T2_Emerald Cavalier_Rig__Attack"
+        "49_T2_Emerald Cavalier_Rig__Attack",
+        "49_T2_Emerald Cavalier_Rig__Hit",
+        "49_T2_Emerald Cavalier_Rig__Block",
+        "49_T2_Emerald Cavalier_Rig__Defeat",
+        "49_T2_Emerald Cavalier_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "49_T3_Emerald Cavalier_Rig__Idle",
         "49_T3_Emerald Cavalier_Rig__Walk",
-        "49_T3_Emerald Cavalier_Rig__Attack"
+        "49_T3_Emerald Cavalier_Rig__Attack",
+        "49_T3_Emerald Cavalier_Rig__Hit",
+        "49_T3_Emerald Cavalier_Rig__Block",
+        "49_T3_Emerald Cavalier_Rig__Defeat",
+        "49_T3_Emerald Cavalier_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

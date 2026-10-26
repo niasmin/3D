@@ -1,0 +1,3 @@
+# Preserve significant whitespace in generated third-party JavaScript strings.
+samkok/web/three/backend.js whitespace=-blank-at-eol linguist-generated=true
+samkok/web/three/game3d.js linguist-generated=true

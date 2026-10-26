@@ -14,7 +14,11 @@
       "actions": [
         "04_T1_Verdant Immortal_Rig__Idle",
         "04_T1_Verdant Immortal_Rig__Walk",
-        "04_T1_Verdant Immortal_Rig__Attack"
+        "04_T1_Verdant Immortal_Rig__Attack",
+        "04_T1_Verdant Immortal_Rig__Hit",
+        "04_T1_Verdant Immortal_Rig__Block",
+        "04_T1_Verdant Immortal_Rig__Defeat",
+        "04_T1_Verdant Immortal_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "04_T2_Verdant Immortal_Rig__Idle",
         "04_T2_Verdant Immortal_Rig__Walk",
-        "04_T2_Verdant Immortal_Rig__Attack"
+        "04_T2_Verdant Immortal_Rig__Attack",
+        "04_T2_Verdant Immortal_Rig__Hit",
+        "04_T2_Verdant Immortal_Rig__Block",
+        "04_T2_Verdant Immortal_Rig__Defeat",
+        "04_T2_Verdant Immortal_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "04_T3_Verdant Immortal_Rig__Idle",
         "04_T3_Verdant Immortal_Rig__Walk",
-        "04_T3_Verdant Immortal_Rig__Attack"
+        "04_T3_Verdant Immortal_Rig__Attack",
+        "04_T3_Verdant Immortal_Rig__Hit",
+        "04_T3_Verdant Immortal_Rig__Block",
+        "04_T3_Verdant Immortal_Rig__Defeat",
+        "04_T3_Verdant Immortal_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

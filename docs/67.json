@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "67_T1_Jade War God_Rig",
       "mesh": "67_T1_Jade War God_Mesh",
-      "vertices": 10286,
+      "vertices": 9221,
       "bones": 22,
       "actions": [
         "67_T1_Jade War God_Rig__Idle",
         "67_T1_Jade War God_Rig__Walk",
-        "67_T1_Jade War God_Rig__Attack"
+        "67_T1_Jade War God_Rig__Attack",
+        "67_T1_Jade War God_Rig__Hit",
+        "67_T1_Jade War God_Rig__Block",
+        "67_T1_Jade War God_Rig__Defeat",
+        "67_T1_Jade War God_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "67_T2_Jade War God_Rig",
       "mesh": "67_T2_Jade War God_Mesh",
-      "vertices": 11656,
+      "vertices": 10483,
       "bones": 22,
       "actions": [
         "67_T2_Jade War God_Rig__Idle",
         "67_T2_Jade War God_Rig__Walk",
-        "67_T2_Jade War God_Rig__Attack"
+        "67_T2_Jade War God_Rig__Attack",
+        "67_T2_Jade War God_Rig__Hit",
+        "67_T2_Jade War God_Rig__Block",
+        "67_T2_Jade War God_Rig__Defeat",
+        "67_T2_Jade War God_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "67_T3_Jade War God_Rig",
       "mesh": "67_T3_Jade War God_Mesh",
-      "vertices": 11890,
+      "vertices": 10609,
       "bones": 22,
       "actions": [
         "67_T3_Jade War God_Rig__Idle",
         "67_T3_Jade War God_Rig__Walk",
-        "67_T3_Jade War God_Rig__Attack"
+        "67_T3_Jade War God_Rig__Attack",
+        "67_T3_Jade War God_Rig__Hit",
+        "67_T3_Jade War God_Rig__Block",
+        "67_T3_Jade War God_Rig__Defeat",
+        "67_T3_Jade War God_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "34_T1_Jade Serpent_Rig__Idle",
         "34_T1_Jade Serpent_Rig__Walk",
-        "34_T1_Jade Serpent_Rig__Attack"
+        "34_T1_Jade Serpent_Rig__Attack",
+        "34_T1_Jade Serpent_Rig__Hit",
+        "34_T1_Jade Serpent_Rig__Block",
+        "34_T1_Jade Serpent_Rig__Defeat",
+        "34_T1_Jade Serpent_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "34_T2_Jade Serpent_Rig__Idle",
         "34_T2_Jade Serpent_Rig__Walk",
-        "34_T2_Jade Serpent_Rig__Attack"
+        "34_T2_Jade Serpent_Rig__Attack",
+        "34_T2_Jade Serpent_Rig__Hit",
+        "34_T2_Jade Serpent_Rig__Block",
+        "34_T2_Jade Serpent_Rig__Defeat",
+        "34_T2_Jade Serpent_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "34_T3_Jade Serpent_Rig__Idle",
         "34_T3_Jade Serpent_Rig__Walk",
-        "34_T3_Jade Serpent_Rig__Attack"
+        "34_T3_Jade Serpent_Rig__Attack",
+        "34_T3_Jade Serpent_Rig__Hit",
+        "34_T3_Jade Serpent_Rig__Block",
+        "34_T3_Jade Serpent_Rig__Defeat",
+        "34_T3_Jade Serpent_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

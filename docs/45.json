@@ -14,7 +14,11 @@
       "actions": [
         "45_T1_Forest Scholar_Rig__Idle",
         "45_T1_Forest Scholar_Rig__Walk",
-        "45_T1_Forest Scholar_Rig__Attack"
+        "45_T1_Forest Scholar_Rig__Attack",
+        "45_T1_Forest Scholar_Rig__Hit",
+        "45_T1_Forest Scholar_Rig__Block",
+        "45_T1_Forest Scholar_Rig__Defeat",
+        "45_T1_Forest Scholar_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "45_T2_Forest Scholar_Rig__Idle",
         "45_T2_Forest Scholar_Rig__Walk",
-        "45_T2_Forest Scholar_Rig__Attack"
+        "45_T2_Forest Scholar_Rig__Attack",
+        "45_T2_Forest Scholar_Rig__Hit",
+        "45_T2_Forest Scholar_Rig__Block",
+        "45_T2_Forest Scholar_Rig__Defeat",
+        "45_T2_Forest Scholar_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "45_T3_Forest Scholar_Rig__Idle",
         "45_T3_Forest Scholar_Rig__Walk",
-        "45_T3_Forest Scholar_Rig__Attack"
+        "45_T3_Forest Scholar_Rig__Attack",
+        "45_T3_Forest Scholar_Rig__Hit",
+        "45_T3_Forest Scholar_Rig__Block",
+        "45_T3_Forest Scholar_Rig__Defeat",
+        "45_T3_Forest Scholar_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "anonymous auth and isolated profiles",
+    "first cloud save",
+    "foreign private save is unreadable",
+    "foreign write rejected",
+    "stale revision preserves current save",
+    "one-time cross-device transfer and replay rejection",
+    "unsigned API client denied private saves"
+  ],
+  "productionTablesModified": false
+}

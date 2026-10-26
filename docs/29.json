@@ -14,7 +14,11 @@
       "actions": [
         "29_T1_Jade Ranger_Rig__Idle",
         "29_T1_Jade Ranger_Rig__Walk",
-        "29_T1_Jade Ranger_Rig__Attack"
+        "29_T1_Jade Ranger_Rig__Attack",
+        "29_T1_Jade Ranger_Rig__Hit",
+        "29_T1_Jade Ranger_Rig__Block",
+        "29_T1_Jade Ranger_Rig__Defeat",
+        "29_T1_Jade Ranger_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "29_T2_Jade Ranger_Rig__Idle",
         "29_T2_Jade Ranger_Rig__Walk",
-        "29_T2_Jade Ranger_Rig__Attack"
+        "29_T2_Jade Ranger_Rig__Attack",
+        "29_T2_Jade Ranger_Rig__Hit",
+        "29_T2_Jade Ranger_Rig__Block",
+        "29_T2_Jade Ranger_Rig__Defeat",
+        "29_T2_Jade Ranger_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "29_T3_Jade Ranger_Rig__Idle",
         "29_T3_Jade Ranger_Rig__Walk",
-        "29_T3_Jade Ranger_Rig__Attack"
+        "29_T3_Jade Ranger_Rig__Attack",
+        "29_T3_Jade Ranger_Rig__Hit",
+        "29_T3_Jade Ranger_Rig__Block",
+        "29_T3_Jade Ranger_Rig__Defeat",
+        "29_T3_Jade Ranger_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

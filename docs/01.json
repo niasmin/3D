@@ -14,7 +14,11 @@
       "actions": [
         "01_T1_Silver Phoenix_Rig__Idle",
         "01_T1_Silver Phoenix_Rig__Walk",
-        "01_T1_Silver Phoenix_Rig__Attack"
+        "01_T1_Silver Phoenix_Rig__Attack",
+        "01_T1_Silver Phoenix_Rig__Hit",
+        "01_T1_Silver Phoenix_Rig__Block",
+        "01_T1_Silver Phoenix_Rig__Defeat",
+        "01_T1_Silver Phoenix_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "01_T2_Silver Phoenix_Rig__Idle",
         "01_T2_Silver Phoenix_Rig__Walk",
-        "01_T2_Silver Phoenix_Rig__Attack"
+        "01_T2_Silver Phoenix_Rig__Attack",
+        "01_T2_Silver Phoenix_Rig__Hit",
+        "01_T2_Silver Phoenix_Rig__Block",
+        "01_T2_Silver Phoenix_Rig__Defeat",
+        "01_T2_Silver Phoenix_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "01_T3_Silver Phoenix_Rig__Idle",
         "01_T3_Silver Phoenix_Rig__Walk",
-        "01_T3_Silver Phoenix_Rig__Attack"
+        "01_T3_Silver Phoenix_Rig__Attack",
+        "01_T3_Silver Phoenix_Rig__Hit",
+        "01_T3_Silver Phoenix_Rig__Block",
+        "01_T3_Silver Phoenix_Rig__Defeat",
+        "01_T3_Silver Phoenix_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

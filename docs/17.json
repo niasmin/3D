@@ -14,7 +14,11 @@
       "actions": [
         "17_T1_River Strategist_Rig__Idle",
         "17_T1_River Strategist_Rig__Walk",
-        "17_T1_River Strategist_Rig__Attack"
+        "17_T1_River Strategist_Rig__Attack",
+        "17_T1_River Strategist_Rig__Hit",
+        "17_T1_River Strategist_Rig__Block",
+        "17_T1_River Strategist_Rig__Defeat",
+        "17_T1_River Strategist_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "17_T2_River Strategist_Rig__Idle",
         "17_T2_River Strategist_Rig__Walk",
-        "17_T2_River Strategist_Rig__Attack"
+        "17_T2_River Strategist_Rig__Attack",
+        "17_T2_River Strategist_Rig__Hit",
+        "17_T2_River Strategist_Rig__Block",
+        "17_T2_River Strategist_Rig__Defeat",
+        "17_T2_River Strategist_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "17_T3_River Strategist_Rig__Idle",
         "17_T3_River Strategist_Rig__Walk",
-        "17_T3_River Strategist_Rig__Attack"
+        "17_T3_River Strategist_Rig__Attack",
+        "17_T3_River Strategist_Rig__Hit",
+        "17_T3_River Strategist_Rig__Block",
+        "17_T3_River Strategist_Rig__Defeat",
+        "17_T3_River Strategist_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

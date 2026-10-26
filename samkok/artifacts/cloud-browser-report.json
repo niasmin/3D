@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "browser cloud upload",
+    "reload preserves cloud/local progress",
+    "remote choice with local backup",
+    "explicit local choice resolves conflict",
+    "one-time transfer through the actual mobile UI"
+  ],
+  "pageErrors": [],
+  "isolatedTablesOnly": true
+}

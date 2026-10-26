@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "60_T1_Garden Princess_Rig",
       "mesh": "60_T1_Garden Princess_Mesh",
-      "vertices": 8816,
+      "vertices": 9210,
       "bones": 22,
       "actions": [
         "60_T1_Garden Princess_Rig__Idle",
         "60_T1_Garden Princess_Rig__Walk",
-        "60_T1_Garden Princess_Rig__Attack"
+        "60_T1_Garden Princess_Rig__Attack",
+        "60_T1_Garden Princess_Rig__Hit",
+        "60_T1_Garden Princess_Rig__Block",
+        "60_T1_Garden Princess_Rig__Defeat",
+        "60_T1_Garden Princess_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "60_T2_Garden Princess_Rig",
       "mesh": "60_T2_Garden Princess_Mesh",
-      "vertices": 9356,
+      "vertices": 9750,
       "bones": 22,
       "actions": [
         "60_T2_Garden Princess_Rig__Idle",
         "60_T2_Garden Princess_Rig__Walk",
-        "60_T2_Garden Princess_Rig__Attack"
+        "60_T2_Garden Princess_Rig__Attack",
+        "60_T2_Garden Princess_Rig__Hit",
+        "60_T2_Garden Princess_Rig__Block",
+        "60_T2_Garden Princess_Rig__Defeat",
+        "60_T2_Garden Princess_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "60_T3_Garden Princess_Rig",
       "mesh": "60_T3_Garden Princess_Mesh",
-      "vertices": 9464,
+      "vertices": 9858,
       "bones": 22,
       "actions": [
         "60_T3_Garden Princess_Rig__Idle",
         "60_T3_Garden Princess_Rig__Walk",
-        "60_T3_Garden Princess_Rig__Attack"
+        "60_T3_Garden Princess_Rig__Attack",
+        "60_T3_Garden Princess_Rig__Hit",
+        "60_T3_Garden Princess_Rig__Block",
+        "60_T3_Garden Princess_Rig__Defeat",
+        "60_T3_Garden Princess_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "41_T1_Elder Archer_Rig__Idle",
         "41_T1_Elder Archer_Rig__Walk",
-        "41_T1_Elder Archer_Rig__Attack"
+        "41_T1_Elder Archer_Rig__Attack",
+        "41_T1_Elder Archer_Rig__Hit",
+        "41_T1_Elder Archer_Rig__Block",
+        "41_T1_Elder Archer_Rig__Defeat",
+        "41_T1_Elder Archer_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "41_T2_Elder Archer_Rig__Idle",
         "41_T2_Elder Archer_Rig__Walk",
-        "41_T2_Elder Archer_Rig__Attack"
+        "41_T2_Elder Archer_Rig__Attack",
+        "41_T2_Elder Archer_Rig__Hit",
+        "41_T2_Elder Archer_Rig__Block",
+        "41_T2_Elder Archer_Rig__Defeat",
+        "41_T2_Elder Archer_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "41_T3_Elder Archer_Rig__Idle",
         "41_T3_Elder Archer_Rig__Walk",
-        "41_T3_Elder Archer_Rig__Attack"
+        "41_T3_Elder Archer_Rig__Attack",
+        "41_T3_Elder Archer_Rig__Hit",
+        "41_T3_Elder Archer_Rig__Block",
+        "41_T3_Elder Archer_Rig__Defeat",
+        "41_T3_Elder Archer_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

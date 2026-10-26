@@ -14,7 +14,11 @@
       "actions": [
         "14_T1_Ember Lion_Rig__Idle",
         "14_T1_Ember Lion_Rig__Walk",
-        "14_T1_Ember Lion_Rig__Attack"
+        "14_T1_Ember Lion_Rig__Attack",
+        "14_T1_Ember Lion_Rig__Hit",
+        "14_T1_Ember Lion_Rig__Block",
+        "14_T1_Ember Lion_Rig__Defeat",
+        "14_T1_Ember Lion_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "14_T2_Ember Lion_Rig__Idle",
         "14_T2_Ember Lion_Rig__Walk",
-        "14_T2_Ember Lion_Rig__Attack"
+        "14_T2_Ember Lion_Rig__Attack",
+        "14_T2_Ember Lion_Rig__Hit",
+        "14_T2_Ember Lion_Rig__Block",
+        "14_T2_Ember Lion_Rig__Defeat",
+        "14_T2_Ember Lion_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "14_T3_Ember Lion_Rig__Idle",
         "14_T3_Ember Lion_Rig__Walk",
-        "14_T3_Ember Lion_Rig__Attack"
+        "14_T3_Ember Lion_Rig__Attack",
+        "14_T3_Ember Lion_Rig__Hit",
+        "14_T3_Ember Lion_Rig__Block",
+        "14_T3_Ember Lion_Rig__Defeat",
+        "14_T3_Ember Lion_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

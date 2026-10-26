@@ -14,7 +14,7 @@ for path in sorted((ROOT/'assets').glob('[0-9][0-9].blend')):
   ob=meshes[0];weights=all(len(v.groups)>0 for v in ob.data.vertices)
   group_bones=all(g.name in rig.data.bones for g in ob.vertex_groups)
   detail={'rig':rig.name,'weighted_vertices':'PASS' if weights and group_bones else 'FAIL','bones':len(rig.data.bones),'animations':{}}
-  for name in ('Idle','Walk','Attack'):
+  for name in ('Idle','Walk','Attack','Hit','Block','Defeat','Victory'):
    act=bpy.data.actions.get(rig.name+'__'+name)
    if not act:detail['animations'][name]={'status':'FAIL','reason':'missing action'};continue
    rig.animation_data.action=act

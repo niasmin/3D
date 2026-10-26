@@ -14,7 +14,11 @@
       "actions": [
         "36_T1_Violet Chancellor_Rig__Idle",
         "36_T1_Violet Chancellor_Rig__Walk",
-        "36_T1_Violet Chancellor_Rig__Attack"
+        "36_T1_Violet Chancellor_Rig__Attack",
+        "36_T1_Violet Chancellor_Rig__Hit",
+        "36_T1_Violet Chancellor_Rig__Block",
+        "36_T1_Violet Chancellor_Rig__Defeat",
+        "36_T1_Violet Chancellor_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "36_T2_Violet Chancellor_Rig__Idle",
         "36_T2_Violet Chancellor_Rig__Walk",
-        "36_T2_Violet Chancellor_Rig__Attack"
+        "36_T2_Violet Chancellor_Rig__Attack",
+        "36_T2_Violet Chancellor_Rig__Hit",
+        "36_T2_Violet Chancellor_Rig__Block",
+        "36_T2_Violet Chancellor_Rig__Defeat",
+        "36_T2_Violet Chancellor_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "36_T3_Violet Chancellor_Rig__Idle",
         "36_T3_Violet Chancellor_Rig__Walk",
-        "36_T3_Violet Chancellor_Rig__Attack"
+        "36_T3_Violet Chancellor_Rig__Attack",
+        "36_T3_Violet Chancellor_Rig__Hit",
+        "36_T3_Violet Chancellor_Rig__Block",
+        "36_T3_Violet Chancellor_Rig__Defeat",
+        "36_T3_Violet Chancellor_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

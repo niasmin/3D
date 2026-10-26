@@ -14,7 +14,11 @@
       "actions": [
         "48_T1_Jade Dragon_Rig__Idle",
         "48_T1_Jade Dragon_Rig__Walk",
-        "48_T1_Jade Dragon_Rig__Attack"
+        "48_T1_Jade Dragon_Rig__Attack",
+        "48_T1_Jade Dragon_Rig__Hit",
+        "48_T1_Jade Dragon_Rig__Block",
+        "48_T1_Jade Dragon_Rig__Defeat",
+        "48_T1_Jade Dragon_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "48_T2_Jade Dragon_Rig__Idle",
         "48_T2_Jade Dragon_Rig__Walk",
-        "48_T2_Jade Dragon_Rig__Attack"
+        "48_T2_Jade Dragon_Rig__Attack",
+        "48_T2_Jade Dragon_Rig__Hit",
+        "48_T2_Jade Dragon_Rig__Block",
+        "48_T2_Jade Dragon_Rig__Defeat",
+        "48_T2_Jade Dragon_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "48_T3_Jade Dragon_Rig__Idle",
         "48_T3_Jade Dragon_Rig__Walk",
-        "48_T3_Jade Dragon_Rig__Attack"
+        "48_T3_Jade Dragon_Rig__Attack",
+        "48_T3_Jade Dragon_Rig__Hit",
+        "48_T3_Jade Dragon_Rig__Block",
+        "48_T3_Jade Dragon_Rig__Defeat",
+        "48_T3_Jade Dragon_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

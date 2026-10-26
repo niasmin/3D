@@ -17,8 +17,8 @@
 <meta property="og:url" content="https://niasmin.github.io/3D/">
 <meta name="twitter:card" content="summary_large_image">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
-<script>if('serviceWorker' in navigator && location.protocol==='https:') addEventListener('load',()=>navigator.serviceWorker.register('sw.js?b=samkok3d-2').catch(()=>{}));</script>
-<script src="three/config.js"></script></head><body><title>ขุนพลสามก๊ก 3D</title>
+<script>if('serviceWorker' in navigator && location.protocol==='https:') addEventListener('load',()=>navigator.serviceWorker.register('sw.js?b=samkok3d-3').catch(()=>{}));</script>
+<script src="three/config.js?v=3"></script></head><body><title>ขุนพลสามก๊ก 3D</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1305,7 +1305,7 @@ details.bonus summary{cursor:pointer;list-style:revert}
 .city.c2>.hs{z-index:2}
 .city.c2>.svig{background:radial-gradient(ellipse 90% 80% at 50% 50%,transparent 60%,rgba(10,4,2,.35))}
 @media (prefers-reduced-motion:reduce){#view.vt-in,.battle,.battle.intro .u,.bcry b,.u.cheer,.result.rwin .panel::before{animation:none!important}}
-</style><link rel="stylesheet" href="three/game3d.css?v=2">
+</style><link rel="stylesheet" href="three/game3d.css?v=3">
 
 <div id="boot" role="status" aria-live="polite"><img class="blogo" src="ui/logo.webp" alt="ขุนพลสามก๊ก" width="800" height="452"><div class="bbar"><i id="bootbar"></i></div><small id="boottxt">กำลังโหลดภาพ…</small></div>
 <div id="app">
@@ -1797,7 +1797,7 @@ const SLOT_KEY=i=>SAVE_KEY+'-slot'+i;
 // Anyone who reads the page source could forge one, which is fine for a free game with no real-money items.
 const CP_SALT='kunphon-coupon-v1', CP_ABC='0123456789ABCDEFGHJKMNPQRSTVWXYZ', CP_EPOCH=Date.UTC(2026,0,1);
 // coupon creation lives on the server (admin_create_coupons); the admin form only shows on <game url>#admin
-const isAdminView = () => { try{ return /admin/.test(location.hash) }catch(e){ return false } };
+const isAdminView = () => { if(window.SAMKOK_3D_CONFIG?.edition==='3d')return false;try{ return /admin/.test(location.hash) }catch(e){ return false } };
 const fnv32 = t => { let h=0x811c9dc5; for(const c of t){ h^=c.charCodeAt(0); h=Math.imul(h,0x01000193)>>>0 } return h };
 const CP_FIELDS=[['gems',16,10],['gold',12,1000],['exp',12,1000],['tickets',6,1],['potions',6,1],['chest',2,1],['until',12,1],['nonce',8,1]];
 const NAMED_CODES={
@@ -1888,10 +1888,12 @@ function viewSave(){
   const t=SAVED_AT?new Date(SAVED_AT).toLocaleTimeString('th-TH',{hour:'2-digit',minute:'2-digit',second:'2-digit'}):'—';
   return `${back()}
   <h1 class="h">บันทึกเกม</h1>
+  ${cloudPanel()}
   ${(()=>{const k=UI.svtab||'save';return `<div class="subtabs t3">${[['save','บันทึก'],['acct','บัญชี'],['info','ข้อมูล']].map(([x,l])=>`<button data-act="svtab" data-k="${x}" aria-pressed="${k===x}">${l}</button>`).join('')}</div>`})()}
   ${(UI.svtab||'save')==='save'?`
   <div class="panel item"><span class="ic">存</span><div><b>บันทึกอัตโนมัติ: เปิดอยู่</b><p>เกมบันทึกลงเครื่องทุกครั้งที่ท่านทำอะไร ล่าสุด ${t}</p></div>
     <button class="btn" data-act="savenow">บันทึกเลย</button></div>
+  ${cloudBackup()?`<div class="panel"><b>เซฟสำรองก่อนเปลี่ยนคลาวด์/ย้ายเครื่อง</b> <button class="btn small" data-act="cloud3d-backup">เรียกเซฟสำรอง</button></div>`:''}
   <h2 class="h" style="font-size:18px">ช่องบันทึก</h2>
   ${[0,1,2].map(i=>{const x=slotInfo(i), ask=UI.ask===`load${i}`;
     return `<div class="panel slotrow"><div><b>ช่อง ${i+1}</b><p>${x?`${new Date(x.ts).toLocaleString('th-TH',{dateStyle:'short',timeStyle:'short'})} · ${saveSummary(x.data)}`:'ว่าง'}</p></div>
@@ -1908,20 +1910,20 @@ function viewSave(){
   </div>
   <div class="note">ช่องบันทึกเก็บไว้ในเบราว์เซอร์เครื่องนี้ ถ้าล้างข้อมูลเว็บจะหายไป ควรคัดลอกรหัสเก็บไว้ด้วย</div>`:''}
   ${UI.svtab==='acct'?`
-  ${SB?`<h2 class="h" style="font-size:18px">บัญชีออนไลน์</h2>
+  ${SB?`<h2 class="h" style="font-size:18px">บัญชีออนไลน์</h2><div class="note">บัญชีผู้เล่นของเบราว์เซอร์นี้ · เก็บรหัสย้ายเครื่องก่อนล้างข้อมูลเว็บหรือเปลี่ยนอุปกรณ์</div>
   <div class="panel cpbox">
     <div class="cprow"><input id="pnamein" maxlength="24" value="${esc(S.pname||'')}" aria-label="ชื่อในเกม" placeholder="ชื่อในเกม"><button class="btn" data-act="setname">ตั้งชื่อ</button></div>
     <p style="margin:8px 0 0">${NET.on?`เซฟคลาวด์: ${CLOUD.at?`ล่าสุด ${new Date(CLOUD.at).toLocaleTimeString('th-TH',{hour:'2-digit',minute:'2-digit'})}`:'รอบันทึกครั้งแรก'}${CLOUD.err?` · ผิดพลาด: ${esc(CLOUD.err)}`:''}`:`ออฟไลน์${NET.sbErr?` (${esc(NET.sbErr)})`:''}`}</p>
-    <div class="cprow" style="margin-top:8px"><button class="btn small" data-act="mktransfer" ${NET.on?'':'disabled'}>สร้างรหัสย้ายเครื่อง (8 ตัว)</button>${UI.tcode?`<b class="tcode">${UI.tcode}</b>`:''}</div>
-    <p class="cpnote">ใช้ได้ครั้งเดียวภายใน 24 ชั่วโมง กรอกในเครื่องใหม่ด้านล่าง</p>
-    <div class="cprow"><input id="tclaim" maxlength="12" placeholder="กรอกรหัสย้ายเครื่อง" aria-label="รหัสย้ายเครื่อง"><button class="btn ${UI.ask==='claim'?'red':''}" data-act="claimtransfer" ${NET.on?'':'disabled'}>${UI.ask==='claim'?'ยืนยัน แทนที่เกมนี้':'รับเซฟ'}</button></div>
+    <div class="cprow" style="margin-top:8px"><button class="btn small" data-act="mktransfer" ${NET.on?'':'disabled'}>สร้างรหัสย้ายเครื่อง</button>${UI.tcode?`<b class="tcode">${UI.tcode}</b>`:''}</div>
+    <p class="cpnote">ใช้ได้ครั้งเดียวภายใน 20 นาที กรอกในเครื่องใหม่ด้านล่าง</p>
+    <div class="cprow"><input id="tclaim" maxlength="18" placeholder="กรอกรหัสย้ายเครื่อง" aria-label="รหัสย้ายเครื่อง"><button class="btn ${UI.ask==='claim'?'red':''}" data-act="claimtransfer" ${NET.on?'':'disabled'}>${UI.ask==='claim'?'ยืนยัน แทนที่เกมนี้':'รับเซฟ'}</button></div>
   </div>`:''}
   <button class="panel cplink" data-go="coupon">🎟 มีโค้ดคูปอง? แตะเพื่อใส่โค้ดรับรางวัล</button>
   ${SB?`<h2 class="h" style="font-size:18px">ส่งความเห็นถึงผู้พัฒนา</h2>
   <div class="panel cpbox"><p style="margin:0 0 6px">ติดด่านไหน เบื่อตรงไหน อยากได้อะไรเพิ่ม เล่าได้เลย</p>
     <textarea id="fbtext" class="code" rows="3" maxlength="1000" placeholder="พิมพ์ความเห็น…" style="font:14px system-ui"></textarea>
     <button class="btn red small" data-act="sendfb" style="margin-top:6px" ${NET.on?'':'disabled'}>ส่งความเห็น</button></div>`:''}
-  ${SB?'':'<div class="note">บัญชีออนไลน์ เซฟคลาวด์ และส่งความเห็น มีในเวอร์ชันเว็บ niasmin.github.io/samkok</div>'}`:''}
+  ${SB?'':'<div class="note">ออนไลน์และคลาวด์เซฟของเกม 3D กำลังเชื่อมต่อ หรืออยู่ในโหมดออฟไลน์</div>'}`:''}
   ${UI.svtab==='info'?`
   <h2 class="h" style="font-size:18px">ความเป็นส่วนตัว</h2>
   <div class="panel privacy">
@@ -2662,44 +2664,80 @@ async function initNet(){
 // ---------- Supabase backend (web build outside Claude) ----------
 const SB_URL='https://wkbpbihsdymjwapqgvpp.supabase.co', SB_KEY='sb_publishable_ijZfKYH1VFsmd4BOIsL5oQ_GTCWQlUn';
 let SB=null, cloudT=0;
-const CLOUD={at:0, err:''};
+const CLOUD={at:0,err:'',rev:0,ready:false,conflict:false,remote:null,saving:false,pending:false};
+function cloudStatus(){ window.dispatchEvent(new CustomEvent('samkok:cloud-status')); }
+function cloudBackup(){try{return JSON.parse(localStorage.getItem(SAVE_KEY+'-cloud-backup')||'null')}catch(_){return null}}
+function keepCloudBackup(data){try{localStorage.setItem(SAVE_KEY+'-cloud-backup',JSON.stringify({ts:Date.now(),data}))}catch(_){}}
+function cloudPanel(){
+  if(!window.SAMKOK_3D_CONFIG?.online) return `<div class="note">เล่นออฟไลน์ · เซฟอยู่ในเครื่อง <button class="btn small" data-act="cloud3d-connect">เชื่อมต่อออนไลน์</button></div>`;
+  if(CLOUD.conflict) return `<div class="panel cloud-conflict" role="alert"><b>พบเซฟคลาวด์ที่ใหม่กว่า</b><p>เซฟในเครื่องยังเก็บไว้ เลือกว่าจะเล่นต่อจากเซฟใดก่อนบันทึกทับ</p><button class="btn" data-act="cloud3d-remote">ใช้เซฟคลาวด์</button> <button class="btn ghost" data-act="cloud3d-local">ใช้เซฟเครื่องนี้แทน</button></div>`;
+  return `<div class="note" role="status">${NET.on?'ออนไลน์ · '+(CLOUD.at?'บันทึกคลาวด์แล้ว':'รอบันทึกคลาวด์'):NET.sbErr?'เชื่อมต่อไม่ได้ · เซฟในเครื่องยังอยู่':'กำลังเชื่อมต่อออนไลน์…'}${CLOUD.err?' · '+esc(CLOUD.err):''} <button class="btn small" data-act="cloud3d-connect">เชื่อมต่อใหม่</button> <button class="btn small ghost" data-act="cloud3d-offline">เล่นออฟไลน์</button></div>`;
+}
+function rememberCloudRevision(revision){ CLOUD.rev=Number(revision)||0;try{localStorage.setItem(SAVE_KEY+'-cloud-revision',String(CLOUD.rev))}catch(_){} }
+async function readCloud(){const r=await SB.from('samkok3d_saves').select('data,revision,updated_at').eq('user_id',NET.me).maybeSingle();if(r.error)throw r.error;return r.data;}
 async function initSupabase(){
   if(NET.started) return; NET.started=true;
   try{
-    const {createClient}=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3/+esm');
-    SB=createClient(SB_URL, SB_KEY, {auth:{persistSession:true, storageKey:'samkok3d-sb-auth'}});
-    let {data:{session}}=await SB.auth.getSession();
-    if(!session){ const r=await SB.auth.signInAnonymously(); if(r.error) throw r.error; session=r.data.session }
-    NET.me=session.user.id; NET.sb=true;
-    if(!S.pname) { S.pname='ท่านเจ้าเมือง'+NET.me.slice(0,4).toUpperCase(); save() }
-    NET.db={doc:()=>({set:async d=>{ const {error}=await SB.from('players').upsert({id:NET.me, name:S.pname, doc:d}); if(error) throw error }})};
+    const {createClient}=await import('./three/backend.js?v=3');
+    const timedFetch=async(input,options={})=>{const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),15000),cancel=()=>controller.abort();options.signal?.addEventListener('abort',cancel,{once:true});try{return await fetch(input,{...options,signal:controller.signal})}finally{clearTimeout(timer);options.signal?.removeEventListener('abort',cancel)}};
+    SB=createClient(SB_URL, SB_KEY, {auth:{persistSession:true, storageKey:'samkok3d-sb-auth'},global:{fetch:timedFetch}});
+    let {data:{session},error}=await SB.auth.getSession();if(error)throw error;
+    if(!session){const r=await SB.auth.signInAnonymously();if(r.error)throw r.error;session=r.data.session;}
+    NET.me=session.user.id;NET.sb=true;
+    let hadLocal=false,known=0;const bootSnapshot=JSON.stringify(S);try{hadLocal=!!localStorage.getItem(SAVE_KEY);known=Number(localStorage.getItem(SAVE_KEY+'-cloud-revision'))||0;}catch(_){}
+    const remote=await readCloud();
+    if(remote){
+      if(!hadLocal&&JSON.stringify(S)===bootSnapshot){S=migrate(remote.data);rememberCloudRevision(remote.revision);try{localStorage.setItem(SAVE_KEY,JSON.stringify(S))}catch(_){}}
+      else if(Number(remote.revision)>known){CLOUD.conflict=true;CLOUD.remote=remote;}
+      else rememberCloudRevision(remote.revision);
+    }else rememberCloudRevision(0);
+    CLOUD.ready=!CLOUD.conflict;
+    if(!S.pname)S.pname='ท่านเจ้าเมือง'+NET.me.slice(0,4).toUpperCase();
+    NET.db={doc:()=>({set:async d=>{const {error}=await SB.from('samkok3d_players').upsert({id:NET.me,name:S.pname.slice(0,24),doc:{...d,msgs:[]}});if(error)throw error;}})};
     NET.on=true;
     const poll=async()=>{
-      const {data,error}=await SB.from('players').select('id,name,doc,updated_at')
-        .gte('updated_at', new Date(Date.now()-30*864e5).toISOString()).order('updated_at',{ascending:false}).limit(300);
-      if(error) return;
-      const next={}, names={}, online=[], now=Date.now();
-      for(const r of data){ next[r.id]=r.doc||{}; names[r.id]={name:r.name}; if(now-Date.parse(r.updated_at)<3*60e3) online.push({by:r.id, isMe:r.id===NET.me, kind:'viewer'}) }
-      NET.players=next; NET.names=names; NET.online=online;
-      if(!NET.loaded){ const mine=next[NET.me]; if(mine){ NET.msgs=[...(mine.msgs||[])]; NET.hits=[...(mine.hits||[])] } NET.loaded=true; syncSoon() }
-      netRender();
+      const {data,error}=await SB.from('samkok3d_players').select('id,name,doc,updated_at').gte('updated_at',new Date(Date.now()-30*864e5).toISOString()).order('updated_at',{ascending:false}).limit(300);
+      if(error){NET.on=false;NET.sbErr='เครือข่ายไม่พร้อม';cloudStatus();return;}
+      NET.on=true;NET.sbErr='';const next={},names={},online=[],now=Date.now();
+      for(const r of data){next[r.id]=r.doc||{};names[r.id]={name:r.name};if(now-Date.parse(r.updated_at)<180000)online.push({by:r.id,isMe:r.id===NET.me,kind:'viewer'});}
+      const messages=await SB.from('samkok3d_messages').select('sender_id,channel,body,created_at').order('created_at',{ascending:false}).limit(40);
+      if(!messages.error)for(const m of messages.data){if(next[m.sender_id]){next[m.sender_id].msgs=next[m.sender_id].msgs||[];next[m.sender_id].msgs.push({c:m.channel,t:m.body,ts:Date.parse(m.created_at)});}}
+      const changed=JSON.stringify(next)!==JSON.stringify(NET.players);NET.players=next;NET.names=names;NET.online=online;
+      if(!NET.loaded){const mine=next[NET.me];if(mine){NET.msgs=[...(mine.msgs||[])];NET.hits=[...(mine.hits||[])];}NET.loaded=true;syncSoon();}
+      if(changed&&tab!=='city')netRender();cloudStatus();
     };
-    await poll();
-    setInterval(()=>{ if(!document.hidden) poll() }, 10000);
-    setInterval(()=>{ if(!document.hidden){ NET.lastJSON=''; syncSoon() } }, 90000); // heartbeat: shows us online
-    document.addEventListener('visibilitychange',()=>{ if(document.hidden) cloudSave() });
-    cloudSaveSoon(); track('session'); render();
-  }catch(e){ NET.on=false; NET.sbErr=String(e?.message||e); render() }
+    await poll();setInterval(()=>{if(!document.hidden)poll();},10000);
+    setInterval(()=>{if(!document.hidden){NET.lastJSON='';syncSoon();}},90000);
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)cloudSave();});
+    window.addEventListener('online',()=>{poll();cloudSaveSoon();});
+    if(CLOUD.ready){save();cloudSaveSoon();}if(!$('#layer').innerHTML)render();cloudStatus();
+  }catch(e){NET.on=false;NET.sbErr='เชื่อมต่อออนไลน์ไม่ได้ กรุณาลองใหม่';CLOUD.ready=false;render();cloudStatus();}
 }
-function track(kind, stage){ if(SB&&NET.me) SB.from('play_events').insert({kind, stage:stage??S.stage, power:Math.round(teamPower())}).then(()=>{},()=>{}) }
+function track(){} // Gameplay telemetry is not sent to the upstream edition.
 async function cloudSave(){
-  if(!SB||!NET.me) return; clearTimeout(cloudT);
-  const {error}=await SB.from('saves').upsert({user_id:NET.me, data:S});
-  if(error) CLOUD.err=error.message; else { CLOUD.at=Date.now(); CLOUD.err='' }
+  if(!SB||!NET.me||!CLOUD.ready||CLOUD.conflict)return false;clearTimeout(cloudT);
+  if(CLOUD.saving){CLOUD.pending=true;return false;}CLOUD.saving=true;
+  try{
+    const snapshot=JSON.parse(JSON.stringify(S));try{localStorage.setItem(SAVE_KEY,JSON.stringify(snapshot));SAVED_AT=Date.now();}catch(_){}
+    const {data,error}=await SB.rpc('save_3d_game',{p_data:snapshot,p_revision:CLOUD.rev});
+    if(data?.conflict){CLOUD.conflict=true;CLOUD.ready=false;CLOUD.remote=await readCloud();CLOUD.err='พบเซฟชนกัน กรุณาเลือกเซฟ';return false;}
+    if(error){
+      if(error.code==='40001'){CLOUD.conflict=true;CLOUD.ready=false;CLOUD.remote=await readCloud();CLOUD.err='พบเซฟชนกัน กรุณาเลือกเซฟ';}
+      else CLOUD.err='บันทึกคลาวด์ไม่ได้ · เซฟในเครื่องยังอยู่';
+      return false;
+    }
+    rememberCloudRevision(data.revision);CLOUD.at=Date.now();CLOUD.err='';return true;
+  }catch(e){CLOUD.err='บันทึกคลาวด์ไม่ได้ · เซฟในเครื่องยังอยู่';return false;}
+  finally{CLOUD.saving=false;cloudStatus();if(CLOUD.pending){CLOUD.pending=false;cloudSaveSoon();}}
 }
-function cloudSaveSoon(){ if(!SB||!NET.me) return; clearTimeout(cloudT); cloudT=setTimeout(cloudSave, 15000) }
+function cloudSaveSoon(){if(!SB||!NET.me||!CLOUD.ready||CLOUD.conflict)return;clearTimeout(cloudT);cloudT=setTimeout(cloudSave,4000);}
+async function chooseCloud(useRemote){
+  if(!SB||!CLOUD.conflict)return;const remote=await readCloud();
+  keepCloudBackup(useRemote?S:remote?.data||S);if(useRemote&&remote){S=migrate(remote.data);}
+  rememberCloudRevision(remote?.revision||0);CLOUD.conflict=false;CLOUD.remote=null;CLOUD.ready=true;CLOUD.err='';save();if(!useRemote)await cloudSave();render();cloudStatus();
+}
 function sendTab(){ if(NET.room && NET.tabSent!==tab){ NET.tabSent=tab; NET.room.presence({tab}).catch(()=>{}) } }
-const netNote = () => NET.sbErr ? 'เชื่อมต่อเซิร์ฟเวอร์ไม่ได้ ตอนนี้เล่นแบบออฟไลน์' : NET.sb ? '' : NET.on ? (NET.ro ? 'บัญชีนี้ดูได้อย่างเดียว ทัพของท่านจะไม่ถูกส่งให้ผู้เล่นอื่น' : '') : 'โหมดออฟไลน์: เปิดเกมผ่านลิงก์ที่แชร์และเข้าสู่ระบบ claude.ai เพื่อเล่นกับผู้เล่นจริง';
+const netNote = () => NET.sbErr ? 'เชื่อมต่อเซิร์ฟเวอร์ไม่ได้ ตอนนี้เล่นแบบออฟไลน์' : NET.sb ? '' : NET.on ? (NET.ro ? 'บัญชีนี้ดูได้อย่างเดียว ทัพของท่านจะไม่ถูกส่งให้ผู้เล่นอื่น' : '') : 'โหมดออฟไลน์ · เซฟในเครื่องยังใช้งานได้ เชื่อมต่ออินเทอร์เน็ตเพื่อใช้คลาวด์ แชต และคู่ต่อสู้ผู้เล่นจริง';
 
 // chat: world channel and guild channel, messages live in each sender's own document
 let chatCh='w', chatDraft='';
@@ -2720,6 +2758,7 @@ function chatLogHTML(){
   return ls.map(l=>`<div class="msg ${l.id===NET.me?'mine':''}"><b>${esc(l.id===NET.me?'ท่าน':pname(l.id))}</b><span>${esc(l.t)}</span><small>${new Date(l.ts).toLocaleTimeString('th-TH',{hour:'2-digit',minute:'2-digit'})}</small></div>`).join('');
 }
 function viewChat(){
+  if(chatCh==='g'&&S.guild.id===null)chatCh='w';
   const onl=NET.online;
   return `${back()}
   <div class="pic chath"><h1 class="vh">แชต</h1><span class="ov o-chat">แชต · ออนไลน์ ${onl.length} คน</span></div>
@@ -2734,7 +2773,8 @@ function viewChat(){
 function sendChat(){
   const t=chatDraft.trim(); if(!t||!NET.on||NET.ro) return;
   if(!S.chatFriendDate || S.chatFriendDate!==today()){ S.chatFriendDate=today(); S.friend+=5; save() } // first chat of the day
-  NET.msgs=[...NET.msgs, {c:chatCh, t:t.slice(0,140), ts:Date.now()}].slice(-6);
+  NET.msgs=[...NET.msgs, {c:chatCh,t:t.slice(0,140),ts:Date.now()}].slice(-6);
+  if(NET.sb){const channel=chatCh;chatDraft='';NET.db.doc('players/'+NET.me).set(myDoc()).then(()=>SB.from('samkok3d_messages').insert({sender_id:NET.me,channel,guild_id:channel==='g'?S.guild.id:null,body:t.slice(0,140)})).then(({error})=>{if(error)toast('ส่งข้อความไม่สำเร็จ');else render();}).catch(()=>toast('ส่งข้อความไม่สำเร็จ'));return;}
   chatDraft=''; syncSoon(); clearTimeout(NET.timer);
   // send chat right away rather than after the usual pause
   const d=myDoc(); NET.db.doc('players/'+NET.me).set(d).then(()=>{NET.lastJSON=JSON.stringify(d)}).catch(()=>{});
@@ -3570,7 +3610,7 @@ function fireSkill(){
 }
 function skip(){ if(!B||B.done) return; clearTimeout(B.timer); while(B.i<B.res.actions.length) applyHits(B.res.actions[B.i++],false); finish() }
 function finish(){
-  if(B.done) return; B.done=true; $('.battle')?.classList?.remove('intro');
+  if(B.done) return; B.done=true;window.Samkok3D?.outcome(B.res.winner); $('.battle')?.classList?.remove('intro');
   const win=B.res.winner==='p', tower=B.mode==='tower', arena=B.mode==='arena', raid=B.mode==='raid', story=B.mode==='story', train=B.mode==='train', trial=B.mode==='trial';
   let rwHTML='';
   const drop = g => g?`<span style="color:${QUAL[g.q].c}">${esc(gearName(g))}</span>`:'';
@@ -3823,8 +3863,8 @@ document.addEventListener('click',e=>{
       case 'more': UI.more=!UI.more; render(); return;
       case 'stab': UI.stab=act.dataset.k; render(); return;
       case 'chathint': { const i=$('#chatin'); if(i&&!i.disabled){ chatDraft=act.dataset.t; i.value=chatDraft; i.focus() } else toast('เปิดในโหมดออนไลน์เพื่อแชต'); return }
-      case 'redeem': { const t=$('#cpin').value; if(SB&&NET.on){ act.disabled=true; redeemOnline(t).then(r=>{ toast(r.msg); if(r.ok){ sfx('coin'); render() } else act.disabled=false }); return } const r=redeemCoupon(t); toast(r.msg); if(r.ok){ sfx('coin'); render() } return }
-      case 'cpunlock': if(SB){ const pw=$('#cpadmin').value; SB.rpc('admin_list_coupons',{p_pass:pw}).then(({data,error})=>{ if(error){ toast('รหัสผ่านผู้ดูแลไม่ถูกต้อง'); return } UI.apass=pw; UI.clist=data; render() }); return }
+      case 'redeem': { const t=$('#cpin').value; if(SB&&NET.on&&window.SAMKOK_3D_CONFIG?.edition!=='3d'){ act.disabled=true; redeemOnline(t).then(r=>{ toast(r.msg); if(r.ok){ sfx('coin'); render() } else act.disabled=false }); return } const r=redeemCoupon(t); toast(r.msg); if(r.ok){ sfx('coin'); render() } return }
+      case 'cpunlock': if(SB&&isAdminView()){ const pw=$('#cpadmin').value; SB.rpc('admin_list_coupons',{p_pass:pw}).then(({data,error})=>{ if(error){ toast('รหัสผ่านผู้ดูแลไม่ถูกต้อง'); return } UI.apass=pw; UI.clist=data; render() }); return }
       return;
       case 'cpgen': if(SB){ const f=UI.cp; document.querySelectorAll('[data-cp]').forEach(i=>f[i.dataset.cp]=Math.max(0,+i.value||0)); f.custom=$('#cpcustom').value.trim(); f.note=$('#cpnote').value.trim();
         const rw={gems:f.gems,gold:f.gold,exp:f.exp,tickets:f.tickets,potions:f.potions,chest:f.chest};
@@ -3838,7 +3878,7 @@ document.addEventListener('click',e=>{
         render(); return }
       case 'cpcopy': { const ta=$('#cpout'); ta.select(); (navigator.clipboard?.writeText(ta.value)||Promise.reject()).then(()=>toast('คัดลอกแล้ว')).catch(()=>{ try{document.execCommand('copy');toast('คัดลอกแล้ว')}catch(e){toast('กดค้างที่ช่องแล้วเลือกคัดลอก')} }); return }
       case 'sendfb': { const t=$('#fbtext').value.trim(); if(!t) return toast('พิมพ์ความเห็นก่อน'); act.disabled=true;
-        SB.from('feedback').insert({message:(t+`\n\n[${innerWidth}x${innerHeight} @${devicePixelRatio} · ${navigator.userAgent.slice(0,140)} · หน้า ${UI.lastTab||tab}]`).slice(0,1000), name:(S.pname||'').slice(0,24), stage:S.stage}).then(({error})=>{ if(error){ act.disabled=false; toast('ส่งไม่สำเร็จ ลองใหม่') } else { $('#fbtext').value=''; toast('ขอบคุณสำหรับความเห็น!') } }); return }
+        SB.from('samkok3d_feedback').insert({message:(t+`\n\n[${innerWidth}x${innerHeight} @${devicePixelRatio} · ${navigator.userAgent.slice(0,140)} · หน้า ${UI.lastTab||tab}]`).slice(0,1000), name:(S.pname||'').slice(0,24), stage:S.stage}).then(({error})=>{ if(error){ act.disabled=false; toast('ส่งไม่สำเร็จ ลองใหม่') } else { $('#fbtext').value=''; toast('ขอบคุณสำหรับความเห็น!') } }); return }
       case 'cpfill': { const i=$('#cpin'); if(i){ i.value=act.dataset.k; i.focus() } return }
       case 'fslot': { const i = act.dataset.slot!==undefined ? +act.dataset.slot : S.team.indexOf(id); if(i<0) return;
         if(UI.fsel==null){ UI.fsel=i; render(); return }
@@ -3869,12 +3909,17 @@ document.addEventListener('click',e=>{
       case 'apcfg': { const c=apCfg(), k=act.dataset.k; c[k]=!c[k]; save(); act.setAttribute('aria-pressed',c[k]);
         if(k==='notify'&&c[k]&&typeof Notification!=='undefined'&&Notification.permission==='default') Notification.requestPermission().then(p=>{ if(p!=='granted'){ c.notify=false; save(); render(); toast('เบราว์เซอร์ไม่อนุญาตการแจ้งเตือน') } }); return }
       case 'shtab': UI.shtab=act.dataset.k; render(); return;
+      case 'cloud3d-remote': chooseCloud(true).catch(()=>toast('โหลดคลาวด์ไม่ได้'));return;
+      case 'cloud3d-local': chooseCloud(false).catch(()=>toast('บันทึกคลาวด์ไม่ได้'));return;
+      case 'cloud3d-backup': {const b=cloudBackup();if(b?.data?.v===1){keepCloudBackup(S);S=migrate(b.data);save();render();toast('เรียกเซฟสำรองแล้ว');}return;}
+      case 'cloud3d-offline': localStorage.setItem('samkok-3d-offline','1');location.reload();return;
+      case 'cloud3d-connect': localStorage.removeItem('samkok-3d-offline');location.reload();return;
       case 'savenow': save(); if(SB) cloudSave().then(render); toast('บันทึกแล้ว'); render(); return;
       case 'setname': { const n=$('#pnamein').value.trim().slice(0,24); if(!n) return toast('ใส่ชื่ออย่างน้อย 1 ตัวอักษร'); S.pname=n; save(); NET.lastJSON=''; syncSoon(); render(); toast('ตั้งชื่อแล้ว'); return }
-      case 'mktransfer': cloudSave().then(()=>SB.rpc('make_transfer_code')).then(({data,error})=>{ if(error) return toast('สร้างรหัสไม่สำเร็จ'); UI.tcode=data; render() }); return;
+      case 'mktransfer': cloudSave().then(ok=>ok?SB.rpc('make_3d_transfer_code'):{error:true}).then(({data,error})=>{if(error)return toast('กรุณาบันทึกคลาวด์ให้สำเร็จก่อน');UI.tcode=data;render();});return;
       case 'claimtransfer': { const c=$('#tclaim').value.trim(); if(!c) return;
         if(UI.ask!=='claim'){ UI.ask='claim'; UI.tc=c; render(); $('#tclaim').value=c; toast('แตะอีกครั้งเพื่อยืนยัน เกมในเครื่องนี้จะถูกแทนที่'); return }
-        UI.ask=null; SB.rpc('claim_transfer',{p_code:c}).then(({data,error})=>{ if(error||!data||data.v!==1) return toast('รหัสไม่ถูกต้องหรือหมดอายุ'); const nm=S.pname; S=migrate(data); S.pname=S.pname||nm; save(); render(); toast('ย้ายเซฟมาเครื่องนี้แล้ว') }); return }
+        UI.ask=null;keepCloudBackup(S); SB.rpc('claim_3d_transfer',{p_code:c}).then(({data,error})=>{ if(error||!data||data.data?.v!==1) return toast('รหัสไม่ถูกต้องหรือหมดอายุ'); const nm=S.pname; S=migrate(data.data);rememberCloudRevision(data.revision);CLOUD.conflict=false;CLOUD.ready=true; S.pname=S.pname||nm; save(); render(); toast('ย้ายเซฟมาเครื่องนี้แล้ว') }); return }
       case 'slotsave': { const i=+act.dataset.i; try{ localStorage.setItem(SLOT_KEY(i),JSON.stringify({ts:Date.now(),data:S})); toast(`บันทึกลงช่อง ${i+1} แล้ว`) }catch(e){ toast('บันทึกไม่ได้ เบราว์เซอร์ไม่อนุญาต') } UI.ask=null; render(); return }
       case 'slotload': { const i=+act.dataset.i; if(UI.ask!==`load${i}`){ UI.ask=`load${i}`; render(); return }
         const x=slotInfo(i); UI.ask=null; if(x&&x.data&&x.data.v===1){ S=migrate(x.data); save(); toast(`โหลดช่อง ${i+1} แล้ว`) } render(); return }
@@ -4026,6 +4071,7 @@ window.SamkokGame={
   state:()=>S, tab:()=>tab, hero:id=>HERO[id], heroes:()=>HEROES,
   evolution:(id,aw)=>evoTier(id,aw), enemies:()=>enemyTeam(S.stage),
   biome:()=>stageBg(S.stage), battle:()=>document.querySelector('.battle')?B:null,
+  cloud:()=>({online:NET.on,ready:CLOUD.ready,conflict:CLOUD.conflict,revision:CLOUD.rev,saving:CLOUD.saving,loaded:NET.loaded,error:CLOUD.err||NET.sbErr}),cloudSave,chooseCloud,
   toast, navigate:key=>{tab=key;closeLayer();render()},
 };
 function start(data){ load(data); applyDim(); render(); if(S.autoAway) setTimeout(catchUp, 600); boot(); initNet(); const sb=$('#sndbtn'); if(sb){ sb.classList.toggle('off',!SND.on); sb.setAttribute('aria-pressed',SND.on) }
@@ -4035,4 +4081,4 @@ window.claude?.hot?.snapshot?.(()=>S);
 window.claude?.hot?.ready ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? null);
 </script>
 </body></html>
-<script type="module" src="three/game3d.js?v=2"></script>
+<script type="module" src="three/game3d.js?v=3"></script>

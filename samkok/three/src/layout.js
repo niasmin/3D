@@ -3,9 +3,9 @@ import referenceMap from './models.json' with { type: 'json' };
 export const MODEL_MAP = Object.freeze({ ...referenceMap, guanyu:67, lubu:68, sunce:7, caocao:58, simayi:36 });
 export function modelPath(id, evolution = 1) {
   if (!Object.hasOwn(MODEL_MAP, id)) throw new Error(`No 3D model mapping for ${id}`);
-  if(id==='boss')return 'models/boss.glb?v=2';
+  if(id==='boss')return 'models/boss.glb?v=3';
   const tier = Math.max(1, Math.min(3, Math.trunc(Number(evolution) || 1)));
-  return `models/${String(MODEL_MAP[id]).padStart(2, '0')}-e${tier}.glb?v=2`;
+  return `models/${String(MODEL_MAP[id]).padStart(2, '0')}-e${tier}.glb?v=3`;
 }
 export function unitPosition(side, slot) {
   if (!['p', 'e'].includes(side) || !Number.isInteger(slot) || slot < 0 || slot > 5) throw new RangeError('Invalid formation slot');
@@ -15,3 +15,12 @@ export function unitPosition(side, slot) {
 export function clipByName(clips, name) {
   return clips.find(c => c.name === name || c.name.endsWith(`__${name}`));
 }
+export function signatureFamily(id){
+  if(['guanyu','guanyu_y'].includes(id))return 'dragon';
+  if(['liubei','liubei_y'].includes(id))return 'twins';
+  if(['zhangfei','zhangfei_y'].includes(id))return 'quake';
+  if(id==='zhaoyun')return 'ice';
+  if(id==='zhuge')return 'wind';
+  return null;
+}
+export function nextRenderBudget(frameMs,level){return frameMs>55?Math.min(2,level+1):level;}

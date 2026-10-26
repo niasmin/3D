@@ -14,7 +14,11 @@
       "actions": [
         "50_T1_Ivory Commander_Rig__Idle",
         "50_T1_Ivory Commander_Rig__Walk",
-        "50_T1_Ivory Commander_Rig__Attack"
+        "50_T1_Ivory Commander_Rig__Attack",
+        "50_T1_Ivory Commander_Rig__Hit",
+        "50_T1_Ivory Commander_Rig__Block",
+        "50_T1_Ivory Commander_Rig__Defeat",
+        "50_T1_Ivory Commander_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "50_T2_Ivory Commander_Rig__Idle",
         "50_T2_Ivory Commander_Rig__Walk",
-        "50_T2_Ivory Commander_Rig__Attack"
+        "50_T2_Ivory Commander_Rig__Attack",
+        "50_T2_Ivory Commander_Rig__Hit",
+        "50_T2_Ivory Commander_Rig__Block",
+        "50_T2_Ivory Commander_Rig__Defeat",
+        "50_T2_Ivory Commander_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "50_T3_Ivory Commander_Rig__Idle",
         "50_T3_Ivory Commander_Rig__Walk",
-        "50_T3_Ivory Commander_Rig__Attack"
+        "50_T3_Ivory Commander_Rig__Attack",
+        "50_T3_Ivory Commander_Rig__Hit",
+        "50_T3_Ivory Commander_Rig__Block",
+        "50_T3_Ivory Commander_Rig__Defeat",
+        "50_T3_Ivory Commander_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

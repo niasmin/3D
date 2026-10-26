@@ -14,6 +14,6 @@ rig.animation_data.action=bpy.data.actions[rig.name+'__'+args.action]
 sc.camera.location=(-.1,-10,5.8);sc.camera.rotation_euler=(Vector((-2.8,0,1.65))-sc.camera.location).to_track_quat('-Z','Y').to_euler();sc.camera.data.ortho_scale=4.6
 sc.render.resolution_x=420;sc.render.resolution_y=420;sc.render.resolution_percentage=100
 out=ROOT/'previews'/'motion'/args.action;out.mkdir(parents=True,exist_ok=True)
-length={'Idle':80,'Walk':32,'Attack':48}[args.action]
+length={'Idle':80,'Walk':32,'Attack':48,'Hit':16,'Block':24,'Defeat':40,'Victory':64}[args.action]
 for i in range(16):
  sc.frame_set(1+round(i*length/16));sc.render.filepath=str(out/f'{i:02d}.png');bpy.ops.render.render(write_still=True)

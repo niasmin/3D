@@ -1,10 +1,10 @@
 {
-  "graphics_revision": 2,
+  "graphics_revision": 3,
   "native_reference_files": 69,
   "native_boss_files": 1,
   "characters": 204,
-  "character_action_tests": 612,
-  "boss_actions": 3,
+  "character_action_tests": 1428,
+  "boss_actions": 7,
   "spell_tests": 207,
   "technical_result": "PASS",
   "likeness": "NOT_CHECKED"

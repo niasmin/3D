@@ -14,7 +14,11 @@
       "actions": [
         "23_T1_Lion Admiral_Rig__Idle",
         "23_T1_Lion Admiral_Rig__Walk",
-        "23_T1_Lion Admiral_Rig__Attack"
+        "23_T1_Lion Admiral_Rig__Attack",
+        "23_T1_Lion Admiral_Rig__Hit",
+        "23_T1_Lion Admiral_Rig__Block",
+        "23_T1_Lion Admiral_Rig__Defeat",
+        "23_T1_Lion Admiral_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "23_T2_Lion Admiral_Rig__Idle",
         "23_T2_Lion Admiral_Rig__Walk",
-        "23_T2_Lion Admiral_Rig__Attack"
+        "23_T2_Lion Admiral_Rig__Attack",
+        "23_T2_Lion Admiral_Rig__Hit",
+        "23_T2_Lion Admiral_Rig__Block",
+        "23_T2_Lion Admiral_Rig__Defeat",
+        "23_T2_Lion Admiral_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "23_T3_Lion Admiral_Rig__Idle",
         "23_T3_Lion Admiral_Rig__Walk",
-        "23_T3_Lion Admiral_Rig__Attack"
+        "23_T3_Lion Admiral_Rig__Attack",
+        "23_T3_Lion Admiral_Rig__Hit",
+        "23_T3_Lion Admiral_Rig__Block",
+        "23_T3_Lion Admiral_Rig__Defeat",
+        "23_T3_Lion Admiral_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -32,6 +32,10 @@
 .remake-viewer .v3tabs button,.animation3d button{padding:9px 20px;border:1px solid #9d9b74;border-radius:8px;background:#223e3d;color:#ebdfbd;font:14px var(--f-body);cursor:pointer}
 .remake-viewer button[aria-pressed=true]{background:#dfc387;color:#18342e;border-color:#f5d9a3}
 .remake-viewer .v3hint{margin:2px 0 0;color:#ccd3c0}
+.animation3d{flex-wrap:wrap}.remake-viewer .animation3d button{padding:7px 12px;min-height:38px}
+.cloud3d-status{font-size:10px;color:#b9dfcf}.cloud-conflict{border:2px solid #b07824;background:#fff0c9}.cloud-conflict button{margin-top:6px}
+.remake-brand{flex-wrap:wrap;gap:5px}.cloud3d-status{max-width:115px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:600px){.field.has3d .u .n{font-size:10px;max-width:98px}.field.has3d .lanes .u{width:92px!important}.field.has3d .u .hp,.field.has3d .u .rg{width:60px!important}.remake-viewer .v3tabs button{padding:8px 14px}.animation3d{gap:5px!important}.remake-brand{gap:6px}}
 .remake-brand{display:flex;align-items:center;justify-content:space-between;padding:7px 12px;background:#1c3e3b;color:#eee3c4;font:12px var(--f-body);border-bottom:1px solid #9a9062}.remake-brand b{font-size:14px}.remake-brand button{font:11px var(--f-body);border:1px solid #aa9d72;border-radius:20px;color:#f4dfab;background:#294c44;padding:5px 10px}
 @media(min-width:800px){.field.has3d .u .n{font-size:12px}.field.has3d .u{width:125px!important}.field.has3d .u .hp,.field.has3d .u .rg{width:90px!important}.city.has3d .world3d-label .lbl{font-size:15px}}
 @media(max-width:420px){.city.has3d .world3d-label .lbl{font-size:11px;padding:5px 7px}.field.has3d .lanes .u{width:74px!important}.field.has3d .u .n{font-size:8px;max-width:80px}.field.has3d .u .hp,.field.has3d .u .rg{width:48px!important}.field.has3d .bctl{top:74px}}

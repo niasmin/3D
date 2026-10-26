@@ -14,7 +14,11 @@
       "actions": [
         "42_T1_Lilac Princess_Rig__Idle",
         "42_T1_Lilac Princess_Rig__Walk",
-        "42_T1_Lilac Princess_Rig__Attack"
+        "42_T1_Lilac Princess_Rig__Attack",
+        "42_T1_Lilac Princess_Rig__Hit",
+        "42_T1_Lilac Princess_Rig__Block",
+        "42_T1_Lilac Princess_Rig__Defeat",
+        "42_T1_Lilac Princess_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "42_T2_Lilac Princess_Rig__Idle",
         "42_T2_Lilac Princess_Rig__Walk",
-        "42_T2_Lilac Princess_Rig__Attack"
+        "42_T2_Lilac Princess_Rig__Attack",
+        "42_T2_Lilac Princess_Rig__Hit",
+        "42_T2_Lilac Princess_Rig__Block",
+        "42_T2_Lilac Princess_Rig__Defeat",
+        "42_T2_Lilac Princess_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "42_T3_Lilac Princess_Rig__Idle",
         "42_T3_Lilac Princess_Rig__Walk",
-        "42_T3_Lilac Princess_Rig__Attack"
+        "42_T3_Lilac Princess_Rig__Attack",
+        "42_T3_Lilac Princess_Rig__Hit",
+        "42_T3_Lilac Princess_Rig__Block",
+        "42_T3_Lilac Princess_Rig__Defeat",
+        "42_T3_Lilac Princess_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

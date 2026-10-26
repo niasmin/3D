@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "66_T1_Ivory Sage_Rig",
       "mesh": "66_T1_Ivory Sage_Mesh",
-      "vertices": 10286,
+      "vertices": 9221,
       "bones": 22,
       "actions": [
         "66_T1_Ivory Sage_Rig__Idle",
         "66_T1_Ivory Sage_Rig__Walk",
-        "66_T1_Ivory Sage_Rig__Attack"
+        "66_T1_Ivory Sage_Rig__Attack",
+        "66_T1_Ivory Sage_Rig__Hit",
+        "66_T1_Ivory Sage_Rig__Block",
+        "66_T1_Ivory Sage_Rig__Defeat",
+        "66_T1_Ivory Sage_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "66_T2_Ivory Sage_Rig",
       "mesh": "66_T2_Ivory Sage_Mesh",
-      "vertices": 11656,
+      "vertices": 10483,
       "bones": 22,
       "actions": [
         "66_T2_Ivory Sage_Rig__Idle",
         "66_T2_Ivory Sage_Rig__Walk",
-        "66_T2_Ivory Sage_Rig__Attack"
+        "66_T2_Ivory Sage_Rig__Attack",
+        "66_T2_Ivory Sage_Rig__Hit",
+        "66_T2_Ivory Sage_Rig__Block",
+        "66_T2_Ivory Sage_Rig__Defeat",
+        "66_T2_Ivory Sage_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "66_T3_Ivory Sage_Rig",
       "mesh": "66_T3_Ivory Sage_Mesh",
-      "vertices": 11890,
+      "vertices": 10609,
       "bones": 22,
       "actions": [
         "66_T3_Ivory Sage_Rig__Idle",
         "66_T3_Ivory Sage_Rig__Walk",
-        "66_T3_Ivory Sage_Rig__Attack"
+        "66_T3_Ivory Sage_Rig__Attack",
+        "66_T3_Ivory Sage_Rig__Hit",
+        "66_T3_Ivory Sage_Rig__Block",
+        "66_T3_Ivory Sage_Rig__Defeat",
+        "66_T3_Ivory Sage_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -28,6 +28,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -47,6 +63,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -66,6 +98,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -120,6 +168,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -139,6 +203,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -158,6 +238,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -212,6 +308,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -231,6 +343,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -250,6 +378,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -304,6 +448,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -323,6 +483,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -342,6 +518,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -396,6 +588,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -415,6 +623,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -434,6 +658,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -488,6 +728,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -507,6 +763,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -526,6 +798,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -580,6 +868,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -599,6 +903,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -618,6 +938,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -672,6 +1008,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -691,6 +1043,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -710,6 +1078,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -764,6 +1148,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -783,6 +1183,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -802,6 +1218,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -856,6 +1288,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -875,6 +1323,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -894,6 +1358,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -948,6 +1428,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -967,6 +1463,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -986,6 +1498,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -1040,6 +1568,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -1059,6 +1603,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -1078,6 +1638,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -1132,6 +1708,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1151,6 +1743,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1170,6 +1778,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -1224,6 +1848,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -1243,6 +1883,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -1262,6 +1918,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -1316,6 +1988,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -1335,6 +2023,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -1354,6 +2058,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -1408,6 +2128,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1427,6 +2163,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1446,6 +2198,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -1500,6 +2268,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1519,6 +2303,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1538,6 +2338,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -1592,6 +2408,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -1611,6 +2443,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -1630,6 +2478,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -1684,6 +2548,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -1703,6 +2583,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -1722,6 +2618,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -1776,6 +2688,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.35823
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.92596
           }
         }
       },
@@ -1795,6 +2723,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.35823
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.92596
           }
         }
       },
@@ -1814,6 +2758,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.35823
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.92596
           }
         }
       }
@@ -1868,6 +2828,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1887,6 +2863,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -1906,6 +2898,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -1960,6 +2968,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -1979,6 +3003,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -1998,6 +3038,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -2052,6 +3108,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2071,6 +3143,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2090,6 +3178,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -2144,6 +3248,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -2163,6 +3283,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -2182,6 +3318,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -2236,6 +3388,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.66242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.38845
           }
         }
       },
@@ -2255,6 +3423,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.66242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.38845
           }
         }
       },
@@ -2274,6 +3458,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.66242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.38845
           }
         }
       }
@@ -2328,6 +3528,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2347,6 +3563,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2366,6 +3598,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -2420,6 +3668,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2439,6 +3703,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2458,6 +3738,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -2512,6 +3808,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -2531,6 +3843,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -2550,6 +3878,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -2604,6 +3948,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2623,6 +3983,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2642,6 +4018,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -2687,7 +4079,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.10031
           },
           "Walk": {
             "status": "PASS",
@@ -2696,6 +4088,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2715,6 +4123,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2734,6 +4158,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -2788,6 +4228,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2807,6 +4263,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2826,6 +4298,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -2880,6 +4368,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2899,6 +4403,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -2918,6 +4438,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -2972,6 +4508,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -2991,6 +4543,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3010,6 +4578,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -3064,6 +4648,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3083,6 +4683,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3102,6 +4718,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -3156,6 +4788,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -3175,6 +4823,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -3194,6 +4858,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -3248,6 +4928,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -3267,6 +4963,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -3286,6 +4998,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -3340,6 +5068,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3359,6 +5103,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3378,6 +5138,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -3432,6 +5208,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3451,6 +5243,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3470,6 +5278,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -3524,6 +5348,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3543,6 +5383,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3562,6 +5418,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -3616,6 +5488,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3635,6 +5523,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -3654,6 +5558,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -3708,6 +5628,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -3727,6 +5663,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       },
@@ -3746,6 +5698,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.53234
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.51663
           }
         }
       }
@@ -3800,6 +5768,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3819,6 +5803,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3838,6 +5838,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.99242
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -3892,6 +5908,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3911,6 +5943,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -3930,6 +5978,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -3975,7 +6039,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
@@ -3984,6 +6048,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4003,6 +6083,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4022,6 +6118,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -4076,6 +6188,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4095,6 +6223,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4114,6 +6258,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -4168,6 +6328,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4187,6 +6363,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4206,6 +6398,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -4251,7 +6459,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.06033
           },
           "Walk": {
             "status": "PASS",
@@ -4260,6 +6468,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4279,6 +6503,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4298,6 +6538,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -4352,6 +6608,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4371,6 +6643,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4390,6 +6678,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -4444,6 +6748,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4463,6 +6783,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4482,6 +6818,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -4536,6 +6888,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4555,6 +6923,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -4574,6 +6958,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -4619,7 +7019,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.08326
+            "max_vertex_motion_m": 0.06033
           },
           "Walk": {
             "status": "PASS",
@@ -4628,6 +7028,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4647,6 +7063,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4666,6 +7098,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.50551
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.17725
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.4343
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -4720,6 +7168,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4739,6 +7203,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4758,6 +7238,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -4812,6 +7308,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4831,6 +7343,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -4850,6 +7378,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -4904,6 +7448,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4923,6 +7483,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -4942,6 +7518,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -4996,6 +7588,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5015,6 +7623,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5034,6 +7658,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -5088,6 +7728,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5107,6 +7763,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5126,6 +7798,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5180,6 +7868,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5199,6 +7903,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5218,6 +7938,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5272,6 +8008,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5291,6 +8043,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5310,6 +8078,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5364,6 +8148,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5383,6 +8183,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5402,6 +8218,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5456,6 +8288,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5475,6 +8323,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5494,6 +8358,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.55456
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.53206
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5548,6 +8428,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5567,6 +8463,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5586,6 +8498,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -5640,6 +8568,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5659,6 +8603,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       },
@@ -5678,6 +8638,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.25946
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.78781
           }
         }
       }
@@ -5732,6 +8708,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5751,6 +8743,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53283
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49783
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       },
@@ -5770,6 +8778,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.29008
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.53034
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.49406
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.85002
           }
         }
       }
@@ -5815,7 +8839,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.10031
           },
           "Walk": {
             "status": "PASS",
@@ -5824,6 +8848,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -5843,6 +8883,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -5862,6 +8918,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -5907,7 +8979,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.08326
           },
           "Walk": {
             "status": "PASS",
@@ -5916,6 +8988,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -5935,6 +9023,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -5954,6 +9058,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.61597
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.69073
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -5999,7 +9119,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.09534
           },
           "Walk": {
             "status": "PASS",
@@ -6008,6 +9128,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6027,6 +9163,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6046,6 +9198,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -6091,7 +9259,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.09534
           },
           "Walk": {
             "status": "PASS",
@@ -6100,6 +9268,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6119,6 +9303,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6138,6 +9338,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.4815
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.40144
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }
@@ -6183,7 +9399,7 @@
         "animations": {
           "Idle": {
             "status": "PASS",
-            "max_vertex_motion_m": 0.09702
+            "max_vertex_motion_m": 0.10031
           },
           "Walk": {
             "status": "PASS",
@@ -6192,6 +9408,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.84818
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.05859
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6211,6 +9443,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.84818
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.05859
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       },
@@ -6230,6 +9478,22 @@
           "Attack": {
             "status": "PASS",
             "max_vertex_motion_m": 1.92051
+          },
+          "Hit": {
+            "status": "PASS",
+            "max_vertex_motion_m": 0.84818
+          },
+          "Block": {
+            "status": "PASS",
+            "max_vertex_motion_m": 1.0931
+          },
+          "Defeat": {
+            "status": "PASS",
+            "max_vertex_motion_m": 2.05859
+          },
+          "Victory": {
+            "status": "PASS",
+            "max_vertex_motion_m": 3.39004
           }
         }
       }

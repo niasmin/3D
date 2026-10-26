@@ -14,7 +14,11 @@
       "actions": [
         "30_T1_Dark Regent_Rig__Idle",
         "30_T1_Dark Regent_Rig__Walk",
-        "30_T1_Dark Regent_Rig__Attack"
+        "30_T1_Dark Regent_Rig__Attack",
+        "30_T1_Dark Regent_Rig__Hit",
+        "30_T1_Dark Regent_Rig__Block",
+        "30_T1_Dark Regent_Rig__Defeat",
+        "30_T1_Dark Regent_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "30_T2_Dark Regent_Rig__Idle",
         "30_T2_Dark Regent_Rig__Walk",
-        "30_T2_Dark Regent_Rig__Attack"
+        "30_T2_Dark Regent_Rig__Attack",
+        "30_T2_Dark Regent_Rig__Hit",
+        "30_T2_Dark Regent_Rig__Block",
+        "30_T2_Dark Regent_Rig__Defeat",
+        "30_T2_Dark Regent_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "30_T3_Dark Regent_Rig__Idle",
         "30_T3_Dark Regent_Rig__Walk",
-        "30_T3_Dark Regent_Rig__Attack"
+        "30_T3_Dark Regent_Rig__Attack",
+        "30_T3_Dark Regent_Rig__Hit",
+        "30_T3_Dark Regent_Rig__Block",
+        "30_T3_Dark Regent_Rig__Defeat",
+        "30_T3_Dark Regent_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

@@ -14,7 +14,11 @@
       "actions": [
         "62_T1_Violet Princess_Rig__Idle",
         "62_T1_Violet Princess_Rig__Walk",
-        "62_T1_Violet Princess_Rig__Attack"
+        "62_T1_Violet Princess_Rig__Attack",
+        "62_T1_Violet Princess_Rig__Hit",
+        "62_T1_Violet Princess_Rig__Block",
+        "62_T1_Violet Princess_Rig__Defeat",
+        "62_T1_Violet Princess_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "62_T2_Violet Princess_Rig__Idle",
         "62_T2_Violet Princess_Rig__Walk",
-        "62_T2_Violet Princess_Rig__Attack"
+        "62_T2_Violet Princess_Rig__Attack",
+        "62_T2_Violet Princess_Rig__Hit",
+        "62_T2_Violet Princess_Rig__Block",
+        "62_T2_Violet Princess_Rig__Defeat",
+        "62_T2_Violet Princess_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "62_T3_Violet Princess_Rig__Idle",
         "62_T3_Violet Princess_Rig__Walk",
-        "62_T3_Violet Princess_Rig__Attack"
+        "62_T3_Violet Princess_Rig__Attack",
+        "62_T3_Violet Princess_Rig__Hit",
+        "62_T3_Violet Princess_Rig__Block",
+        "62_T3_Violet Princess_Rig__Defeat",
+        "62_T3_Violet Princess_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

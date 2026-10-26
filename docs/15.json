@@ -14,7 +14,11 @@
       "actions": [
         "15_T1_Azure Lancer_Rig__Idle",
         "15_T1_Azure Lancer_Rig__Walk",
-        "15_T1_Azure Lancer_Rig__Attack"
+        "15_T1_Azure Lancer_Rig__Attack",
+        "15_T1_Azure Lancer_Rig__Hit",
+        "15_T1_Azure Lancer_Rig__Block",
+        "15_T1_Azure Lancer_Rig__Defeat",
+        "15_T1_Azure Lancer_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "15_T2_Azure Lancer_Rig__Idle",
         "15_T2_Azure Lancer_Rig__Walk",
-        "15_T2_Azure Lancer_Rig__Attack"
+        "15_T2_Azure Lancer_Rig__Attack",
+        "15_T2_Azure Lancer_Rig__Hit",
+        "15_T2_Azure Lancer_Rig__Block",
+        "15_T2_Azure Lancer_Rig__Defeat",
+        "15_T2_Azure Lancer_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "15_T3_Azure Lancer_Rig__Idle",
         "15_T3_Azure Lancer_Rig__Walk",
-        "15_T3_Azure Lancer_Rig__Attack"
+        "15_T3_Azure Lancer_Rig__Attack",
+        "15_T3_Azure Lancer_Rig__Hit",
+        "15_T3_Azure Lancer_Rig__Block",
+        "15_T3_Azure Lancer_Rig__Defeat",
+        "15_T3_Azure Lancer_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

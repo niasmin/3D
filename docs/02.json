@@ -14,7 +14,11 @@
       "actions": [
         "02_T1_Crimson Vanguard_Rig__Idle",
         "02_T1_Crimson Vanguard_Rig__Walk",
-        "02_T1_Crimson Vanguard_Rig__Attack"
+        "02_T1_Crimson Vanguard_Rig__Attack",
+        "02_T1_Crimson Vanguard_Rig__Hit",
+        "02_T1_Crimson Vanguard_Rig__Block",
+        "02_T1_Crimson Vanguard_Rig__Defeat",
+        "02_T1_Crimson Vanguard_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "02_T2_Crimson Vanguard_Rig__Idle",
         "02_T2_Crimson Vanguard_Rig__Walk",
-        "02_T2_Crimson Vanguard_Rig__Attack"
+        "02_T2_Crimson Vanguard_Rig__Attack",
+        "02_T2_Crimson Vanguard_Rig__Hit",
+        "02_T2_Crimson Vanguard_Rig__Block",
+        "02_T2_Crimson Vanguard_Rig__Defeat",
+        "02_T2_Crimson Vanguard_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "02_T3_Crimson Vanguard_Rig__Idle",
         "02_T3_Crimson Vanguard_Rig__Walk",
-        "02_T3_Crimson Vanguard_Rig__Attack"
+        "02_T3_Crimson Vanguard_Rig__Attack",
+        "02_T3_Crimson Vanguard_Rig__Hit",
+        "02_T3_Crimson Vanguard_Rig__Block",
+        "02_T3_Crimson Vanguard_Rig__Defeat",
+        "02_T3_Crimson Vanguard_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

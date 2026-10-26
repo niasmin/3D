@@ -4,39 +4,48 @@
     "actors": 0,
     "cache": 0,
     "renderer": {
-      "frame": 9,
+      "frame": 8,
       "calls": 36,
       "triangles": 9334,
       "points": 0,
       "lines": 0
     },
-    "viewer": false
+    "viewer": false,
+    "viewerActions": [],
+    "adaptiveBudget": 0,
+    "pixelRatio": 1
   },
   "battle": {
     "kind": "battle",
     "actors": 3,
     "cache": 5,
     "renderer": {
-      "frame": 10,
-      "calls": 110,
-      "triangles": 58872,
+      "frame": 9,
+      "calls": 102,
+      "triangles": 56616,
       "points": 0,
       "lines": 0
     },
-    "viewer": false
+    "viewer": false,
+    "viewerActions": [],
+    "adaptiveBudget": 2,
+    "pixelRatio": 0.8
   },
   "fullFormation": {
     "kind": "preview",
     "actors": 11,
     "cache": 10,
     "renderer": {
-      "frame": 11,
-      "calls": 175,
-      "triangles": 199032,
+      "frame": 9,
+      "calls": 172,
+      "triangles": 193174,
       "points": 0,
       "lines": 0
     },
-    "viewer": false
+    "viewer": false,
+    "viewerActions": [],
+    "adaptiveBudget": 1,
+    "pixelRatio": 1
   },
   "status": "PASS",
   "backendRequests": 0,

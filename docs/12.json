@@ -14,7 +14,11 @@
       "actions": [
         "12_T1_Blood Spear_Rig__Idle",
         "12_T1_Blood Spear_Rig__Walk",
-        "12_T1_Blood Spear_Rig__Attack"
+        "12_T1_Blood Spear_Rig__Attack",
+        "12_T1_Blood Spear_Rig__Hit",
+        "12_T1_Blood Spear_Rig__Block",
+        "12_T1_Blood Spear_Rig__Defeat",
+        "12_T1_Blood Spear_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "12_T2_Blood Spear_Rig__Idle",
         "12_T2_Blood Spear_Rig__Walk",
-        "12_T2_Blood Spear_Rig__Attack"
+        "12_T2_Blood Spear_Rig__Attack",
+        "12_T2_Blood Spear_Rig__Hit",
+        "12_T2_Blood Spear_Rig__Block",
+        "12_T2_Blood Spear_Rig__Defeat",
+        "12_T2_Blood Spear_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "12_T3_Blood Spear_Rig__Idle",
         "12_T3_Blood Spear_Rig__Walk",
-        "12_T3_Blood Spear_Rig__Attack"
+        "12_T3_Blood Spear_Rig__Attack",
+        "12_T3_Blood Spear_Rig__Hit",
+        "12_T3_Blood Spear_Rig__Block",
+        "12_T3_Blood Spear_Rig__Defeat",
+        "12_T3_Blood Spear_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

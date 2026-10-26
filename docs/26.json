@@ -14,7 +14,11 @@
       "actions": [
         "26_T1_Phoenix Duelist_Rig__Idle",
         "26_T1_Phoenix Duelist_Rig__Walk",
-        "26_T1_Phoenix Duelist_Rig__Attack"
+        "26_T1_Phoenix Duelist_Rig__Attack",
+        "26_T1_Phoenix Duelist_Rig__Hit",
+        "26_T1_Phoenix Duelist_Rig__Block",
+        "26_T1_Phoenix Duelist_Rig__Defeat",
+        "26_T1_Phoenix Duelist_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "26_T2_Phoenix Duelist_Rig__Idle",
         "26_T2_Phoenix Duelist_Rig__Walk",
-        "26_T2_Phoenix Duelist_Rig__Attack"
+        "26_T2_Phoenix Duelist_Rig__Attack",
+        "26_T2_Phoenix Duelist_Rig__Hit",
+        "26_T2_Phoenix Duelist_Rig__Block",
+        "26_T2_Phoenix Duelist_Rig__Defeat",
+        "26_T2_Phoenix Duelist_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "26_T3_Phoenix Duelist_Rig__Idle",
         "26_T3_Phoenix Duelist_Rig__Walk",
-        "26_T3_Phoenix Duelist_Rig__Attack"
+        "26_T3_Phoenix Duelist_Rig__Attack",
+        "26_T3_Phoenix Duelist_Rig__Hit",
+        "26_T3_Phoenix Duelist_Rig__Block",
+        "26_T3_Phoenix Duelist_Rig__Defeat",
+        "26_T3_Phoenix Duelist_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

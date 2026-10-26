@@ -14,7 +14,11 @@
       "actions": [
         "54_T1_Royal Tide_Rig__Idle",
         "54_T1_Royal Tide_Rig__Walk",
-        "54_T1_Royal Tide_Rig__Attack"
+        "54_T1_Royal Tide_Rig__Attack",
+        "54_T1_Royal Tide_Rig__Hit",
+        "54_T1_Royal Tide_Rig__Block",
+        "54_T1_Royal Tide_Rig__Defeat",
+        "54_T1_Royal Tide_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "54_T2_Royal Tide_Rig__Idle",
         "54_T2_Royal Tide_Rig__Walk",
-        "54_T2_Royal Tide_Rig__Attack"
+        "54_T2_Royal Tide_Rig__Attack",
+        "54_T2_Royal Tide_Rig__Hit",
+        "54_T2_Royal Tide_Rig__Block",
+        "54_T2_Royal Tide_Rig__Defeat",
+        "54_T2_Royal Tide_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "54_T3_Royal Tide_Rig__Idle",
         "54_T3_Royal Tide_Rig__Walk",
-        "54_T3_Royal Tide_Rig__Attack"
+        "54_T3_Royal Tide_Rig__Attack",
+        "54_T3_Royal Tide_Rig__Hit",
+        "54_T3_Royal Tide_Rig__Block",
+        "54_T3_Royal Tide_Rig__Defeat",
+        "54_T3_Royal Tide_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

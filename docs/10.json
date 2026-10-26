@@ -14,7 +14,11 @@
       "actions": [
         "10_T1_Flame Sentinel_Rig__Idle",
         "10_T1_Flame Sentinel_Rig__Walk",
-        "10_T1_Flame Sentinel_Rig__Attack"
+        "10_T1_Flame Sentinel_Rig__Attack",
+        "10_T1_Flame Sentinel_Rig__Hit",
+        "10_T1_Flame Sentinel_Rig__Block",
+        "10_T1_Flame Sentinel_Rig__Defeat",
+        "10_T1_Flame Sentinel_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "10_T2_Flame Sentinel_Rig__Idle",
         "10_T2_Flame Sentinel_Rig__Walk",
-        "10_T2_Flame Sentinel_Rig__Attack"
+        "10_T2_Flame Sentinel_Rig__Attack",
+        "10_T2_Flame Sentinel_Rig__Hit",
+        "10_T2_Flame Sentinel_Rig__Block",
+        "10_T2_Flame Sentinel_Rig__Defeat",
+        "10_T2_Flame Sentinel_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "10_T3_Flame Sentinel_Rig__Idle",
         "10_T3_Flame Sentinel_Rig__Walk",
-        "10_T3_Flame Sentinel_Rig__Attack"
+        "10_T3_Flame Sentinel_Rig__Attack",
+        "10_T3_Flame Sentinel_Rig__Hit",
+        "10_T3_Flame Sentinel_Rig__Block",
+        "10_T3_Flame Sentinel_Rig__Defeat",
+        "10_T3_Flame Sentinel_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

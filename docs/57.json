@@ -14,7 +14,11 @@
       "actions": [
         "57_T1_Frost Monarch_Rig__Idle",
         "57_T1_Frost Monarch_Rig__Walk",
-        "57_T1_Frost Monarch_Rig__Attack"
+        "57_T1_Frost Monarch_Rig__Attack",
+        "57_T1_Frost Monarch_Rig__Hit",
+        "57_T1_Frost Monarch_Rig__Block",
+        "57_T1_Frost Monarch_Rig__Defeat",
+        "57_T1_Frost Monarch_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "57_T2_Frost Monarch_Rig__Idle",
         "57_T2_Frost Monarch_Rig__Walk",
-        "57_T2_Frost Monarch_Rig__Attack"
+        "57_T2_Frost Monarch_Rig__Attack",
+        "57_T2_Frost Monarch_Rig__Hit",
+        "57_T2_Frost Monarch_Rig__Block",
+        "57_T2_Frost Monarch_Rig__Defeat",
+        "57_T2_Frost Monarch_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "57_T3_Frost Monarch_Rig__Idle",
         "57_T3_Frost Monarch_Rig__Walk",
-        "57_T3_Frost Monarch_Rig__Attack"
+        "57_T3_Frost Monarch_Rig__Attack",
+        "57_T3_Frost Monarch_Rig__Hit",
+        "57_T3_Frost Monarch_Rig__Block",
+        "57_T3_Frost Monarch_Rig__Defeat",
+        "57_T3_Frost Monarch_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

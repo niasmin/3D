@@ -14,7 +14,11 @@
       "actions": [
         "08_T1_Ivory Veteran_Rig__Idle",
         "08_T1_Ivory Veteran_Rig__Walk",
-        "08_T1_Ivory Veteran_Rig__Attack"
+        "08_T1_Ivory Veteran_Rig__Attack",
+        "08_T1_Ivory Veteran_Rig__Hit",
+        "08_T1_Ivory Veteran_Rig__Block",
+        "08_T1_Ivory Veteran_Rig__Defeat",
+        "08_T1_Ivory Veteran_Rig__Victory"
       ]
     },
     {
@@ -26,7 +30,11 @@
       "actions": [
         "08_T2_Ivory Veteran_Rig__Idle",
         "08_T2_Ivory Veteran_Rig__Walk",
-        "08_T2_Ivory Veteran_Rig__Attack"
+        "08_T2_Ivory Veteran_Rig__Attack",
+        "08_T2_Ivory Veteran_Rig__Hit",
+        "08_T2_Ivory Veteran_Rig__Block",
+        "08_T2_Ivory Veteran_Rig__Defeat",
+        "08_T2_Ivory Veteran_Rig__Victory"
       ]
     },
     {
@@ -38,9 +46,14 @@
       "actions": [
         "08_T3_Ivory Veteran_Rig__Idle",
         "08_T3_Ivory Veteran_Rig__Walk",
-        "08_T3_Ivory Veteran_Rig__Attack"
+        "08_T3_Ivory Veteran_Rig__Attack",
+        "08_T3_Ivory Veteran_Rig__Hit",
+        "08_T3_Ivory Veteran_Rig__Block",
+        "08_T3_Ivory Veteran_Rig__Defeat",
+        "08_T3_Ivory Veteran_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }

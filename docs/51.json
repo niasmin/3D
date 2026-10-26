@@ -9,38 +9,51 @@
       "tier": 1,
       "rig": "51_T1_Jade Duelist_Rig",
       "mesh": "51_T1_Jade Duelist_Mesh",
-      "vertices": 9082,
+      "vertices": 8284,
       "bones": 22,
       "actions": [
         "51_T1_Jade Duelist_Rig__Idle",
         "51_T1_Jade Duelist_Rig__Walk",
-        "51_T1_Jade Duelist_Rig__Attack"
+        "51_T1_Jade Duelist_Rig__Attack",
+        "51_T1_Jade Duelist_Rig__Hit",
+        "51_T1_Jade Duelist_Rig__Block",
+        "51_T1_Jade Duelist_Rig__Defeat",
+        "51_T1_Jade Duelist_Rig__Victory"
       ]
     },
     {
       "tier": 2,
       "rig": "51_T2_Jade Duelist_Rig",
       "mesh": "51_T2_Jade Duelist_Mesh",
-      "vertices": 10452,
+      "vertices": 9546,
       "bones": 22,
       "actions": [
         "51_T2_Jade Duelist_Rig__Idle",
         "51_T2_Jade Duelist_Rig__Walk",
-        "51_T2_Jade Duelist_Rig__Attack"
+        "51_T2_Jade Duelist_Rig__Attack",
+        "51_T2_Jade Duelist_Rig__Hit",
+        "51_T2_Jade Duelist_Rig__Block",
+        "51_T2_Jade Duelist_Rig__Defeat",
+        "51_T2_Jade Duelist_Rig__Victory"
       ]
     },
     {
       "tier": 3,
       "rig": "51_T3_Jade Duelist_Rig",
       "mesh": "51_T3_Jade Duelist_Mesh",
-      "vertices": 10686,
+      "vertices": 9672,
       "bones": 22,
       "actions": [
         "51_T3_Jade Duelist_Rig__Idle",
         "51_T3_Jade Duelist_Rig__Walk",
-        "51_T3_Jade Duelist_Rig__Attack"
+        "51_T3_Jade Duelist_Rig__Attack",
+        "51_T3_Jade Duelist_Rig__Hit",
+        "51_T3_Jade Duelist_Rig__Block",
+        "51_T3_Jade Duelist_Rig__Defeat",
+        "51_T3_Jade Duelist_Rig__Victory"
       ]
     }
   ],
-  "effects": 3
+  "effects": 3,
+  "graphics_revision": 3
 }
