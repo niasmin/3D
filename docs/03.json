@@ -3,13 +3,14 @@
   "name": "Jade Chancellor",
   "blend": "assets/03.blend",
   "preview": "previews/03.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "03_T1_Jade Chancellor_Rig",
       "mesh": "03_T1_Jade Chancellor_Mesh",
-      "vertices": 9194,
+      "vertices": 23666,
       "bones": 22,
       "actions": [
         "03_T1_Jade Chancellor_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "03_T2_Jade Chancellor_Rig",
       "mesh": "03_T2_Jade Chancellor_Mesh",
-      "vertices": 9734,
+      "vertices": 26326,
       "bones": 22,
       "actions": [
         "03_T2_Jade Chancellor_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "03_T3_Jade Chancellor_Rig",
       "mesh": "03_T3_Jade Chancellor_Mesh",
-      "vertices": 9842,
+      "vertices": 27082,
       "bones": 22,
       "actions": [
         "03_T3_Jade Chancellor_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

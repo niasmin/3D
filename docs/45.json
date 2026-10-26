@@ -3,13 +3,14 @@
   "name": "Forest Scholar",
   "blend": "assets/45.blend",
   "preview": "previews/45.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "45_T1_Forest Scholar_Rig",
       "mesh": "45_T1_Forest Scholar_Mesh",
-      "vertices": 9194,
+      "vertices": 22968,
       "bones": 22,
       "actions": [
         "45_T1_Forest Scholar_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "45_T2_Forest Scholar_Rig",
       "mesh": "45_T2_Forest Scholar_Mesh",
-      "vertices": 9734,
+      "vertices": 25628,
       "bones": 22,
       "actions": [
         "45_T2_Forest Scholar_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "45_T3_Forest Scholar_Rig",
       "mesh": "45_T3_Forest Scholar_Mesh",
-      "vertices": 9842,
+      "vertices": 26384,
       "bones": 22,
       "actions": [
         "45_T3_Forest Scholar_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

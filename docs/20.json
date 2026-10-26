@@ -3,13 +3,14 @@
   "name": "Golden Shield",
   "blend": "assets/20.blend",
   "preview": "previews/20.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "20_T1_Golden Shield_Rig",
       "mesh": "20_T1_Golden Shield_Mesh",
-      "vertices": 9722,
+      "vertices": 28177,
       "bones": 22,
       "actions": [
         "20_T1_Golden Shield_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "20_T2_Golden Shield_Rig",
       "mesh": "20_T2_Golden Shield_Mesh",
-      "vertices": 11092,
+      "vertices": 32417,
       "bones": 22,
       "actions": [
         "20_T2_Golden Shield_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "20_T3_Golden Shield_Rig",
       "mesh": "20_T3_Golden Shield_Mesh",
-      "vertices": 11326,
+      "vertices": 33299,
       "bones": 22,
       "actions": [
         "20_T3_Golden Shield_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

@@ -1,5 +1,5 @@
 {
-  "graphics_revision": 3,
+  "graphics_revision": 4,
   "native_reference_files": 69,
   "native_boss_files": 1,
   "characters": 204,
@@ -7,5 +7,5 @@
   "boss_actions": 7,
   "spell_tests": 207,
   "technical_result": "PASS",
-  "likeness": "NOT_CHECKED"
+  "likeness": "NOT_APPROVED"
 }

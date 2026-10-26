@@ -3,13 +3,14 @@
   "name": "Jade Huntress",
   "blend": "assets/47.blend",
   "preview": "previews/47.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "47_T1_Jade Huntress_Rig",
       "mesh": "47_T1_Jade Huntress_Mesh",
-      "vertices": 7906,
+      "vertices": 37559,
       "bones": 22,
       "actions": [
         "47_T1_Jade Huntress_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "47_T2_Jade Huntress_Rig",
       "mesh": "47_T2_Jade Huntress_Mesh",
-      "vertices": 9168,
+      "vertices": 40237,
       "bones": 22,
       "actions": [
         "47_T2_Jade Huntress_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "47_T3_Jade Huntress_Rig",
       "mesh": "47_T3_Jade Huntress_Mesh",
-      "vertices": 9294,
+      "vertices": 41011,
       "bones": 22,
       "actions": [
         "47_T3_Jade Huntress_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

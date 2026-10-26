@@ -11,6 +11,6 @@ for path in sorted((ROOT/'assets').glob('*.blend')):
    text=t.as_string().replace('muted NLA tracks Idle/Walk/Attack','muted NLA tracks '+ '/'.join(names));t.clear();t.write(text)
  bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(path),compress=True)
  if path.stem.isdigit():
-  meta=ROOT/'docs'/f'{path.stem}.json';d=json.loads(meta.read_text());d['graphics_revision']=3
+  meta=ROOT/'docs'/f'{path.stem}.json';d=json.loads(meta.read_text());d['graphics_revision']=max(3,int(d.get('graphics_revision',3)))
   for c in d['characters']:c['actions']=[c['rig']+'__'+n for n in names]
   meta.write_text(json.dumps(d,indent=2))

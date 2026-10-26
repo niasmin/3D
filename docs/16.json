@@ -3,13 +3,14 @@
   "name": "Flame Blades",
   "blend": "assets/16.blend",
   "preview": "previews/16.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "16_T1_Flame Blades_Rig",
       "mesh": "16_T1_Flame Blades_Mesh",
-      "vertices": 10232,
+      "vertices": 27537,
       "bones": 22,
       "actions": [
         "16_T1_Flame Blades_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "16_T2_Flame Blades_Rig",
       "mesh": "16_T2_Flame Blades_Mesh",
-      "vertices": 11602,
+      "vertices": 31777,
       "bones": 22,
       "actions": [
         "16_T2_Flame Blades_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "16_T3_Flame Blades_Rig",
       "mesh": "16_T3_Flame Blades_Mesh",
-      "vertices": 11836,
+      "vertices": 32659,
       "bones": 22,
       "actions": [
         "16_T3_Flame Blades_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

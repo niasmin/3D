@@ -559,17 +559,6 @@
       "skin": "#c98d62"
     }
   },
-  "47": {
-    "id": "liubei_y",
-    "th": "เล่าปี่วัยหนุ่ม",
-    "en": "Young Liu Bei",
-    "ch": "玄",
-    "fac": "shu",
-    "rar": "A",
-    "role": "war",
-    "sk": "ปณิธานใต้ต้นท้อ",
-    "look": {}
-  },
   "48": {
     "id": "jiangwei",
     "th": "เกียงอุย",
@@ -744,19 +733,6 @@
       "hair": "#2a1a3a"
     }
   },
-  "63": {
-    "id": "guanyinping",
-    "th": "กวนอิ๋นผิง",
-    "en": "Guan Yinping",
-    "ch": "屏",
-    "fac": "shu",
-    "rar": "S",
-    "role": "war",
-    "sk": "ทวนพยัคฆ์สาว",
-    "look": {
-      "f": 1
-    }
-  },
   "65": {
     "id": "zhangfei_y",
     "th": "เตียวหุยวัยหนุ่ม",
@@ -767,19 +743,6 @@
     "role": "cav",
     "sk": "คำรามแห่งตุ้นก้วน",
     "look": {}
-  },
-  "66": {
-    "id": "guanyu_y",
-    "th": "กวนอูวัยหนุ่ม",
-    "en": "Young Guan Yu",
-    "ch": "长",
-    "fac": "shu",
-    "rar": "A",
-    "role": "war",
-    "sk": "ง้าวพเนจร",
-    "look": {
-      "beard": "short"
-    }
   },
   "67": {
     "id": "guanyu",
@@ -805,6 +768,54 @@
     "sk": "เทพสงครามบนหลังเซ็กเธาว์",
     "look": {
       "pheasant": 1
+    }
+  },
+  "63": {
+    "id": "liubei_y",
+    "th": "เล่าปี่วัยหนุ่ม",
+    "en": "Young Liu Bei",
+    "ch": "玄",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ปณิธานใต้ต้นท้อ",
+    "look": {}
+  },
+  "66": {
+    "id": "liubei_y",
+    "th": "เล่าปี่วัยหนุ่ม",
+    "en": "Young Liu Bei",
+    "ch": "玄",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ปณิธานใต้ต้นท้อ",
+    "look": {}
+  },
+  "47": {
+    "id": "guanyinping",
+    "th": "กวนอิ๋นผิง",
+    "en": "Guan Yinping",
+    "ch": "屏",
+    "fac": "shu",
+    "rar": "S",
+    "role": "war",
+    "sk": "ทวนพยัคฆ์สาว",
+    "look": {
+      "f": 1
+    }
+  },
+  "64": {
+    "id": "guanyu_y",
+    "th": "กวนอูวัยหนุ่ม",
+    "en": "Young Guan Yu",
+    "ch": "长",
+    "fac": "shu",
+    "rar": "A",
+    "role": "war",
+    "sk": "ง้าวพเนจร",
+    "look": {
+      "beard": "short"
     }
   }
 }

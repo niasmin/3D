@@ -3,13 +3,14 @@
   "name": "Crimson Vanguard",
   "blend": "assets/02.blend",
   "preview": "previews/02.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "02_T1_Crimson Vanguard_Rig",
       "mesh": "02_T1_Crimson Vanguard_Mesh",
-      "vertices": 9354,
+      "vertices": 33262,
       "bones": 22,
       "actions": [
         "02_T1_Crimson Vanguard_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "02_T2_Crimson Vanguard_Rig",
       "mesh": "02_T2_Crimson Vanguard_Mesh",
-      "vertices": 9948,
+      "vertices": 35994,
       "bones": 22,
       "actions": [
         "02_T2_Crimson Vanguard_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "02_T3_Crimson Vanguard_Rig",
       "mesh": "02_T3_Crimson Vanguard_Mesh",
-      "vertices": 10110,
+      "vertices": 36822,
       "bones": 22,
       "actions": [
         "02_T3_Crimson Vanguard_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

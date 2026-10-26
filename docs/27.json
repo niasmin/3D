@@ -3,13 +3,14 @@
   "name": "Bamboo Maiden",
   "blend": "assets/27.blend",
   "preview": "previews/27.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "27_T1_Bamboo Maiden_Rig",
       "mesh": "27_T1_Bamboo Maiden_Mesh",
-      "vertices": 10636,
+      "vertices": 24616,
       "bones": 22,
       "actions": [
         "27_T1_Bamboo Maiden_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "27_T2_Bamboo Maiden_Rig",
       "mesh": "27_T2_Bamboo Maiden_Mesh",
-      "vertices": 11248,
+      "vertices": 27330,
       "bones": 22,
       "actions": [
         "27_T2_Bamboo Maiden_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "27_T3_Bamboo Maiden_Rig",
       "mesh": "27_T3_Bamboo Maiden_Mesh",
-      "vertices": 11428,
+      "vertices": 28140,
       "bones": 22,
       "actions": [
         "27_T3_Bamboo Maiden_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

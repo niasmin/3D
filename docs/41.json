@@ -3,13 +3,14 @@
   "name": "Elder Archer",
   "blend": "assets/41.blend",
   "preview": "previews/41.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "41_T1_Elder Archer_Rig",
       "mesh": "41_T1_Elder Archer_Mesh",
-      "vertices": 7892,
+      "vertices": 19253,
       "bones": 22,
       "actions": [
         "41_T1_Elder Archer_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "41_T2_Elder Archer_Rig",
       "mesh": "41_T2_Elder Archer_Mesh",
-      "vertices": 9190,
+      "vertices": 23421,
       "bones": 22,
       "actions": [
         "41_T2_Elder Archer_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "41_T3_Elder Archer_Rig",
       "mesh": "41_T3_Elder Archer_Mesh",
-      "vertices": 9352,
+      "vertices": 24231,
       "bones": 22,
       "actions": [
         "41_T3_Elder Archer_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

@@ -3,13 +3,14 @@
   "name": "Phoenix Duelist",
   "blend": "assets/26.blend",
   "preview": "previews/26.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "26_T1_Phoenix Duelist_Rig",
       "mesh": "26_T1_Phoenix Duelist_Mesh",
-      "vertices": 9082,
+      "vertices": 27537,
       "bones": 22,
       "actions": [
         "26_T1_Phoenix Duelist_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "26_T2_Phoenix Duelist_Rig",
       "mesh": "26_T2_Phoenix Duelist_Mesh",
-      "vertices": 10452,
+      "vertices": 31777,
       "bones": 22,
       "actions": [
         "26_T2_Phoenix Duelist_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "26_T3_Phoenix Duelist_Rig",
       "mesh": "26_T3_Phoenix Duelist_Mesh",
-      "vertices": 10686,
+      "vertices": 32659,
       "bones": 22,
       "actions": [
         "26_T3_Phoenix Duelist_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

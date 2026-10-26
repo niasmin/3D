@@ -3,13 +3,14 @@
   "name": "Jade Duelist",
   "blend": "assets/51.blend",
   "preview": "previews/51.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "51_T1_Jade Duelist_Rig",
       "mesh": "51_T1_Jade Duelist_Mesh",
-      "vertices": 8284,
+      "vertices": 31512,
       "bones": 22,
       "actions": [
         "51_T1_Jade Duelist_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "51_T2_Jade Duelist_Rig",
       "mesh": "51_T2_Jade Duelist_Mesh",
-      "vertices": 9546,
+      "vertices": 35644,
       "bones": 22,
       "actions": [
         "51_T2_Jade Duelist_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "51_T3_Jade Duelist_Rig",
       "mesh": "51_T3_Jade Duelist_Mesh",
-      "vertices": 9672,
+      "vertices": 36418,
       "bones": 22,
       "actions": [
         "51_T3_Jade Duelist_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

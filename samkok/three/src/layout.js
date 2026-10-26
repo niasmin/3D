@@ -3,9 +3,9 @@ import referenceMap from './models.json' with { type: 'json' };
 export const MODEL_MAP = Object.freeze({ ...referenceMap, guanyu:67, lubu:68, sunce:7, caocao:58, simayi:36 });
 export function modelPath(id, evolution = 1) {
   if (!Object.hasOwn(MODEL_MAP, id)) throw new Error(`No 3D model mapping for ${id}`);
-  if(id==='boss')return 'models/boss.glb?v=3';
+  if(id==='boss')return 'models/boss.glb?v=5';
   const tier = Math.max(1, Math.min(3, Math.trunc(Number(evolution) || 1)));
-  return `models/${String(MODEL_MAP[id]).padStart(2, '0')}-e${tier}.glb?v=3`;
+  return `models/${String(MODEL_MAP[id]).padStart(2, '0')}-e${tier}.glb?v=5`;
 }
 export function unitPosition(side, slot) {
   if (!['p', 'e'].includes(side) || !Number.isInteger(slot) || slot < 0 || slot > 5) throw new RangeError('Invalid formation slot');

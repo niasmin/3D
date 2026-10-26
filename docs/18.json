@@ -3,13 +3,14 @@
   "name": "Moon Scholar",
   "blend": "assets/18.blend",
   "preview": "previews/18.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "18_T1_Moon Scholar_Rig",
       "mesh": "18_T1_Moon Scholar_Mesh",
-      "vertices": 8816,
+      "vertices": 20621,
       "bones": 22,
       "actions": [
         "18_T1_Moon Scholar_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "18_T2_Moon Scholar_Rig",
       "mesh": "18_T2_Moon Scholar_Mesh",
-      "vertices": 9356,
+      "vertices": 23281,
       "bones": 22,
       "actions": [
         "18_T2_Moon Scholar_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "18_T3_Moon Scholar_Rig",
       "mesh": "18_T3_Moon Scholar_Mesh",
-      "vertices": 9464,
+      "vertices": 24037,
       "bones": 22,
       "actions": [
         "18_T3_Moon Scholar_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

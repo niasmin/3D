@@ -3,13 +3,14 @@
   "name": "Golden Envoy",
   "blend": "assets/09.blend",
   "preview": "previews/09.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "09_T1_Golden Envoy_Rig",
       "mesh": "09_T1_Golden Envoy_Mesh",
-      "vertices": 9872,
+      "vertices": 23146,
       "bones": 22,
       "actions": [
         "09_T1_Golden Envoy_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "09_T2_Golden Envoy_Rig",
       "mesh": "09_T2_Golden Envoy_Mesh",
-      "vertices": 10412,
+      "vertices": 25806,
       "bones": 22,
       "actions": [
         "09_T2_Golden Envoy_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "09_T3_Golden Envoy_Rig",
       "mesh": "09_T3_Golden Envoy_Mesh",
-      "vertices": 10520,
+      "vertices": 26562,
       "bones": 22,
       "actions": [
         "09_T3_Golden Envoy_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

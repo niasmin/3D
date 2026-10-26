@@ -5,7 +5,7 @@
     "combatants": [],
     "cache": 0,
     "renderer": {
-      "frame": 9,
+      "frame": 7,
       "calls": 36,
       "triangles": 9334,
       "points": 0,
@@ -13,8 +13,8 @@
     },
     "viewer": false,
     "viewerActions": [],
-    "adaptiveBudget": 0,
-    "pixelRatio": 1
+    "adaptiveBudget": 2,
+    "pixelRatio": 0.8
   },
   "battle": {
     "kind": "battle",
@@ -24,12 +24,12 @@
         "uid": "p0",
         "id": "liubei_y",
         "position": [
-          -3.1383492161434923,
+          -3.162786897546034,
           0.07,
-          1.955712833170052
+          1.987293836828721
         ],
         "moving": true,
-        "animation": "Walk"
+        "animation": "Block"
       },
       {
         "uid": "e0",
@@ -46,19 +46,19 @@
         "uid": "e1",
         "id": "xuhuang",
         "position": [
-          0,
+          -2.3366094693827555,
           0.07,
-          -2.1
+          0.9196183912023306
         ],
         "moving": true,
-        "animation": "Walk"
+        "animation": "Attack"
       }
     ],
     "cache": 5,
     "renderer": {
-      "frame": 11,
-      "calls": 88,
-      "triangles": 55112,
+      "frame": 9,
+      "calls": 124,
+      "triangles": 173068,
       "points": 0,
       "lines": 0
     },
@@ -78,6 +78,61 @@
           0,
           0.07,
           2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p5",
+        "id": "huatuo",
+        "position": [
+          3.25,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p2",
+        "id": "zhangfei_y",
+        "position": [
+          3.25,
+          0.07,
+          2.1
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p3",
+        "id": "zhuge",
+        "position": [
+          -3.25,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-p4",
+        "id": "zhaoyun",
+        "position": [
+          0,
+          0.07,
+          5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
+      },
+      {
+        "uid": "preview-e2",
+        "id": "huanggai",
+        "position": [
+          3.25,
+          0.07,
+          -2.1
         ],
         "moving": false,
         "animation": "Idle"
@@ -105,78 +160,12 @@
         "animation": "Idle"
       },
       {
-        "uid": "preview-p2",
-        "id": "zhangfei_y",
-        "position": [
-          3.25,
-          0.07,
-          2.1
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-p5",
-        "id": "huatuo",
-        "position": [
-          3.25,
-          0.07,
-          5.5
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-p3",
-        "id": "zhuge",
-        "position": [
-          -3.25,
-          0.07,
-          5.5
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-e2",
-        "id": "huanggai",
-        "position": [
-          3.25,
-          0.07,
-          -2.1
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-p4",
-        "id": "zhaoyun",
-        "position": [
-          0,
-          0.07,
-          5.5
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
         "uid": "preview-e1",
         "id": "caoren",
         "position": [
           0,
           0.07,
           -2.1
-        ],
-        "moving": false,
-        "animation": "Idle"
-      },
-      {
-        "uid": "preview-e4",
-        "id": "xunyu",
-        "position": [
-          0,
-          0.07,
-          -5.5
         ],
         "moving": false,
         "animation": "Idle"
@@ -191,20 +180,31 @@
         ],
         "moving": false,
         "animation": "Idle"
+      },
+      {
+        "uid": "preview-e4",
+        "id": "xunyu",
+        "position": [
+          0,
+          0.07,
+          -5.5
+        ],
+        "moving": false,
+        "animation": "Idle"
       }
     ],
     "cache": 10,
     "renderer": {
-      "frame": 10,
-      "calls": 172,
-      "triangles": 193174,
+      "frame": 11,
+      "calls": 208,
+      "triangles": 579450,
       "points": 0,
       "lines": 0
     },
     "viewer": false,
     "viewerActions": [],
-    "adaptiveBudget": 1,
-    "pixelRatio": 1
+    "adaptiveBudget": 2,
+    "pixelRatio": 0.8
   },
   "status": "PASS",
   "backendRequests": 0,

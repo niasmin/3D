@@ -3,6 +3,8 @@ Run: blender -b -t 4 --python scripts/build_library.py -- --start 1 --end 69
 No external Python packages or add-ons required.
 """
 import bpy, math, json, argparse, sys, random
+sys.path.insert(0,str(__import__("pathlib").Path(__file__).resolve().parent))
+import detail_sculpt as detail
 import numpy as np
 from pathlib import Path
 from mathutils import Vector
@@ -83,10 +85,11 @@ ROWS=[
 ('Crimson War God','general','b22223','dfa339','2d2425','halberd',1,'ff5d31'),
 ]
 
-def color(h): return tuple(int(h[i:i+2],16)/255 for i in (0,2,4))+(1,)
+def srgb_color(h): return tuple(int(h[i:i+2],16)/255 for i in (0,2,4))+(1,)
+def color(h): return tuple(c/12.92 if c<=.04045 else ((c+.055)/1.055)**2.4 for c in srgb_color(h)[:3])+(1,)
 def mat(name,h,metal=0,emit=0):
  m=bpy.data.materials.new(name);m.diffuse_color=color(h);m.use_nodes=True
- p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=color(h);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=.40 if metal else .72
+ p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=color(h);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=.28 if metal else .58
  if emit:p.inputs['Emission Color'].default_value=color(h);p.inputs['Emission Strength'].default_value=emit
  if name.startswith(('Silk ','Accent ')) or name in ('Antique gold','Steel'):
   size=256;yy,xx=np.mgrid[0:size,0:size];cloth=name.startswith(('Silk ','Accent '))
@@ -94,7 +97,7 @@ def mat(name,h,metal=0,emit=0):
   key=('weave-' if cloth else 'engraved-')+h
   im=bpy.data.images.get(key)
   if not im:
-   im=bpy.data.images.new(key,width=size,height=size,alpha=True);rgba=np.ones((size,size,4),dtype=np.float32);rgba[:,:,:3]=np.clip(np.array(color(h)[:3])[None,None,:]*(.90+height[:,:,None]*.35),0,1);im.pixels.foreach_set(rgba.ravel());im.pack();im.use_fake_user=True
+   im=bpy.data.images.new(key,width=size,height=size,alpha=True);rgba=np.ones((size,size,4),dtype=np.float32);rgba[:,:,:3]=np.clip(np.array(srgb_color(h)[:3])[None,None,:]*(.90+height[:,:,None]*.35),0,1);im.pixels.foreach_set(rgba.ravel());im.pack();im.use_fake_user=True
   tex=m.node_tree.nodes.new('ShaderNodeTexImage');tex.image=im;m.node_tree.links.new(tex.outputs['Color'],p.inputs['Base Color'])
   nmname='surface-normal-'+str(cloth);nm=bpy.data.images.get(nmname)
   if not nm:
@@ -258,14 +261,18 @@ def make_character(row,tier,x,idx):
  if identity=='zhangfei':base,accent='263f39','986c35';skin='be916c'
  if identity=='zhaoyun':base,accent='cbdde5','2c6894'
  if identity=='zhuge':base,accent='e2dfc8','386d63';look={**look,'beard':'goatee'};beard=True
- mats=[mat('Silk '+base,base),mat('Accent '+accent,accent),mat('Antique gold','c99a3f',.58),mat('Hair '+hair,hair),mat('Warm skin',skin),mat('Ink','201d29'),mat('Ivory','f4e8d4'),mat('Boot leather','3c3033'),mat('Magic '+element,element,.1,1),mat('Steel','9aafbd',.65)]
+ # The supplied sheet is the authority for appearance; RPG labels do not recolor it.
+ art=detail.direction(row,idx);kind=art['kind'];female=art['female'];identity=art['identity'];base=art['base'];accent=art['accent'];hair=art['hair'];weapon=art['weapon'];skin=art['skin'];beard=bool(art['beard']);look={**look,'beard':art['beard']}
+ mats=[mat('Silk '+base,base),mat('Accent '+accent,accent),mat('Antique gold','c99a3f',.78),mat('Hair '+hair,hair),mat('Warm skin',skin),mat('Ink','201d29'),mat('Ivory','f4e8d4'),mat('Boot leather','3c3033'),mat('Jade and gemstone '+element,element,.25,.18),mat('Steel','9aafbd',.65)]
+ mats.extend([mat('Amber iris','79401d'),mat('Lip and ear warmth','a96b59'),mat('Hair strand sheen','514035'),mat('Crimson silk ties','9d1f23')])
  rig=armature(f'{idx:02d}_T{tier}_{name}_Rig',x);s=Sculpt(mats)
  robust=kind=='general';scholar=kind=='sage';armored=kind in ('general','knight');r=.39 if robust else .29 if female else .32
  # Layered tunic, breastplate, articulated legs, boots, belts.
- s.robe(1.35,.82 if armored else .42,.29,.43+.035*tier if armored else .54+.045*tier,0,phase=idx*.3)
+ if not armored:s.robe(1.35,.42,.29,.54+.045*tier,0,phase=idx*.3)
  # One continuous garment surface avoids two intersecting robes flickering in glTF.
- for a in range(0,360,60):
+ for a in ([] if armored else range(0,360,60)):
   a=math.radians(a);s.tube([( .30*cos(a),.30*sin(a),1.30),(.43*cos(a),.43*sin(a),.98),(.47*cos(a),.47*sin(a),.84 if armored else .45)],.012,2,'pelvis',6)
+ s.ell((0,0,1.16),(.30,.22,.20),7,'pelvis')
  s.ell((0,0,1.64),(r,.24,.40),0)
  if armored:
   s.ell((0,-.06,1.70),(r*.97,.20,.30),9)
@@ -302,34 +309,16 @@ def make_character(row,tier,x,idx):
   s.tube([(sign*.68,-.015,1.61),(sign*.79,-.16,1.32)], [.19,.16] if scholar else [.10,.12],0 if (scholar or female) else 9,'forearm.'+side)
   s.ell((sign*.79,-.16,1.32),(.13,.12,.055),2,'forearm.'+side)
   s.ell((sign*.8,-.18,1.22),(.105,.10,.125),4 if female else 7,'hand.'+side)
-  if tier>=2 or scholar or female:s.panel(sign,tier,0 if sign==1 else 1)
+  if tier>=2 or scholar or female:s.panel(sign,tier,0 if armored else 0 if sign==1 else 1)
  # Neck, large chibi head, cheeks and sculpted face. Front faces negative Y.
  s.ell((0,0,2.06),(.12,.12,.20),4,'neck')
- s.ell((0,0,2.47),(.43 if identity=='zhangfei' else .355 if female else .375,.31 if identity=='zhangfei' else .29,.44 if identity=='guanyu' else .40),4,'head',24,16)
- for sign in [-1,1]:
-  s.ell((sign*.36,0,2.46),(.07,.07,.11),4,'head')
-  s.ell((sign*.153,-.265,2.49),(.090,.021,.053),6,'head')
-  s.ell((sign*.152,-.283,2.488),(.041,.014,.046),3,'head')
-  s.ell((sign*.15,-.295,2.49),(.025,.007,.036),5,'head')
-  s.ell((sign*.136,-.302,2.508),(.010,.004,.012),6,'head')
-  s.tube([(sign*.065,-.297,2.555),(sign*.16,-.29,2.59),(sign*.247,-.259,2.60)], [.012,.021,.009],3,'head',6)
- s.ell((0,-.294,2.415),(.047,.065,.065),4,'head')
- s.tube([(-.07,-.278,2.32),(0,-.297,2.31),(.07,-.278,2.32)],.012,1 if female else 5,'head',6)
- # Sculptural hair cap and individual tapered locks rather than image planes.
- for k in range(14):
-  a=2*pi*k/14;s.leaf((.27*cos(a),.19*sin(a),2.79),(.39*cos(a),.31*sin(a),2.69),(.36*cos(a),.27*sin(a),2.39 if sin(a)>-.4 else 2.67),.07,3,'head')
- if female:
-  for sign in [-1,1]:
-   for j in range(4):s.leaf((sign*.26,.13,2.7),(sign*(.57+.04*j),.22,2.13),(sign*(.48+.1*j),.33,1.50+.09*j),.10,3,'head')
-   s.ell((sign*.33,.02,2.83),(.14,.13,.13),3,'head');s.ell((sign*.34,-.07,2.84),(.095,.06,.085),1,'head')
- if beard:
-  for j in range(5):
-   xx=(j-2)*.052;length={'long':.58,'wild':.29,'goatee':.28,'short':.16}.get(look.get('beard'),.24)
-   s.leaf((xx,-.26,2.30),(xx*1.15,-.35,2.20-length/2),(xx*.5,-.27,2.30-length),.038,3,'head')
-  for sign in [-1,1]:s.leaf((sign*.02,-.332,2.355),(sign*.10,-.33,2.36),(sign*.14,-.27,2.31),.022,3,'head')
+ detail.face(s,idx,female)
+ detail.hair(s,idx,tier,female,art['beard'])
  # Headgear has different profiles for each family and increases by tier.
- if identity in ('liubei_y','liubei'):
+ if identity in ('liubei_y','liubei','reference49','jiangwei','zhangfei'):
   s.ell((0,.06,2.90),(.13,.13,.16),3,'head');s.tube([(-.28,-.14,2.76),(0,-.25,2.80),(.28,-.14,2.76)],.035,2,'head');s.ell((0,-.28,2.81),(.045,.023,.06),8,'head')
+  if idx in (44,48,49,51):
+   for j in range(7):s.leaf((0,.10,2.97),(.24+j*.025,.35,3.28),(.50+j*.025,.55,2.88-j*.045),.045,13,'plume')
  elif identity in ('guanyu','guanyu_y'):
   s.ell((0,.05,2.79),(.34,.24,.13),0,'head');s.plate((0,-.22,2.8),.20,.10,.02,2,'head')
   for sign in [-1,1]:s.leaf((sign*.2,.08,2.82),(sign*.39,.22,2.6),(sign*.48,.30,2.3),.075,0,'plume')
@@ -338,7 +327,7 @@ def make_character(row,tier,x,idx):
   s.tube([(-.34,-.16,2.64),(0,-.294,2.73),(.34,-.16,2.64)],.035,2,'head')
   for sign in [-1,1]:s.ell((sign*.33,.015,2.50),(.075,.20,.23),9,'head')
   s.leaf((0,-.28,2.65),(0,-.34,2.85),(0,-.20,3.02),.08,2,'head')
-  plume='e7eced' if identity=='zhaoyun' else 'b92a2b' if idx not in (20,23,25,34,40,46,54) else accent
+  plume='b92a2b'
   pm=len(mats);mats.append(mat('Horsehair crest',plume));s.ell((0,.05,2.97),(.10,.11,.08),2,'head')
   for j in range(7+tier*2):
    s.leaf((0,.08,3.00),(.18+.03*j,.30,3.52+.015*j),(.52+.035*j,.48,3.04-.07*j),.060,pm,'plume')
@@ -348,6 +337,12 @@ def make_character(row,tier,x,idx):
   for sign in [-1,1]:s.tube([(sign*.22,.03,2.86),(sign*.26,.04,3.12)],.033,2,'head')
   s.tube([(-.25,.04,3.12),(0,.06,3.15),(.25,.04,3.12)],.025,2,'head')
   s.ell((0,-.20,2.87),(.07,.035,.10),2,'head');s.ell((0,-.236,2.88),(.033,.02,.048),8,'head')
+ elif idx==47:
+  # Open phoenix tiara: thin swept wing leaves, not upright round beads.
+  for sign in [-1,1]:
+   for j in range(3):
+    detail.lock(s,(sign*.035,-.14,2.83),(sign*(.14+j*.04),-.17,2.96),(sign*(.20+j*.045),-.10,2.96+j*.065),.028,2,'head')
+  s.ell((0,-.18,2.91),(.027,.018,.045),8,'head')
  else:
   for j in range(3+tier):
    xx=(j-(2+tier)/2)*.10;s.leaf((xx,-.06,2.85),(xx*1.1,-.08,3.04),(xx*1.1,-.03,3.00+.12*(1-abs(xx))),.035,2,'head')
@@ -356,11 +351,6 @@ def make_character(row,tier,x,idx):
   s.tube([(-.30,-.14,2.70),(0,-.30,2.54),(.29,-.18,2.38)],.018,7,'head')
  if look.get('pheasant'):
   for sign in [-1,1]:s.leaf((sign*.15,.05,2.88),(sign*.65,.24,3.9),(sign*.90,.48,3.55),.048,1,'plume')
- # Higher evolution: individually modeled wing/shoulder ornaments.
- if tier>=2:
-  for sign in [-1,1]:
-   for j in range(3+tier):
-    s.leaf((sign*.35,.10,1.98),(sign*(.58+j*.05),.21,2.13),(sign*(.65+j*.09),.24,2.32-j*.08),.055,6 if kind=='knight' and idx in (1,32) else 2)
  # Right-hand weapon. Real 3D attachments deform with weapon.R.
  b='weapon.R';wx=-.80;wy=-.18
  if weapon in ('spear','staff','halberd'):
@@ -370,15 +360,18 @@ def make_character(row,tier,x,idx):
    s.ell((wx,wy,3.03),(.13,.13,.18),8,b)
    for sign in [-1,1]:s.leaf((wx,wy,2.8),(wx+sign*.22,wy,3.02),(wx+sign*.14,wy,3.28),.05,2,b)
   else:
-   if identity in ('guanyu','guanyu_y'):
-    contour=[(0,2.85),(-.25,2.94),(-.48,3.12),(-.42,3.31),(0,3.57),(-.07,3.31),(.02,3.05)]
+   if identity in ('guanyu','guanyu_y','guanyinping'):
+    contour=[]
+    for p0,p1,p2 in [((0,2.85),(-.47,2.99),(-.42,3.23)),((-.42,3.23),(-.35,3.48),(0,3.65)),((0,3.65),(-.14,3.37),(-.04,3.15)),((-.04,3.15),(.01,2.96),(0,2.85))]:
+     for k in range(10):
+      t=k/10;contour.append(((1-t)**2*p0[0]+2*t*(1-t)*p1[0]+t*t*p2[0],(1-t)**2*p0[1]+2*t*(1-t)*p1[1]+t*t*p2[1]))
     vs=[(wx+dx,wy+dy,z) for dy in [-.026,.026] for dx,z in contour];n=len(contour)
     fs=[tuple(range(n-1,-1,-1)),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]
     s.add(vs,fs,9,b);s.tube([(wx,wy-.03,2.88),(wx-.10,wy-.03,3.18),(wx,wy-.03,3.53)],[.020,.016,.004],2,b)
    elif identity not in ('zhangfei','zhangfei_y'):
     s.leaf((wx,wy,2.78),(wx-.05,wy,3.12),(wx,wy,3.51),.13,9,b)
     s.tube([(wx,wy-.025,2.82),(wx,wy-.025,3.43)],[.025,.004],2,b)
-   if weapon=='halberd' and identity not in ('guanyu','guanyu_y'):s.leaf((wx,wy,2.83),(wx-.58,wy,2.94),(wx-.34,wy,3.40),.18,2,b)
+   if weapon=='halberd' and identity not in ('guanyu','guanyu_y','guanyinping'):s.leaf((wx,wy,2.83),(wx-.58,wy,2.94),(wx-.34,wy,3.40),.18,2,b)
    if identity in ('zhangfei','zhangfei_y'):
     s.tube([(wx,wy,2.86),(wx-.1,wy,3.05),(wx+.1,wy,3.27),(wx-.05,wy,3.55)],[.055,.06,.045,.005],9,b)
    for j in range(5):s.leaf((wx,wy,2.75),(wx-.12,wy-.02,2.60),(wx+(j-2)*.045,wy,2.34),.028,1,b)
@@ -386,7 +379,7 @@ def make_character(row,tier,x,idx):
   s.tube([(wx,wy,1.07),(wx,wy,1.50)],.045,7,b)
   s.tube([(wx-.18,wy,1.45),(wx+.18,wy,1.45)],.04,2,b)
   s.leaf((wx,wy,1.47),(wx-.06 if weapon=='blade' else wx,wy,2.16),(wx+.12 if weapon=='blade' else wx,wy,2.75),.13 if weapon=='blade' else .08,9,b)
-  if identity in ('liubei_y','liubei'):
+  if identity in ('liubei_y','liubei','reference49'):
    xx=.8;bb='weapon.L';s.tube([(xx,wy,1.08),(xx,wy,1.48)],.04,7,bb);s.tube([(xx-.13,wy,1.46),(xx+.13,wy,1.46)],.035,2,bb);s.leaf((xx,wy,1.48),(xx,wy,2.0),(xx,wy,2.55),.07,9,bb)
  elif weapon=='axe':
   s.tube([(wx,wy,.75),(wx,wy,2.48)],.05,7,b)
@@ -402,9 +395,10 @@ def make_character(row,tier,x,idx):
   s.tube([(wx,wy,1.17),(wx,wy,1.45)],.028,2,b)
  if weapon=='shield':
   s.ell((wx,wy-.08,1.52),(.34,.13,.47),2,b);s.ell((wx,wy-.19,1.52),(.27,.065,.38),0,b);s.ell((wx,wy-.26,1.52),(.09,.05,.11),2,b)
+ detail.details(s,idx,tier,kind,female,weapon)
  ob=s.object(f'{idx:02d}_T{tier}_{name}_Mesh',rig,x)
- rig['reference']=f'references/{idx:02d}.jpg';rig['evolution']=tier;rig['status']='Stylized procedural first pass; likeness not approved';rig['height_m']=3.5
- rig['graphics_revision']=3;rig['weapon']=weapon;rig['archetype']=kind;rig['hero_id']=profile.get('id','unassigned');rig['surface_detail']='UV woven cloth and engraved metal'
+ rig['reference']=f'references/{idx:02d}.jpg';rig['evolution']=tier;rig['status']='Reference-directed detailed sculpt; likeness review pending';rig['height_m']=3.5
+ rig['graphics_revision']=4;rig['detail_revision']=1;rig['source_authority']='numbered reference image';rig['visual_identity']=identity or name;rig['costume_palette']=base+','+accent;rig['weapon']=weapon;rig['archetype']=kind;rig['hero_id']=profile.get('id','unassigned');rig['surface_detail']='UV woven cloth and engraved metal'
  animations(rig,idx,weapon)
  return rig,ob
 
@@ -455,15 +449,16 @@ def run(idx,render=True):
   sc.camera.location=(3,-13,12);sc.camera.rotation_euler=(Vector((0,0,.5))-sc.camera.location).to_track_quat('-Z','Y').to_euler()
  # Persistent reference is packed; no missing external texture paths.
  ref=ROOT/'references'/f'{idx:02d}.jpg';im=bpy.data.images.load(str(ref));im.pack();im.use_fake_user=True
- txt=bpy.data.texts.new('README — asset scope');txt.write(f'Reference {idx:02d}: {title}\nStylized 3D first-pass interpretation, not an exact sculpt. Back views are designed assumptions.\nThree evolutions left-to-right. Front=-Y, Z up, meters.\nCharacters: active Idle action; muted NLA tracks Idle/Walk/Attack. Select rig, unmute ONE track and clear active action to preview it.\nReference image packed in this file. No external add-ons required.\n')
+ txt=bpy.data.texts.new('README — asset scope');txt.write(f'Reference {idx:02d}: {title}\nReference-directed detailed sculpt. Artistic likeness remains unapproved. Back views are designed assumptions.\nThree evolutions left-to-right. Front=-Y, Z up, meters.\nCharacters: active Idle action; muted NLA tracks Idle/Walk/Attack/Hit/Block/Defeat/Victory. Select rig, unmute ONE track and clear active action to preview it.\nReference image packed in this file. No external add-ons required.\n')
  helper=bpy.data.texts.new('set_action.py');helper.write((ROOT/'scripts'/'set_action.py').read_text())
- sc['reference_number']=idx;sc['art_status']='FIRST_PASS_LIKENESS_UNVERIFIED';sc['source_reference']=f'references/{idx:02d}.jpg';sc.frame_set(1)
+ sc['reference_number']=idx;sc['art_status']='DETAILED_REFERENCE_SCULPT_REVIEW_PENDING';sc['source_reference']=f'references/{idx:02d}.jpg';sc.frame_set(1)
  for screen in bpy.data.screens:
   for area in screen.areas:
    if area.type=='VIEW_3D':area.spaces.active.region_3d.view_perspective='CAMERA'
+ bpy.context.preferences.filepaths.save_version=0
  bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'assets'/f'{idx:02d}.blend'),compress=True)
  if render:sc.render.filepath=str(ROOT/'previews'/f'{idx:02d}.png');bpy.ops.render.render(write_still=True)
- return {'reference':idx,'name':title,'blend':f'assets/{idx:02d}.blend','preview':f'previews/{idx:02d}.png','status':'FIRST_PASS_LIKENESS_UNVERIFIED','characters':records,'effects':3}
+ return {'reference':idx,'name':title,'blend':f'assets/{idx:02d}.blend','preview':f'previews/{idx:02d}.png','status':'DETAILED_REFERENCE_SCULPT_REVIEW_PENDING','graphics_revision':4,'characters':records,'effects':3}
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--start',type=int,default=1);ap.add_argument('--end',type=int,default=69);ap.add_argument('--no-render',action='store_true');args=ap.parse_args(sys.argv[sys.argv.index('--')+1:] if '--'in sys.argv else [])

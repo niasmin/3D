@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "liubei_y detailed model loaded; seven clips available; visual screenshot recorded",
+    "guanyu detailed model loaded; seven clips available; visual screenshot recorded",
+    "zhangfei detailed model loaded; seven clips available; visual screenshot recorded",
+    "zhaoyun detailed model loaded; seven clips available; visual screenshot recorded",
+    "zhuge detailed model loaded; seven clips available; visual screenshot recorded",
+    "guanyinping detailed model loaded; seven clips available; visual screenshot recorded"
+  ],
+  "pageErrors": [],
+  "renderer": "Chromium software WebGL; physical phone GPU not measured"
+}

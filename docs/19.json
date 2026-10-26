@@ -3,13 +3,14 @@
   "name": "Azure Guard",
   "blend": "assets/19.blend",
   "preview": "previews/19.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "19_T1_Azure Guard_Rig",
       "mesh": "19_T1_Azure Guard_Mesh",
-      "vertices": 9082,
+      "vertices": 27971,
       "bones": 22,
       "actions": [
         "19_T1_Azure Guard_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "19_T2_Azure Guard_Rig",
       "mesh": "19_T2_Azure Guard_Mesh",
-      "vertices": 10452,
+      "vertices": 32211,
       "bones": 22,
       "actions": [
         "19_T2_Azure Guard_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "19_T3_Azure Guard_Rig",
       "mesh": "19_T3_Azure Guard_Mesh",
-      "vertices": 10686,
+      "vertices": 33093,
       "bones": 22,
       "actions": [
         "19_T3_Azure Guard_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

@@ -3,13 +3,14 @@
   "name": "Silver Phoenix",
   "blend": "assets/01.blend",
   "preview": "previews/01.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "01_T1_Silver Phoenix_Rig",
       "mesh": "01_T1_Silver Phoenix_Mesh",
-      "vertices": 10232,
+      "vertices": 32298,
       "bones": 22,
       "actions": [
         "01_T1_Silver Phoenix_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "01_T2_Silver Phoenix_Rig",
       "mesh": "01_T2_Silver Phoenix_Mesh",
-      "vertices": 11602,
+      "vertices": 36538,
       "bones": 22,
       "actions": [
         "01_T2_Silver Phoenix_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "01_T3_Silver Phoenix_Rig",
       "mesh": "01_T3_Silver Phoenix_Mesh",
-      "vertices": 11836,
+      "vertices": 37420,
       "bones": 22,
       "actions": [
         "01_T3_Silver Phoenix_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

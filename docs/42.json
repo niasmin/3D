@@ -3,13 +3,14 @@
   "name": "Lilac Princess",
   "blend": "assets/42.blend",
   "preview": "previews/42.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "42_T1_Lilac Princess_Rig",
       "mesh": "42_T1_Lilac Princess_Mesh",
-      "vertices": 10248,
+      "vertices": 22202,
       "bones": 22,
       "actions": [
         "42_T1_Lilac Princess_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "42_T2_Lilac Princess_Rig",
       "mesh": "42_T2_Lilac Princess_Mesh",
-      "vertices": 10842,
+      "vertices": 24916,
       "bones": 22,
       "actions": [
         "42_T2_Lilac Princess_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "42_T3_Lilac Princess_Rig",
       "mesh": "42_T3_Lilac Princess_Mesh",
-      "vertices": 11004,
+      "vertices": 25726,
       "bones": 22,
       "actions": [
         "42_T3_Lilac Princess_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

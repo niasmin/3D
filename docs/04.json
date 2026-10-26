@@ -3,13 +3,14 @@
   "name": "Verdant Immortal",
   "blend": "assets/04.blend",
   "preview": "previews/04.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "04_T1_Verdant Immortal_Rig",
       "mesh": "04_T1_Verdant Immortal_Mesh",
-      "vertices": 9872,
+      "vertices": 24370,
       "bones": 22,
       "actions": [
         "04_T1_Verdant Immortal_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "04_T2_Verdant Immortal_Rig",
       "mesh": "04_T2_Verdant Immortal_Mesh",
-      "vertices": 10412,
+      "vertices": 27030,
       "bones": 22,
       "actions": [
         "04_T2_Verdant Immortal_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "04_T3_Verdant Immortal_Rig",
       "mesh": "04_T3_Verdant Immortal_Mesh",
-      "vertices": 10520,
+      "vertices": 27786,
       "bones": 22,
       "actions": [
         "04_T3_Verdant Immortal_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

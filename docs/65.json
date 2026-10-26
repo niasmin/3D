@@ -3,13 +3,14 @@
   "name": "Inferno Crescent",
   "blend": "assets/65.blend",
   "preview": "previews/65.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "65_T1_Inferno Crescent_Rig",
       "mesh": "65_T1_Inferno Crescent_Mesh",
-      "vertices": 9820,
+      "vertices": 32352,
       "bones": 22,
       "actions": [
         "65_T1_Inferno Crescent_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "65_T2_Inferno Crescent_Rig",
       "mesh": "65_T2_Inferno Crescent_Mesh",
-      "vertices": 11190,
+      "vertices": 36592,
       "bones": 22,
       "actions": [
         "65_T2_Inferno Crescent_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "65_T3_Inferno Crescent_Rig",
       "mesh": "65_T3_Inferno Crescent_Mesh",
-      "vertices": 11424,
+      "vertices": 37474,
       "bones": 22,
       "actions": [
         "65_T3_Inferno Crescent_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

@@ -3,13 +3,14 @@
   "name": "Sky Halberd",
   "blend": "assets/32.blend",
   "preview": "previews/32.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "32_T1_Sky Halberd_Rig",
       "mesh": "32_T1_Sky Halberd_Mesh",
-      "vertices": 10232,
+      "vertices": 31128,
       "bones": 22,
       "actions": [
         "32_T1_Sky Halberd_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "32_T2_Sky Halberd_Rig",
       "mesh": "32_T2_Sky Halberd_Mesh",
-      "vertices": 11602,
+      "vertices": 35368,
       "bones": 22,
       "actions": [
         "32_T2_Sky Halberd_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "32_T3_Sky Halberd_Rig",
       "mesh": "32_T3_Sky Halberd_Mesh",
-      "vertices": 11836,
+      "vertices": 36250,
       "bones": 22,
       "actions": [
         "32_T3_Sky Halberd_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

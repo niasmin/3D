@@ -3,13 +3,14 @@
   "name": "Ruby Blades",
   "blend": "assets/33.blend",
   "preview": "previews/33.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "33_T1_Ruby Blades_Rig",
       "mesh": "33_T1_Ruby Blades_Mesh",
-      "vertices": 8704,
+      "vertices": 29725,
       "bones": 22,
       "actions": [
         "33_T1_Ruby Blades_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "33_T2_Ruby Blades_Rig",
       "mesh": "33_T2_Ruby Blades_Mesh",
-      "vertices": 10074,
+      "vertices": 32457,
       "bones": 22,
       "actions": [
         "33_T2_Ruby Blades_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "33_T3_Ruby Blades_Rig",
       "mesh": "33_T3_Ruby Blades_Mesh",
-      "vertices": 10308,
+      "vertices": 33285,
       "bones": 22,
       "actions": [
         "33_T3_Ruby Blades_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

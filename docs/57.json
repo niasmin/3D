@@ -3,13 +3,14 @@
   "name": "Frost Monarch",
   "blend": "assets/57.blend",
   "preview": "previews/57.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "57_T1_Frost Monarch_Rig",
       "mesh": "57_T1_Frost Monarch_Mesh",
-      "vertices": 8816,
+      "vertices": 25322,
       "bones": 22,
       "actions": [
         "57_T1_Frost Monarch_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "57_T2_Frost Monarch_Rig",
       "mesh": "57_T2_Frost Monarch_Mesh",
-      "vertices": 9356,
+      "vertices": 27982,
       "bones": 22,
       "actions": [
         "57_T2_Frost Monarch_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "57_T3_Frost Monarch_Rig",
       "mesh": "57_T3_Frost Monarch_Mesh",
-      "vertices": 9464,
+      "vertices": 28738,
       "bones": 22,
       "actions": [
         "57_T3_Frost Monarch_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

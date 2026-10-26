@@ -3,13 +3,14 @@
   "name": "Emerald Cavalier",
   "blend": "assets/49.blend",
   "preview": "previews/49.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "49_T1_Emerald Cavalier_Rig",
       "mesh": "49_T1_Emerald Cavalier_Mesh",
-      "vertices": 9854,
+      "vertices": 29293,
       "bones": 22,
       "actions": [
         "49_T1_Emerald Cavalier_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "49_T2_Emerald Cavalier_Rig",
       "mesh": "49_T2_Emerald Cavalier_Mesh",
-      "vertices": 11224,
+      "vertices": 33425,
       "bones": 22,
       "actions": [
         "49_T2_Emerald Cavalier_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "49_T3_Emerald Cavalier_Rig",
       "mesh": "49_T3_Emerald Cavalier_Mesh",
-      "vertices": 11458,
+      "vertices": 34199,
       "bones": 22,
       "actions": [
         "49_T3_Emerald Cavalier_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

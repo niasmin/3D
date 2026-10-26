@@ -3,13 +3,14 @@
   "name": "Lion Admiral",
   "blend": "assets/23.blend",
   "preview": "previews/23.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "23_T1_Lion Admiral_Rig",
       "mesh": "23_T1_Lion Admiral_Mesh",
-      "vertices": 9082,
+      "vertices": 32352,
       "bones": 22,
       "actions": [
         "23_T1_Lion Admiral_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "23_T2_Lion Admiral_Rig",
       "mesh": "23_T2_Lion Admiral_Mesh",
-      "vertices": 10452,
+      "vertices": 36592,
       "bones": 22,
       "actions": [
         "23_T2_Lion Admiral_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "23_T3_Lion Admiral_Rig",
       "mesh": "23_T3_Lion Admiral_Mesh",
-      "vertices": 10686,
+      "vertices": 37474,
       "bones": 22,
       "actions": [
         "23_T3_Lion Admiral_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

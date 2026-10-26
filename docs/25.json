@@ -3,13 +3,14 @@
   "name": "Mountain Guardian",
   "blend": "assets/25.blend",
   "preview": "previews/25.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "25_T1_Mountain Guardian_Rig",
       "mesh": "25_T1_Mountain Guardian_Mesh",
-      "vertices": 9116,
+      "vertices": 28795,
       "bones": 22,
       "actions": [
         "25_T1_Mountain Guardian_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "25_T2_Mountain Guardian_Rig",
       "mesh": "25_T2_Mountain Guardian_Mesh",
-      "vertices": 10486,
+      "vertices": 33035,
       "bones": 22,
       "actions": [
         "25_T2_Mountain Guardian_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "25_T3_Mountain Guardian_Rig",
       "mesh": "25_T3_Mountain Guardian_Mesh",
-      "vertices": 10720,
+      "vertices": 33917,
       "bones": 22,
       "actions": [
         "25_T3_Mountain Guardian_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

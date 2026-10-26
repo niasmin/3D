@@ -3,13 +3,14 @@
   "name": "Garden Princess",
   "blend": "assets/60.blend",
   "preview": "previews/60.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "60_T1_Garden Princess_Rig",
       "mesh": "60_T1_Garden Princess_Mesh",
-      "vertices": 9210,
+      "vertices": 23546,
       "bones": 22,
       "actions": [
         "60_T1_Garden Princess_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "60_T2_Garden Princess_Rig",
       "mesh": "60_T2_Garden Princess_Mesh",
-      "vertices": 9750,
+      "vertices": 26206,
       "bones": 22,
       "actions": [
         "60_T2_Garden Princess_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "60_T3_Garden Princess_Rig",
       "mesh": "60_T3_Garden Princess_Mesh",
-      "vertices": 9858,
+      "vertices": 26962,
       "bones": 22,
       "actions": [
         "60_T3_Garden Princess_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

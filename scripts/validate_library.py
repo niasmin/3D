@@ -1,5 +1,6 @@
 """Reopen every native file and test the actual evaluated deformation."""
 import bpy, json, math
+import numpy as np
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 report=[]
@@ -20,9 +21,9 @@ for path in sorted((ROOT/'assets').glob('[0-9][0-9].blend')):
    rig.animation_data.action=act
    sampled=[]
    for f in [1,9,17,25]:
-    sc.frame_set(f);deps=bpy.context.evaluated_depsgraph_get();ev=ob.evaluated_get(deps);me=ev.to_mesh();sampled.append([v.co.copy() for v in me.vertices]);ev.to_mesh_clear()
-   delta=max((a-b).length for frame in sampled[1:] for a,b in zip(sampled[0],frame))
-   finite=all(math.isfinite(c) for frame in sampled for v in frame for c in v)
+    sc.frame_set(f);deps=bpy.context.evaluated_depsgraph_get();ev=ob.evaluated_get(deps);me=ev.to_mesh();coords=np.empty(len(me.vertices)*3,dtype=np.float32);me.vertices.foreach_get('co',coords);sampled.append(coords.reshape(-1,3));ev.to_mesh_clear()
+   delta=max(float(np.linalg.norm(frame-sampled[0],axis=1).max()) for frame in sampled[1:])
+   finite=all(bool(np.isfinite(frame).all()) for frame in sampled)
    detail['animations'][name]={'status':'PASS' if delta>.001 and finite else 'FAIL','max_vertex_motion_m':round(delta,5)}
   details.append(detail)
  checks['rigging_and_motion']='PASS' if all(d['weighted_vertices']=='PASS' and all(a['status']=='PASS' for a in d['animations'].values()) for d in details) else 'FAIL'

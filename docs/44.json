@@ -3,13 +3,14 @@
   "name": "Emerald Elder",
   "blend": "assets/44.blend",
   "preview": "previews/44.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "44_T1_Emerald Elder_Rig",
       "mesh": "44_T1_Emerald Elder_Mesh",
-      "vertices": 10198,
+      "vertices": 33502,
       "bones": 22,
       "actions": [
         "44_T1_Emerald Elder_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "44_T2_Emerald Elder_Rig",
       "mesh": "44_T2_Emerald Elder_Mesh",
-      "vertices": 11568,
+      "vertices": 37634,
       "bones": 22,
       "actions": [
         "44_T2_Emerald Elder_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "44_T3_Emerald Elder_Rig",
       "mesh": "44_T3_Emerald Elder_Mesh",
-      "vertices": 11802,
+      "vertices": 38408,
       "bones": 22,
       "actions": [
         "44_T3_Emerald Elder_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

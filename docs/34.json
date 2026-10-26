@@ -3,13 +3,14 @@
   "name": "Jade Serpent",
   "blend": "assets/34.blend",
   "preview": "previews/34.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "34_T1_Jade Serpent_Rig",
       "mesh": "34_T1_Jade Serpent_Mesh",
-      "vertices": 9082,
+      "vertices": 32352,
       "bones": 22,
       "actions": [
         "34_T1_Jade Serpent_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "34_T2_Jade Serpent_Rig",
       "mesh": "34_T2_Jade Serpent_Mesh",
-      "vertices": 10452,
+      "vertices": 36592,
       "bones": 22,
       "actions": [
         "34_T2_Jade Serpent_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "34_T3_Jade Serpent_Rig",
       "mesh": "34_T3_Jade Serpent_Mesh",
-      "vertices": 10686,
+      "vertices": 37474,
       "bones": 22,
       "actions": [
         "34_T3_Jade Serpent_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

@@ -3,13 +3,14 @@
   "name": "Amber Veteran",
   "blend": "assets/11.blend",
   "preview": "previews/11.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "11_T1_Amber Veteran_Rig",
       "mesh": "11_T1_Amber Veteran_Mesh",
-      "vertices": 9082,
+      "vertices": 28761,
       "bones": 22,
       "actions": [
         "11_T1_Amber Veteran_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "11_T2_Amber Veteran_Rig",
       "mesh": "11_T2_Amber Veteran_Mesh",
-      "vertices": 10452,
+      "vertices": 33001,
       "bones": 22,
       "actions": [
         "11_T2_Amber Veteran_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "11_T3_Amber Veteran_Rig",
       "mesh": "11_T3_Amber Veteran_Mesh",
-      "vertices": 10686,
+      "vertices": 33883,
       "bones": 22,
       "actions": [
         "11_T3_Amber Veteran_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

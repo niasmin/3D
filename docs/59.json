@@ -3,13 +3,14 @@
   "name": "Jade Minister",
   "blend": "assets/59.blend",
   "preview": "previews/59.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "59_T1_Jade Minister_Rig",
       "mesh": "59_T1_Jade Minister_Mesh",
-      "vertices": 9194,
+      "vertices": 23530,
       "bones": 22,
       "actions": [
         "59_T1_Jade Minister_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "59_T2_Jade Minister_Rig",
       "mesh": "59_T2_Jade Minister_Mesh",
-      "vertices": 9734,
+      "vertices": 26190,
       "bones": 22,
       "actions": [
         "59_T2_Jade Minister_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "59_T3_Jade Minister_Rig",
       "mesh": "59_T3_Jade Minister_Mesh",
-      "vertices": 9842,
+      "vertices": 26946,
       "bones": 22,
       "actions": [
         "59_T3_Jade Minister_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

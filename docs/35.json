@@ -3,13 +3,14 @@
   "name": "Cloud Maiden",
   "blend": "assets/35.blend",
   "preview": "previews/35.png",
-  "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+  "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+  "graphics_revision": 4,
   "characters": [
     {
       "tier": 1,
       "rig": "35_T1_Cloud Maiden_Rig",
       "mesh": "35_T1_Cloud Maiden_Mesh",
-      "vertices": 9570,
+      "vertices": 22202,
       "bones": 22,
       "actions": [
         "35_T1_Cloud Maiden_Rig__Idle",
@@ -25,7 +26,7 @@
       "tier": 2,
       "rig": "35_T2_Cloud Maiden_Rig",
       "mesh": "35_T2_Cloud Maiden_Mesh",
-      "vertices": 10164,
+      "vertices": 24916,
       "bones": 22,
       "actions": [
         "35_T2_Cloud Maiden_Rig__Idle",
@@ -41,7 +42,7 @@
       "tier": 3,
       "rig": "35_T3_Cloud Maiden_Rig",
       "mesh": "35_T3_Cloud Maiden_Mesh",
-      "vertices": 10326,
+      "vertices": 25726,
       "bones": 22,
       "actions": [
         "35_T3_Cloud Maiden_Rig__Idle",
@@ -54,6 +55,5 @@
       ]
     }
   ],
-  "effects": 3,
-  "graphics_revision": 3
+  "effects": 3
 }

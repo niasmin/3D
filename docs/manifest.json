@@ -1,5 +1,5 @@
 {
-  "graphics_revision": 3,
+  "graphics_revision": 4,
   "references": 69,
   "characters": 204,
   "character_actions": 1428,
@@ -15,13 +15,14 @@
       "name": "Silver Phoenix",
       "blend": "assets/01.blend",
       "preview": "previews/01.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "01_T1_Silver Phoenix_Rig",
           "mesh": "01_T1_Silver Phoenix_Mesh",
-          "vertices": 10232,
+          "vertices": 32298,
           "bones": 22,
           "actions": [
             "01_T1_Silver Phoenix_Rig__Idle",
@@ -37,7 +38,7 @@
           "tier": 2,
           "rig": "01_T2_Silver Phoenix_Rig",
           "mesh": "01_T2_Silver Phoenix_Mesh",
-          "vertices": 11602,
+          "vertices": 36538,
           "bones": 22,
           "actions": [
             "01_T2_Silver Phoenix_Rig__Idle",
@@ -53,7 +54,7 @@
           "tier": 3,
           "rig": "01_T3_Silver Phoenix_Rig",
           "mesh": "01_T3_Silver Phoenix_Mesh",
-          "vertices": 11836,
+          "vertices": 37420,
           "bones": 22,
           "actions": [
             "01_T3_Silver Phoenix_Rig__Idle",
@@ -66,21 +67,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 2,
       "name": "Crimson Vanguard",
       "blend": "assets/02.blend",
       "preview": "previews/02.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "02_T1_Crimson Vanguard_Rig",
           "mesh": "02_T1_Crimson Vanguard_Mesh",
-          "vertices": 9354,
+          "vertices": 33262,
           "bones": 22,
           "actions": [
             "02_T1_Crimson Vanguard_Rig__Idle",
@@ -96,7 +97,7 @@
           "tier": 2,
           "rig": "02_T2_Crimson Vanguard_Rig",
           "mesh": "02_T2_Crimson Vanguard_Mesh",
-          "vertices": 9948,
+          "vertices": 35994,
           "bones": 22,
           "actions": [
             "02_T2_Crimson Vanguard_Rig__Idle",
@@ -112,7 +113,7 @@
           "tier": 3,
           "rig": "02_T3_Crimson Vanguard_Rig",
           "mesh": "02_T3_Crimson Vanguard_Mesh",
-          "vertices": 10110,
+          "vertices": 36822,
           "bones": 22,
           "actions": [
             "02_T3_Crimson Vanguard_Rig__Idle",
@@ -125,21 +126,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 3,
       "name": "Jade Chancellor",
       "blend": "assets/03.blend",
       "preview": "previews/03.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "03_T1_Jade Chancellor_Rig",
           "mesh": "03_T1_Jade Chancellor_Mesh",
-          "vertices": 9194,
+          "vertices": 23666,
           "bones": 22,
           "actions": [
             "03_T1_Jade Chancellor_Rig__Idle",
@@ -155,7 +156,7 @@
           "tier": 2,
           "rig": "03_T2_Jade Chancellor_Rig",
           "mesh": "03_T2_Jade Chancellor_Mesh",
-          "vertices": 9734,
+          "vertices": 26326,
           "bones": 22,
           "actions": [
             "03_T2_Jade Chancellor_Rig__Idle",
@@ -171,7 +172,7 @@
           "tier": 3,
           "rig": "03_T3_Jade Chancellor_Rig",
           "mesh": "03_T3_Jade Chancellor_Mesh",
-          "vertices": 9842,
+          "vertices": 27082,
           "bones": 22,
           "actions": [
             "03_T3_Jade Chancellor_Rig__Idle",
@@ -184,21 +185,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 4,
       "name": "Verdant Immortal",
       "blend": "assets/04.blend",
       "preview": "previews/04.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "04_T1_Verdant Immortal_Rig",
           "mesh": "04_T1_Verdant Immortal_Mesh",
-          "vertices": 9872,
+          "vertices": 24370,
           "bones": 22,
           "actions": [
             "04_T1_Verdant Immortal_Rig__Idle",
@@ -214,7 +215,7 @@
           "tier": 2,
           "rig": "04_T2_Verdant Immortal_Rig",
           "mesh": "04_T2_Verdant Immortal_Mesh",
-          "vertices": 10412,
+          "vertices": 27030,
           "bones": 22,
           "actions": [
             "04_T2_Verdant Immortal_Rig__Idle",
@@ -230,7 +231,7 @@
           "tier": 3,
           "rig": "04_T3_Verdant Immortal_Rig",
           "mesh": "04_T3_Verdant Immortal_Mesh",
-          "vertices": 10520,
+          "vertices": 27786,
           "bones": 22,
           "actions": [
             "04_T3_Verdant Immortal_Rig__Idle",
@@ -243,21 +244,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 5,
       "name": "Violet Archer",
       "blend": "assets/05.blend",
       "preview": "previews/05.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "05_T1_Violet Archer_Rig",
           "mesh": "05_T1_Violet Archer_Mesh",
-          "vertices": 7892,
+          "vertices": 18029,
           "bones": 22,
           "actions": [
             "05_T1_Violet Archer_Rig__Idle",
@@ -273,7 +274,7 @@
           "tier": 2,
           "rig": "05_T2_Violet Archer_Rig",
           "mesh": "05_T2_Violet Archer_Mesh",
-          "vertices": 9190,
+          "vertices": 22197,
           "bones": 22,
           "actions": [
             "05_T2_Violet Archer_Rig__Idle",
@@ -289,7 +290,7 @@
           "tier": 3,
           "rig": "05_T3_Violet Archer_Rig",
           "mesh": "05_T3_Violet Archer_Mesh",
-          "vertices": 9352,
+          "vertices": 23007,
           "bones": 22,
           "actions": [
             "05_T3_Violet Archer_Rig__Idle",
@@ -302,21 +303,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 6,
       "name": "Crimson Warlord",
       "blend": "assets/06.blend",
       "preview": "previews/06.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "06_T1_Crimson Warlord_Rig",
           "mesh": "06_T1_Crimson Warlord_Mesh",
-          "vertices": 9082,
+          "vertices": 33440,
           "bones": 22,
           "actions": [
             "06_T1_Crimson Warlord_Rig__Idle",
@@ -332,7 +333,7 @@
           "tier": 2,
           "rig": "06_T2_Crimson Warlord_Rig",
           "mesh": "06_T2_Crimson Warlord_Mesh",
-          "vertices": 10452,
+          "vertices": 37680,
           "bones": 22,
           "actions": [
             "06_T2_Crimson Warlord_Rig__Idle",
@@ -348,7 +349,7 @@
           "tier": 3,
           "rig": "06_T3_Crimson Warlord_Rig",
           "mesh": "06_T3_Crimson Warlord_Mesh",
-          "vertices": 10686,
+          "vertices": 38562,
           "bones": 22,
           "actions": [
             "06_T3_Crimson Warlord_Rig__Idle",
@@ -361,21 +362,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 7,
       "name": "Scarlet Cavalier",
       "blend": "assets/07.blend",
       "preview": "previews/07.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "07_T1_Scarlet Cavalier_Rig",
           "mesh": "07_T1_Scarlet Cavalier_Mesh",
-          "vertices": 9854,
+          "vertices": 31074,
           "bones": 22,
           "actions": [
             "07_T1_Scarlet Cavalier_Rig__Idle",
@@ -391,7 +392,7 @@
           "tier": 2,
           "rig": "07_T2_Scarlet Cavalier_Rig",
           "mesh": "07_T2_Scarlet Cavalier_Mesh",
-          "vertices": 11224,
+          "vertices": 35314,
           "bones": 22,
           "actions": [
             "07_T2_Scarlet Cavalier_Rig__Idle",
@@ -407,7 +408,7 @@
           "tier": 3,
           "rig": "07_T3_Scarlet Cavalier_Rig",
           "mesh": "07_T3_Scarlet Cavalier_Mesh",
-          "vertices": 11458,
+          "vertices": 36196,
           "bones": 22,
           "actions": [
             "07_T3_Scarlet Cavalier_Rig__Idle",
@@ -420,21 +421,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 8,
       "name": "Ivory Veteran",
       "blend": "assets/08.blend",
       "preview": "previews/08.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "08_T1_Ivory Veteran_Rig",
           "mesh": "08_T1_Ivory Veteran_Mesh",
-          "vertices": 7892,
+          "vertices": 28761,
           "bones": 22,
           "actions": [
             "08_T1_Ivory Veteran_Rig__Idle",
@@ -450,7 +451,7 @@
           "tier": 2,
           "rig": "08_T2_Ivory Veteran_Rig",
           "mesh": "08_T2_Ivory Veteran_Mesh",
-          "vertices": 9190,
+          "vertices": 33001,
           "bones": 22,
           "actions": [
             "08_T2_Ivory Veteran_Rig__Idle",
@@ -466,7 +467,7 @@
           "tier": 3,
           "rig": "08_T3_Ivory Veteran_Rig",
           "mesh": "08_T3_Ivory Veteran_Mesh",
-          "vertices": 9352,
+          "vertices": 33883,
           "bones": 22,
           "actions": [
             "08_T3_Ivory Veteran_Rig__Idle",
@@ -479,21 +480,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 9,
       "name": "Golden Envoy",
       "blend": "assets/09.blend",
       "preview": "previews/09.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "09_T1_Golden Envoy_Rig",
           "mesh": "09_T1_Golden Envoy_Mesh",
-          "vertices": 9872,
+          "vertices": 23146,
           "bones": 22,
           "actions": [
             "09_T1_Golden Envoy_Rig__Idle",
@@ -509,7 +510,7 @@
           "tier": 2,
           "rig": "09_T2_Golden Envoy_Rig",
           "mesh": "09_T2_Golden Envoy_Mesh",
-          "vertices": 10412,
+          "vertices": 25806,
           "bones": 22,
           "actions": [
             "09_T2_Golden Envoy_Rig__Idle",
@@ -525,7 +526,7 @@
           "tier": 3,
           "rig": "09_T3_Golden Envoy_Rig",
           "mesh": "09_T3_Golden Envoy_Mesh",
-          "vertices": 10520,
+          "vertices": 26562,
           "bones": 22,
           "actions": [
             "09_T3_Golden Envoy_Rig__Idle",
@@ -538,21 +539,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 10,
       "name": "Flame Sentinel",
       "blend": "assets/10.blend",
       "preview": "previews/10.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "10_T1_Flame Sentinel_Rig",
           "mesh": "10_T1_Flame Sentinel_Mesh",
-          "vertices": 9854,
+          "vertices": 31074,
           "bones": 22,
           "actions": [
             "10_T1_Flame Sentinel_Rig__Idle",
@@ -568,7 +569,7 @@
           "tier": 2,
           "rig": "10_T2_Flame Sentinel_Rig",
           "mesh": "10_T2_Flame Sentinel_Mesh",
-          "vertices": 11224,
+          "vertices": 35314,
           "bones": 22,
           "actions": [
             "10_T2_Flame Sentinel_Rig__Idle",
@@ -584,7 +585,7 @@
           "tier": 3,
           "rig": "10_T3_Flame Sentinel_Rig",
           "mesh": "10_T3_Flame Sentinel_Mesh",
-          "vertices": 11458,
+          "vertices": 36196,
           "bones": 22,
           "actions": [
             "10_T3_Flame Sentinel_Rig__Idle",
@@ -597,21 +598,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 11,
       "name": "Amber Veteran",
       "blend": "assets/11.blend",
       "preview": "previews/11.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "11_T1_Amber Veteran_Rig",
           "mesh": "11_T1_Amber Veteran_Mesh",
-          "vertices": 9082,
+          "vertices": 28761,
           "bones": 22,
           "actions": [
             "11_T1_Amber Veteran_Rig__Idle",
@@ -627,7 +628,7 @@
           "tier": 2,
           "rig": "11_T2_Amber Veteran_Rig",
           "mesh": "11_T2_Amber Veteran_Mesh",
-          "vertices": 10452,
+          "vertices": 33001,
           "bones": 22,
           "actions": [
             "11_T2_Amber Veteran_Rig__Idle",
@@ -643,7 +644,7 @@
           "tier": 3,
           "rig": "11_T3_Amber Veteran_Rig",
           "mesh": "11_T3_Amber Veteran_Mesh",
-          "vertices": 10686,
+          "vertices": 33883,
           "bones": 22,
           "actions": [
             "11_T3_Amber Veteran_Rig__Idle",
@@ -656,21 +657,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 12,
       "name": "Blood Spear",
       "blend": "assets/12.blend",
       "preview": "previews/12.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "12_T1_Blood Spear_Rig",
           "mesh": "12_T1_Blood Spear_Mesh",
-          "vertices": 7892,
+          "vertices": 31074,
           "bones": 22,
           "actions": [
             "12_T1_Blood Spear_Rig__Idle",
@@ -686,7 +687,7 @@
           "tier": 2,
           "rig": "12_T2_Blood Spear_Rig",
           "mesh": "12_T2_Blood Spear_Mesh",
-          "vertices": 9190,
+          "vertices": 35314,
           "bones": 22,
           "actions": [
             "12_T2_Blood Spear_Rig__Idle",
@@ -702,7 +703,7 @@
           "tier": 3,
           "rig": "12_T3_Blood Spear_Rig",
           "mesh": "12_T3_Blood Spear_Mesh",
-          "vertices": 9352,
+          "vertices": 36196,
           "bones": 22,
           "actions": [
             "12_T3_Blood Spear_Rig__Idle",
@@ -715,21 +716,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 13,
       "name": "Peony Dancer",
       "blend": "assets/13.blend",
       "preview": "previews/13.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "13_T1_Peony Dancer_Rig",
           "mesh": "13_T1_Peony Dancer_Mesh",
-          "vertices": 10248,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "13_T1_Peony Dancer_Rig__Idle",
@@ -745,7 +746,7 @@
           "tier": 2,
           "rig": "13_T2_Peony Dancer_Rig",
           "mesh": "13_T2_Peony Dancer_Mesh",
-          "vertices": 10842,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "13_T2_Peony Dancer_Rig__Idle",
@@ -761,7 +762,7 @@
           "tier": 3,
           "rig": "13_T3_Peony Dancer_Rig",
           "mesh": "13_T3_Peony Dancer_Mesh",
-          "vertices": 11004,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "13_T3_Peony Dancer_Rig__Idle",
@@ -774,21 +775,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 14,
       "name": "Ember Lion",
       "blend": "assets/14.blend",
       "preview": "previews/14.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "14_T1_Ember Lion_Rig",
           "mesh": "14_T1_Ember Lion_Mesh",
-          "vertices": 7514,
+          "vertices": 28761,
           "bones": 22,
           "actions": [
             "14_T1_Ember Lion_Rig__Idle",
@@ -804,7 +805,7 @@
           "tier": 2,
           "rig": "14_T2_Ember Lion_Rig",
           "mesh": "14_T2_Ember Lion_Mesh",
-          "vertices": 8812,
+          "vertices": 33001,
           "bones": 22,
           "actions": [
             "14_T2_Ember Lion_Rig__Idle",
@@ -820,7 +821,7 @@
           "tier": 3,
           "rig": "14_T3_Ember Lion_Rig",
           "mesh": "14_T3_Ember Lion_Mesh",
-          "vertices": 8974,
+          "vertices": 33883,
           "bones": 22,
           "actions": [
             "14_T3_Ember Lion_Rig__Idle",
@@ -833,21 +834,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 15,
       "name": "Azure Lancer",
       "blend": "assets/15.blend",
       "preview": "previews/15.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "15_T1_Azure Lancer_Rig",
           "mesh": "15_T1_Azure Lancer_Mesh",
-          "vertices": 9082,
+          "vertices": 31074,
           "bones": 22,
           "actions": [
             "15_T1_Azure Lancer_Rig__Idle",
@@ -863,7 +864,7 @@
           "tier": 2,
           "rig": "15_T2_Azure Lancer_Rig",
           "mesh": "15_T2_Azure Lancer_Mesh",
-          "vertices": 10452,
+          "vertices": 35314,
           "bones": 22,
           "actions": [
             "15_T2_Azure Lancer_Rig__Idle",
@@ -879,7 +880,7 @@
           "tier": 3,
           "rig": "15_T3_Azure Lancer_Rig",
           "mesh": "15_T3_Azure Lancer_Mesh",
-          "vertices": 10686,
+          "vertices": 36196,
           "bones": 22,
           "actions": [
             "15_T3_Azure Lancer_Rig__Idle",
@@ -892,21 +893,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 16,
       "name": "Flame Blades",
       "blend": "assets/16.blend",
       "preview": "previews/16.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "16_T1_Flame Blades_Rig",
           "mesh": "16_T1_Flame Blades_Mesh",
-          "vertices": 10232,
+          "vertices": 27537,
           "bones": 22,
           "actions": [
             "16_T1_Flame Blades_Rig__Idle",
@@ -922,7 +923,7 @@
           "tier": 2,
           "rig": "16_T2_Flame Blades_Rig",
           "mesh": "16_T2_Flame Blades_Mesh",
-          "vertices": 11602,
+          "vertices": 31777,
           "bones": 22,
           "actions": [
             "16_T2_Flame Blades_Rig__Idle",
@@ -938,7 +939,7 @@
           "tier": 3,
           "rig": "16_T3_Flame Blades_Rig",
           "mesh": "16_T3_Flame Blades_Mesh",
-          "vertices": 11836,
+          "vertices": 32659,
           "bones": 22,
           "actions": [
             "16_T3_Flame Blades_Rig__Idle",
@@ -951,21 +952,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 17,
       "name": "River Strategist",
       "blend": "assets/17.blend",
       "preview": "previews/17.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "17_T1_River Strategist_Rig",
           "mesh": "17_T1_River Strategist_Mesh",
-          "vertices": 9494,
+          "vertices": 21744,
           "bones": 22,
           "actions": [
             "17_T1_River Strategist_Rig__Idle",
@@ -981,7 +982,7 @@
           "tier": 2,
           "rig": "17_T2_River Strategist_Rig",
           "mesh": "17_T2_River Strategist_Mesh",
-          "vertices": 10034,
+          "vertices": 24404,
           "bones": 22,
           "actions": [
             "17_T2_River Strategist_Rig__Idle",
@@ -997,7 +998,7 @@
           "tier": 3,
           "rig": "17_T3_River Strategist_Rig",
           "mesh": "17_T3_River Strategist_Mesh",
-          "vertices": 10142,
+          "vertices": 25160,
           "bones": 22,
           "actions": [
             "17_T3_River Strategist_Rig__Idle",
@@ -1010,21 +1011,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 18,
       "name": "Moon Scholar",
       "blend": "assets/18.blend",
       "preview": "previews/18.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "18_T1_Moon Scholar_Rig",
           "mesh": "18_T1_Moon Scholar_Mesh",
-          "vertices": 8816,
+          "vertices": 20621,
           "bones": 22,
           "actions": [
             "18_T1_Moon Scholar_Rig__Idle",
@@ -1040,7 +1041,7 @@
           "tier": 2,
           "rig": "18_T2_Moon Scholar_Rig",
           "mesh": "18_T2_Moon Scholar_Mesh",
-          "vertices": 9356,
+          "vertices": 23281,
           "bones": 22,
           "actions": [
             "18_T2_Moon Scholar_Rig__Idle",
@@ -1056,7 +1057,7 @@
           "tier": 3,
           "rig": "18_T3_Moon Scholar_Rig",
           "mesh": "18_T3_Moon Scholar_Mesh",
-          "vertices": 9464,
+          "vertices": 24037,
           "bones": 22,
           "actions": [
             "18_T3_Moon Scholar_Rig__Idle",
@@ -1069,21 +1070,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 19,
       "name": "Azure Guard",
       "blend": "assets/19.blend",
       "preview": "previews/19.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "19_T1_Azure Guard_Rig",
           "mesh": "19_T1_Azure Guard_Mesh",
-          "vertices": 9082,
+          "vertices": 27971,
           "bones": 22,
           "actions": [
             "19_T1_Azure Guard_Rig__Idle",
@@ -1099,7 +1100,7 @@
           "tier": 2,
           "rig": "19_T2_Azure Guard_Rig",
           "mesh": "19_T2_Azure Guard_Mesh",
-          "vertices": 10452,
+          "vertices": 32211,
           "bones": 22,
           "actions": [
             "19_T2_Azure Guard_Rig__Idle",
@@ -1115,7 +1116,7 @@
           "tier": 3,
           "rig": "19_T3_Azure Guard_Rig",
           "mesh": "19_T3_Azure Guard_Mesh",
-          "vertices": 10686,
+          "vertices": 33093,
           "bones": 22,
           "actions": [
             "19_T3_Azure Guard_Rig__Idle",
@@ -1128,21 +1129,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 20,
       "name": "Golden Shield",
       "blend": "assets/20.blend",
       "preview": "previews/20.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "20_T1_Golden Shield_Rig",
           "mesh": "20_T1_Golden Shield_Mesh",
-          "vertices": 9722,
+          "vertices": 28177,
           "bones": 22,
           "actions": [
             "20_T1_Golden Shield_Rig__Idle",
@@ -1158,7 +1159,7 @@
           "tier": 2,
           "rig": "20_T2_Golden Shield_Rig",
           "mesh": "20_T2_Golden Shield_Mesh",
-          "vertices": 11092,
+          "vertices": 32417,
           "bones": 22,
           "actions": [
             "20_T2_Golden Shield_Rig__Idle",
@@ -1174,7 +1175,7 @@
           "tier": 3,
           "rig": "20_T3_Golden Shield_Rig",
           "mesh": "20_T3_Golden Shield_Mesh",
-          "vertices": 11326,
+          "vertices": 33299,
           "bones": 22,
           "actions": [
             "20_T3_Golden Shield_Rig__Idle",
@@ -1187,21 +1188,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 21,
       "name": "Tide Chancellor",
       "blend": "assets/21.blend",
       "preview": "previews/21.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "21_T1_Tide Chancellor_Rig",
           "mesh": "21_T1_Tide Chancellor_Mesh",
-          "vertices": 9872,
+          "vertices": 25458,
           "bones": 22,
           "actions": [
             "21_T1_Tide Chancellor_Rig__Idle",
@@ -1217,7 +1218,7 @@
           "tier": 2,
           "rig": "21_T2_Tide Chancellor_Rig",
           "mesh": "21_T2_Tide Chancellor_Mesh",
-          "vertices": 10412,
+          "vertices": 28118,
           "bones": 22,
           "actions": [
             "21_T2_Tide Chancellor_Rig__Idle",
@@ -1233,7 +1234,7 @@
           "tier": 3,
           "rig": "21_T3_Tide Chancellor_Rig",
           "mesh": "21_T3_Tide Chancellor_Mesh",
-          "vertices": 10520,
+          "vertices": 28874,
           "bones": 22,
           "actions": [
             "21_T3_Tide Chancellor_Rig__Idle",
@@ -1246,21 +1247,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 22,
       "name": "Crimson Lady",
       "blend": "assets/22.blend",
       "preview": "previews/22.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "22_T1_Crimson Lady_Rig",
           "mesh": "22_T1_Crimson Lady_Mesh",
-          "vertices": 8816,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "22_T1_Crimson Lady_Rig__Idle",
@@ -1276,7 +1277,7 @@
           "tier": 2,
           "rig": "22_T2_Crimson Lady_Rig",
           "mesh": "22_T2_Crimson Lady_Mesh",
-          "vertices": 9356,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "22_T2_Crimson Lady_Rig__Idle",
@@ -1292,7 +1293,7 @@
           "tier": 3,
           "rig": "22_T3_Crimson Lady_Rig",
           "mesh": "22_T3_Crimson Lady_Mesh",
-          "vertices": 9464,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "22_T3_Crimson Lady_Rig__Idle",
@@ -1305,21 +1306,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 23,
       "name": "Lion Admiral",
       "blend": "assets/23.blend",
       "preview": "previews/23.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "23_T1_Lion Admiral_Rig",
           "mesh": "23_T1_Lion Admiral_Mesh",
-          "vertices": 9082,
+          "vertices": 32352,
           "bones": 22,
           "actions": [
             "23_T1_Lion Admiral_Rig__Idle",
@@ -1335,7 +1336,7 @@
           "tier": 2,
           "rig": "23_T2_Lion Admiral_Rig",
           "mesh": "23_T2_Lion Admiral_Mesh",
-          "vertices": 10452,
+          "vertices": 36592,
           "bones": 22,
           "actions": [
             "23_T2_Lion Admiral_Rig__Idle",
@@ -1351,7 +1352,7 @@
           "tier": 3,
           "rig": "23_T3_Lion Admiral_Rig",
           "mesh": "23_T3_Lion Admiral_Mesh",
-          "vertices": 10686,
+          "vertices": 37474,
           "bones": 22,
           "actions": [
             "23_T3_Lion Admiral_Rig__Idle",
@@ -1364,21 +1365,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 24,
       "name": "Inferno Dancer",
       "blend": "assets/24.blend",
       "preview": "previews/24.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "24_T1_Inferno Dancer_Rig",
           "mesh": "24_T1_Inferno Dancer_Mesh",
-          "vertices": 9354,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "24_T1_Inferno Dancer_Rig__Idle",
@@ -1394,7 +1395,7 @@
           "tier": 2,
           "rig": "24_T2_Inferno Dancer_Rig",
           "mesh": "24_T2_Inferno Dancer_Mesh",
-          "vertices": 9948,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "24_T2_Inferno Dancer_Rig__Idle",
@@ -1410,7 +1411,7 @@
           "tier": 3,
           "rig": "24_T3_Inferno Dancer_Rig",
           "mesh": "24_T3_Inferno Dancer_Mesh",
-          "vertices": 10110,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "24_T3_Inferno Dancer_Rig__Idle",
@@ -1423,21 +1424,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 25,
       "name": "Mountain Guardian",
       "blend": "assets/25.blend",
       "preview": "previews/25.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "25_T1_Mountain Guardian_Rig",
           "mesh": "25_T1_Mountain Guardian_Mesh",
-          "vertices": 9116,
+          "vertices": 28795,
           "bones": 22,
           "actions": [
             "25_T1_Mountain Guardian_Rig__Idle",
@@ -1453,7 +1454,7 @@
           "tier": 2,
           "rig": "25_T2_Mountain Guardian_Rig",
           "mesh": "25_T2_Mountain Guardian_Mesh",
-          "vertices": 10486,
+          "vertices": 33035,
           "bones": 22,
           "actions": [
             "25_T2_Mountain Guardian_Rig__Idle",
@@ -1469,7 +1470,7 @@
           "tier": 3,
           "rig": "25_T3_Mountain Guardian_Rig",
           "mesh": "25_T3_Mountain Guardian_Mesh",
-          "vertices": 10720,
+          "vertices": 33917,
           "bones": 22,
           "actions": [
             "25_T3_Mountain Guardian_Rig__Idle",
@@ -1482,21 +1483,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 26,
       "name": "Phoenix Duelist",
       "blend": "assets/26.blend",
       "preview": "previews/26.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "26_T1_Phoenix Duelist_Rig",
           "mesh": "26_T1_Phoenix Duelist_Mesh",
-          "vertices": 9082,
+          "vertices": 27537,
           "bones": 22,
           "actions": [
             "26_T1_Phoenix Duelist_Rig__Idle",
@@ -1512,7 +1513,7 @@
           "tier": 2,
           "rig": "26_T2_Phoenix Duelist_Rig",
           "mesh": "26_T2_Phoenix Duelist_Mesh",
-          "vertices": 10452,
+          "vertices": 31777,
           "bones": 22,
           "actions": [
             "26_T2_Phoenix Duelist_Rig__Idle",
@@ -1528,7 +1529,7 @@
           "tier": 3,
           "rig": "26_T3_Phoenix Duelist_Rig",
           "mesh": "26_T3_Phoenix Duelist_Mesh",
-          "vertices": 10686,
+          "vertices": 32659,
           "bones": 22,
           "actions": [
             "26_T3_Phoenix Duelist_Rig__Idle",
@@ -1541,21 +1542,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 27,
       "name": "Bamboo Maiden",
       "blend": "assets/27.blend",
       "preview": "previews/27.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "27_T1_Bamboo Maiden_Rig",
           "mesh": "27_T1_Bamboo Maiden_Mesh",
-          "vertices": 10636,
+          "vertices": 24616,
           "bones": 22,
           "actions": [
             "27_T1_Bamboo Maiden_Rig__Idle",
@@ -1571,7 +1572,7 @@
           "tier": 2,
           "rig": "27_T2_Bamboo Maiden_Rig",
           "mesh": "27_T2_Bamboo Maiden_Mesh",
-          "vertices": 11248,
+          "vertices": 27330,
           "bones": 22,
           "actions": [
             "27_T2_Bamboo Maiden_Rig__Idle",
@@ -1587,7 +1588,7 @@
           "tier": 3,
           "rig": "27_T3_Bamboo Maiden_Rig",
           "mesh": "27_T3_Bamboo Maiden_Mesh",
-          "vertices": 11428,
+          "vertices": 28140,
           "bones": 22,
           "actions": [
             "27_T3_Bamboo Maiden_Rig__Idle",
@@ -1600,21 +1601,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 28,
       "name": "Storm Ranger",
       "blend": "assets/28.blend",
       "preview": "previews/28.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "28_T1_Storm Ranger_Rig",
           "mesh": "28_T1_Storm Ranger_Mesh",
-          "vertices": 7892,
+          "vertices": 18029,
           "bones": 22,
           "actions": [
             "28_T1_Storm Ranger_Rig__Idle",
@@ -1630,7 +1631,7 @@
           "tier": 2,
           "rig": "28_T2_Storm Ranger_Rig",
           "mesh": "28_T2_Storm Ranger_Mesh",
-          "vertices": 9190,
+          "vertices": 22197,
           "bones": 22,
           "actions": [
             "28_T2_Storm Ranger_Rig__Idle",
@@ -1646,7 +1647,7 @@
           "tier": 3,
           "rig": "28_T3_Storm Ranger_Rig",
           "mesh": "28_T3_Storm Ranger_Mesh",
-          "vertices": 9352,
+          "vertices": 23007,
           "bones": 22,
           "actions": [
             "28_T3_Storm Ranger_Rig__Idle",
@@ -1659,21 +1660,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 29,
       "name": "Jade Ranger",
       "blend": "assets/29.blend",
       "preview": "previews/29.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "29_T1_Jade Ranger_Rig",
           "mesh": "29_T1_Jade Ranger_Mesh",
-          "vertices": 9854,
+          "vertices": 18029,
           "bones": 22,
           "actions": [
             "29_T1_Jade Ranger_Rig__Idle",
@@ -1689,7 +1690,7 @@
           "tier": 2,
           "rig": "29_T2_Jade Ranger_Rig",
           "mesh": "29_T2_Jade Ranger_Mesh",
-          "vertices": 11224,
+          "vertices": 22197,
           "bones": 22,
           "actions": [
             "29_T2_Jade Ranger_Rig__Idle",
@@ -1705,7 +1706,7 @@
           "tier": 3,
           "rig": "29_T3_Jade Ranger_Rig",
           "mesh": "29_T3_Jade Ranger_Mesh",
-          "vertices": 11458,
+          "vertices": 23007,
           "bones": 22,
           "actions": [
             "29_T3_Jade Ranger_Rig__Idle",
@@ -1718,21 +1719,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 30,
       "name": "Dark Regent",
       "blend": "assets/30.blend",
       "preview": "previews/30.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "30_T1_Dark Regent_Rig",
           "mesh": "30_T1_Dark Regent_Mesh",
-          "vertices": 10286,
+          "vertices": 33440,
           "bones": 22,
           "actions": [
             "30_T1_Dark Regent_Rig__Idle",
@@ -1748,7 +1749,7 @@
           "tier": 2,
           "rig": "30_T2_Dark Regent_Rig",
           "mesh": "30_T2_Dark Regent_Mesh",
-          "vertices": 11656,
+          "vertices": 37680,
           "bones": 22,
           "actions": [
             "30_T2_Dark Regent_Rig__Idle",
@@ -1764,7 +1765,7 @@
           "tier": 3,
           "rig": "30_T3_Dark Regent_Rig",
           "mesh": "30_T3_Dark Regent_Mesh",
-          "vertices": 11890,
+          "vertices": 38562,
           "bones": 22,
           "actions": [
             "30_T3_Dark Regent_Rig__Idle",
@@ -1777,21 +1778,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 31,
       "name": "Forest Ranger",
       "blend": "assets/31.blend",
       "preview": "previews/31.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "31_T1_Forest Ranger_Rig",
           "mesh": "31_T1_Forest Ranger_Mesh",
-          "vertices": 8704,
+          "vertices": 18029,
           "bones": 22,
           "actions": [
             "31_T1_Forest Ranger_Rig__Idle",
@@ -1807,7 +1808,7 @@
           "tier": 2,
           "rig": "31_T2_Forest Ranger_Rig",
           "mesh": "31_T2_Forest Ranger_Mesh",
-          "vertices": 10074,
+          "vertices": 22197,
           "bones": 22,
           "actions": [
             "31_T2_Forest Ranger_Rig__Idle",
@@ -1823,7 +1824,7 @@
           "tier": 3,
           "rig": "31_T3_Forest Ranger_Rig",
           "mesh": "31_T3_Forest Ranger_Mesh",
-          "vertices": 10308,
+          "vertices": 23007,
           "bones": 22,
           "actions": [
             "31_T3_Forest Ranger_Rig__Idle",
@@ -1836,21 +1837,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 32,
       "name": "Sky Halberd",
       "blend": "assets/32.blend",
       "preview": "previews/32.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "32_T1_Sky Halberd_Rig",
           "mesh": "32_T1_Sky Halberd_Mesh",
-          "vertices": 10232,
+          "vertices": 31128,
           "bones": 22,
           "actions": [
             "32_T1_Sky Halberd_Rig__Idle",
@@ -1866,7 +1867,7 @@
           "tier": 2,
           "rig": "32_T2_Sky Halberd_Rig",
           "mesh": "32_T2_Sky Halberd_Mesh",
-          "vertices": 11602,
+          "vertices": 35368,
           "bones": 22,
           "actions": [
             "32_T2_Sky Halberd_Rig__Idle",
@@ -1882,7 +1883,7 @@
           "tier": 3,
           "rig": "32_T3_Sky Halberd_Rig",
           "mesh": "32_T3_Sky Halberd_Mesh",
-          "vertices": 11836,
+          "vertices": 36250,
           "bones": 22,
           "actions": [
             "32_T3_Sky Halberd_Rig__Idle",
@@ -1895,21 +1896,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 33,
       "name": "Ruby Blades",
       "blend": "assets/33.blend",
       "preview": "previews/33.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "33_T1_Ruby Blades_Rig",
           "mesh": "33_T1_Ruby Blades_Mesh",
-          "vertices": 8704,
+          "vertices": 29725,
           "bones": 22,
           "actions": [
             "33_T1_Ruby Blades_Rig__Idle",
@@ -1925,7 +1926,7 @@
           "tier": 2,
           "rig": "33_T2_Ruby Blades_Rig",
           "mesh": "33_T2_Ruby Blades_Mesh",
-          "vertices": 10074,
+          "vertices": 32457,
           "bones": 22,
           "actions": [
             "33_T2_Ruby Blades_Rig__Idle",
@@ -1941,7 +1942,7 @@
           "tier": 3,
           "rig": "33_T3_Ruby Blades_Rig",
           "mesh": "33_T3_Ruby Blades_Mesh",
-          "vertices": 10308,
+          "vertices": 33285,
           "bones": 22,
           "actions": [
             "33_T3_Ruby Blades_Rig__Idle",
@@ -1954,21 +1955,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 34,
       "name": "Jade Serpent",
       "blend": "assets/34.blend",
       "preview": "previews/34.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "34_T1_Jade Serpent_Rig",
           "mesh": "34_T1_Jade Serpent_Mesh",
-          "vertices": 9082,
+          "vertices": 32352,
           "bones": 22,
           "actions": [
             "34_T1_Jade Serpent_Rig__Idle",
@@ -1984,7 +1985,7 @@
           "tier": 2,
           "rig": "34_T2_Jade Serpent_Rig",
           "mesh": "34_T2_Jade Serpent_Mesh",
-          "vertices": 10452,
+          "vertices": 36592,
           "bones": 22,
           "actions": [
             "34_T2_Jade Serpent_Rig__Idle",
@@ -2000,7 +2001,7 @@
           "tier": 3,
           "rig": "34_T3_Jade Serpent_Rig",
           "mesh": "34_T3_Jade Serpent_Mesh",
-          "vertices": 10686,
+          "vertices": 37474,
           "bones": 22,
           "actions": [
             "34_T3_Jade Serpent_Rig__Idle",
@@ -2013,21 +2014,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 35,
       "name": "Cloud Maiden",
       "blend": "assets/35.blend",
       "preview": "previews/35.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "35_T1_Cloud Maiden_Rig",
           "mesh": "35_T1_Cloud Maiden_Mesh",
-          "vertices": 9570,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "35_T1_Cloud Maiden_Rig__Idle",
@@ -2043,7 +2044,7 @@
           "tier": 2,
           "rig": "35_T2_Cloud Maiden_Rig",
           "mesh": "35_T2_Cloud Maiden_Mesh",
-          "vertices": 10164,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "35_T2_Cloud Maiden_Rig__Idle",
@@ -2059,7 +2060,7 @@
           "tier": 3,
           "rig": "35_T3_Cloud Maiden_Rig",
           "mesh": "35_T3_Cloud Maiden_Mesh",
-          "vertices": 10326,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "35_T3_Cloud Maiden_Rig__Idle",
@@ -2072,21 +2073,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 36,
       "name": "Violet Chancellor",
       "blend": "assets/36.blend",
       "preview": "previews/36.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "36_T1_Violet Chancellor_Rig",
           "mesh": "36_T1_Violet Chancellor_Mesh",
-          "vertices": 9194,
+          "vertices": 23666,
           "bones": 22,
           "actions": [
             "36_T1_Violet Chancellor_Rig__Idle",
@@ -2102,7 +2103,7 @@
           "tier": 2,
           "rig": "36_T2_Violet Chancellor_Rig",
           "mesh": "36_T2_Violet Chancellor_Mesh",
-          "vertices": 9734,
+          "vertices": 26326,
           "bones": 22,
           "actions": [
             "36_T2_Violet Chancellor_Rig__Idle",
@@ -2118,7 +2119,7 @@
           "tier": 3,
           "rig": "36_T3_Violet Chancellor_Rig",
           "mesh": "36_T3_Violet Chancellor_Mesh",
-          "vertices": 9842,
+          "vertices": 27082,
           "bones": 22,
           "actions": [
             "36_T3_Violet Chancellor_Rig__Idle",
@@ -2131,21 +2132,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 37,
       "name": "Night Scholar",
       "blend": "assets/37.blend",
       "preview": "previews/37.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "37_T1_Night Scholar_Rig",
           "mesh": "37_T1_Night Scholar_Mesh",
-          "vertices": 9082,
+          "vertices": 20621,
           "bones": 22,
           "actions": [
             "37_T1_Night Scholar_Rig__Idle",
@@ -2161,7 +2162,7 @@
           "tier": 2,
           "rig": "37_T2_Night Scholar_Rig",
           "mesh": "37_T2_Night Scholar_Mesh",
-          "vertices": 10452,
+          "vertices": 23281,
           "bones": 22,
           "actions": [
             "37_T2_Night Scholar_Rig__Idle",
@@ -2177,7 +2178,7 @@
           "tier": 3,
           "rig": "37_T3_Night Scholar_Rig",
           "mesh": "37_T3_Night Scholar_Mesh",
-          "vertices": 10686,
+          "vertices": 24037,
           "bones": 22,
           "actions": [
             "37_T3_Night Scholar_Rig__Idle",
@@ -2190,21 +2191,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 38,
       "name": "Red Commander",
       "blend": "assets/38.blend",
       "preview": "previews/38.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "38_T1_Red Commander_Rig",
           "mesh": "38_T1_Red Commander_Mesh",
-          "vertices": 9082,
+          "vertices": 28761,
           "bones": 22,
           "actions": [
             "38_T1_Red Commander_Rig__Idle",
@@ -2220,7 +2221,7 @@
           "tier": 2,
           "rig": "38_T2_Red Commander_Rig",
           "mesh": "38_T2_Red Commander_Mesh",
-          "vertices": 10452,
+          "vertices": 33001,
           "bones": 22,
           "actions": [
             "38_T2_Red Commander_Rig__Idle",
@@ -2236,7 +2237,7 @@
           "tier": 3,
           "rig": "38_T3_Red Commander_Rig",
           "mesh": "38_T3_Red Commander_Mesh",
-          "vertices": 10686,
+          "vertices": 33883,
           "bones": 22,
           "actions": [
             "38_T3_Red Commander_Rig__Idle",
@@ -2249,21 +2250,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 39,
       "name": "Spring Maiden",
       "blend": "assets/39.blend",
       "preview": "previews/39.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "39_T1_Spring Maiden_Rig",
           "mesh": "39_T1_Spring Maiden_Mesh",
-          "vertices": 10248,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "39_T1_Spring Maiden_Rig__Idle",
@@ -2279,7 +2280,7 @@
           "tier": 2,
           "rig": "39_T2_Spring Maiden_Rig",
           "mesh": "39_T2_Spring Maiden_Mesh",
-          "vertices": 10842,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "39_T2_Spring Maiden_Rig__Idle",
@@ -2295,7 +2296,7 @@
           "tier": 3,
           "rig": "39_T3_Spring Maiden_Rig",
           "mesh": "39_T3_Spring Maiden_Mesh",
-          "vertices": 11004,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "39_T3_Spring Maiden_Rig__Idle",
@@ -2308,21 +2309,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 40,
       "name": "Ocean Champion",
       "blend": "assets/40.blend",
       "preview": "previews/40.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "40_T1_Ocean Champion_Rig",
           "mesh": "40_T1_Ocean Champion_Mesh",
-          "vertices": 8704,
+          "vertices": 27537,
           "bones": 22,
           "actions": [
             "40_T1_Ocean Champion_Rig__Idle",
@@ -2338,7 +2339,7 @@
           "tier": 2,
           "rig": "40_T2_Ocean Champion_Rig",
           "mesh": "40_T2_Ocean Champion_Mesh",
-          "vertices": 10074,
+          "vertices": 31777,
           "bones": 22,
           "actions": [
             "40_T2_Ocean Champion_Rig__Idle",
@@ -2354,7 +2355,7 @@
           "tier": 3,
           "rig": "40_T3_Ocean Champion_Rig",
           "mesh": "40_T3_Ocean Champion_Mesh",
-          "vertices": 10308,
+          "vertices": 32659,
           "bones": 22,
           "actions": [
             "40_T3_Ocean Champion_Rig__Idle",
@@ -2367,21 +2368,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 41,
       "name": "Elder Archer",
       "blend": "assets/41.blend",
       "preview": "previews/41.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "41_T1_Elder Archer_Rig",
           "mesh": "41_T1_Elder Archer_Mesh",
-          "vertices": 7892,
+          "vertices": 19253,
           "bones": 22,
           "actions": [
             "41_T1_Elder Archer_Rig__Idle",
@@ -2397,7 +2398,7 @@
           "tier": 2,
           "rig": "41_T2_Elder Archer_Rig",
           "mesh": "41_T2_Elder Archer_Mesh",
-          "vertices": 9190,
+          "vertices": 23421,
           "bones": 22,
           "actions": [
             "41_T2_Elder Archer_Rig__Idle",
@@ -2413,7 +2414,7 @@
           "tier": 3,
           "rig": "41_T3_Elder Archer_Rig",
           "mesh": "41_T3_Elder Archer_Mesh",
-          "vertices": 9352,
+          "vertices": 24231,
           "bones": 22,
           "actions": [
             "41_T3_Elder Archer_Rig__Idle",
@@ -2426,21 +2427,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 42,
       "name": "Lilac Princess",
       "blend": "assets/42.blend",
       "preview": "previews/42.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "42_T1_Lilac Princess_Rig",
           "mesh": "42_T1_Lilac Princess_Mesh",
-          "vertices": 10248,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "42_T1_Lilac Princess_Rig__Idle",
@@ -2456,7 +2457,7 @@
           "tier": 2,
           "rig": "42_T2_Lilac Princess_Rig",
           "mesh": "42_T2_Lilac Princess_Mesh",
-          "vertices": 10842,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "42_T2_Lilac Princess_Rig__Idle",
@@ -2472,7 +2473,7 @@
           "tier": 3,
           "rig": "42_T3_Lilac Princess_Rig",
           "mesh": "42_T3_Lilac Princess_Mesh",
-          "vertices": 11004,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "42_T3_Lilac Princess_Rig__Idle",
@@ -2485,21 +2486,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 43,
       "name": "Azure Dragon",
       "blend": "assets/43.blend",
       "preview": "previews/43.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "43_T1_Azure Dragon_Rig",
           "mesh": "43_T1_Azure Dragon_Mesh",
-          "vertices": 10232,
+          "vertices": 31074,
           "bones": 22,
           "actions": [
             "43_T1_Azure Dragon_Rig__Idle",
@@ -2515,7 +2516,7 @@
           "tier": 2,
           "rig": "43_T2_Azure Dragon_Rig",
           "mesh": "43_T2_Azure Dragon_Mesh",
-          "vertices": 11602,
+          "vertices": 35314,
           "bones": 22,
           "actions": [
             "43_T2_Azure Dragon_Rig__Idle",
@@ -2531,7 +2532,7 @@
           "tier": 3,
           "rig": "43_T3_Azure Dragon_Rig",
           "mesh": "43_T3_Azure Dragon_Mesh",
-          "vertices": 11836,
+          "vertices": 36196,
           "bones": 22,
           "actions": [
             "43_T3_Azure Dragon_Rig__Idle",
@@ -2544,21 +2545,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 44,
       "name": "Emerald Elder",
       "blend": "assets/44.blend",
       "preview": "previews/44.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "44_T1_Emerald Elder_Rig",
           "mesh": "44_T1_Emerald Elder_Mesh",
-          "vertices": 10198,
+          "vertices": 33502,
           "bones": 22,
           "actions": [
             "44_T1_Emerald Elder_Rig__Idle",
@@ -2574,7 +2575,7 @@
           "tier": 2,
           "rig": "44_T2_Emerald Elder_Rig",
           "mesh": "44_T2_Emerald Elder_Mesh",
-          "vertices": 11568,
+          "vertices": 37634,
           "bones": 22,
           "actions": [
             "44_T2_Emerald Elder_Rig__Idle",
@@ -2590,7 +2591,7 @@
           "tier": 3,
           "rig": "44_T3_Emerald Elder_Rig",
           "mesh": "44_T3_Emerald Elder_Mesh",
-          "vertices": 11802,
+          "vertices": 38408,
           "bones": 22,
           "actions": [
             "44_T3_Emerald Elder_Rig__Idle",
@@ -2603,21 +2604,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 45,
       "name": "Forest Scholar",
       "blend": "assets/45.blend",
       "preview": "previews/45.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "45_T1_Forest Scholar_Rig",
           "mesh": "45_T1_Forest Scholar_Mesh",
-          "vertices": 9194,
+          "vertices": 22968,
           "bones": 22,
           "actions": [
             "45_T1_Forest Scholar_Rig__Idle",
@@ -2633,7 +2634,7 @@
           "tier": 2,
           "rig": "45_T2_Forest Scholar_Rig",
           "mesh": "45_T2_Forest Scholar_Mesh",
-          "vertices": 9734,
+          "vertices": 25628,
           "bones": 22,
           "actions": [
             "45_T2_Forest Scholar_Rig__Idle",
@@ -2649,7 +2650,7 @@
           "tier": 3,
           "rig": "45_T3_Forest Scholar_Rig",
           "mesh": "45_T3_Forest Scholar_Mesh",
-          "vertices": 9842,
+          "vertices": 26384,
           "bones": 22,
           "actions": [
             "45_T3_Forest Scholar_Rig__Idle",
@@ -2662,21 +2663,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 46,
       "name": "Amethyst Bulwark",
       "blend": "assets/46.blend",
       "preview": "previews/46.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "46_T1_Amethyst Bulwark_Rig",
           "mesh": "46_T1_Amethyst Bulwark_Mesh",
-          "vertices": 9082,
+          "vertices": 28761,
           "bones": 22,
           "actions": [
             "46_T1_Amethyst Bulwark_Rig__Idle",
@@ -2692,7 +2693,7 @@
           "tier": 2,
           "rig": "46_T2_Amethyst Bulwark_Rig",
           "mesh": "46_T2_Amethyst Bulwark_Mesh",
-          "vertices": 10452,
+          "vertices": 33001,
           "bones": 22,
           "actions": [
             "46_T2_Amethyst Bulwark_Rig__Idle",
@@ -2708,7 +2709,7 @@
           "tier": 3,
           "rig": "46_T3_Amethyst Bulwark_Rig",
           "mesh": "46_T3_Amethyst Bulwark_Mesh",
-          "vertices": 10686,
+          "vertices": 33883,
           "bones": 22,
           "actions": [
             "46_T3_Amethyst Bulwark_Rig__Idle",
@@ -2721,21 +2722,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 47,
       "name": "Jade Huntress",
       "blend": "assets/47.blend",
       "preview": "previews/47.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "47_T1_Jade Huntress_Rig",
           "mesh": "47_T1_Jade Huntress_Mesh",
-          "vertices": 7906,
+          "vertices": 37559,
           "bones": 22,
           "actions": [
             "47_T1_Jade Huntress_Rig__Idle",
@@ -2751,7 +2752,7 @@
           "tier": 2,
           "rig": "47_T2_Jade Huntress_Rig",
           "mesh": "47_T2_Jade Huntress_Mesh",
-          "vertices": 9168,
+          "vertices": 40237,
           "bones": 22,
           "actions": [
             "47_T2_Jade Huntress_Rig__Idle",
@@ -2767,7 +2768,7 @@
           "tier": 3,
           "rig": "47_T3_Jade Huntress_Rig",
           "mesh": "47_T3_Jade Huntress_Mesh",
-          "vertices": 9294,
+          "vertices": 41011,
           "bones": 22,
           "actions": [
             "47_T3_Jade Huntress_Rig__Idle",
@@ -2780,21 +2781,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 48,
       "name": "Jade Dragon",
       "blend": "assets/48.blend",
       "preview": "previews/48.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "48_T1_Jade Dragon_Rig",
           "mesh": "48_T1_Jade Dragon_Mesh",
-          "vertices": 9854,
+          "vertices": 31512,
           "bones": 22,
           "actions": [
             "48_T1_Jade Dragon_Rig__Idle",
@@ -2810,7 +2811,7 @@
           "tier": 2,
           "rig": "48_T2_Jade Dragon_Rig",
           "mesh": "48_T2_Jade Dragon_Mesh",
-          "vertices": 11224,
+          "vertices": 35644,
           "bones": 22,
           "actions": [
             "48_T2_Jade Dragon_Rig__Idle",
@@ -2826,7 +2827,7 @@
           "tier": 3,
           "rig": "48_T3_Jade Dragon_Rig",
           "mesh": "48_T3_Jade Dragon_Mesh",
-          "vertices": 11458,
+          "vertices": 36418,
           "bones": 22,
           "actions": [
             "48_T3_Jade Dragon_Rig__Idle",
@@ -2839,21 +2840,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 49,
       "name": "Emerald Cavalier",
       "blend": "assets/49.blend",
       "preview": "previews/49.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "49_T1_Emerald Cavalier_Rig",
           "mesh": "49_T1_Emerald Cavalier_Mesh",
-          "vertices": 9854,
+          "vertices": 29293,
           "bones": 22,
           "actions": [
             "49_T1_Emerald Cavalier_Rig__Idle",
@@ -2869,7 +2870,7 @@
           "tier": 2,
           "rig": "49_T2_Emerald Cavalier_Rig",
           "mesh": "49_T2_Emerald Cavalier_Mesh",
-          "vertices": 11224,
+          "vertices": 33425,
           "bones": 22,
           "actions": [
             "49_T2_Emerald Cavalier_Rig__Idle",
@@ -2885,7 +2886,7 @@
           "tier": 3,
           "rig": "49_T3_Emerald Cavalier_Rig",
           "mesh": "49_T3_Emerald Cavalier_Mesh",
-          "vertices": 11458,
+          "vertices": 34199,
           "bones": 22,
           "actions": [
             "49_T3_Emerald Cavalier_Rig__Idle",
@@ -2898,21 +2899,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 50,
       "name": "Ivory Commander",
       "blend": "assets/50.blend",
       "preview": "previews/50.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "50_T1_Ivory Commander_Rig",
           "mesh": "50_T1_Ivory Commander_Mesh",
-          "vertices": 9854,
+          "vertices": 32026,
           "bones": 22,
           "actions": [
             "50_T1_Ivory Commander_Rig__Idle",
@@ -2928,7 +2929,7 @@
           "tier": 2,
           "rig": "50_T2_Ivory Commander_Rig",
           "mesh": "50_T2_Ivory Commander_Mesh",
-          "vertices": 11224,
+          "vertices": 36266,
           "bones": 22,
           "actions": [
             "50_T2_Ivory Commander_Rig__Idle",
@@ -2944,7 +2945,7 @@
           "tier": 3,
           "rig": "50_T3_Ivory Commander_Rig",
           "mesh": "50_T3_Ivory Commander_Mesh",
-          "vertices": 11458,
+          "vertices": 37148,
           "bones": 22,
           "actions": [
             "50_T3_Ivory Commander_Rig__Idle",
@@ -2957,21 +2958,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 51,
       "name": "Jade Duelist",
       "blend": "assets/51.blend",
       "preview": "previews/51.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "51_T1_Jade Duelist_Rig",
           "mesh": "51_T1_Jade Duelist_Mesh",
-          "vertices": 8284,
+          "vertices": 31512,
           "bones": 22,
           "actions": [
             "51_T1_Jade Duelist_Rig__Idle",
@@ -2987,7 +2988,7 @@
           "tier": 2,
           "rig": "51_T2_Jade Duelist_Rig",
           "mesh": "51_T2_Jade Duelist_Mesh",
-          "vertices": 9546,
+          "vertices": 35644,
           "bones": 22,
           "actions": [
             "51_T2_Jade Duelist_Rig__Idle",
@@ -3003,7 +3004,7 @@
           "tier": 3,
           "rig": "51_T3_Jade Duelist_Rig",
           "mesh": "51_T3_Jade Duelist_Mesh",
-          "vertices": 9672,
+          "vertices": 36418,
           "bones": 22,
           "actions": [
             "51_T3_Jade Duelist_Rig__Idle",
@@ -3016,21 +3017,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 52,
       "name": "Lilac Immortal",
       "blend": "assets/52.blend",
       "preview": "previews/52.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "52_T1_Lilac Immortal_Rig",
           "mesh": "52_T1_Lilac Immortal_Mesh",
-          "vertices": 9194,
+          "vertices": 25458,
           "bones": 22,
           "actions": [
             "52_T1_Lilac Immortal_Rig__Idle",
@@ -3046,7 +3047,7 @@
           "tier": 2,
           "rig": "52_T2_Lilac Immortal_Rig",
           "mesh": "52_T2_Lilac Immortal_Mesh",
-          "vertices": 9734,
+          "vertices": 28118,
           "bones": 22,
           "actions": [
             "52_T2_Lilac Immortal_Rig__Idle",
@@ -3062,7 +3063,7 @@
           "tier": 3,
           "rig": "52_T3_Lilac Immortal_Rig",
           "mesh": "52_T3_Lilac Immortal_Mesh",
-          "vertices": 9842,
+          "vertices": 28874,
           "bones": 22,
           "actions": [
             "52_T3_Lilac Immortal_Rig__Idle",
@@ -3075,21 +3076,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 53,
       "name": "Sun Immortal",
       "blend": "assets/53.blend",
       "preview": "previews/53.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "53_T1_Sun Immortal_Rig",
           "mesh": "53_T1_Sun Immortal_Mesh",
-          "vertices": 9194,
+          "vertices": 25458,
           "bones": 22,
           "actions": [
             "53_T1_Sun Immortal_Rig__Idle",
@@ -3105,7 +3106,7 @@
           "tier": 2,
           "rig": "53_T2_Sun Immortal_Rig",
           "mesh": "53_T2_Sun Immortal_Mesh",
-          "vertices": 9734,
+          "vertices": 28118,
           "bones": 22,
           "actions": [
             "53_T2_Sun Immortal_Rig__Idle",
@@ -3121,7 +3122,7 @@
           "tier": 3,
           "rig": "53_T3_Sun Immortal_Rig",
           "mesh": "53_T3_Sun Immortal_Mesh",
-          "vertices": 9842,
+          "vertices": 28874,
           "bones": 22,
           "actions": [
             "53_T3_Sun Immortal_Rig__Idle",
@@ -3134,21 +3135,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 54,
       "name": "Royal Tide",
       "blend": "assets/54.blend",
       "preview": "previews/54.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "54_T1_Royal Tide_Rig",
           "mesh": "54_T1_Royal Tide_Mesh",
-          "vertices": 8704,
+          "vertices": 27537,
           "bones": 22,
           "actions": [
             "54_T1_Royal Tide_Rig__Idle",
@@ -3164,7 +3165,7 @@
           "tier": 2,
           "rig": "54_T2_Royal Tide_Rig",
           "mesh": "54_T2_Royal Tide_Mesh",
-          "vertices": 10074,
+          "vertices": 31777,
           "bones": 22,
           "actions": [
             "54_T2_Royal Tide_Rig__Idle",
@@ -3180,7 +3181,7 @@
           "tier": 3,
           "rig": "54_T3_Royal Tide_Rig",
           "mesh": "54_T3_Royal Tide_Mesh",
-          "vertices": 10308,
+          "vertices": 32659,
           "bones": 22,
           "actions": [
             "54_T3_Royal Tide_Rig__Idle",
@@ -3193,21 +3194,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 55,
       "name": "Fire Monarch",
       "blend": "assets/55.blend",
       "preview": "previews/55.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "55_T1_Fire Monarch_Rig",
           "mesh": "55_T1_Fire Monarch_Mesh",
-          "vertices": 9082,
+          "vertices": 32352,
           "bones": 22,
           "actions": [
             "55_T1_Fire Monarch_Rig__Idle",
@@ -3223,7 +3224,7 @@
           "tier": 2,
           "rig": "55_T2_Fire Monarch_Rig",
           "mesh": "55_T2_Fire Monarch_Mesh",
-          "vertices": 10452,
+          "vertices": 36592,
           "bones": 22,
           "actions": [
             "55_T2_Fire Monarch_Rig__Idle",
@@ -3239,7 +3240,7 @@
           "tier": 3,
           "rig": "55_T3_Fire Monarch_Rig",
           "mesh": "55_T3_Fire Monarch_Mesh",
-          "vertices": 10686,
+          "vertices": 37474,
           "bones": 22,
           "actions": [
             "55_T3_Fire Monarch_Rig__Idle",
@@ -3252,21 +3253,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 56,
       "name": "Scarlet Princess",
       "blend": "assets/56.blend",
       "preview": "previews/56.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "56_T1_Scarlet Princess_Rig",
           "mesh": "56_T1_Scarlet Princess_Mesh",
-          "vertices": 8816,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "56_T1_Scarlet Princess_Rig__Idle",
@@ -3282,7 +3283,7 @@
           "tier": 2,
           "rig": "56_T2_Scarlet Princess_Rig",
           "mesh": "56_T2_Scarlet Princess_Mesh",
-          "vertices": 9356,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "56_T2_Scarlet Princess_Rig__Idle",
@@ -3298,7 +3299,7 @@
           "tier": 3,
           "rig": "56_T3_Scarlet Princess_Rig",
           "mesh": "56_T3_Scarlet Princess_Mesh",
-          "vertices": 9464,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "56_T3_Scarlet Princess_Rig__Idle",
@@ -3311,21 +3312,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 57,
       "name": "Frost Monarch",
       "blend": "assets/57.blend",
       "preview": "previews/57.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "57_T1_Frost Monarch_Rig",
           "mesh": "57_T1_Frost Monarch_Mesh",
-          "vertices": 8816,
+          "vertices": 25322,
           "bones": 22,
           "actions": [
             "57_T1_Frost Monarch_Rig__Idle",
@@ -3341,7 +3342,7 @@
           "tier": 2,
           "rig": "57_T2_Frost Monarch_Rig",
           "mesh": "57_T2_Frost Monarch_Mesh",
-          "vertices": 9356,
+          "vertices": 27982,
           "bones": 22,
           "actions": [
             "57_T2_Frost Monarch_Rig__Idle",
@@ -3357,7 +3358,7 @@
           "tier": 3,
           "rig": "57_T3_Frost Monarch_Rig",
           "mesh": "57_T3_Frost Monarch_Mesh",
-          "vertices": 9464,
+          "vertices": 28738,
           "bones": 22,
           "actions": [
             "57_T3_Frost Monarch_Rig__Idle",
@@ -3370,21 +3371,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 58,
       "name": "Midnight Minister",
       "blend": "assets/58.blend",
       "preview": "previews/58.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "58_T1_Midnight Minister_Rig",
           "mesh": "58_T1_Midnight Minister_Mesh",
-          "vertices": 9194,
+          "vertices": 22578,
           "bones": 22,
           "actions": [
             "58_T1_Midnight Minister_Rig__Idle",
@@ -3400,7 +3401,7 @@
           "tier": 2,
           "rig": "58_T2_Midnight Minister_Rig",
           "mesh": "58_T2_Midnight Minister_Mesh",
-          "vertices": 9734,
+          "vertices": 25238,
           "bones": 22,
           "actions": [
             "58_T2_Midnight Minister_Rig__Idle",
@@ -3416,7 +3417,7 @@
           "tier": 3,
           "rig": "58_T3_Midnight Minister_Rig",
           "mesh": "58_T3_Midnight Minister_Mesh",
-          "vertices": 9842,
+          "vertices": 25994,
           "bones": 22,
           "actions": [
             "58_T3_Midnight Minister_Rig__Idle",
@@ -3429,21 +3430,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 59,
       "name": "Jade Minister",
       "blend": "assets/59.blend",
       "preview": "previews/59.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "59_T1_Jade Minister_Rig",
           "mesh": "59_T1_Jade Minister_Mesh",
-          "vertices": 9194,
+          "vertices": 23530,
           "bones": 22,
           "actions": [
             "59_T1_Jade Minister_Rig__Idle",
@@ -3459,7 +3460,7 @@
           "tier": 2,
           "rig": "59_T2_Jade Minister_Rig",
           "mesh": "59_T2_Jade Minister_Mesh",
-          "vertices": 9734,
+          "vertices": 26190,
           "bones": 22,
           "actions": [
             "59_T2_Jade Minister_Rig__Idle",
@@ -3475,7 +3476,7 @@
           "tier": 3,
           "rig": "59_T3_Jade Minister_Rig",
           "mesh": "59_T3_Jade Minister_Mesh",
-          "vertices": 9842,
+          "vertices": 26946,
           "bones": 22,
           "actions": [
             "59_T3_Jade Minister_Rig__Idle",
@@ -3488,21 +3489,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 60,
       "name": "Garden Princess",
       "blend": "assets/60.blend",
       "preview": "previews/60.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "60_T1_Garden Princess_Rig",
           "mesh": "60_T1_Garden Princess_Mesh",
-          "vertices": 9210,
+          "vertices": 23546,
           "bones": 22,
           "actions": [
             "60_T1_Garden Princess_Rig__Idle",
@@ -3518,7 +3519,7 @@
           "tier": 2,
           "rig": "60_T2_Garden Princess_Rig",
           "mesh": "60_T2_Garden Princess_Mesh",
-          "vertices": 9750,
+          "vertices": 26206,
           "bones": 22,
           "actions": [
             "60_T2_Garden Princess_Rig__Idle",
@@ -3534,7 +3535,7 @@
           "tier": 3,
           "rig": "60_T3_Garden Princess_Rig",
           "mesh": "60_T3_Garden Princess_Mesh",
-          "vertices": 9858,
+          "vertices": 26962,
           "bones": 22,
           "actions": [
             "60_T3_Garden Princess_Rig__Idle",
@@ -3547,21 +3548,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 61,
       "name": "Bronze Bulwark",
       "blend": "assets/61.blend",
       "preview": "previews/61.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "61_T1_Bronze Bulwark_Rig",
           "mesh": "61_T1_Bronze Bulwark_Mesh",
-          "vertices": 9082,
+          "vertices": 29195,
           "bones": 22,
           "actions": [
             "61_T1_Bronze Bulwark_Rig__Idle",
@@ -3577,7 +3578,7 @@
           "tier": 2,
           "rig": "61_T2_Bronze Bulwark_Rig",
           "mesh": "61_T2_Bronze Bulwark_Mesh",
-          "vertices": 10452,
+          "vertices": 33435,
           "bones": 22,
           "actions": [
             "61_T2_Bronze Bulwark_Rig__Idle",
@@ -3593,7 +3594,7 @@
           "tier": 3,
           "rig": "61_T3_Bronze Bulwark_Rig",
           "mesh": "61_T3_Bronze Bulwark_Mesh",
-          "vertices": 10686,
+          "vertices": 34317,
           "bones": 22,
           "actions": [
             "61_T3_Bronze Bulwark_Rig__Idle",
@@ -3606,21 +3607,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 62,
       "name": "Violet Princess",
       "blend": "assets/62.blend",
       "preview": "previews/62.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "62_T1_Violet Princess_Rig",
           "mesh": "62_T1_Violet Princess_Mesh",
-          "vertices": 9570,
+          "vertices": 22202,
           "bones": 22,
           "actions": [
             "62_T1_Violet Princess_Rig__Idle",
@@ -3636,7 +3637,7 @@
           "tier": 2,
           "rig": "62_T2_Violet Princess_Rig",
           "mesh": "62_T2_Violet Princess_Mesh",
-          "vertices": 10164,
+          "vertices": 24916,
           "bones": 22,
           "actions": [
             "62_T2_Violet Princess_Rig__Idle",
@@ -3652,7 +3653,7 @@
           "tier": 3,
           "rig": "62_T3_Violet Princess_Rig",
           "mesh": "62_T3_Violet Princess_Mesh",
-          "vertices": 10326,
+          "vertices": 25726,
           "bones": 22,
           "actions": [
             "62_T3_Violet Princess_Rig__Idle",
@@ -3665,21 +3666,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 63,
       "name": "Sage of Jade",
       "blend": "assets/63.blend",
       "preview": "previews/63.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "63_T1_Sage of Jade_Rig",
           "mesh": "63_T1_Sage of Jade_Mesh",
-          "vertices": 9486,
+          "vertices": 27691,
           "bones": 22,
           "actions": [
             "63_T1_Sage of Jade_Rig__Idle",
@@ -3695,7 +3696,7 @@
           "tier": 2,
           "rig": "63_T2_Sage of Jade_Rig",
           "mesh": "63_T2_Sage of Jade_Mesh",
-          "vertices": 10098,
+          "vertices": 31823,
           "bones": 22,
           "actions": [
             "63_T2_Sage of Jade_Rig__Idle",
@@ -3711,7 +3712,7 @@
           "tier": 3,
           "rig": "63_T3_Sage of Jade_Rig",
           "mesh": "63_T3_Sage of Jade_Mesh",
-          "vertices": 10278,
+          "vertices": 32597,
           "bones": 22,
           "actions": [
             "63_T3_Sage of Jade_Rig__Idle",
@@ -3724,21 +3725,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 64,
       "name": "Emerald Crescent",
       "blend": "assets/64.blend",
       "preview": "previews/64.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "64_T1_Emerald Crescent_Rig",
           "mesh": "64_T1_Emerald Crescent_Mesh",
-          "vertices": 10286,
+          "vertices": 33227,
           "bones": 22,
           "actions": [
             "64_T1_Emerald Crescent_Rig__Idle",
@@ -3754,7 +3755,7 @@
           "tier": 2,
           "rig": "64_T2_Emerald Crescent_Rig",
           "mesh": "64_T2_Emerald Crescent_Mesh",
-          "vertices": 11656,
+          "vertices": 37359,
           "bones": 22,
           "actions": [
             "64_T2_Emerald Crescent_Rig__Idle",
@@ -3770,7 +3771,7 @@
           "tier": 3,
           "rig": "64_T3_Emerald Crescent_Rig",
           "mesh": "64_T3_Emerald Crescent_Mesh",
-          "vertices": 11890,
+          "vertices": 38133,
           "bones": 22,
           "actions": [
             "64_T3_Emerald Crescent_Rig__Idle",
@@ -3783,21 +3784,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 65,
       "name": "Inferno Crescent",
       "blend": "assets/65.blend",
       "preview": "previews/65.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "65_T1_Inferno Crescent_Rig",
           "mesh": "65_T1_Inferno Crescent_Mesh",
-          "vertices": 9820,
+          "vertices": 32352,
           "bones": 22,
           "actions": [
             "65_T1_Inferno Crescent_Rig__Idle",
@@ -3813,7 +3814,7 @@
           "tier": 2,
           "rig": "65_T2_Inferno Crescent_Rig",
           "mesh": "65_T2_Inferno Crescent_Mesh",
-          "vertices": 11190,
+          "vertices": 36592,
           "bones": 22,
           "actions": [
             "65_T2_Inferno Crescent_Rig__Idle",
@@ -3829,7 +3830,7 @@
           "tier": 3,
           "rig": "65_T3_Inferno Crescent_Rig",
           "mesh": "65_T3_Inferno Crescent_Mesh",
-          "vertices": 11424,
+          "vertices": 37474,
           "bones": 22,
           "actions": [
             "65_T3_Inferno Crescent_Rig__Idle",
@@ -3842,21 +3843,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 66,
       "name": "Ivory Sage",
       "blend": "assets/66.blend",
       "preview": "previews/66.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "66_T1_Ivory Sage_Rig",
           "mesh": "66_T1_Ivory Sage_Mesh",
-          "vertices": 9221,
+          "vertices": 27691,
           "bones": 22,
           "actions": [
             "66_T1_Ivory Sage_Rig__Idle",
@@ -3872,7 +3873,7 @@
           "tier": 2,
           "rig": "66_T2_Ivory Sage_Rig",
           "mesh": "66_T2_Ivory Sage_Mesh",
-          "vertices": 10483,
+          "vertices": 31823,
           "bones": 22,
           "actions": [
             "66_T2_Ivory Sage_Rig__Idle",
@@ -3888,7 +3889,7 @@
           "tier": 3,
           "rig": "66_T3_Ivory Sage_Rig",
           "mesh": "66_T3_Ivory Sage_Mesh",
-          "vertices": 10609,
+          "vertices": 32597,
           "bones": 22,
           "actions": [
             "66_T3_Ivory Sage_Rig__Idle",
@@ -3901,21 +3902,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 67,
       "name": "Jade War God",
       "blend": "assets/67.blend",
       "preview": "previews/67.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "67_T1_Jade War God_Rig",
           "mesh": "67_T1_Jade War God_Mesh",
-          "vertices": 9221,
+          "vertices": 33227,
           "bones": 22,
           "actions": [
             "67_T1_Jade War God_Rig__Idle",
@@ -3931,7 +3932,7 @@
           "tier": 2,
           "rig": "67_T2_Jade War God_Rig",
           "mesh": "67_T2_Jade War God_Mesh",
-          "vertices": 10483,
+          "vertices": 37359,
           "bones": 22,
           "actions": [
             "67_T2_Jade War God_Rig__Idle",
@@ -3947,7 +3948,7 @@
           "tier": 3,
           "rig": "67_T3_Jade War God_Rig",
           "mesh": "67_T3_Jade War God_Mesh",
-          "vertices": 10609,
+          "vertices": 38133,
           "bones": 22,
           "actions": [
             "67_T3_Jade War God_Rig__Idle",
@@ -3960,21 +3961,21 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 68,
       "name": "Crimson War God",
       "blend": "assets/68.blend",
       "preview": "previews/68.png",
-      "status": "FIRST_PASS_LIKENESS_UNVERIFIED",
+      "status": "DETAILED_REFERENCE_SCULPT_REVIEW_PENDING",
+      "graphics_revision": 4,
       "characters": [
         {
           "tier": 1,
           "rig": "68_T1_Crimson War God_Rig",
           "mesh": "68_T1_Crimson War God_Mesh",
-          "vertices": 10016,
+          "vertices": 33905,
           "bones": 22,
           "actions": [
             "68_T1_Crimson War God_Rig__Idle",
@@ -3990,7 +3991,7 @@
           "tier": 2,
           "rig": "68_T2_Crimson War God_Rig",
           "mesh": "68_T2_Crimson War God_Mesh",
-          "vertices": 11386,
+          "vertices": 38145,
           "bones": 22,
           "actions": [
             "68_T2_Crimson War God_Rig__Idle",
@@ -4006,7 +4007,7 @@
           "tier": 3,
           "rig": "68_T3_Crimson War God_Rig",
           "mesh": "68_T3_Crimson War God_Mesh",
-          "vertices": 11620,
+          "vertices": 39027,
           "bones": 22,
           "actions": [
             "68_T3_Crimson War God_Rig__Idle",
@@ -4019,8 +4020,7 @@
           ]
         }
       ],
-      "effects": 3,
-      "graphics_revision": 3
+      "effects": 3
     },
     {
       "reference": 69,
@@ -4032,5 +4032,7 @@
       "effects": 3,
       "graphics_revision": 3
     }
-  ]
+  ],
+  "detailed_character_meshes": 204,
+  "likeness": "NOT_APPROVED"
 }

@@ -54,3 +54,13 @@ formation positions and launch projectiles. Area attacks approach one primary ta
 other affected targets retain their skill effects. This changes presentation only,
 not simulation damage, targeting or rewards. Browser verification for both sides and
 x1/x2/x3: `node three/tests/melee.browser.cjs` (uses a controlled browser clock).
+
+
+Detailed native assets (revision 4): `detail_sculpt.py` adds section-built faces,
+almond eyes/lids, swept lenticular hair locks, layered beards, hand/finger geometry,
+riveted lamellae, sculpted animal relief, embroidered trims, jade and tassels.
+Appearance uses numbered sheets rather than RPG roles. Corrected mapping:
+Young Liu Bei → 63; Guan Yinping → 47; Young Guan Yu → 64. Zhao Yun retains
+the green outfit and paired swords visible in sheet 49 and the original game art.
+These are procedural reference interpretations; detailed geometry is not a claim
+of approved likeness. Hidden/back surfaces remain interpretations.
