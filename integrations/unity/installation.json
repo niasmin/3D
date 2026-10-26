@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/autospriteio/autosprite-unity",
+  "commit": "9944d55572ff9772bbb61feb3821a4e1a4738722",
+  "package": "com.autospriteio.autosprite",
+  "version": "1.1.1",
+  "minimum_unity": "2021.3",
+  "source_downloaded": true,
+  "package_metadata": "PASS",
+  "editor_entrypoint": "PASS",
+  "unity_compile": "NOT_CHECKED",
+  "unity_editor_activation": "NOT_CHECKED",
+  "reason": "Unity Editor and Unity project unavailable in this workspace",
+  "cloud_account_connected": false
+}

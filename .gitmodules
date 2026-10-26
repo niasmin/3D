@@ -1,0 +1,3 @@
+[submodule "integrations/autosprite-unity"]
+	path = integrations/autosprite-unity
+	url = https://github.com/autospriteio/autosprite-unity.git

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "com.autospriteio.autosprite": "https://github.com/autospriteio/autosprite-unity.git?path=/Assets/AutoSprite#9944d55572ff9772bbb61feb3821a4e1a4738722"
+  }
+}
