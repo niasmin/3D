@@ -9,6 +9,7 @@ const fs=require('node:fs');
  for(const id of ['liubei_y','guanyu','zhangfei','zhaoyun','zhuge','guanyinping']){
   await page.evaluate(id=>Samkok3D.openViewer(id),id);await page.waitForSelector('.remake-viewer canvas');await page.waitForFunction(()=>!document.querySelector('.remake-viewer .world3d-loading'));
   assert.equal(await page.evaluate(()=>Samkok3D.diagnostics().viewerActions.length),7);
+  if(id==='liubei_y')await page.locator('.pose3d-more summary').click();
   if(id==='liubei_y')for(const action of ['Hit','Block','Defeat','Victory']){await page.locator(`[data-animation="${action}"]`).click();await page.waitForTimeout(200);assert.equal(await page.locator(`[data-animation="${action}"]`).getAttribute('aria-pressed'),'true');}
   await page.locator('[data-animation="Idle"]').click();await page.screenshot({path:`artifacts/hero-${id}-v4.png`});if(id!=='guanyinping')await page.locator('[data-signature3d]').click();await page.waitForTimeout(150);await page.screenshot({path:`artifacts/skill-${id}-v4.png`});checks.push(id+' detailed model loaded; seven clips available; visual screenshot recorded');await page.locator('[data-close3d]').click();
  }

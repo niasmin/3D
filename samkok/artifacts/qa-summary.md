@@ -47,3 +47,19 @@ this asset-only update does not change the backend or save schema.
 - All-skill stills use the effect-only harness. `skills/game-*.png` and the Guan Yu GIF
   are actual game renders. Effects are stylized procedural interpretations, with
   shared geometric generators and individual recipes, not exact copies of the art.
+
+## UX/UI revision 7
+
+Browser layout checks pass at 320×568, 390×844, 768×1024, 1280×900 and
+844×390: no horizontal document overflow, navigation separated from scroll content,
+44px+ primary/touch targets, 12px+ unit names, wrapping skill hint, zoom/reset and
+secondary-pose disclosure. Small phone battle models project at least 90px high in
+the 390px-wide three-unit scenario. Full 6-vs-5 checks keep all feet above the action
+panel and labels inside the field without label-rectangle overlap. Tab/Shift+Tab
+skips collapsed poses and reaches expanded poses; Escape closes the dialog.
+
+Core progression/save/summon/fallback, melee x1/x2/x3 and actual-game skill previews
+pass after UI integration. Landscape rendering was separately inspected after
+resize/reset/disclosure; resize now draws immediately, and model loading paints
+before dismissing its loading indicator. Real-device touch/FPS/notch are NOT_CHECKED.
+Screenshots used for position checks pause playback after dismissing the intro.

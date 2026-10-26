@@ -137,18 +137,49 @@ class Stage {
     this.loading=document.createElement('div');this.loading.className='world3d-loading';this.loading.setAttribute('role','status');this.loading.textContent='กำลังเตรียมโลก 3D…';host.prepend(this.canvas);host.append(this.loading);host.classList.add('has3d');
     this.controls=new OrbitControls(this.camera,this.canvas);this.controls.target.copy(this.target);this.controls.enablePan=false;this.controls.enableDamping=true;this.controls.minDistance=kind==='city'?20:18;this.controls.maxDistance=kind==='city'?55:55;this.controls.minPolarAngle=.30;this.controls.maxPolarAngle=1.3;
     if(kind==='battle')this.controls.enabled=false;
-    this.ro=new ResizeObserver(()=>this.resize());this.ro.observe(host);this.resize();
+    this.ro=new ResizeObserver(()=>this.resize());this.ro.observe(host);if(kind==='battle'&&host.querySelector('.bpanel'))this.ro.observe(host.querySelector('.bpanel'));this.resize();
     this.buildWorld(biome);
     this.batchEnvironment();
     this.last=performance.now();this.started=this.last;this.budgetStart=this.last;this.budgetFrames=0;this.tick=this.tick.bind(this);this.raf=requestAnimationFrame(this.tick);
   }
   resize() {
+    if(this.disposed)return;
     const w=this.host.clientWidth,h=this.host.clientHeight;if(!w||!h)return;
     this.renderer.setSize(w,h,false);this.camera.aspect=w/h;this.camera.updateProjectionMatrix();
-    if(this.kind!=='viewer') {
+    if(this.kind==='battle'&&this.actors.size){this.fitBattle();}
+    else if(this.kind!=='viewer') {
       const factor=Math.max(1,1/this.camera.aspect*(this.kind==='city'?.78:.62));
       this.camera.position.set(this.kind==='city'?21:12,this.kind==='city'?24:23,this.kind==='city'?28:26).multiplyScalar(factor);this.camera.lookAt(this.target);this.controls.update();
     }
+    this.renderer.render(this.scene,this.camera);
+  }
+  fitBattle(){
+    if(!this.actors.size)return;
+    const w=this.host.clientWidth,h=this.host.clientHeight;
+    const top=(this.host.querySelector('.bctl')?.getBoundingClientRect().bottom||this.host.getBoundingClientRect().top+110)-this.host.getBoundingClientRect().top+14;
+    const sidebar=w>h&&h<500?(this.host.querySelector('.bpanel')?.offsetWidth||230)+24:0;
+    const bottom=sidebar?18:(this.host.querySelector('.bpanel')?.offsetHeight||130)+26;
+    if(sidebar)this.camera.setViewOffset(w,h,sidebar/2,(bottom-top)/2,w,h);else this.camera.clearViewOffset();
+    const minX=-1+Math.min(.28,96/w),maxX=sidebar?1-2*sidebar/w-96/w:-minX,minY=-1+2*bottom/h,maxY=1-2*top/h;
+    const bounds=new T.Box3();for(const actor of this.actors.values()){
+      const p=unitPosition(actor.unit.side,actor.unit.slot);
+      bounds.expandByPoint(new T.Vector3(p.x-.85,0,p.z-.65));bounds.expandByPoint(new T.Vector3(p.x+.85,actor.unit.id==='boss'?4.5:4.0,p.z+.65));
+    }
+    const center=bounds.getCenter(new T.Vector3());center.y=1.8;
+    const corners=[];for(const x of [bounds.min.x,bounds.max.x])for(const y of [bounds.min.y,bounds.max.y])for(const z of [bounds.min.z,bounds.max.z])corners.push(new T.Vector3(x,y,z));
+    const direction=new T.Vector3(w<600?0:.22,.64,1).normalize();let lo=8,hi=90;
+    for(let i=0;i<16;i++){
+      const distance=(lo+hi)/2;this.camera.position.copy(center).addScaledVector(direction,distance);this.camera.lookAt(center);this.camera.updateMatrixWorld();
+      const fits=corners.every(p=>{const v=p.clone().project(this.camera);return v.x>minX&&v.x<maxX&&v.y>minY&&v.y<maxY;});if(fits)hi=distance;else lo=distance;
+    }
+    this.camera.position.copy(center).addScaledVector(direction,hi);this.controls.target.copy(center);this.controls.minDistance=8;this.controls.maxDistance=90;this.controls.update();
+    this.framing={distance:hi,top,bottom,sidebar};
+  }
+
+  layoutDiagnostics(){
+    const w=this.host.clientWidth,h=this.host.clientHeight;
+    const project=v=>{const p=v.clone().project(this.camera);return {x:(p.x*.5+.5)*w,y:(-p.y*.5+.5)*h};};
+    return {width:w,height:h,units:Array.from(this.actors.values(),a=>{const feet=project(a.root.position),head=project(a.root.position.clone().add(new T.Vector3(0,3.2,0)));return {uid:a.unit.uid,feet,head,pixels:Math.hypot(head.x-feet.x,head.y-feet.y)};})};
   }
   buildWorld(biome) {
     const e=this.environment;
@@ -255,7 +286,11 @@ class Stage {
     if(this.disposed){asset.release();return null;}
     const actor=new Actor(asset,unit,this);this.actors.set(unit.uid,actor);
     const p=unitPosition(unit.side,unit.slot);actor.root.position.set(p.x,p.y+.07,p.z);actor.root.rotation.y=unit.side==='p'?Math.PI:0;
-    const el=document.getElementById('u-'+unit.uid);if(this.kind==='battle'&&el)this.labels.push({el,actor,position:new T.Vector3(p.x,unit.id==='boss'?4.3:3.55,p.z)});
+    const el=document.getElementById('u-'+unit.uid);if(this.kind==='battle'&&el){
+      const leader=document.createElement('div');leader.className='world3d-leader';leader.setAttribute('aria-hidden','true');this.host.append(leader);
+      el.setAttribute('aria-label',(api.hero(unit.id)?.th||unit.id)+' ระดับ '+(unit.lv||1));
+      this.labels.push({el,actor,leader,position:new T.Vector3(p.x,unit.id==='boss'?4.3:3.55,p.z)});
+    }
     // Ground contact shadow remains available even on low-end phones without shadow maps.
     const shadow=mesh(this.environment,new T.PlaneGeometry(1.5,1.5),new T.MeshBasicMaterial({map:this.shadowTexture,transparent:true,opacity:.7,depthWrite:false}),[p.x,.12,p.z]);shadow.rotation.x=-Math.PI/2;shadow.castShadow=false;actor.shadow=shadow;
     const ring=mesh(this.environment,new T.RingGeometry(.53,.56,32),new T.MeshBasicMaterial({color:unit.side==='p'?0x6ee5bf:0xff9b76,transparent:true,opacity:.65,depthWrite:false}),[p.x,.125,p.z]);ring.rotation.x=-Math.PI/2;ring.castShadow=false;
@@ -267,6 +302,7 @@ class Stage {
     const failures=results.filter(r=>r.status==='rejected');
     if(failures.length){this.loading.textContent=`โหลดโมเดลไม่ได้ ${failures.length} ตัว · ลองเปิดเกมใหม่`;this.loading.classList.add('error');throw new AggregateError(failures.map(f=>f.reason),'3D models unavailable');}
     else this.loading.remove();
+    if(this.kind==='battle'){this.host.classList.toggle('crowded3d',this.actors.size>6);this.fitBattle();}
   }
   action(a,dt) {
     const actor=this.actors.get(a.src);if(!actor||this.disposed)return;
@@ -366,14 +402,32 @@ class Stage {
           p.y=Math.min(this.host.clientHeight-p.h/2-8,p.y);
         }
       }
-      for(const label of projected){label.el.style.left=label.x+'px';label.el.style.top=label.y+'px';label.el.style.visibility=label.hidden?'hidden':'visible';}
+      if(this.kind==='battle'&&this.actors.size>6){
+        const width=this.host.clientWidth-(this.framing?.sidebar||0),top=(this.framing?.top||125)+4,bottom=this.host.clientHeight-(this.framing?.bottom||160);
+        const placed=[];projected.sort((a,b)=>a.position.z-b.position.z||a.position.x-b.position.x);
+        for(const p of projected){
+          p.anchorX=p.x;p.anchorY=p.y;let best=null;
+          const xs=[p.x,p.x-16,p.x+16,p.x-32,p.x+32,width*.16,width*.5,width*.84];
+          const ys=[p.y,p.y-12,p.y+12,p.y-28,p.y-48,p.y-72,p.y-100,p.y-140];
+          for(const cx of xs)for(const cy of ys){
+            const x=T.MathUtils.clamp(cx,p.w/2+5,width-p.w/2-5),y=T.MathUtils.clamp(cy,top+p.h,bottom);
+            const overlap=placed.some(q=>Math.abs(x-q.x)<(p.w+q.w)/2+5&&y>q.y-q.h-5&&y-p.h<q.y+5);
+            if(overlap)continue;const score=(x-p.anchorX)**2+(y-p.anchorY)**2*1.2;
+            if(!best||score<best.score)best={x,y,score};
+          }
+          if(best){p.x=best.x;p.y=best.y;}placed.push(p);
+        }
+      }
+      for(const label of projected){label.el.style.left=label.x+'px';label.el.style.top=label.y+'px';label.el.style.visibility=label.hidden?'hidden':'visible';
+        if(label.leader){const dx=(label.anchorX??label.x)-label.x,dy=(label.anchorY??label.y)-label.y,length=Math.hypot(dx,dy);label.leader.style.display=length>8&&!label.hidden?'block':'none';label.leader.style.left=label.x+'px';label.leader.style.top=label.y+'px';label.leader.style.width=length+'px';label.leader.style.transform='rotate('+Math.atan2(dy,dx)+'rad)';}
+      }
     }
     this.raf=requestAnimationFrame(this.tick);
   }
   dispose() {
     if(this.disposed)return;this.disposed=true;cancelAnimationFrame(this.raf);this.ro.disconnect();this.controls.dispose();
     this.skills.dispose();for(const a of this.actors.values())a.dispose();for(const f of this.fx)disposeTree(f.mesh);
-    for(const {el} of this.labels){el.style.removeProperty('left');el.style.removeProperty('top');el.style.removeProperty('visibility');el.classList.remove('world3d-label');}
+    for(const {el,leader} of this.labels){leader?.remove();el.style.removeProperty('left');el.style.removeProperty('top');el.style.removeProperty('visibility');el.classList.remove('world3d-label');}
     this.cameraButton?.remove();disposeTree(this.environment);this.skyTexture.dispose();this.shadowTexture.dispose();this.renderer.dispose();this.renderer.forceContextLoss();this.canvas.remove();this.loading.remove();this.host.classList.remove('has3d');
   }
 }
@@ -414,28 +468,39 @@ function closeViewer() {if(!viewer)return;viewer.version++;viewer.stage?.dispose
 async function openViewer(id) {
   closeViewer();const h=api.hero(id);if(!h)return;
   const el=document.createElement('div');el.className='v3d remake-viewer';el.setAttribute('role','dialog');el.setAttribute('aria-modal','true');el.setAttribute('aria-label',h.th+' 3D');
-  el.innerHTML=`<div class="v3top"><div><small>ขุนพลสามก๊ก · 3D</small><h2></h2></div><button class="sx" data-close3d aria-label="ปิดโมเดล">✕</button></div><div class="v3stage"></div><div class="v3tabs">${[1,2,3].map(t=>`<button data-tier="${t}" aria-pressed="${t===1}">ระดับ ${t}</button>`).join('')}</div><div class="animation3d">${[['Idle','ยืน'],['Walk','เดิน'],['Attack','โจมตี'],['Hit','รับโจมตี'],['Block','ป้องกัน'],['Defeat','ล้ม'],['Victory','ชนะ']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="${k==='Idle'}">${l}</button>`).join('')}</div><p class="v3hint">ลากเพื่อหมุน · เลื่อนเพื่อซูม · โมเดลสไตล์การ์ตูนจาก Blender</p>`;
+  const gestureHint=matchMedia('(pointer:coarse)').matches?'ลากเพื่อหมุน · ใช้สองนิ้วถ่าง/หุบเพื่อซูม':'ลากเมาส์เพื่อหมุน · เลื่อนล้อเมาส์เพื่อซูม';
+  el.innerHTML=`<div class="v3top"><div><small>ขุนพลสามก๊ก · ดูตัวละคร</small><h2></h2></div><button class="sx" data-close3d aria-label="ปิดโมเดล">✕</button></div><div class="v3stage"><div class="view3d-tools" aria-label="ควบคุมมุมมอง"><button data-viewcontrol="in" aria-label="ซูมเข้า">＋</button><button data-viewcontrol="out" aria-label="ซูมออก">−</button><button data-viewcontrol="reset" aria-label="คืนมุมมองเริ่มต้น">คืนมุม</button></div></div><div class="v3tabs" aria-label="ระดับวิวัฒน์">${[1,2,3].map(t=>`<button data-tier="${t}" aria-pressed="${t===1}">ระดับ ${t}</button>`).join('')}</div><div class="skill3d-panel"><p class="skill3d-status" role="status">ทดลองสกิลได้โดยไม่ใช้ทรัพยากร</p></div><div class="pose3d-bar"><div class="animation3d">${[['Idle','ยืน'],['Attack','โจมตี']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="${k==='Idle'}">${l}</button>`).join('')}</div><details class="pose3d-more"><summary>ท่าเพิ่มเติม</summary><div class="animation3d">${[['Walk','เดิน'],['Hit','รับโจมตี'],['Block','ป้องกัน'],['Defeat','ล้ม'],['Victory','ชนะ']].map(([k,l])=>`<button data-animation="${k}" aria-pressed="false">${l}</button>`).join('')}</div></details></div><p class="v3hint">${gestureHint}<br>หรือใช้ปุ่ม ＋ / − · กดคืนมุมเพื่อเริ่มใหม่</p>`;
   el.querySelector('h2').textContent=h.th;document.body.append(el);
-  if(skillProfile(id)){const btn=document.createElement('button');btn.textContent='ดูสกิล · '+skillProfile(id).title;btn.dataset.signature3d='true';el.querySelector('.animation3d').append(btn);}
+  if(skillProfile(id)){const btn=document.createElement('button');btn.textContent='ดูสกิล · '+skillProfile(id).title;btn.dataset.signature3d='true';el.querySelector('.skill3d-panel').prepend(btn);}
+
   const view={el,stage:null,tier:1,version:0,actor:null,returnFocus:document.activeElement};viewer=view;
   el.querySelector('[data-close3d]').focus();
   el.querySelector('[data-close3d]').onclick=()=>{const focus=view.returnFocus;closeViewer();focus?.focus();};
   try {
-    const stage=new Stage(el.querySelector('.v3stage'),'viewer');view.stage=stage;stage.camera.position.set(4,3.3,7);stage.controls.target.set(0,1.5,0);stage.controls.minDistance=3;stage.controls.maxDistance=13;stage.controls.update();stage.loading.remove();
+    const stage=new Stage(el.querySelector('.v3stage'),'viewer');view.stage=stage;stage.canvas.setAttribute('aria-label','โมเดล 3D ของ '+h.th);stage.camera.position.set(4,3.3,7);stage.controls.target.set(0,1.5,0);stage.controls.minDistance=3;stage.controls.maxDistance=13;stage.controls.update();stage.loading.remove();
     const load=async tier=>{
       const v=++view.version;view.tier=tier;stage.skills.clear();if(stage.practiceTarget)stage.practiceTarget.visible=false;el.querySelectorAll('[data-tier]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.tier===tier));
       const notice=document.createElement('div');notice.className='world3d-loading';notice.textContent='กำลังโหลดโมเดล…';stage.host.append(notice);
-      try{const asset=await acquire(id,tier);if(viewer!==view||v!==view.version){asset.release();return;}view.actor?.dispose();stage.actors.clear();const actor=new Actor(asset,{id},stage);view.actor=actor;stage.actors.set('hero',actor);actor.root.scale.setScalar(1);stage.camera.position.set(3.8,3.2,7);stage.controls.target.set(0,1.6,0);stage.controls.update();el.querySelectorAll('[data-animation]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.animation==='Idle'));}
+      try{const asset=await acquire(id,tier);if(viewer!==view||v!==view.version){asset.release();return;}view.actor?.dispose();stage.actors.clear();const actor=new Actor(asset,{id},stage);view.actor=actor;stage.actors.set('hero',actor);actor.root.scale.setScalar(1);stage.camera.position.set(3.8,3.2,7);stage.controls.target.set(0,1.6,0);stage.controls.update();stage.resize();el.querySelectorAll('[data-animation]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.animation==='Idle'));}
       catch(e){if(viewer===view)api.toast('โหลดโมเดลไม่สำเร็จ กรุณาลองอีกครั้ง');console.error(e);}finally{notice.remove();}
     };
+    el.querySelectorAll('[data-viewcontrol]').forEach(b=>b.onclick=()=>{
+      const action=b.dataset.viewcontrol;
+      if(action==='reset'){
+        stage.skills.clear();if(stage.practiceTarget)stage.practiceTarget.visible=false;stage.camera.position.set(3.8,3.2,7);stage.controls.target.set(0,1.6,0);stage.controls.update();el.querySelector('.skill3d-status').textContent='คืนมุมมองแล้ว · เลือกดูสกิลหรือท่าเคลื่อนไหว';
+      }else{
+        const offset=stage.camera.position.clone().sub(stage.controls.target),distance=T.MathUtils.clamp(offset.length()*(action==='in'?.8:1.25),stage.controls.minDistance,stage.controls.maxDistance);offset.setLength(distance);stage.camera.position.copy(stage.controls.target).add(offset);stage.controls.update();
+      }
+    });
     el.querySelectorAll('[data-tier]').forEach(b=>b.onclick=()=>load(+b.dataset.tier));
     el.querySelectorAll('[data-animation]').forEach(b=>b.onclick=()=>{stage.skills.clear();if(stage.practiceTarget)stage.practiceTarget.visible=false;view.actor?.play(b.dataset.animation);el.querySelectorAll('[data-animation]').forEach(x=>x.setAttribute('aria-pressed',x===b));});
-    el.querySelector('[data-signature3d]')?.addEventListener('click',()=>{if(view.actor){stage.previewSkill(view.actor,view.tier);el.querySelector('.v3hint').textContent='สกิล: '+skillProfile(id).title+' · ระดับ '+view.tier+' · ลากเพื่อหมุน / เลื่อนเพื่อซูม';}});
+    el.querySelector('[data-signature3d]')?.addEventListener('click',()=>{if(view.actor){stage.previewSkill(view.actor,view.tier);el.querySelector('.skill3d-status').textContent='สกิล: '+skillProfile(id).title+' · ระดับ '+view.tier;}});
     await load(Math.max(1,api.evolution(id,api.state().heroes[id]?.aw||0)));
   }catch(e){api.toast('เปิดตัวแสดงผล 3D ไม่สำเร็จ');console.error(e);closeViewer();}
 }
 
-window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),outcome:s=>current?.outcome(s),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,actors:current?.actors.size||0,combatants:current?Array.from(current.actors.values(),a=>({uid:a.unit.uid,id:a.unit.id,position:a.root.position.toArray(),moving:!!a.motion,animation:Object.entries(a.actions).find(([,v])=>v===a.active)?.[0]})):[],cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer,viewerActions:viewer?.actor?Object.keys(viewer.actor.actions):[],skills:(viewer?.stage||current)?.skills.diagnostics(),adaptiveBudget,pixelRatio:current?.renderer.getPixelRatio()})};
+window.Samkok3D={battle,action:(a,dt)=>current?.action(a,dt),hits:a=>current?.hits(a),outcome:s=>current?.outcome(s),openViewer,closeViewer,models:MODEL_MAP,diagnostics:()=>({kind:current?.kind,framing:current?.framing,layout:current?.layoutDiagnostics(),viewerDistance:viewer?.stage?.camera.position.distanceTo(viewer.stage.controls.target),actors:current?.actors.size||0,combatants:current?Array.from(current.actors.values(),a=>({uid:a.unit.uid,id:a.unit.id,position:a.root.position.toArray(),moving:!!a.motion,animation:Object.entries(a.actions).find(([,v])=>v===a.active)?.[0]})):[],cache:cache.size,renderer:current?.renderer.info.render,viewer:!!viewer,viewerFrames:viewer?.stage?.renderer.info.render.frame,viewerActions:viewer?.actor?Object.keys(viewer.actor.actions):[],skills:(viewer?.stage||current)?.skills.diagnostics(),adaptiveBudget,pixelRatio:current?.renderer.getPixelRatio()})};
+document.documentElement.classList.add('samkok3d-ui-root');document.body.classList.add('samkok3d-ui');
 const brand=document.createElement('div');brand.className='remake-brand';brand.innerHTML='<b>ขุนพลสามก๊ก 3D</b><span class="cloud3d-status" role="status"></span><button data-quality3d>3D · '+quality()+'</button>';document.querySelector('#app')?.prepend(brand);
 function updateCloudBadge(){const c=api.cloud?.();const b=brand.querySelector('.cloud3d-status');b.textContent=c?.conflict?'เซฟชนกัน':c?.error?'เซฟในเครื่อง':c?.online?(c.revision>0?'ออนไลน์ · บันทึกแล้ว':'ออนไลน์ · รอบันทึก'):window.SAMKOK_3D_CONFIG?.online?'กำลังเชื่อมต่อ':'ออฟไลน์';}
 window.addEventListener('samkok:cloud-status',updateCloudBadge);updateCloudBadge();
@@ -443,7 +508,7 @@ window.addEventListener('samkok:render',()=>mountScreen());
 window.addEventListener('samkok:close',()=>{++mountVersion;stopCurrent();});
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'&&viewer){const focus=viewer.returnFocus;closeViewer();focus?.focus();}
-  if(e.key==='Tab'&&viewer){const items=[...viewer.el.querySelectorAll('button')];const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}
+  if(e.key==='Tab'&&viewer){const items=[...viewer.el.querySelectorAll('button,summary')].filter(el=>el.getClientRects().length&&(el.tagName==='SUMMARY'||!el.closest('details:not([open])')));const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}
 });
 // Quality changes recreate only the presentation; the save and battle outcome are unaffected.
 document.addEventListener('click',e=>{const b=e.target.closest('[data-quality3d]');if(!b)return;const values=['auto','low','standard','high'];localStorage.setItem('samkok-3d-quality',values[(values.indexOf(quality())+1)%values.length]);b.textContent='3D · '+quality();mountScreen();});

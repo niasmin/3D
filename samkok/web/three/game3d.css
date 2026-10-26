@@ -44,3 +44,94 @@
 .remake-viewer .v3hint{max-width:100%;padding:0 8px;font-size:12px;text-align:center}
 .field.has3d.flash::after{display:none!important}
 @media(prefers-reduced-motion:reduce){.field.has3d.shake,.field.has3d.shake-s{animation:none!important}}
+
+/* Responsive interaction pass: readable controls and a stable scroll boundary. */
+.samkok3d-ui{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.samkok3d-ui #app{height:100dvh;overflow:hidden}
+.samkok3d-ui .top,.samkok3d-ui #nav,.remake-brand{flex-shrink:0}
+.samkok3d-ui #view{padding-bottom:32px;scroll-padding-bottom:32px;overscroll-behavior-y:contain}
+.samkok3d-ui #nav{position:relative;z-index:10}
+.samkok3d-ui #nav button{min-height:64px;font:600 12px/1.3 system-ui,sans-serif;padding:7px 2px 9px}
+.samkok3d-ui #nav button[aria-current=page]{background:#d3a94322;border-top:3px solid #f4d58d;padding-top:4px}
+.samkok3d-ui .quick{gap:8px;padding:10px 6px;margin-bottom:14px}
+.samkok3d-ui .quick button{min-height:76px;font:600 13px/1.45 system-ui,sans-serif}
+.samkok3d-ui .quick img{width:44px;height:44px}
+.samkok3d-ui .top{gap:8px;padding:10px}
+.samkok3d-ui .who b{font-size:15px}.samkok3d-ui .pill{font-size:13px;min-height:23px}
+.samkok3d-ui .top button,.remake-brand button{min-width:44px;min-height:44px}
+.remake-brand{min-height:48px;padding:5px 10px}.remake-brand button{font-size:12px}
+.cloud3d-status{font-size:12px}
+.city.has3d .world3d-label{min-height:44px;display:grid;place-items:center}
+.city.has3d .world3d-label .lbl{font:600 13px/1.4 system-ui,sans-serif;padding:7px 9px;max-width:116px}
+.field.has3d .bctl{gap:8px;top:76px;bottom:auto}
+.field.has3d .bctl button{min-height:44px;min-width:44px;font-size:14px;padding:7px 12px}
+.field.has3d .lanes .u{width:100px!important}
+.field.has3d .u .n{font:600 12px/1.4 system-ui,sans-serif;max-width:108px;padding:3px 6px;background:#102c34ed;white-space:normal;text-align:center}
+.field.has3d .u .hp,.field.has3d .u .rg{width:72px!important;min-height:6px}
+.field.has3d .bpanel{padding:10px;gap:8px}
+.field.has3d .bpanel .auto{justify-content:center;gap:12px}
+.field.has3d .bpanel #useSk,.field.has3d .bpanel .tgl{min-height:44px;font-size:14px}
+.field.has3d .bpanel .autohint{flex:1 1 100%;font:13px/1.5 system-ui,sans-serif;white-space:normal;overflow:visible;text-overflow:clip;text-align:center;color:#f0e5c5}
+.field.has3d .bpanel .skb{width:44px;height:44px;min-width:44px;min-height:44px}
+.remake-viewer{overflow-y:auto;overscroll-behavior:contain;gap:10px}
+.remake-viewer .v3top{flex-shrink:0;margin:0 auto}
+.remake-viewer .v3top .sx{min-width:44px;min-height:44px}
+.remake-viewer .v3stage{flex:1 0 240px;min-height:240px;margin:0 auto}
+.remake-viewer .v3tabs{flex-shrink:0;margin:0 auto;width:min(100%,700px)}
+.remake-viewer .v3tabs button{min-height:44px;flex:1;font:600 14px system-ui,sans-serif}
+.skill3d-panel{width:min(100%,700px);margin:auto;flex-shrink:0;text-align:center}
+.skill3d-panel [data-signature3d]{width:100%;min-height:48px;padding:10px 16px;border:1px solid #ffe9a6;border-radius:10px;background:linear-gradient(#e7cc82,#bea056);color:#192e27;font:700 16px/1.4 system-ui,sans-serif;box-shadow:0 3px 0 #8a733b}
+.skill3d-status{margin:6px 0 0;color:#e8e9d4;font:12px/1.4 system-ui,sans-serif}
+.pose3d-bar{width:min(100%,700px);margin:0 auto;display:flex;gap:8px;justify-content:center;align-items:start;flex-wrap:wrap;flex-shrink:0}
+.remake-viewer .animation3d button{min-width:64px;min-height:44px;font:14px system-ui,sans-serif}
+.pose3d-more{min-width:130px;border:1px solid #758f7a;border-radius:8px;background:#233e37}
+.pose3d-more summary{min-height:44px;box-sizing:border-box;padding:12px;cursor:pointer;text-align:center;font:14px system-ui,sans-serif}
+.pose3d-more[open]{flex-basis:100%;padding-bottom:8px}
+.view3d-tools{position:absolute;right:8px;top:8px;z-index:3;display:flex;gap:6px}
+.view3d-tools button{min-height:44px;min-width:44px;padding:7px;border:1px solid #bda66c;border-radius:8px;background:#183b35ee;color:#fff0c6;font:16px system-ui,sans-serif}
+.remake-viewer .v3hint{flex-shrink:0;font:12px/1.5 system-ui,sans-serif;margin:0 auto}
+@media(max-width:600px){
+ .samkok3d-ui{padding-left:max(6px,env(safe-area-inset-left));padding-right:max(6px,env(safe-area-inset-right))}
+ .samkok3d-ui #app{border-width:1px}.samkok3d-ui #view{padding:12px 10px 32px}
+ .samkok3d-ui .top{flex-wrap:wrap}.samkok3d-ui .top .who{flex:1;min-width:95px}.samkok3d-ui .top .cur{flex-basis:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;width:100%}.samkok3d-ui .pill{min-width:0;padding:3px 6px}
+ .samkok3d-ui .avatar{width:40px;height:40px}.samkok3d-ui .quick img{width:40px;height:40px}
+ .city.c2.has3d{min-height:390px;aspect-ratio:1/1.15}
+ .city.has3d .world3d-label .lbl{font-size:12px;padding:6px 8px;max-width:100px}
+ .field.has3d .u .n{font-size:12px}.field.has3d .lanes .u{width:90px!important}
+ .field.has3d .u .hp,.field.has3d .u .rg{width:66px!important}
+ .field.has3d .bhead2{left:8px;right:8px}.field.has3d .bctl{top:74px;right:10px}
+ .field.has3d .bpanel{left:8px;right:8px}
+ .remake-viewer{padding-left:10px;padding-right:10px}
+}
+.samkok3d-ui .currency-label{font-size:11px;color:#f2dca7;margin-right:auto}
+.samkok3d-ui .pill{gap:4px}
+.remake-viewer .v3top .sx{border:1px solid #bda66c;border-radius:8px;background:#183b35}
+@media(max-height:500px) and (orientation:landscape){
+ .field.has3d .bpanel .skr{flex:1 1 auto;justify-content:center}
+ .field.has3d .bpanel .auto{flex:0 0 auto}
+ .field.has3d .bpanel .autohint{font-size:12px}
+ .remake-viewer .v3stage{flex-basis:240px}
+}
+html.samkok3d-ui-root{padding:0!important}
+.samkok3d-ui .remake-brand{padding-top:max(5px,env(safe-area-inset-top,0px))}
+.pose3d-more summary:focus-visible{outline:2px solid #ffe7a4;outline-offset:3px}
+.world3d-leader{position:absolute;height:1px;background:#f4dfad80;transform-origin:0 50%;pointer-events:none;z-index:2}
+@media(max-width:600px){
+ .field.has3d.crowded3d .u .n .fd,.field.has3d.crowded3d .u .n em{display:none}
+ .field.has3d.crowded3d .u .n>span{white-space:normal;overflow:visible;text-overflow:clip;max-width:none}
+}
+@media(max-height:500px) and (orientation:landscape){
+ .remake-viewer{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,.72fr);grid-template-rows:auto auto auto 1fr auto;align-content:stretch;column-gap:14px}
+ .remake-viewer .v3top{grid-column:1/-1;grid-row:1}
+ .remake-viewer .v3stage{grid-column:1;grid-row:2/6;min-height:200px;height:auto;align-self:stretch}
+ .remake-viewer .v3tabs{grid-column:2;grid-row:2}
+ .remake-viewer .skill3d-panel{grid-column:2;grid-row:3;margin:0}
+ .remake-viewer .pose3d-bar{grid-column:2;grid-row:4;align-self:start}
+ .remake-viewer .v3hint{grid-column:2;grid-row:5}
+}
+.remake-brand>.cloud3d-status{max-width:none;white-space:normal;overflow:visible;flex:1 1 70px;text-align:center;line-height:1.4}
+@media(max-height:500px) and (orientation:landscape){
+ .field.has3d .bpanel{left:auto;right:8px;top:70px;bottom:12px;width:220px;align-content:center;overflow-y:auto}
+ .field.has3d .bpanel .skr{flex:1 1 100%;flex-wrap:wrap;justify-content:center}
+ .field.has3d .bctl{left:12px;right:auto;top:58px}
+}

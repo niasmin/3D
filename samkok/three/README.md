@@ -96,3 +96,17 @@ The second uses the actual game, rigs, preview buttons and action/hit bridge; it
 checks tier 3 and mobile reduced motion. These reports are separate to avoid claiming
 that an isolated effect harness proves in-game integration. Neither measures physical
 phone FPS. See [all skills and captures](../../docs/skills.md).
+
+## Responsive UX/UI revision 7
+
+Battle framing uses the populated formation and space reserved for the HUD. Portrait
+phones align formation columns; crowded nameplates avoid overlaps and have leader
+lines. The viewer separates the primary skill action, evolution and secondary poses,
+provides explicit zoom/reset, traps keyboard focus around only visible controls, and
+uses a side-by-side model/control layout on short landscape viewports. City scrolling
+has its own layout space above navigation. See [scope and checks](../../docs/ui-improvements.md).
+
+```sh
+node three/tests/ui.browser.cjs
+node three/tests/ui-formation.browser.cjs
+```
